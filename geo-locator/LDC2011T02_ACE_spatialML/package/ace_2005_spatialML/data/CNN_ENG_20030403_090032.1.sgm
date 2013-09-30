@@ -1,0 +1,38 @@
+<SpatialML version="3.0"><DOC>
+
+ CNN_ENG_20030403_090032.1 
+ NEWS STORY 
+ 2003-04-03 10:06:25 
+
+<TEXT>
+
+
+all right. just about 25 minutes long in that press conference there
+at nato <PLACE country="BE" form="NOM" id="Pl-98" state="BE-BRU" type="FAC">headquarters</PLACE> in <PLACE country="BE" form="NAM" gazref="IGDB:18044462" id="Pl-6" latLong="50.833°N 4.333°E" state="BE-BRU" type="PPLC">brussels</PLACE>. he mentioned a headline a short time
+ago. <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-4" predicative="true" type="COUNTRY">u.s.</PLACE> forces moving in on the airports at <PLACE country="IQ" form="NAM" id="Pl-100" state="IQ-BG" type="FAC">saddam hussein
+international airport</PLACE>, <SIGNAL id="S-1">12 miles</SIGNAL> <SIGNAL id="S-2">west</SIGNAL> of the <PLACE country="IQ" form="NOM" gazref="IGDB:16896419" id="Pl-3" latLong="33.339°N 44.394°E" mod="CENTRAL" state="IQ-BG" type="PPLC">city</PLACE>'s center. colin
+powell saying an end will come soon and toward the end, this regime
+will be finished. also a question there about the united nations. a
+question about nato about what role these two organizations may play
+in rebuilding <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-1" latLong="33.000°N 44.000°E" type="COUNTRY">iraq</PLACE>. colin powell says the u.n. does have a role to
+play, what role that is remains to be seen. there was also one other
+moment there when you heard a woman asking about the safety of her
+husband right now. that woman, we believe s married to one of two
+journalists who disappeared in <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-2" latLong="33.000°N 44.000°E" type="COUNTRY">iraq</PLACE> almost two weeks ago, both work
+other for the network, itn. we have heard that perhaps both are being
+held in <PLACE country="IQ" form="NAM" gazref="IGDB:16897821" id="Pl-5" latLong="30.494°N 47.819°E" state="IQ-BA" type="PPL">basra</PLACE>, possibly in a hospital, but there's no way for us to
+confirm their whereabouts, but obviously a lot of concern from this
+woman as to where whereabouts of her husband and his health. walt
+rogers is back with us. we've been in and out now for almost two
+hours. what's happening with you and the 7th cav as we continue to
+watch your image by way of video phone and the giant m1-a1 tank. walt,
+good evening again.
+
+</TEXT>
+
+
+ 2003-04-03 10:07:35 
+
+
+
+<RLINK direction="W" distance="12:mi" id="Pa-1" signals="S-1 S-2" source="Pl-3" target="Pl-100"/><LINK id="L-1" linkType="IN" source="Pl-98" target="Pl-6"/></DOC></SpatialML>

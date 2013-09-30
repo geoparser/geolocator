@@ -1,0 +1,45 @@
+<SpatialML version="3.0"><DOC>
+
+ NYT_ENG_20030602.0074 
+ NEWS STORY 
+ 20030602 
+
+
+CHEEKS CAN INTERVIEW WITH SIXERS
+
+<TEXT>
+
+<PLACE country="US" form="NAM" gazref="IGDB:877065" id="Pl-1" latLong="40.834°N 74.097°W" state="US-NJ" type="PPL">EAST RUTHERFORD</PLACE>, <PLACE country="US" form="NAM" gazref="IGDB:1780795" id="Pl-2" latLong="40.167°N 74.500°W" state="US-NJ" type="CIVIL">N.J.</PLACE> 
+
+Portland Trail Blazers coach Maurice Cheeks received permission
+Monday to interview for the <PLACE country="US" form="NAM" gazref="IGDB:1210052" id="Pl-3" latLong="39.952°N 75.164°W" predicative="true" state="US-PA" type="PPL">Philadelphia</PLACE> 76ers' vacant coaching job,
+possibly dooming the candidacy of Eddie Jordan, a Nets assistant who
+interviewed for that same position earlier this week.
+
+Cheeks, a former Sixers star, is believed to be <PLACE country="US" form="NAM" gazref="IGDB:1210052" id="Pl-4" latLong="39.952°N 75.164°W" state="US-PA" type="PPL">Philadelphia</PLACE>'s top
+choice to replace Larry Brown, who resigned last week as coach and
+was introduced Monday as the coach of the <PLACE country="US" form="NAM" gazref="IGDB:1618959" id="Pl-6" latLong="42.331°N 83.046°W" predicative="true" state="US-MI" type="PPL">Detroit</PLACE> Pistons.
+
+<PLACE country="US" form="NAM" gazref="IGDB:1137645" id="Pl-8" latLong="45.524°N 122.675°W" state="US-OR" type="PPL">Portland</PLACE> finally gave Cheeks the go-ahead to interview with the
+Sixers, according to a league source familiar with the discussions.
+The <PLACE country="US" form="NAM" gazref="IGDB:1067654" id="Pl-9" latLong="41.499°N 81.696°W" predicative="true" state="US-OH" type="PPL">Cleveland</PLACE> Cavaliers also formally introduced Paul Silas as their
+coach Monday.
+
+Jordan met with the Sixers on Sunday, according to a person close to
+the situation. Jordan declined to comment on the conversation.
+
+While Jordan has been rumored to be a candidate for a number of
+spots, only <PLACE country="CA" form="NAM" gazref="IGDB:19425110" id="Pl-11" latLong="43.667°N 79.417°W" state="CA-ON" type="PPLA">Toronto</PLACE> and <PLACE country="US" form="NAM" gazref="IGDB:1210052" id="Pl-5" latLong="39.952°N 75.164°W" state="US-PA" type="PPL">Philadelphia</PLACE> have inquired about him.
+
+Brown takes over a team that won an <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-10" mod="E" type="COUNTRY">Eastern</PLACE> Conference-leading 50
+games and advajcuf to the conference finals before being swept by the
+Nets. <PLACE country="US" form="NAM" gazref="IGDB:1618959" id="Pl-7" latLong="42.331°N 83.046°W" state="US-MI" type="PPL">Detroit</PLACE> holds the No. 2 pick in the upcoming NBA draft.
+
+Silas is taking over a team that lost 65 games and will pin its
+future on the high school phenom LeBron James.
+
+</TEXT>
+
+
+
+<LINK id="L-1" linkType="IN" source="Pl-1" target="Pl-2"/></DOC></SpatialML>

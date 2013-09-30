@@ -1,0 +1,27 @@
+<SpatialML version="3.0"><DOC>
+
+ MARKETVIEW_20050207.0746 
+ WEB TEXT 
+ 2005-02-07T07:46:00 
+
+
+Yukos Update: All Previous Yukos Updates Wrong
+
+<TEXT>
+
+
+ Byrne 
+ 2005-02-07T07:46:00 
+Apparently Yuganskneftegaz, which was sold to an independent buyer
+who turned out to be an apparatus of the <PLACE form="NOM" id="Pl-3">state</PLACE> (yes, the same <PLACE form="NOM" id="Pl-4">state</PLACE> that
+1) forced Yukos to do the auction, and 2) ran the auction, not that 3)
+this is suspicious or anything), and which was then being bought with
+foreign assistance, is not being bought with foreign assistance. As of
+this morning, at least. Anyway, it looks like they're denying <PLACE country="CN" form="NAM" gazref="IGDB:18099327" id="Pl-1" latLong="35.000°N 105.000°E" predicative="true" type="COUNTRY">Chinese</PLACE>
+involvement to avoid a lawsuit , which is funny -- you'd think they
+might know someone in the <PLACE country="RU" form="NAM" gazref="IGDB:17005945" id="Pl-2" latLong="60.000°N 100.000°E" predicative="true" type="COUNTRY">Russian</PLACE> judiciary who could help them out.
+
+</TEXT>
+
+
+</DOC></SpatialML>

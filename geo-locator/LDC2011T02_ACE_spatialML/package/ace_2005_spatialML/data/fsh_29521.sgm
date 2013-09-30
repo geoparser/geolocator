@@ -1,0 +1,363 @@
+<SpatialML version="3.0"><DOC>
+
+ fsh_29521 
+ CONVERSATION 
+ 20041212-15:09:39 
+
+<TEXT>
+
+
+ prompt 
+9. Elections Did you vote in the recent <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-1" predicative="true" type="COUNTRY">US</PLACE> Presidential election?
+What did you think of the two candidates, George Bush and John Kerry?
+What about the Vice Presidential candidates, Dick Cheney and John
+Edwards?  What issues were most important to you in deciding who to
+vote for?  If you didn't vote, why not?
+
+
+ John 
+John in <PLACE country="US" form="NAM" gazref="IGDB:202738" id="Pl-2" latLong="39.739°N 104.984°W" state="US-CO" type="PPLA">Denver</PLACE>.
+
+
+ Ivan 
+Hi, this is Ivan in <PLACE country="US" form="NAM" gazref="IGDB:1780806" id="Pl-3" latLong="44.500°N 90.000°W" state="US-WI" type="CIVIL">Wisconsin</PLACE>.
+
+
+ John 
+Ivan in <PLACE country="US" form="NAM" gazref="IGDB:1780806" id="Pl-4" latLong="44.500°N 90.000°W" state="US-WI" type="CIVIL">Wisconsin</PLACE>? Oh, I'm -- I grew up in, uh, <SIGNAL id="S-1">hour</SIGNAL> <SIGNAL id="S-2">north</SIGNAL> of <PLACE country="US" form="NAM" gazref="IGDB:1578901" id="Pl-6" latLong="43.039°N 87.906°W" state="US-WI" type="PPL">Milwaukee</PLACE>,
+like,  eh,  uh, <PLACE country="US" form="NAM" gazref="IGDB:1577453" id="Pl-7" latLong="43.425°N 88.183°W" state="US-WI" type="RGN">West Bend</PLACE>,  er, uh,  <PLACE comment="It's 'Port Washington'" country="US" form="NAM" gazref="IGDB:1572797" id="Pl-8" latLong="43.387°N 87.876°W" state="US-WI" type="RGN">Fort Washington</PLACE> area.
+
+
+ Ivan 
+Yeah, I'm, uh, between <PLACE comment="what to do about 'between'?" country="US" form="NAM" gazref="IGDB:1582223" id="Pl-11" latLong="42.592°N 88.433°W" state="US-WI" type="PPL">Lake Geneva</PLACE> and <PLACE country="US" form="NAM" gazref="IGDB:1568416" id="Pl-12" latLong="42.585°N 87.821°W" state="US-WI" type="PPL">Kenosha</PLACE>.
+
+
+ John 
+Oh, okay.
+
+
+ Ivan 
+Yeah.
+
+
+ John 
+Cool.  Um, man I thought I, uh,  put this whole election stuff behind
+me.
+
+
+ Ivan 
+Yeah, I- in fact, I thought we already had a discussion on this, uh,
+about elections some time back, but I guess it was -- question was
+framed differently, I guess.
+
+
+ John 
+Uh-huh.  Well, um,
+
+
+ Ivan 
+Yeah.
+
+
+ John 
+I did vote.
+
+
+ Ivan 
+Mhm.
+
+
+ John 
+And, um, elections wore me down. I was pretty tired of all that,  you
+know,  all the commercials and all the hype and -- I don't know. It it
+we have lunch at work and -- the whole lunch time all you do is see
+commercials about the -- politicians and,  you know, all that kind of
+stuff, um,
+
+
+ Ivan 
+Mhm.
+
+
+ John 
+yeah.
+
+
+ Ivan 
+Yeah, I, uh,  I voted.
+
+
+ John 
+Uh-huh.
+
+
+ Ivan 
+Um,  uh, and, uh, yeah, I -- feel the same way. I get -- regardless of
+what year it is or who the candidates are I get tired of listening to
+it. It -- basically all of it's the same thing all the time and, uh,
+
+
+ John 
+Uh-huh.
+
+
+ Ivan 
+they, uh,  tell you the same thing and then they turn around and -- do
+something different all the time anyway, so it's -- I don't know if
+it's, uh,  I guess it's wor- -- worth voting, but -- sometimes I wonder.
+
+
+ John 
+Right.  Right.  Wasn't, uh, <PLACE country="US" form="NAM" gazref="IGDB:1780806" id="Pl-5" latLong="44.500°N 90.000°W" state="US-WI" type="CIVIL">Wisconsin</PLACE> was like a swing, er, uh,  they
+were really pu- or no it was <PLACE country="US" form="NAM" gazref="IGDB:1086497" id="Pl-14" latLong="40.250°N 83.000°W" state="US-OH" type="CIVIL">Ohio</PLACE>, I think, was the really, uh,
+
+
+ Ivan 
+Yeah, <PLACE country="US" form="NAM" gazref="IGDB:1086497" id="Pl-15" latLong="40.250°N 83.000°W" state="US-OH" type="CIVIL">Ohio</PLACE> was th- the big swing one. It was
+
+
+ John 
+big upset.  Right.
+
+
+ Ivan 
+fairly close here,
+
+
+ John 
+It was, yeah.
+
+
+ Ivan 
+uh,  uh, it was, uh,  it went, uh, what color was it? Blue I guess it
+was.
+
+
+ John 
+Right.
+
+
+ Ivan 
+And, uh,
+
+
+ John 
+My -- uh-huh.
+
+
+ Ivan 
+yeah, go ahead.
+
+
+ John 
+Well, my parents live back there still.
+
+
+ Ivan 
+Uh-huh.
+
+
+ John 
+In fact, we just got back from <PLACE country="US" form="NAM" id="Pl-237" state="US-FL" type="FAC">Disney World</PLACE>,  you know, about an hour
+ago and they're down there and they're but they're both, uh,
+
+
+ Ivan 
+Oh.
+
+
+ John 
+one's one and one's the other
+
+
+ Ivan 
+Uh-huh.
+
+
+ John 
+so they arg- you know, they just go and vote and cancel each other
+out, you know.
+
+
+ Ivan 
+Yeah, uh-huh.  Yeah.  Yeah.
+
+
+ John 
+And, uh,  kind of funny,  so.  Um,  I don't know. I guess we'll just
+have to see what happens with, uh, Mr. Bush.  Hopefully it's -- good
+choice,  you know,
+
+
+ Ivan 
+Mhm.
+
+
+ John 
+I don't know.
+
+
+ Ivan 
+Wow, you really-
+
+
+ John 
+I di- I didn't have a lot of faith in any of them, really,
+
+
+ Ivan 
+nah.
+
+
+ John 
+er, I mean, I -- I didn't really know what was the perfect choice.
+
+
+ Ivan 
+No, they're, ah, I can't ever remember a perfect choice and I've been
+voting since,  uh, Nixon McGovern, uh, so
+
+
+ John 
+Right.
+
+
+ Ivan 
+I, uh,  I'd- I've never -- ever seen a perfect candidate.
+
+
+ John 
+Right.
+
+
+ Ivan 
+But that's
+
+
+ John 
+Yeah.
+
+
+ Ivan 
+th- that's to be expected, I mean, you know, they're all human beings.
+
+
+ John 
+Can't please everybody.
+
+
+ Ivan 
+Yeah.  Yep.  And, uh, as far as what I thought of the various
+candidates,  uh,  you know, I guess we -- said what we said about Bush,
+but, uh,  Kerry, I don't know, it's just that -- -coast,  uh, kind of
+persona or image,  -t, uh, I -- don't care for, for one thing.
+
+
+ John 
+Uh-huh.
+
+
+ Ivan 
+From <PLACE country="US" form="NAM" gazref="IGDB:607926" id="Pl-16" latLong="42.250°N 71.500°W" state="US-MA" type="CIVIL">Massachusetts</PLACE> i- -- -candidate.
+
+
+ John 
+Right.
+
+
+ Ivan 
+And, uh,  Cheney -- which he's kind of out your way, uh, <PLACE country="US" form="NAM" gazref="IGDB:1780807" id="Pl-17" latLong="43.000°N 107.500°W" state="US-WY" type="CIVIL">Wyoming</PLACE>.
+
+
+ John 
+Uh-huh.
+
+
+ Ivan 
+Uh,  uh, he's kind of a non-descript person, as far as, like I I'm
+sure he's he's probably a nice guy, and -- a lot of fun at a party
+probably, I don't know, but,  you know,  just from -- what you see of
+him, he's just kind of -- kind of like an old grandpa, you know.
+
+
+ John 
+Yeah, he's real grouchy.
+
+
+ Ivan 
+Yeah, he just
+
+
+ John 
+In those debates he was like a pitbull.
+
+
+ Ivan 
+Yeah, yeah.
+
+
+ John 
+You know, he would c- him and, uh,  I mean, uh,  I don't know, he he
+kind of picked apart Edwards
+
+
+ Ivan 
+Mhm.
+
+
+ John 
+and, um,  but then -- Edwards fought back kind of -- you know and then all
+the stuff you hear about Edwards too, about the, uh,  how he's a trial
+lawyer and how he made all his millions -- suing insurance companies
+and, um, you know, there- there's -- bad stuff you hear about both of
+them that, you know, obviously they want to tell you
+
+
+ Ivan 
+Yeah.  Yeah.
+
+
+ John 
+that I didn't like.  And, I guess I didn't really like that, uh,  uh,
+Kerry was, like, changing his story all the time, like, oh, I- -- I
+believe in this but,  uh, no I don't but yes I do and,
+
+
+ Ivan 
+Yeah.
+
+
+ John 
+you know.  I'm kind of a cut and dry kind of a guy.
+
+
+ Ivan 
+Yeah.
+
+
+ John 
+If you got an opinion I'd rather just want you to tell me straight up
+and not
+
+
+ Ivan 
+Yeah.
+
+
+ John 
+try to beat around the bush to -- get my vote or something like that.
+
+
+ Ivan 
+Yeah, yeah.  Yeah, I guess to a certain degree they -- they,  uh, I
+guess try to play to the middle and try to -- please as many people as
+they can but Kerry was just all over the map.
+
+
+ John 
+Right.
+
+</TEXT>
+
+
+</DOC></SpatialML>

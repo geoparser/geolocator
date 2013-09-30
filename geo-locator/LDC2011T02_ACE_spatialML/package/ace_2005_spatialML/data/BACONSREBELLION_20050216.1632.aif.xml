@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE Corpus SYSTEM "http://www.nist.gov/speech/atlas/aif.dtd">
+
+<Corpus xmlns="http://www.nist.gov/speech/atlas" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://www.ukoln.ac.uk/interop-focus/activities/z3950/int_profile/bath/draft/stable1.html" id="Cor185" AIFVersion="1.1" type="spatialml" schemeLocation="http://callisto.mitre.org/maia/spatialml.maia.xml">
+  <Metadata/>
+  <SimpleSignal id="Sig185" type="text" mimeClass="text" mimeType="sgml" xlink:href="BACONSREBELLION_20050216.1632.sgml.sgml" encoding="UTF-8" track="ALL" xlink:type="simple">
+    <body encoding="Base64">PERPQz4KCiBCQUNPTlNSRUJFTExJT05fMjAwNTAyMTYuMTYzMiAKIFdFQiBURVhUIAogMjAwNS0wMi0xNlQxNjozMjowMCAKCgpUaGV5J3JlIG9uIGEgcm9sbC4uLgoKPFRFWFQ+CgoKIEJhcm5pZSBEYXkgCiAyMDA1LTAyLTE2VDE2OjMyOjAwIApUaGUgU2VuYXRlIEZpbmFuY2UgQ29tbWl0dGVlIHRvZGF5IGd1dHRlZCB0aGUgSG91c2Ugb2YgRGVsZWdhdGVzCnByb3Bvc2VkIGJpbGxpb24gZG9sbGFyIHRyYW5zcG9ydGF0aW9uIHBhY2thZ2UgaW4gYSBtb3ZlIG9uZSBvYnNlcnZlcgpkZXNjcmliZWQgYXMgYSAnYml0Y2ggc2xhcHBpbmcuJwoKCiBXaWxsIFZlaHJzIAogPz8/Py0/Py0/P1QxOTowMTowMCAKVGhlIEhvdXNlIGFwcHJvcHJpYXRlZCBtb3JlIG1vbmV5IGZvciB0cmFuc3BvcnRhdGlvbiB0aGFuIHRoZSBTZW5hdGUuCkhvdyBkb2VzIGEgYm9keSB0aGF0IHdhbnRzIHRvIHJhaXNlIHRheGVzIHRvIHB1bXAgbW9yZSBtb25leSBpbnRvCnRyYW5zcG9ydGF0aW9uIG5leHQgeWVhciBnZXQgdG8gJnF1b3Q7Yml0Y2ggc2xhcCZxdW90OyBtb3JlIG1vbmV5IG5vdz8KCgogUGhpbCBSb2Rva2FuYWtpcyAKID8/Pz8tPz8tPz9UMjA6MDY6MDAgCldoYXQgaXMgYmVjb21pbmcgYWJ1bmRhbnRseSBjbGVhciBpcyB0aGF0IGl0J3MgZWl0aGVyIENoaWNoZXN0ZXIncwp3YXkgb3IgdGhlIGhpZ2h3YXkgKHB1biBpbnRlbmRlZCkKCgogUGF1bCAKID8/Pz8tPz8tPz9UMDk6NDI6MDAgClRpcyBhIHNhZCBkYXkgZm9yIERhdmUgQWxibydzIGxhdyBmaXJtLCB3aGljaCB3YXMgY291bnRpbmcgb24gaGltIHRvCnB1c2ggdGhlIGFidXNlciBmZWVzIGJpbGwgYW5kIGJyaW5nIHRoZW0gbW9yZSBjbGllbnRzLiBDYW4gd2UgaGF2ZSBhCm1vbWVudCBvZiBzaWxlbmNlPwoKCiBKb2UgRnJlZW1hbiAKID8/Pz8tPz8tPz9UMTA6MDk6MDAgCklmIGJpdGNoIHNsYXBzIGFyZSBhZG1pbmlzdGVyZWQgdG8ga2VlcCB0aGUgJ2hvIHNlcnZpY2luZyB0aGUKY2xpZW50cywgd2hvJ3MgdGhlIGNsaWVudCBoZXJlPyBTaW5jZSB0aGUgZ3ViZXJuYXRvcmlhbCByYWNlIGluIHRoZSBmYWxsCnVuZG91YnRlZGx5IGRvbWluYXRlcyBhbGwgZGVjaXNpb25zIGZyb20gdGhpcyBwb2ludCBvbiwgY291bGQgaXQgYmUgYQpjbGllbnQgd2hvIG11c3QgYmUgc2VydmljZWQgdG8gc2VydmUgTm92ZW1iZXIgcHVycG9zZXM/IENvdWxkIGl0IGJlCnRob3NlIHdobyB3aWxsIGZvcmVnbyBhIGxpdHRsZSBub3csIGFuZCBhcmUgd2lsbGluZyB0byBnaXZlIGEgbG90IGJlZm9yZQpOb2J2ZW1iZXIsIGluIG9yZGVyIHRvIGdldCBhIHdob2xlIGxvdCBtb3JlIGluIDIwMDY/Cgo8L1RFWFQ+CgoKPC9ET0M+</body>
+  </SimpleSignal>
+  <AnchorSet containedType="text-point"/>
+  <RegionSet containedType="link-subordinates"/>
+  <RegionSet containedType="rlink-subordinates"/>
+  <RegionSet containedType="text-extent"/>
+  <Analysis id="Ana1105" type="link-extent-set" role="link-extent-set">
+    <AnnotationSet containedType="link-extent"/>
+  </Analysis>
+  <Analysis id="Ana1106" type="link-set" role="link-set">
+    <AnnotationSet containedType="LINK"/>
+  </Analysis>
+  <Analysis id="Ana1107" type="place-set" role="place-set">
+    <AnnotationSet containedType="PLACE"/>
+  </Analysis>
+  <Analysis id="Ana1108" type="rlink-extent-set" role="rlink-extent-set">
+    <AnnotationSet containedType="rlink-extent"/>
+  </Analysis>
+  <Analysis id="Ana1109" type="rlink-set" role="rlink-set">
+    <AnnotationSet containedType="RLINK"/>
+  </Analysis>
+  <Analysis id="Ana1110" type="signal-set" role="signal-set">
+    <AnnotationSet containedType="SIGNAL"/>
+  </Analysis>
+</Corpus>

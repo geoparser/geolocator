@@ -1,0 +1,50 @@
+<SpatialML version="3.0"><DOC>
+
+ CNN_IP_20030412.1600.05 
+ STORY 
+ 2003-04-12T16:00:00-05:00  
+
+
+Lynch Travels Back to <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-8" type="COUNTRY">U.S.</PLACE>; Is Life in <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-5" latLong="33.000°N 44.000°E" type="COUNTRY">Iraq</PLACE> Stabilizing?; Is Bush 
+Administration Planning Other Regime Changes?
+
+<TEXT>
+
+
+ WOODRUFF 
+One of the toughest jobs in <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-6" latLong="33.000°N 44.000°E" type="COUNTRY">Iraq</PLACE> right now is that of the military
+doctor. CNN medical correspondent, Dr. Sanjay Gupta, has been traveling
+with the Devil Docs throughout the war and now they are close to <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-1" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">Baghdad</PLACE>.
+
+(BEGIN VIDEOTAPE)
+
+ SANJAY GUPTA, CNN MEDICAL CORRESPONDENT (voice-over) 
+Each of these bangs and explosions comes with a story. Some we'll never
+know. For others, the stories can be seen in their injuries. Nobody knows
+these stories better than the Devil Docs, Naval corpsmen who never look
+the other way, but rather face what needs to be done without flinching.
+They are often the first faces the injured see, be they <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-7" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">Iraqi</PLACE> or
+coalition force members. Even while statutes were coming down and there
+was dancing in the streets, the consequences of continuing firefights are
+seen here. The work of the Devil Docs is by no means over. The Navy has
+set up a helicopter landing <PLACE form="NOM" id="Pl-143" type="RGN">zone</PLACE> just a <SIGNAL id="S-1">100 meters</SIGNAL> from a mobile
+operating <PLACE form="NOM" id="Pl-144" type="FAC">room</PLACE>, just <SIGNAL id="S-2">on the outskirts</SIGNAL> of <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-2" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">Baghdad</PLACE>. This is the closest
+front line surgical company. Corpsmen quickly take patients by ambulance
+away from the blowing sand to a triage tent. It is there the doctors
+begin their work. Over 45 minutes as we watched, 32 patients were
+delivered here, evaluated and nine operations started; 29 of those
+delivered, Marines involved in a firefight in the center of <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-3" latLong="33.339°N 44.394°E" mod="CENTRAL" state="IQ-BG" type="PPLC">Baghdad</PLACE>.
+Their stories could be seen in the shrapnel wounds of rocket-propelled
+grenades and bullet wounds from semi-automatic weapons. The operations
+are on their hands, abdomen and face. Two of the Marines, too far gone.
+For many of the survivors, that news is the most difficult to handle.
+Along with the medical care, hands are held, spirits are lifted. Dr.
+Sanjay Gupta, CNN with the Devil Docs outside <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-4" latLong="33.339°N 44.394°E" mod="CENTRAL" state="IQ-BG" type="PPLC">Baghdad</PLACE>.
+
+(END VIDEOTAPE)
+</TEXT>
+
+
+
+
+<RLINK distance="100m" frame="INTRINSIC" id="R-1" signals="S-1" source="Pl-143" target="Pl-144"/><RLINK frame="INTRINSIC" id="R-2" signals="S-2" source="Pl-144" target="Pl-2"/></DOC></SpatialML>

@@ -1,0 +1,44 @@
+<SpatialML version="3.0"><DOC>
+
+ MARKETVIEW_20050204.1337 
+ WEB TEXT 
+ 2005-02-04T13:37:00 
+
+
+The &quot;Twin Deficits&quot; Myth
+
+<TEXT>
+
+
+ Byrne 
+ 2005-02-04T13:37:00 
+According to the usually reliable CNN/Money, the &quot;Twin Deficits&quot; will
+continue to grow . Interesting terminology... I believe they're
+referring to the budget deficit and... the capital surplus? When
+analyzing trade deficits, it's important to realize that the amount by
+which imports exceed exports is also equal to the net amount foreign
+investors have bet on the <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-1" type="COUNTRY">US</PLACE>. So the trade deficit is due to a
+confluence of the pressures from <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-2" predicative="true" type="COUNTRY">US</PLACE> consumers (who control about 20% of
+global GDP) and everybody else (excluding the non-consumption share of
+<PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-3" predicative="true" type="COUNTRY">US</PLACE> GDP, that would amount to around 75% of global GDP). Which of those
+is -- probably -- going to be a more important number?
+
+Even if we are consumers bent on gorging ourselves with imported
+goods, the largest pressure on the deficit is that we're simply a better
+place for investment -- higher returns on capital in developing
+countries are more than mitigated by the higher political risks they
+face. And what about that other deficit? It, of course, is the ominous
+sum that we fund without taxes, but by borrowing funds. And about half
+of those borrowings end up with the major banks in <PLACE continent="AI" form="NAM" gazref="IGDB:30009613" id="Pl-6" type="CONTINENT">Asia</PLACE>. So, not to be a
+heretic, but 1) We're issuing them at relatively low interest rates, 2)
+Inflation is bound to pick up eventually, and so 3) Wouldn't you rather
+have our deficits made up by economically nonsensical purchases by
+non-<PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-4" nonLocUse="true" predicative="true" type="COUNTRY">US</PLACE> investors, rather than raising taxes in <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-5" type="COUNTRY">America</PLACE>? It's a question
+of who will pay for the same spending, and all else being equal I'd be
+happy for <PLACE continent="AI" form="NAM" gazref="IGDB:30009613" id="Pl-7" predicative="true" type="CONTINENT">Asian</PLACE> central banks to pick up the tab. The Twin Deficits are
+a reality, but they aren't exactly a terrifying one.
+
+</TEXT>
+
+
+</DOC></SpatialML>

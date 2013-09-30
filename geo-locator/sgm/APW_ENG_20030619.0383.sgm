@@ -1,0 +1,47 @@
+<SpatialML version="3.0"><DOC>
+<DOCID> APW_ENG_20030619.0383 </DOCID>
+<DOCTYPE SOURCE="newswire"> NEWS STORY </DOCTYPE>
+<DATETIME> 20030619 </DATETIME>
+<BODY>
+<HEADLINE>
+Retired navy officer regrets involvement in bungled plot to protect
+Ocalan
+</HEADLINE>
+<TEXT>
+<PLACE continent="EU" country="GR" form="NAM" gazref="IGDB:19185124" id="P-1" latLong="37.9833333 23.7333333" state="A1" type="PPLC">ATHENS</PLACE>, <PLACE continent="EU" country="GR" form="NAM" gazref="IGDB:20169939" id="P-2" latLong="39.0 22.0" type="COUNTRY">Greece</PLACE> (AP)
+
+A retired navy officer facing life in prison over a failed effort to
+protect <PLACE continent="AI" form="NAM" id="P-13" predicative="true" type="RGN">Kurdish</PLACE> rebel leader Abdullah Ocalan, told a court Thursday
+he felt remorse for his part in the 1999 plot.
+
+``I have a guilty conscience,'' Andonis Naxakis said during his
+two-hour testimony.
+
+Naxakis is one of 13 people on trial for bringing the fugitive
+guerrilla leader to <PLACE continent="EU" country="GR" form="NAM" gazref="IGDB:20169939" id="P-4" latLong="39.0 22.0" type="COUNTRY">Greece</PLACE>. Ocalan was moved by the government to its
+embassy <PLACE continent="AF" country="KE" form="NOM" id="P-6" type="FAC">compound</PLACE> <SIGNAL id="S-1">in</SIGNAL> <PLACE continent="AF" country="KE" form="NAM" gazref="IGDB:17750169" id="P-5" latLong="1.0 38.0" type="COUNTRY">Kenya</PLACE>, where he was captured by <PLACE continent="AI" country="TR" gazref="IGDB:19226169" id="P-17" predicative="true" type="COUNTRY">Turkish</PLACE>
+commandos.
+
+The retired <PLACE continent="EU" country="GR" form="NAM" gazref="IGDB:20169939" id="P-12" predicative="true" type="COUNTRY">Greek</PLACE> officer said he had been trying to get Ocalan to
+<PLACE continent="EU" country="NL" form="NAM" gazref="igdb:17850115" id="P-8" type="COUNTRY">The Netherlands</PLACE>, home to a large <PLACE continent="AI" form="NAM" id="P-16" predicative="true" type="RGN">Kurdish</PLACE> community.
+
+He claimed he had been manipulated by the government.
+
+``I believe I was unwittingly used as bait for its disgraceful plan
+... an organized move by the government to hand Ocalan over to
+<PLACE continent="AI" country="TR" form="NAM" gazref="IGDB:19226169" id="P-9" latLong="39.0 35.0" type="COUNTRY">Turkey</PLACE>,'' he said.
+
+Naxakis and two of Ocalan's <PLACE continent="AI" form="NAM" id="P-15" predicative="true" type="RGN">Kurdish</PLACE> associates are being tried on
+criminal charges of endangering national security. Ocalan, being
+tried in absentia, was indicted for entering the <PLACE continent="EU" country="GR" form="NOM" gazref="igdb:20169939" id="P-11" type="COUNTRY">country</PLACE> illegally, a
+misdemeanor.
+
+Ocalan, leader of the Kurdistan Workers Party, or PKK, is serving a
+life sentence in <PLACE continent="AI" country="TR" form="NAM" gazref="IGDB:19226169" id="P-10" latLong="39.0 35.0" type="COUNTRY">Turkey</PLACE> for leading a 15-year insurgency against the
+country that left 37,000 people dead.
+
+He is being tried in <PLACE continent="EU" country="GR" form="NAM" gazref="IGDB:20169939" id="P-3" latLong="39.0 22.0" type="COUNTRY">Greece</PLACE> in absentia.
+
+</TEXT>
+</BODY>
+<LINK id="L-1" linkType="IN" signals="S-1" source="P-6" target="P-5"/></DOC></SpatialML>

@@ -1,0 +1,119 @@
+<!--
+
+A DTD for the Meta-Annotation Infrastructure for ATLAS [MAIA].
+MAIA provides a type definition language part of which grammar
+is recorded in this DTD.
+
+NOTE: This DTD is a preliminary version and is bound to change.
+
+Current maintainer: Chris Laprun [ chris.laprun@nist.gov ]
+
+$Id: maia.dtd,v 1.6.2.1 2002/09/13 19:58:44 chris Exp $
+
+-->
+
+<!ENTITY % Common SYSTEM "common.ent"> %Common;
+
+<!ENTITY % stdAtt "
+     name NMTOKEN #IMPLIED
+     ref NMTOKEN #IMPLIED
+     role NMTOKEN #IMPLIED
+     hasIndefiniteCardinality (true) #IMPLIED">
+
+<!ENTITY % definedAsAtt "
+  ref NMTOKEN #REQUIRED
+  byChildrenWithRole NMTOKEN #REQUIRED
+  isOrderMeaningful (true) #IMPLIED">
+
+<!ENTITY % TypeDefinitionsCM "(AnalysisType | AnnotationType | ContentType |
+  ChildrenType | RegionType | FeatureType | AnchorType | ParameterType |
+  SignalType | SignalGroupType | CorpusType)">
+
+<!ENTITY % FeatureCM "(FeatureType*|ParameterType*)">
+
+<!ENTITY % ChildrenCM "(AnnotationType?)">
+
+<!ENTITY % RegionDefinedAsCM "EMPTY">
+<!ENTITY % ContentDefinedAsCM "EMPTY">
+
+<!ELEMENT Scheme (Import*, TypeDefinitions, ConstraintDefinitions?)>
+<!ATTLIST Scheme
+  name NMTOKEN #REQUIRED
+  MAIAVersion CDATA #FIXED "0.4"
+>
+
+<!ELEMENT Import EMPTY>
+<!ATTLIST Import
+  location CDATA #REQUIRED
+  withName NMTOKEN #IMPLIED
+>
+
+<!ELEMENT TypeDefinitions (%TypeDefinitionsCM;)*>
+
+<!ELEMENT ConstraintDefinitions EMPTY>
+
+<!ELEMENT CorpusType ((SignalType | SignalGroupType)+, AnchorType+, RegionType+, AnalysisType+)>
+<!ATTLIST CorpusType
+  %stdAtt;
+>
+
+<!ELEMENT AnalysisType (AnnotationType*)>
+<!ATTLIST AnalysisType
+  %stdAtt;
+>
+
+<!ELEMENT AnnotationType (RegionType?,ContentType?,ChildrenType*,RegionDefinedAs?,ContentDefinedAs?)>
+<!ATTLIST AnnotationType
+  %stdAtt;
+>
+
+<!ELEMENT AnchorType (SignalType?,ParameterType*)>
+<!ATTLIST AnchorType
+  %stdAtt;
+>
+
+<!ELEMENT RegionType (AnchorType*,RegionType*,AnnotationType*)>
+<!ATTLIST RegionType
+  %stdAtt;
+>
+
+<!ELEMENT ContentType %FeatureCM;>
+<!ATTLIST ContentType
+  %stdAtt;
+>
+
+<!ELEMENT ParameterType EMPTY>
+<!ATTLIST ParameterType
+  %stdAtt;
+>
+
+<!ELEMENT SignalType EMPTY>
+<!ATTLIST SignalType
+  %stdAtt;
+  mimeClass (%MIMEClasses;) #IMPLIED
+>
+
+<!ELEMENT SignalGroupType (SignalType | SignalGroupType)*>
+<!ATTLIST SignalGroupType
+  %stdAtt;
+>
+
+<!ELEMENT FeatureType %FeatureCM;>
+<!ATTLIST FeatureType
+  %stdAtt;
+>
+
+<!ELEMENT ChildrenType %ChildrenCM;>
+<!ATTLIST ChildrenType
+  %stdAtt;
+>
+
+<!ELEMENT RegionDefinedAs %RegionDefinedAsCM;>
+<!ATTLIST RegionDefinedAs
+  %definedAsAtt;
+>
+
+<!ELEMENT ContentDefinedAs %ContentDefinedAsCM;>
+<!ATTLIST ContentDefinedAs
+  %definedAsAtt;
+>

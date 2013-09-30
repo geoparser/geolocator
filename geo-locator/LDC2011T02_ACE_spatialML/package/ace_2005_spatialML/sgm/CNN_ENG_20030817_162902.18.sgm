@@ -1,0 +1,21 @@
+<SpatialML version="3.0"><DOC>
+
+ CNN_ENG_20030817_162902.18 
+ NEWS STORY 
+ 2003-08-17 16:57:51 
+
+<TEXT>
+
+
+in other news around the world, senator john mccain is leading a
+<PLACE country="US" form="NAM" gazref="IGDB:530313" id="Pl-1" latLong="38.889°N 77.001°W" state="DC" type="PPL">capitol hill</PLACE> delegation meeting with <PLACE country="IL" form="NAM" gazref="IGDB:19219725" id="Pl-2" latLong="31.500°N 34.750°E" type="COUNTRY">israeli</PLACE> leaders about their
+controversial security barrier. after a session in <PLACE country="IL" form="NAM" gazref="IGDB:19218255" id="Pl-4" latLong="31.750°N 35.000°E" type="CIVIL">jerusalem</PLACE> with
+prime minister ariel sharon and other officials, mccain says he's
+confident that an exact route can be agreed on for the fence <PLACE country="IL" form="NAM" gazref="IGDB:19219725" id="Pl-3" latLong="31.500°N 34.750°E" type="COUNTRY">israel</PLACE> is
+building in the <PLACE country="PS" form="NAM" gazref="IGDB:208669530" id="Pl-5" state="WB" type="RGN">west bank</PLACE>.
+
+</TEXT>
+
+
+ 2003-08-17 16:58:10 
+</DOC></SpatialML>

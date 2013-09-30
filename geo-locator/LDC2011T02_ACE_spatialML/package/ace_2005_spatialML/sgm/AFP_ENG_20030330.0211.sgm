@@ -1,0 +1,44 @@
+<SpatialML version="3.0"><DOC>
+
+ AFP_ENG_20030330.0211 
+ NEWS STORY 
+ 20030330 
+
+
+2,500 <PLACE country="JP" form="NAM" gazref="IGDB:19768770" id="Pl-7" latLong="36.000°N 138.000°E" predicative="true" type="COUNTRY">Japanese</PLACE> students in <PLACE country="JP" form="NAM" gazref="IGDB:19759095" id="Pl-6" latLong="34.667°N 135.500°E" state="JP-27" type="PPLA">Osaka</PLACE> protest against <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-12" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">Iraq</PLACE> war
+
+<TEXT>
+
+<PLACE country="JP" form="NAM" gazref="IGDB:19753773" id="Pl-3" latLong="35.685°N 139.751°E" state="JP-13" type="PPLC">TOKYO</PLACE>, March 30 (AFP)
+
+Some 2,500 mainly university students formed a human chain in
+<PLACE country="JP" form="NAM" gazref="IGDB:19768770" id="Pl-8" latLong="36.000°N 138.000°E" predicative="true" type="COUNTRY">Japanese</PLACE> characters spelling out &quot;No War&quot; in <PLACE country="JP" form="NAM" gazref="IGDB:19759095" id="Pl-4" latLong="34.667°N 135.500°E" state="JP-27" type="PPLA">Osaka</PLACE> on Sunday to
+protest against the ongoing <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-1" predicative="true" type="COUNTRY">US</PLACE>-led military campaign in <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-13" latLong="33.000°N 44.000°E" type="COUNTRY">Iraq</PLACE>.
+
+&quot;We cannot forgive this war,&quot; Miyako Fuji, 20, one of the rally's
+organisers told Jiji news agency. &quot;I want to join together the
+feelings of each of us as individuals who oppose the war.&quot;
+
+Protesters, who exceeded the 2,000 expected to show up at the <PLACE country="JP" form="NOM" id="Pl-18" type="FAC">park</PLACE> at
+<PLACE country="JP" form="NAM" gazref="IGDB:19759095" id="Pl-5" latLong="34.667°N 135.500°E" predicative="true" state="JP-27" type="PPLA">Osaka</PLACE> <PLACE country="JP" form="NOM" id="Pl-19" state="JP-27" type="FAC">Castle</PLACE> in the <PLACE country="JP" form="NOM" gazref="IGDB:19759095" id="Pl-15" latLong="34.667°N 135.500°E" state="JP-27" type="PPLA">city</PLACE>'s downtown <PLACE country="JP" form="NOM" id="Pl-16" state="JP-27" type="RGN">neighbourhood</PLACE>, carried placards
+that read &quot;Stop war&quot; and &quot;Love and Peace&quot; while forming the human
+chain after 3:00 pm (0600 GMT), Jiji said.
+
+The protest follows a string of others involving tens of thousands of
+peace activists across <PLACE country="JP" form="NAM" gazref="IGDB:19768770" id="Pl-9" latLong="36.000°N 138.000°E" type="COUNTRY">Japan</PLACE> since January.
+
+According to a poll by <PLACE country="JP" form="NAM" gazref="IGDB:19771159" id="Pl-17" latLong="35.667°N 139.750°E" predicative="true" state="JP-13" type="PPL">Kyodo</PLACE> news agency released Saturday, 78 of 100
+people surveyed opposed the military action in <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-14" latLong="33.000°N 44.000°E" type="COUNTRY">Iraq</PLACE>.
+
+A separate poll of 1,846 adults by the leading Yomiuri newspaper
+published Tuesday showed 64 percent felt <PLACE country="JP" form="NAM" gazref="IGDB:19768770" id="Pl-10" latLong="36.000°N 138.000°E" type="COUNTRY">Japan</PLACE> had &quot;no choice&quot; but to
+back the <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-2" type="COUNTRY">United States</PLACE>, with only 12 percent saying <PLACE country="JP" form="NAM" gazref="IGDB:19768770" id="Pl-11" latLong="36.000°N 138.000°E" type="COUNTRY">Japan</PLACE> had &quot;every
+reason&quot; to back the war.
+
+</TEXT>
+
+
+
+
+
+<LINK id="L-1" linkType="IN" source="Pl-16" target="Pl-15"/></DOC></SpatialML>

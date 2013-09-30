@@ -1,0 +1,21 @@
+<SpatialML version="3.0"><DOC>
+
+ CNNHL_ENG_20030402_193443.5 
+ NEWS STORY 
+ 2003-04-02 19:36:03 
+
+<TEXT>
+
+
+central command says it is investigating <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-2" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">iraqi</PLACE> allegations that <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-4" predicative="true" type="COUNTRY">u.s.</PLACE>
+attacks are to blame for hundreds of civilians casualties in <PLACE country="IQ" form="NAM" gazref="IGDB:16897630" id="Pl-3" latLong="32.479°N 44.433°E" state="IQ-BB" type="PPLA">hillah</PLACE>.
+that's about <SIGNAL id="S-1">60 miles</SIGNAL> <SIGNAL id="S-2">south</SIGNAL> of <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-1" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">baghdad</PLACE>. a member of the international
+committee of red cross visited the local <PLACE country="IQ" form="NOM" id="Pl-151" state="IQ-BB" type="FAC">hospital</PLACE> there, and he says
+it's a horrible scene.
+
+</TEXT>
+
+
+ 2003-04-02 19:36:19 
+
+<RLINK direction="S" distance="60:mi" id="Pa-2" signals="S-1 S-2" source="Pl-1"/></DOC></SpatialML>

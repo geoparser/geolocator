@@ -1,0 +1,51 @@
+<SpatialML version="3.0"><DOC>
+
+ AFP_ENG_20030417.0004 
+ NEWS STORY 
+ 20030417 
+
+
+Three hacked to death in <PLACE country="IN" form="NAM" gazref="IGDB:17902205" id="Pl-5" latLong="20.000°N 77.000°E" type="COUNTRY">India</PLACE> over witchcraft allegations
+
+<TEXT>
+
+<PLACE country="IN" form="NAM" id="Pl-1" state="IN-AS" type="PPL">GUWAHATI</PLACE>, <PLACE country="IN" form="NAM" gazref="IGDB:17902205" id="Pl-2" latLong="20.000°N 77.000°E" type="COUNTRY">India</PLACE>, April 17 (AFP)
+
+At least three members of a family in <PLACE country="IN" form="NAM" gazref="IGDB:17902205" id="Pl-3" latLong="20.000°N 77.000°E" mod="NE" type="COUNTRY">India</PLACE>s northeastern state of
+<PLACE country="IN" form="NAM" gazref="IGDB:17886549" id="Pl-7" latLong="24.000°N 92.000°E" state="IN-TR" type="CIVIL">Tripura</PLACE> were hacked to death by a tribal mob for allegedly practicing
+witchcraft, police said Thursday.
+
+A spokesman said a group of 25 to 30 armed men Wednesday attacked a
+<PLACE country="IN" form="NOM" id="Pl-14" type="FAC">house</PLACE> belonging to a <PLACE country="IN" form="NOM" id="Pl-10" state="IN-TR" type="PPL">village</PLACE> quack doctor in <PLACE country="IN" form="NAM" id="Pl-11" state="IN-TR" type="PPL">Tultuli</PLACE>, <SIGNAL id="S-1">60 kilometers
+(38 miles)</SIGNAL> <SIGNAL id="S-2">south</SIGNAL> of <PLACE country="IN" form="NAM" gazref="IGDB:17886549" id="Pl-8" latLong="24.000°N 92.000°E" state="IN-TR" type="CIVIL">Tripura</PLACE>s state capital <PLACE country="IN" form="NAM" gazref="IGDB:17911787" id="Pl-9" latLong="23.836°N 91.275°E" state="IN-TR" type="PPLA">Agartala</PLACE>.
+
+&quot;The mob dragged out three members of a family and (killed) them with
+machetes and spears before fleeing the area,&quot; the spokesman said by
+telephone from <PLACE country="IN" form="NAM" gazref="IGDB:17911787" id="Pl-12" latLong="23.836°N 91.275°E" state="IN-TR" type="PPLA">Agartala</PLACE>.
+
+The dead included the quack doctor, 55-year-old Nityalila Naotia, his
+teenaged son and another member of the family, whom he did not
+identify.
+
+&quot;It was believed Naotia was a practicing sorcerer and through his
+black magic he had cast evil spells on villagers, prompting a group
+within the <PLACE country="IN" form="NOM" id="Pl-13" state="IN-TR" type="PPL">village</PLACE> to eliminate them,&quot; the spokesman said.
+
+Police have arrested four people in connection with the killings.
+
+Superstitious beliefs, black magic and demonology are integral to the
+tribal custom in parts of <PLACE country="IN" form="NAM" gazref="IGDB:17886549" id="Pl-6" latLong="24.000°N 92.000°E" state="IN-TR" type="CIVIL">Tripura</PLACE> and other northeast <PLACE country="IN" form="NAM" gazref="IGDB:17902205" id="Pl-4" latLong="20.000°N 77.000°E" mod="NE" type="COUNTRY">Indian</PLACE> states.
+
+Many tribes practice faiths believed to be a mix of black magic and
+superstition.
+
+</TEXT>
+
+
+
+
+
+
+
+
+<RLINK direction="S" distance="38:mi" id="Pa-1" signals="S-1 S-2" source="Pl-9" target="Pl-11"/><LINK id="L-1" linkType="IN" source="Pl-7" target="Pl-3"/><LINK id="L-2" linkType="EQ" source="Pl-10" target="Pl-11"/><LINK id="L-3" linkType="IN" source="Pl-9" target="Pl-8"/></DOC></SpatialML>

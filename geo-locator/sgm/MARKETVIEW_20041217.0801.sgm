@@ -1,0 +1,31 @@
+<SpatialML version="3.0"><DOC>
+
+ MARKETVIEW_20041217.0801 
+ WEB TEXT 
+ 2004-12-17T08:01:00 
+
+
+<PLACE country="RU" form="NAM" gazref="IGDB:17005945" id="Pl-1" latLong="60.000°N 100.000°E" type="COUNTRY">Russia</PLACE>'s Situation Worsens
+
+<TEXT>
+
+
+ Byrne 
+ 2004-12-17T08:01:00 
+Gazprom, the main <PLACE country="RU" form="NAM" gazref="IGDB:17005945" id="Pl-2" latLong="60.000°N 100.000°E" predicative="true" type="COUNTRY">Russian</PLACE> gas company, has been denied a $10 billion
+credit line due to the political situation in <PLACE country="RU" form="NAM" gazref="IGDB:17005945" id="Pl-3" latLong="60.000°N 100.000°E" type="COUNTRY">Russia</PLACE>. The company
+intended to use the cash to pay an artificially low price for Yukos
+assets (hence that firm's bankruptcy filing a few days ago -- you know
+it's bad when you have to use <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-8" predicative="true" type="COUNTRY">US</PLACE> courts to protect your own assets from
+appropriation by your home country). It's starting to look like Putin's
+goal is a sort of judicial nationalization -- taking control of key
+assets through court, rather than executive, fiat. But the markets have
+caught on, and <PLACE country="RU" form="NAM" gazref="IGDB:17005945" id="Pl-4" latLong="60.000°N 100.000°E" type="COUNTRY">Russia</PLACE> may be deprived of the capital it needs to grow.
+Don't expect any of the <PLACE country="RU" form="NAM" gazref="IGDB:17005945" id="Pl-5" latLong="60.000°N 100.000°E" predicative="true" type="COUNTRY">Russian</PLACE> leadership to reverse course; given the
+current trends there, they'll just Blame the <PLACE form="NAM" gazref="IGDB:208561573" id="Pl-7" type="RGN">West</PLACE> when their screwy plan
+screws them over.
+
+</TEXT>
+
+
+</DOC></SpatialML>

@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE Corpus SYSTEM "http://www.nist.gov/speech/atlas/aif.dtd">
+
+<Corpus xmlns="http://www.nist.gov/speech/atlas" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://www.ukoln.ac.uk/interop-focus/activities/z3950/int_profile/bath/draft/stable1.html" id="Cor281" AIFVersion="1.1" type="spatialml" schemeLocation="http://callisto.mitre.org/maia/spatialml.maia.xml">
+  <Metadata/>
+  <SimpleSignal id="Sig281" type="text" mimeClass="text" mimeType="sgml" xlink:href="CNN_ENG_20030331_193655.14.sgml.sgml" encoding="UTF-8" track="ALL" xlink:type="simple">
+    <body encoding="Base64">PERPQz4KCiBDTk5fRU5HXzIwMDMwMzMxXzE5MzY1NS4xNCAKIE5FV1MgU1RPUlkgCiAyMDAzLTAzLTMxIDE5OjU4OjUwIAoKPFRFWFQ+CgoKd2UncmUgZ2V0dGluZyBsYXRlIHdvcmQgdG9uaWdodCB0aGF0IGdlcmFsZG8gcml2ZXJhIG1heSBub3QKYmUgYmUga2lja2VkIG91dCBvZiBpcmFxIGFmdGVyIGFsbC4gb3JpZ2luYWxseSB0aGUgY2VudHJhbApjb21tYW5kIHNhaWQgdGhlIHZldGVyYW4gZm94IG5ld3MgY29ycmVzcG9uZCB3YXMgYmVpbmcKZXhwZWxsZWQgYmVjYXVzZSBoZSBjb21wcm9taXNlZCB0aGUgbG9jYXRpb24gb2YgdGhlIHVuaXQKaGUncyBiZWVuIGVtYmVkZGVkIHdpdGguIG5vdyBhIHNwb2tlc21hbiBmcm9tIHRoZSBjZW50cmFsCmNvbW1hbmQgaXMgc2F5aW5nIGFuZCBpJ20gcXVvdGluZyAmcXVvdDtmcmFua2x5LCB3ZSBoYXZlIGJpZ2dlcgphbmQgbW9yZSBpbXBvcnRhbnQgdGhpbmdzIHRvIGRvLiZxdW90OyBkdXJpbmcgYSBsaXZlIGJyb2FkY2FzdApnZXJhbGRvIGRyZXcgYSBtYXAgaW4gdGhlIHNhbmQgc2hvd2luZyB0aGUgbG9jYXRpb24gb2YgdGhlCnVuaXQgaW4gcmVsYXRpb24gdG8gYmFnaGRhZC4gc2F5cyBoZSdzIG5vdCBhd2FyZSBoZSdzIGJlaW5nCmV4cGVsbGVkIGJ1dCBzYXlzIGlmIHNvLCBpdCBpcyBiZWNhdXNlIHNvbWUgYml0dGVyIGZvcm1lcgpjb2xsZWFndWVzIG9mIGhpcyBhdCBtc25iYyBibGV3IHRoZSB3aGlzdGxlIG9uIGhpbS4KCgppdCBzb3VuZHMgdG8gbWUgbGlrZSBzb21lIHJhdHMgYXQgbXkgZm9ybWVyIG5ldHdvcmssIG5iYywKYXJlIHNwcmVhZGluZyBzb21lIGxpZXMgYWJvdXQgbWUuIHlvdSBrbm93LCB0aGV5IGNhbid0CmNvbXBldGUgZmFpciBhbmQgc3F1YXJlIG9uIHRoZSBiYXR0bGVmaWVsZCBzbyB0aGV5J3JlCnRyeWluZyB0byBzdGFiIG1lIGluIHRoZSBiYWNrLiBpdCBpcyBub3QgZmlyc3QgdGltZS4KCgp0aGUgY2VudHJhbCBjb21tYW5kIG9uIHRoZSBvdGhlciBoYW5kIHNheXMgcml2ZXJhIGlzIGJlaW5nCmtpY2tlZCBvdXQgb2YgaXJhcSBiZWNhdXNlICZxdW90O2hlIGdhdmUgYXdheSB0aGUgYmlnIHBpY3R1cmUKc3R1ZmYuJnF1b3Q7IGFsbCBvZiB0aGlzIG5vdyB1bmRlciByZXZpZXcsIHdoZXRoZXIgb3Igbm90CmdlcmFsZG8gc3RheXMgb3IgZ29lcy4gd2UnbGwgY29udGludWUgdG8gbW9uaXRvciB0aGF0IGZyb250Cm9uIHRoZSBzdG9yZSB5aXggYW5vdGhlciB2ZXRlcmFuIHdhciBjb3JyZXNwb25kZW50IGlzIGJlaW5nCmZpcmVkIGZvciBoaXMgY29udHJvdmVyc2lhbCBjb25kdWN0IGluIGlyYXEuIG5iYyBpcwp0ZXJtaW5hdGluZyBmcmVlbGFuY2VyIHJlcG9ydGVyIHBldGVyIGFybmV0dCBmb3Igc3RhdGVtZW50cwpoZSBtYWRlIHRvIHRoZSBpcmFxaSBtZWRpYS4gd2Ugc2hvd2VkIHlvdSB0aGUgc3RhdGVtZW50cwp5ZXN0ZXJkYXkuIGhlIHNhaWQgdGhlIGNvYWxpdGlvbidzIGZpcnN0IHdhciBwbGFuIGhhZApmYWlsZWQgYmVjYXVzZSBvZiBpcmFxaSByZXNpc3RhbmNlLiB0b2RheSBoZSBhcHBlYXJlZCBvbiBvbgpuYmMncyAmcXVvdDt0b2RheSZxdW90OyBzaG93IGFuZCBzYWlkIGhlIHdhcyBzb3JyeS4KCgppIHdhbnQgdG8gYXBvbG9naXplIHRvIHRoZSBhbWVyaWNhbiBwZW9wbGUgZm9yIGNsZWFybHkKbWFraW5nIGEgbWlzanVkZ21lbnQgb3ZlciB0aGUgd2Vla2VuZCBieSBnaXZpbmcgYW4KaW50ZXJ2aWV3IHRvIGlyYXFpIHRlbGV2aXNpb24uIG5vdywgaSBzYWlkIGluIHRoYXQKaW50ZXJ2aWV3IGVzc2VudGlhbGx5IHdoYXQgd2UgYWxsIGtub3cgYWJvdXQgdGhlIHdhciwgdGhlcmUKaGF2ZSBiZWVuIGRlbGF5cyBpbiBpbXBsZW1lbnRpbmcgcG9saWN5LCB0aGVyZSBoYXMgYmVlbgpzdXJwcmlzZXMuIGJ1dCBjbGVhcmx5IGJ5IGdpdmluZyB0aGF0IGludGVydmlldyB0byBpcmFxaQp0ZWxldmlzaW9uLCBpIGNyZWF0ZWQgYSBmaXJlc3Rvcm0gaW4gdGhlIHVuaXRlZCBzdGF0ZXMuIGFuZApmb3IgdGhhdCBpIGFtIHRydWx5IHNvcnJ5LgoKCmFybmV0dCBoYWQgYmVlbiBjb3ZlcmluZyB0aGUgd2FyIGZvciBuYXRpb25hbCBnZW9ncmFwaGljLAp3aGljaCBhbHNvIGZpcmVkIGhpbSBhcyB0diByZXBvcnRzIHdlcmUgZ2l2ZW4gZXhjbHVzaXZlbHkKdG8gbmJjIGFuZCBtc25iYy4gbGF0ZSB3b3JkIGZyb20gbG9uZG9uIHRoYXQgdGhlIHRhYmxvaWQKdGhlIGRhaWx5IG1pcnJvciBqdXN0IGhpcmVkIHBldGVyIGFybmV0dCB0byBiZSBpdHMKY29ycmVzcG9uZGVudCBpbiBiYWdoZGFkLiBidXQgdGhlIHF1ZXN0aW9uIHJlbWFpbnMgZGlkCnBldGVyIGFybmV0dCBhbmQgZ2VyYWxkbyByaXZlcmEgY3Jvc3MgdGhlIGxpbmU/IG9yIHdlcmUKdGhleSB3aXRoaW4gdGhlaXIgcmlnaHRzIGFzIHJlcG9ydGVycz8gd2UgcG9zZWQgdGhhdApxdWVzdGlvbiB0byBtaWNoYWVsIHdvbGYsIGEgY29udHJpYnV0aW5nIGVkaXRvciBmb3IgJnF1b3Q7bmV3CnlvcmsmcXVvdDsgbWFnYXppbmUsIGEgbWVkaWEgY29sdW1uaXN0LCBhbiBpbXBvcnRhbnQgYXJ0aWNsZSBpbgp0aGUgbmV3IGlzc3VlIG9mICZxdW90O25ldyB5b3JrLiZxdW90OyBoZSdzIGpvaW5pbmcgdXMgbm93IGxpdmUgZnJvbQpxYXRhci4gd2hhdCBkbyB5b3Ugc2F5IHRvIHRoZSBxdWVzdGlvbiwgbWljaGFlbD8KCgp3ZWxsLCB5b3Uga25vdywgaSB0aGluayBpJ20KCjwvVEVYVD4KCgogMjAwMy0wMy0zMSAyMDowMToyOSAKPC9ET0M+</body>
+  </SimpleSignal>
+  <AnchorSet containedType="text-point">
+    <Anchor id="Anc9395" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">150</Parameter>
+      <SignalRef xlink:href="#Sig281" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc9396" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">154</Parameter>
+      <SignalRef xlink:href="#Sig281" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc9397" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">565</Parameter>
+      <SignalRef xlink:href="#Sig281" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc9398" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">572</Parameter>
+      <SignalRef xlink:href="#Sig281" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc9399" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">1012</Parameter>
+      <SignalRef xlink:href="#Sig281" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc9400" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">1016</Parameter>
+      <SignalRef xlink:href="#Sig281" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc9401" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">1277</Parameter>
+      <SignalRef xlink:href="#Sig281" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc9402" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">1281</Parameter>
+      <SignalRef xlink:href="#Sig281" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc9403" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">1365</Parameter>
+      <SignalRef xlink:href="#Sig281" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc9404" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">1370</Parameter>
+      <SignalRef xlink:href="#Sig281" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc9405" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">1479</Parameter>
+      <SignalRef xlink:href="#Sig281" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc9406" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">1484</Parameter>
+      <SignalRef xlink:href="#Sig281" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc9407" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">1602</Parameter>
+      <SignalRef xlink:href="#Sig281" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc9408" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">1610</Parameter>
+      <SignalRef xlink:href="#Sig281" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc9409" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">1694</Parameter>
+      <SignalRef xlink:href="#Sig281" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc9410" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">1699</Parameter>
+      <SignalRef xlink:href="#Sig281" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc9411" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">1899</Parameter>
+      <SignalRef xlink:href="#Sig281" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc9412" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">1904</Parameter>
+      <SignalRef xlink:href="#Sig281" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc9413" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">1946</Parameter>
+      <SignalRef xlink:href="#Sig281" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc9414" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">1959</Parameter>
+      <SignalRef xlink:href="#Sig281" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc9415" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">2143</Parameter>
+      <SignalRef xlink:href="#Sig281" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc9416" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">2149</Parameter>
+      <SignalRef xlink:href="#Sig281" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc9417" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">2235</Parameter>
+      <SignalRef xlink:href="#Sig281" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc9418" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">2242</Parameter>
+      <SignalRef xlink:href="#Sig281" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc9419" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">2440</Parameter>
+      <SignalRef xlink:href="#Sig281" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc9420" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">2448</Parameter>
+      <SignalRef xlink:href="#Sig281" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc9421" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">2531</Parameter>
+      <SignalRef xlink:href="#Sig281" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc9422" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">2539</Parameter>
+      <SignalRef xlink:href="#Sig281" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc9423" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">2577</Parameter>
+      <SignalRef xlink:href="#Sig281" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc9424" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">2582</Parameter>
+      <SignalRef xlink:href="#Sig281" role="text" xlink:type="simple"/>
+    </Anchor>
+  </AnchorSet>
+  <RegionSet containedType="link-subordinates"/>
+  <RegionSet containedType="rlink-subordinates"/>
+  <RegionSet containedType="text-extent">
+    <Region id="Reg4890" type="text-extent">
+      <AnchorRef xlink:href="#Anc9396" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc9395" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg4891" type="text-extent">
+      <AnchorRef xlink:href="#Anc9398" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc9397" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg4892" type="text-extent">
+      <AnchorRef xlink:href="#Anc9400" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc9399" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg4893" type="text-extent">
+      <AnchorRef xlink:href="#Anc9402" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc9401" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg4894" type="text-extent">
+      <AnchorRef xlink:href="#Anc9404" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc9403" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg4895" type="text-extent">
+      <AnchorRef xlink:href="#Anc9406" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc9405" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg4896" type="text-extent">
+      <AnchorRef xlink:href="#Anc9408" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc9407" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg4897" type="text-extent">
+      <AnchorRef xlink:href="#Anc9410" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc9409" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg4898" type="text-extent">
+      <AnchorRef xlink:href="#Anc9412" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc9411" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg4899" type="text-extent">
+      <AnchorRef xlink:href="#Anc9414" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc9413" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg4900" type="text-extent">
+      <AnchorRef xlink:href="#Anc9416" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc9415" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg4901" type="text-extent">
+      <AnchorRef xlink:href="#Anc9418" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc9417" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg4902" type="text-extent">
+      <AnchorRef xlink:href="#Anc9420" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc9419" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg4903" type="text-extent">
+      <AnchorRef xlink:href="#Anc9422" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc9421" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg4904" type="text-extent">
+      <AnchorRef xlink:href="#Anc9424" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc9423" role="start" xlink:type="simple"/>
+    </Region>
+  </RegionSet>
+  <Analysis id="Ana1681" type="link-extent-set" role="link-extent-set">
+    <AnnotationSet containedType="link-extent"/>
+  </Analysis>
+  <Analysis id="Ana1682" type="link-set" role="link-set">
+    <AnnotationSet containedType="LINK"/>
+  </Analysis>
+  <Analysis id="Ana1683" type="place-set" role="place-set">
+    <AnnotationSet containedType="PLACE">
+      <Annotation id="Ann4890" type="PLACE">
+        <RegionRef xlink:href="#Reg4890" role="text-extent" xlink:type="simple"/>
+        <Content type="place-content">
+          <Parameter type="string" unit="NULL_UNIT" role="CTV"/>
+          <Parameter type="string" unit="NULL_UNIT" role="comment"/>
+          <Parameter type="string" unit="NULL_UNIT" role="continent"/>
+          <Parameter type="string" unit="NULL_UNIT" role="country">IQ</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="county"/>
+          <Parameter type="string" unit="NULL_UNIT" role="description"/>
+          <Parameter type="string" unit="NULL_UNIT" role="form">NAM</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="gazref">IGDB:16897518</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="id">Pl-1</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="latLong">33.000&#176;N 44.000&#176;E</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="mod"/>
+          <Parameter type="string" unit="NULL_UNIT" role="nonLocUse"/>
+          <Parameter type="string" unit="NULL_UNIT" role="predicative"/>
+          <Parameter type="string" unit="NULL_UNIT" role="state"/>
+          <Parameter type="string" unit="NULL_UNIT" role="type">COUNTRY</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann4891" type="PLACE">
+        <RegionRef xlink:href="#Reg4891" role="text-extent" xlink:type="simple"/>
+        <Content type="place-content">
+          <Parameter type="string" unit="NULL_UNIT" role="CTV"/>
+          <Parameter type="string" unit="NULL_UNIT" role="comment"/>
+          <Parameter type="string" unit="NULL_UNIT" role="continent"/>
+          <Parameter type="string" unit="NULL_UNIT" role="country">IQ</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="county"/>
+          <Parameter type="string" unit="NULL_UNIT" role="description"/>
+          <Parameter type="string" unit="NULL_UNIT" role="form">NAM</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="gazref">IGDB:16896419</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="id">Pl-8</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="latLong">33.339&#176;N 44.394&#176;E</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="mod"/>
+          <Parameter type="string" unit="NULL_UNIT" role="nonLocUse"/>
+          <Parameter type="string" unit="NULL_UNIT" role="predicative"/>
+          <Parameter type="string" unit="NULL_UNIT" role="state">IQ-BG</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">PPLC</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann4892" type="PLACE">
+        <RegionRef xlink:href="#Reg4892" role="text-extent" xlink:type="simple"/>
+        <Content type="place-content">
+          <Parameter type="string" unit="NULL_UNIT" role="CTV"/>
+          <Parameter type="string" unit="NULL_UNIT" role="comment"/>
+          <Parameter type="string" unit="NULL_UNIT" role="continent"/>
+          <Parameter type="string" unit="NULL_UNIT" role="country">IQ</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="county"/>
+          <Parameter type="string" unit="NULL_UNIT" role="description"/>
+          <Parameter type="string" unit="NULL_UNIT" role="form">NAM</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="gazref">IGDB:16897518</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="id">Pl-2</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="latLong">33.000&#176;N 44.000&#176;E</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="mod"/>
+          <Parameter type="string" unit="NULL_UNIT" role="nonLocUse"/>
+          <Parameter type="string" unit="NULL_UNIT" role="predicative"/>
+          <Parameter type="string" unit="NULL_UNIT" role="state"/>
+          <Parameter type="string" unit="NULL_UNIT" role="type">COUNTRY</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann4893" type="PLACE">
+        <RegionRef xlink:href="#Reg4893" role="text-extent" xlink:type="simple"/>
+        <Content type="place-content">
+          <Parameter type="string" unit="NULL_UNIT" role="CTV"/>
+          <Parameter type="string" unit="NULL_UNIT" role="comment"/>
+          <Parameter type="string" unit="NULL_UNIT" role="continent"/>
+          <Parameter type="string" unit="NULL_UNIT" role="country">IQ</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="county"/>
+          <Parameter type="string" unit="NULL_UNIT" role="description"/>
+          <Parameter type="string" unit="NULL_UNIT" role="form">NAM</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="gazref">IGDB:16897518</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="id">Pl-3</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="latLong">33.000&#176;N 44.000&#176;E</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="mod"/>
+          <Parameter type="string" unit="NULL_UNIT" role="nonLocUse"/>
+          <Parameter type="string" unit="NULL_UNIT" role="predicative"/>
+          <Parameter type="string" unit="NULL_UNIT" role="state"/>
+          <Parameter type="string" unit="NULL_UNIT" role="type">COUNTRY</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann4894" type="PLACE">
+        <RegionRef xlink:href="#Reg4894" role="text-extent" xlink:type="simple"/>
+        <Content type="place-content">
+          <Parameter type="string" unit="NULL_UNIT" role="CTV"/>
+          <Parameter type="string" unit="NULL_UNIT" role="comment"/>
+          <Parameter type="string" unit="NULL_UNIT" role="continent"/>
+          <Parameter type="string" unit="NULL_UNIT" role="country">IQ</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="county"/>
+          <Parameter type="string" unit="NULL_UNIT" role="description"/>
+          <Parameter type="string" unit="NULL_UNIT" role="form">NAM</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="gazref">IGDB:16897518</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="id">Pl-4</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="latLong">33.000&#176;N 44.000&#176;E</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="mod"/>
+          <Parameter type="string" unit="NULL_UNIT" role="nonLocUse"/>
+          <Parameter type="string" unit="NULL_UNIT" role="predicative">YES</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="state"/>
+          <Parameter type="string" unit="NULL_UNIT" role="type">COUNTRY</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann4895" type="PLACE">
+        <RegionRef xlink:href="#Reg4895" role="text-extent" xlink:type="simple"/>
+        <Content type="place-content">
+          <Parameter type="string" unit="NULL_UNIT" role="CTV"/>
+          <Parameter type="string" unit="NULL_UNIT" role="comment"/>
+          <Parameter type="string" unit="NULL_UNIT" role="continent"/>
+          <Parameter type="string" unit="NULL_UNIT" role="country">IQ</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="county"/>
+          <Parameter type="string" unit="NULL_UNIT" role="description"/>
+          <Parameter type="string" unit="NULL_UNIT" role="form">NAM</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="gazref">IGDB:16897518</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="id">Pl-5</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="latLong">33.000&#176;N 44.000&#176;E</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="mod"/>
+          <Parameter type="string" unit="NULL_UNIT" role="nonLocUse"/>
+          <Parameter type="string" unit="NULL_UNIT" role="predicative">YES</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="state"/>
+          <Parameter type="string" unit="NULL_UNIT" role="type">COUNTRY</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann4896" type="PLACE">
+        <RegionRef xlink:href="#Reg4896" role="text-extent" xlink:type="simple"/>
+        <Content type="place-content">
+          <Parameter type="string" unit="NULL_UNIT" role="CTV"/>
+          <Parameter type="string" unit="NULL_UNIT" role="comment"/>
+          <Parameter type="string" unit="NULL_UNIT" role="continent"/>
+          <Parameter type="string" unit="NULL_UNIT" role="country">US</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="county"/>
+          <Parameter type="string" unit="NULL_UNIT" role="description"/>
+          <Parameter type="string" unit="NULL_UNIT" role="form">NAM</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="gazref">IGDB:840</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="id">Pl-10</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="latLong"/>
+          <Parameter type="string" unit="NULL_UNIT" role="mod"/>
+          <Parameter type="string" unit="NULL_UNIT" role="nonLocUse"/>
+          <Parameter type="string" unit="NULL_UNIT" role="predicative">YES</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="state"/>
+          <Parameter type="string" unit="NULL_UNIT" role="type">COUNTRY</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann4897" type="PLACE">
+        <RegionRef xlink:href="#Reg4897" role="text-extent" xlink:type="simple"/>
+        <Content type="place-content">
+          <Parameter type="string" unit="NULL_UNIT" role="CTV"/>
+          <Parameter type="string" unit="NULL_UNIT" role="comment"/>
+          <Parameter type="string" unit="NULL_UNIT" role="continent"/>
+          <Parameter type="string" unit="NULL_UNIT" role="country">IQ</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="county"/>
+          <Parameter type="string" unit="NULL_UNIT" role="description"/>
+          <Parameter type="string" unit="NULL_UNIT" role="form">NAM</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="gazref">IGDB:16897518</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="id">Pl-6</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="latLong">33.000&#176;N 44.000&#176;E</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="mod"/>
+          <Parameter type="string" unit="NULL_UNIT" role="nonLocUse"/>
+          <Parameter type="string" unit="NULL_UNIT" role="predicative">YES</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="state"/>
+          <Parameter type="string" unit="NULL_UNIT" role="type">COUNTRY</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann4898" type="PLACE">
+        <RegionRef xlink:href="#Reg4898" role="text-extent" xlink:type="simple"/>
+        <Content type="place-content">
+          <Parameter type="string" unit="NULL_UNIT" role="CTV"/>
+          <Parameter type="string" unit="NULL_UNIT" role="comment"/>
+          <Parameter type="string" unit="NULL_UNIT" role="continent"/>
+          <Parameter type="string" unit="NULL_UNIT" role="country">IQ</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="county"/>
+          <Parameter type="string" unit="NULL_UNIT" role="description"/>
+          <Parameter type="string" unit="NULL_UNIT" role="form">NAM</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="gazref">IGDB:16897518</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="id">Pl-7</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="latLong">33.000&#176;N 44.000&#176;E</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="mod"/>
+          <Parameter type="string" unit="NULL_UNIT" role="nonLocUse"/>
+          <Parameter type="string" unit="NULL_UNIT" role="predicative">YES</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="state"/>
+          <Parameter type="string" unit="NULL_UNIT" role="type">COUNTRY</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann4899" type="PLACE">
+        <RegionRef xlink:href="#Reg4899" role="text-extent" xlink:type="simple"/>
+        <Content type="place-content">
+          <Parameter type="string" unit="NULL_UNIT" role="CTV"/>
+          <Parameter type="string" unit="NULL_UNIT" role="comment"/>
+          <Parameter type="string" unit="NULL_UNIT" role="continent"/>
+          <Parameter type="string" unit="NULL_UNIT" role="country">US</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="county"/>
+          <Parameter type="string" unit="NULL_UNIT" role="description"/>
+          <Parameter type="string" unit="NULL_UNIT" role="form">NAM</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="gazref">IGDB:840</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="id">Pl-11</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="latLong"/>
+          <Parameter type="string" unit="NULL_UNIT" role="mod"/>
+          <Parameter type="string" unit="NULL_UNIT" role="nonLocUse"/>
+          <Parameter type="string" unit="NULL_UNIT" role="predicative"/>
+          <Parameter type="string" unit="NULL_UNIT" role="state"/>
+          <Parameter type="string" unit="NULL_UNIT" role="type">COUNTRY</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann4900" type="PLACE">
+        <RegionRef xlink:href="#Reg4900" role="text-extent" xlink:type="simple"/>
+        <Content type="place-content">
+          <Parameter type="string" unit="NULL_UNIT" role="CTV"/>
+          <Parameter type="string" unit="NULL_UNIT" role="comment"/>
+          <Parameter type="string" unit="NULL_UNIT" role="continent"/>
+          <Parameter type="string" unit="NULL_UNIT" role="country">GB</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="county"/>
+          <Parameter type="string" unit="NULL_UNIT" role="description"/>
+          <Parameter type="string" unit="NULL_UNIT" role="form">NAM</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="gazref">IGDB:17398111</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="id">Pl-14</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="latLong">51.500&#176;N 0.117&#176;W</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="mod"/>
+          <Parameter type="string" unit="NULL_UNIT" role="nonLocUse"/>
+          <Parameter type="string" unit="NULL_UNIT" role="predicative"/>
+          <Parameter type="string" unit="NULL_UNIT" role="state">GB-ENG</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">PPLC</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann4901" type="PLACE">
+        <RegionRef xlink:href="#Reg4901" role="text-extent" xlink:type="simple"/>
+        <Content type="place-content">
+          <Parameter type="string" unit="NULL_UNIT" role="CTV"/>
+          <Parameter type="string" unit="NULL_UNIT" role="comment"/>
+          <Parameter type="string" unit="NULL_UNIT" role="continent"/>
+          <Parameter type="string" unit="NULL_UNIT" role="country">IQ</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="county"/>
+          <Parameter type="string" unit="NULL_UNIT" role="description"/>
+          <Parameter type="string" unit="NULL_UNIT" role="form">NAM</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="gazref">IGDB:16896419</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="id">Pl-9</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="latLong">33.339&#176;N 44.394&#176;E</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="mod"/>
+          <Parameter type="string" unit="NULL_UNIT" role="nonLocUse"/>
+          <Parameter type="string" unit="NULL_UNIT" role="predicative"/>
+          <Parameter type="string" unit="NULL_UNIT" role="state">IQ-BG</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">PPLC</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann4902" type="PLACE">
+        <RegionRef xlink:href="#Reg4902" role="text-extent" xlink:type="simple"/>
+        <Content type="place-content">
+          <Parameter type="string" unit="NULL_UNIT" role="CTV"/>
+          <Parameter type="string" unit="NULL_UNIT" role="comment"/>
+          <Parameter type="string" unit="NULL_UNIT" role="continent"/>
+          <Parameter type="string" unit="NULL_UNIT" role="country">US</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="county"/>
+          <Parameter type="string" unit="NULL_UNIT" role="description"/>
+          <Parameter type="string" unit="NULL_UNIT" role="form">NAM</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="gazref">IGDB:976772</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="id">Pl-13</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="latLong">40.714&#176;N 74.006&#176;W</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="mod"/>
+          <Parameter type="string" unit="NULL_UNIT" role="nonLocUse"/>
+          <Parameter type="string" unit="NULL_UNIT" role="predicative">YES</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="state">US-NY</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">PPL</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann4903" type="PLACE">
+        <RegionRef xlink:href="#Reg4903" role="text-extent" xlink:type="simple"/>
+        <Content type="place-content">
+          <Parameter type="string" unit="NULL_UNIT" role="CTV"/>
+          <Parameter type="string" unit="NULL_UNIT" role="comment"/>
+          <Parameter type="string" unit="NULL_UNIT" role="continent"/>
+          <Parameter type="string" unit="NULL_UNIT" role="country">US</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="county"/>
+          <Parameter type="string" unit="NULL_UNIT" role="description"/>
+          <Parameter type="string" unit="NULL_UNIT" role="form">NAM</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="gazref">IGDB:976772</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="id">Pl-12</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="latLong">40.714&#176;N 74.006&#176;W</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="mod"/>
+          <Parameter type="string" unit="NULL_UNIT" role="nonLocUse"/>
+          <Parameter type="string" unit="NULL_UNIT" role="predicative"/>
+          <Parameter type="string" unit="NULL_UNIT" role="state">US-NY</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">PPL</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann4904" type="PLACE">
+        <RegionRef xlink:href="#Reg4904" role="text-extent" xlink:type="simple"/>
+        <Content type="place-content">
+          <Parameter type="string" unit="NULL_UNIT" role="CTV"/>
+          <Parameter type="string" unit="NULL_UNIT" role="comment"/>
+          <Parameter type="string" unit="NULL_UNIT" role="continent"/>
+          <Parameter type="string" unit="NULL_UNIT" role="country">QA</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="county"/>
+          <Parameter type="string" unit="NULL_UNIT" role="description"/>
+          <Parameter type="string" unit="NULL_UNIT" role="form">NAM</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="gazref">IGDB:19214483</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="id">Pl-15</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="latLong">25.500&#176;N 51.250&#176;E</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="mod"/>
+          <Parameter type="string" unit="NULL_UNIT" role="nonLocUse"/>
+          <Parameter type="string" unit="NULL_UNIT" role="predicative"/>
+          <Parameter type="string" unit="NULL_UNIT" role="state"/>
+          <Parameter type="string" unit="NULL_UNIT" role="type">COUNTRY</Parameter>
+        </Content>
+      </Annotation>
+    </AnnotationSet>
+  </Analysis>
+  <Analysis id="Ana1684" type="rlink-extent-set" role="rlink-extent-set">
+    <AnnotationSet containedType="rlink-extent"/>
+  </Analysis>
+  <Analysis id="Ana1685" type="rlink-set" role="rlink-set">
+    <AnnotationSet containedType="RLINK"/>
+  </Analysis>
+  <Analysis id="Ana1686" type="signal-set" role="signal-set">
+    <AnnotationSet containedType="SIGNAL"/>
+  </Analysis>
+</Corpus>

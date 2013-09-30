@@ -1,0 +1,44 @@
+<SpatialML version="3.0"><DOC>
+
+ AFP_ENG_20030607.0030 
+ NEWS STORY 
+ 20030607 
+
+
+<PLACE country="IN" form="NAM" gazref="IGDB:17902205" id="Pl-7" latLong="20.000°N 77.000°E" type="COUNTRY">India</PLACE>'s bachelor PM, president making <PLACE country="IN" form="NOM" gazref="IGDB:17902205" id="Pl-11" latLong="20.000°N 77.000°E" type="COUNTRY">country</PLACE> &quot;dry, arid, infertile&quot;
+
+<TEXT>
+
+<PLACE country="IN" form="NAM" gazref="IGDB:17893898" id="Pl-1" latLong="28.600°N 77.200°E" state="DL" type="PPLC">NEW DELHI</PLACE>, June 7 (AFP)
+
+A provincial chief from <PLACE country="IN" form="NAM" gazref="IGDB:17902205" id="Pl-2" latLong="20.000°N 77.000°E" type="COUNTRY">India</PLACE>'s main opposition Congress party has
+told an election rally that <PLACE country="IN" form="NAM" gazref="IGDB:17902205" id="Pl-3" latLong="20.000°N 77.000°E" type="COUNTRY">India</PLACE> is suffering nature's &quot;curse&quot;
+because both the president and prime minister are bachelors, a report
+said Saturday.
+
+The Times of <PLACE country="IN" form="NAM" gazref="IGDB:17902205" id="Pl-4" latLong="20.000°N 77.000°E" type="COUNTRY">India</PLACE> newspaper quoted Digvijay Singh, chief minister of
+the central <PLACE country="IN" form="NAM" gazref="IGDB:17902205" id="Pl-5" latLong="20.000°N 77.000°E" mod="CENTRAL" predicative="true" type="COUNTRY">Indian</PLACE> state of <PLACE country="IN" form="NAM" gazref="IGDB:17896974" id="Pl-12" latLong="23.500°N 78.500°E" state="IN-MP" type="CIVIL">Madhya Pradesh</PLACE>, as saying that Prime
+Minister Atal Behari Vajpayee and President Abdul Kalam had offended
+the Hindu rain God Varuna by remaining bachelors.
+
+&quot;The <PLACE country="IN" form="NOM" gazref="IGDB:17902205" id="Pl-8" latLong="20.000°N 77.000°E" type="COUNTRY">country</PLACE> is being ruled by a bachelor president and an unmarried
+prime minister. This according to the Hindu shastras (books) is very
+inauspicious and that is the reason there is a widespread heatwave
+and drought,&quot; said Singh.
+
+&quot;Not just Prime Minister Vajpayee but President Kalam's bachelor
+status is making the <PLACE country="IN" form="NOM" gazref="IGDB:17902205" id="Pl-9" latLong="20.000°N 77.000°E" type="COUNTRY">country</PLACE> dry, arid and infertile,&quot; he added.
+
+The general secretary of Vajpayee's ruling Bharatiya Janata Party,
+Pramod Mahajan, retorted that Singh's statement was &quot;beneath
+contempt.&quot;
+
+<PLACE country="IN" form="NAM" gazref="IGDB:17902205" id="Pl-6" latLong="20.000°N 77.000°E" type="COUNTRY">India</PLACE>'s has been reeling under a heatwave since mid-May which has
+killed 1,403 people. The <PLACE country="IN" form="NOM" gazref="IGDB:17902205" id="Pl-10" latLong="20.000°N 77.000°E" mod="W" type="COUNTRY">country</PLACE>'s western desert state of <PLACE country="IN" form="NAM" id="Pl-13" state="IN-RJ" type="CIVIL">Rajasthan</PLACE>
+is also bracing for its fifth straight year of drought.
+
+</TEXT>
+
+
+
+<LINK id="L-1" linkType="IN" source="Pl-12" target="Pl-5"/><LINK id="L-2" linkType="IN" source="Pl-13" target="Pl-10"/></DOC></SpatialML>

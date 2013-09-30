@@ -1,0 +1,21 @@
+<SpatialML version="3.0"><DOC>
+
+ CNNHL_ENG_20030403_133453.21 
+ NEWS STORY 
+ 2003-04-03 13:51:01 
+
+<TEXT>
+
+
+the associated press is reporting that <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-1" type="COUNTRY">u.s.</PLACE> troops have launched an
+attack on <PLACE continent="AI" country="IQ" form="NAM" id="P-4" latLong="33.2625, 44.234444" state="IQ-BG" type="FAC">saddam international airport</PLACE>. <SIGNAL id="S-1">about nine miles</SIGNAL> from the
+<PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-2" latLong="33.000°N 44.000°E" type="COUNTRY">iraqi</PLACE> <PLACE country="IQ" form="NOM" gazref="IGDB:16896419" id="Pl-3" latLong="33.339°N 44.394°E" state="BG" type="PPLC">capital</PLACE>. pentagon officials briefed reporters who refused to
+comment about any activity at the <PLACE continent="AI" country="IQ" form="NOM" id="P-5" latLong="33.2625, 44.234444" state="IQ-BG" type="FAC">airport</PLACE>. officials say they'll make
+comments after certain operations are conducted. but not before.
+
+</TEXT>
+
+
+ 2003-04-03 13:51:15 
+
+<RLINK frame="INTRINSIC" id="R-1" signals="S-1" source="P-4" target="Pl-3"/><LINK id="L-1" linkType="IN" source="Pl-3" target="Pl-2"/></DOC></SpatialML>

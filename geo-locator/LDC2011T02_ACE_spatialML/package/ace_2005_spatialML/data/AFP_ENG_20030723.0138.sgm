@@ -1,0 +1,36 @@
+<SpatialML version="3.0"><DOC>
+
+ AFP_ENG_20030723.0138 
+ NEWS STORY 
+ 20030723 
+
+
+Blair departs <PLACE country="CN" form="NAM" gazref="IGDB:18646852" id="Pl-1" latLong="22.250°N 114.167°E" state="91" type="COUNTRY">Hong Kong</PLACE> for <PLACE country="GB" form="NAM" gazref="IGDB:17389505" id="Pl-6" latLong="54.000°N 4.000°W" type="COUNTRY">Britain</PLACE>
+
+<TEXT>
+
+<PLACE country="CN" form="NAM" gazref="IGDB:18646852" id="Pl-2" latLong="22.250°N 114.167°E" state="91" type="COUNTRY">HONG KONG</PLACE>, July 23 (AFP)
+
+<PLACE country="GB" form="NAM" gazref="IGDB:17389505" id="Pl-7" latLong="54.000°N 4.000°W" type="COUNTRY">British</PLACE> Prime Minister Tony Blair left <PLACE country="CN" form="NAM" gazref="IGDB:18646852" id="Pl-3" latLong="22.250°N 114.167°E" state="91" type="COUNTRY">Hong Kong</PLACE> Wednesday after
+cutting short his visit of the <PLACE country="CN" form="NOM" gazref="IGDB:18646852" id="Pl-10" latLong="22.250°N 114.167°E" state="91" type="COUNTRY">territory</PLACE> by one day to wrap up a
+gruelling four-nation tour, an AFP correspondent said.
+
+Blair left <PLACE country="CN" form="NAM" gazref="IGDB:18646852" id="Pl-4" latLong="22.250°N 114.167°E" state="91" type="COUNTRY">Hong Kong</PLACE>'s <PLACE country="CN" form="NAM" id="Pl-11" state="91" type="FAC">Chek Lap Kok Airport</PLACE> on a flight bound for
+<PLACE country="GB" form="NAM" gazref="IGDB:17398111" id="Pl-13" latLong="51.500°N 0.117°W" state="ENG" type="PPLC">London</PLACE> as a powerful storm, typhoon Imbudo, headed towards the
+<PLACE country="CN" form="NOM" id="Pl-12" latLong="22.250°N 114.167°E" state="91" type="COUNTRY">territory</PLACE>.
+
+The <PLACE country="GB" form="NAM" gazref="IGDB:17389505" id="Pl-8" latLong="54.000°N 4.000°W" type="COUNTRY">British</PLACE> leader travelled to the <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-14" type="COUNTRY">United States</PLACE> before also
+visiting <PLACE country="JP" form="NAM" gazref="IGDB:19768770" id="Pl-15" latLong="36.000°N 138.000°E" type="COUNTRY">Japan</PLACE>, <PLACE country="KR" form="NAM" gazref="IGDB:19283410" id="Pl-16" latLong="37.000°N 127.500°E" type="COUNTRY">South Korea</PLACE>, <PLACE country="CN" form="NAM" gazref="IGDB:18099327" id="Pl-17" latLong="35.000°N 105.000°E" type="COUNTRY">China</PLACE> on a whistle-stop tour.
+
+The <PLACE continent="AI" form="NAM" gazref="IGDB:30009613" id="Pl-18" type="CONTINENT">Asian</PLACE> leg of Blair's trip was overshadowed by a political storm
+at home following the suicide of a weapons expert at the centre of a
+furore over the threat posed by <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-19" latLong="33.000°N 44.000°E" type="COUNTRY">Iraq</PLACE>.
+
+Blair met <PLACE country="CN" form="NAM" gazref="IGDB:18646852" id="Pl-5" latLong="22.250°N 114.167°E" state="91" type="COUNTRY">Hong Kong</PLACE> leader Tung Chee-hwa Wednesday before addressing
+the <PLACE country="GB" form="NAM" gazref="IGDB:17389505" id="Pl-9" latLong="54.000°N 4.000°W" type="COUNTRY">British</PLACE> Chamber of Commerce at a luncheon.
+
+</TEXT>
+
+
+
+<LINK id="L-1" linkType="IN" source="Pl-11" target="Pl-4"/></DOC></SpatialML>

@@ -1,0 +1,297 @@
+<SpatialML version="3.0"><DOC>
+
+ fsh_29663 
+ CONVERSATION 
+ 20041217-18:23:24 
+
+<TEXT>
+
+
+ prompt 
+12. Crime: Have you or someone you know ever been the victim of a
+crime?  If so, describe what happened.  What kinds of crimes do you
+worry about in your hometown?  Are there any places you avoid because
+of the high crime rate?  What do you think authorities should do to
+make your hometown a safer place?
+
+
+ Jenny 
+I'm Jenny. I'm in <PLACE country="US" form="NAM" gazref="IGDB:1780784" id="Pl-1" latLong="40.000°N 89.250°W" state="IL" type="CIVIL">Illinois</PLACE>.
+
+
+ Bill 
+Hi. My name is Bill, I'm from <PLACE country="US" form="NAM" gazref="IGDB:1780778" id="Pl-4" latLong="37.250°N 119.750°W" state="CA" type="CIVIL">California</PLACE>.
+
+
+ Jenny 
+Um, n- uh, this is kind of a hard question for me. I live in a little
+teeny, tiny <PLACE country="US" form="NOM" id="Pl-6" state="IL" type="PPL">town</PLACE> in the middle of nowhere. We don't really have
+much for crime.
+
+
+ Bill 
+Wow. I live in a huge <PLACE country="US" form="NOM" id="Pl-7" state="CA" type="PPL">town</PLACE> and it's, like, I live in a big <PLACE country="US" form="NOM" id="Pl-8" state="CA" type="PPL">city</PLACE>
+and there's lots of crime. So that's the complete opposite view.
+I mean, I- eh-
+
+
+ Jenny 
+Um, I mean, well we- well we have crime, I mean, I make it sound
+like <PLACE comment="imaginary" country="US" form="NAM" id="Pl-9" type="PPL">Mayberry</PLACE> but it- it's not exactly all that great. I mean, we
+have little things. We have c- we have car theft and...
+
+
+ Bill 
+W- you were saying y-
+
+
+ Jenny 
+And stuff but...
+
+
+ Bill 
+No homicide, right.
+
+
+ Jenny 
+I mean- No, well, none that I'm aware of. Um, no, I mean,
+there's only fifteen hundred people in my home town and we're twenty
+miles from, like, the nearest hospital, we're twenty miles from the
+nearest grocery store.
+
+
+ Bill 
+Wow.
+
+
+ Jenny 
+It's it's a little teeny, tiny <PLACE country="US" form="NOM" id="Pl-10" state="IL" type="PPL">town</PLACE>.
+
+
+ Bill 
+Wow. That's crazy.
+
+
+ Jenny 
+And, I mean, yeah, we we have, like, drug busts at the school
+and stuff, but it's not like -- they have, like, marijuana, that's
+about it. And, um.
+
+
+ Bill 
+I...
+
+
+ Jenny 
+Ah, I don't know just i- it doesn't seem like really big
+stuff to me.
+
+
+ Bill 
+Uh-huh.
+
+
+ Jenny 
+Um, my husband's parents were -- lived in <PLACE country="US" form="NAM" gazref="IGDB:1780778" id="Pl-5" latLong="37.250°N 119.750°W" state="CA" type="CIVIL">California</PLACE> for quite some
+time and I know it can be pretty bad out there. They lived in
+<PLACE country="US" form="NAM" gazref="IGDB:254387" id="Pl-11" latLong="38.519°N 121.519°W" state="CA" type="PPL">Riverside</PLACE>.
+
+
+ Bill 
+Uh-huh.
+
+
+ Jenny 
+Um.
+
+
+ Bill 
+That's very -- Well I mean, there's lots of -- now it's bad.
+
+
+ Jenny 
+I know.
+
+
+ Bill 
+Uh-huh.
+
+
+ Jenny 
+And this has probably been, oh, probably eighteen years ago that his
+parents were out there. They're both passed away now but, um, I know
+back then, eh, my husband's dad said there were neighborhoods he
+wouldn't drive through because there were shootings and gang fights
+and stuff going on all the time.
+
+
+ Bill 
+There's lots of gangs out there. I wouldn't -- you know, I wouldn't -- 
+I I wouldn't go -- I wouldn't hang out there for very long.
+
+
+ Jenny 
+And see, like, where I'm at, um, well, I'm close to the s- I'm like
+fifty miles from the <PLACE country="US" form="NOM" gazref="IGDB:1780784" id="Pl-12" latLong="40.000°N 89.250°W" state="IL" type="CIVIL">State</PLACE> <PLACE country="US" form="NOM" gazref="IGDB:427595" id="Pl-13" latLong="39.802°N 89.644°W" state="IL" type="PPLA">Capital</PLACE>.
+
+
+ Bill 
+Uh-huh.
+
+
+ Jenny 
+But, um, where I'm at next l- biggest <PLACE country="US" form="NOM" id="Pl-16" state="IL" type="PPL">town</PLACE> from me they say that
+there're gangs and stuff in that <PLACE country="US" form="NOM" id="Pl-17" state="IL" type="PPL">town</PLACE> but...
+
+
+ Bill 
+Really?
+
+
+ Jenny 
+I mean, I don't really see it. It- it's not real evident like
+what you would see on TV.
+
+
+ Bill 
+Uh-huh. There's gangs all over here. Certain areas you just
+don't want to -- you just don't want to go through.
+
+
+ Jenny 
+I don't really have any good responses to their questions because
+they're -- there aren't any areas that I really avoid or anything like
+that. I mean, like I say, I live close to <PLACE country="US" form="NAM" gazref="IGDB:427595" id="Pl-15" latLong="39.802°N 89.644°W" state="IL" type="PPLA">Springfield</PLACE>, <PLACE country="US" form="NAM" gazref="IGDB:1780784" id="Pl-2" latLong="40.000°N 89.250°W" state="IL" type="CIVIL">Illinois</PLACE>,
+fairly close, and when I go there, if I want to go somewhere, I
+just go. I don't worry about what the neighborhood looks like or
+anything. I just go and I think I probably should be a little more
+concerned but I'm not.
+
+
+ Bill 
+Well, I, you know, gro- living here, I just -- I'm always
+on the -- I'm always on guard it seems like. You know, you don't
+know -- you're -- certain neighborhoods you just can't- -- you g- you
+got to watch your back, you know.
+
+
+ Jenny 
+I would just feel so uncomfortable like that.
+
+
+ Bill 
+Uh-huh.
+
+
+ Jenny 
+That's like...
+
+
+ Bill 
+Yeah, I'd, I...
+
+
+ Jenny 
+Th- the town that I live in, I mean, my youngest child is nine,
+and if she wants to ride her bike across <PLACE country="US" form="NOM" id="Pl-18" state="IL" type="PPL">town</PLACE>, go. Just go. 
+
+
+ Bill 
+Wow.
+
+
+ Jenny 
+And I do know that in, like, <PLACE country="US" form="NAM" gazref="IGDB:412012" id="Pl-20" latLong="39.734°N 90.229°W" state="IL" type="PPL">Jacksonville</PLACE>, uh, <PLACE country="US" form="NAM" gazref="IGDB:1780784" id="Pl-3" latLong="40.000°N 89.250°W" state="IL" type="CIVIL">Illinois</PLACE>, which is
+close to me, that's the next biggest <PLACE country="US" form="NOM" gazref="IGDB:412012" id="Pl-19" latLong="39.734°N 90.229°W" state="IL" type="PPL">town</PLACE>, uh, I wouldn't let my kid
+ride three or four blocks from home.
+
+
+ Bill 
+Uh-huh.
+
+
+ Jenny 
+Just because, eh, you go that far and you don't know your
+neighbors, you don't you don't know anybody. It's not really
+because of the crime, it's just more because you don't know
+anybody.
+
+
+ Bill 
+Right.
+
+
+ Jenny 
+And, so, I mean, I'm I'm really have a good comfort zone where I'm at
+because I know, like, almost everybody in <PLACE country="US" form="NOM" id="Pl-21" state="IL" type="PPL">town</PLACE>. So, I don't know, I
+guess we get kind of a false sense of security in these little towns.
+
+
+ Bill 
+Yeah, until something happens, you know.
+
+
+ Jenny 
+Yeah.
+
+
+ Bill 
+It it only takes one person to kind of shock everybody.
+
+
+ Jenny 
+Oh, definitely. We have had, in the past, we've had some major crimes.
+We did have, um, a couple murders go on in town. It was guys fighting
+over women and one guy shot the other guy and...
+
+
+ Bill 
+Uh-huh.
+
+
+ Jenny 
+I mean, that's probably been thirty years ago.
+
+
+ Bill 
+Oh.
+
+
+ Jenny 
+And, probably the worst thing that we have now is people running their
+little meth labs or picking marijuana out of the corn field. So, it it
+seems like really small potatoes to me. I -- it doesn't seem like
+really big issues.
+
+
+ Bill 
+Well, meth labs are e- that's kind of a -- -- that can be dangerous.
+
+
+ Jenny 
+Oh yeah. Definitely.
+
+
+ Bill 
+Especially if they -- you know, m- most of those drug dealers have
+guns and it's like that can be a problem.
+
+
+ Jenny 
+And I think they're popping up more in the rural areas here because we
+have the accessibility to all the fertilizers and things that they use
+in that stuff.
+
+
+ Bill 
+Yeah.
+
+</TEXT>
+
+
+
+
+
+
+
+<LINK id="L-1" linkType="IN" source="Pl-13" target="Pl-12"/><LINK id="L-2" linkType="IN" source="Pl-15" target="Pl-2"/><LINK id="L-3" linkType="IN" source="Pl-20" target="Pl-3"/></DOC></SpatialML>

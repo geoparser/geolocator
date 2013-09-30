@@ -1,0 +1,54 @@
+<SpatialML version="3.0"><DOC>
+
+ APW_ENG_20030508.0772 
+ NEWS STORY 
+ 20030508 
+
+
+<PLACE country="ES" form="NAM" gazref="IGDB:19596523" id="Pl-2" latLong="40.000°N 4.000°W" predicative="true" type="COUNTRY">Spanish</PLACE> police intercept 33 exhausted Africans trying to enter <PLACE country="ES" form="NAM" gazref="IGDB:19596523" id="Pl-3" latLong="40.000°N 4.000°W" type="COUNTRY">Spain</PLACE>
+
+<TEXT>
+
+<PLACE country="ES" form="NAM" gazref="IGDB:19609375" id="Pl-1" latLong="40.400°N 3.683°W" state="ES-M" type="PPLC">MADRID</PLACE>, <PLACE country="ES" form="NAM" gazref="IGDB:19596523" id="Pl-4" latLong="40.000°N 4.000°W" type="COUNTRY">Spain</PLACE> (AP)
+
+Police intercepted 33 <PLACE continent="AF" form="NAM" gazref="IGDB:30002777" id="Pl-12" predicative="true" type="CONTINENT">African</PLACE> immigrants who came ashore Thursday in
+southern <PLACE country="ES" form="NAM" gazref="IGDB:19596523" id="Pl-5" latLong="40.000°N 4.000°W" mod="S" type="COUNTRY">Spain</PLACE> aboard an overcrowded boat, including several pregnant
+women and other travelers suffering from hypothermia, police said.
+
+<PLACE country="ES" form="NAM" gazref="IGDB:19596523" id="Pl-9" latLong="40.000°N 4.000°W" predicative="true" type="COUNTRY">Spanish</PLACE> media showed dramatic photos of police struggling to carry
+women on the verge of fainting after they were found wandering
+through <PLACE country="ES" form="NAM" gazref="IGDB:19596110" id="Pl-16" latLong="36.013°N 5.606°W" state="ES-AN" type="PPL">Tarifa</PLACE>, <PLACE country="ES" form="NAM" gazref="IGDB:19596523" id="Pl-6" latLong="40.000°N 4.000°W" type="COUNTRY">Spain</PLACE>'s windswept southern <PLACE country="ES" form="NOM" gazref="IGDB:19596523" id="Pl-17" latLong="40.000°N 4.000°W" mod="S">tip</PLACE>, Civil Guard officials
+told <PLACE country="ES" form="NAM" gazref="IGDB:19596523" id="Pl-10" latLong="40.000°N 4.000°W" predicative="true" type="COUNTRY">Spanish</PLACE> news agencies.
+
+Police also arrested two <PLACE country="MA" form="NAM" gazref="IGDB:19960170" id="Pl-18" latLong="32.000°N 5.000°W" predicative="true" type="COUNTRY">Moroccan</PLACE> men suspected of trafficking in
+human beings and navigating the Zodiac boat across from <PLACE continent="AF" form="NAM" gazref="IGDB:30002777" id="Pl-13" type="CONTINENT">Africa</PLACE>, Efe
+said.
+
+Twenty-six of the would-be immigrants were from <SIGNAL id="S-1">sub</SIGNAL>-<PLACE continent="AF" form="NAM" id="Pl-19" predicative="true" type="RGN">Saharan</PLACE> <PLACE continent="AF" form="NAM" gazref="IGDB:30002777" id="Pl-14" type="CONTINENT">Africa</PLACE>,
+six of them women, and the other seven were males from North <PLACE continent="AF" form="NAM" gazref="IGDB:30002777" id="Pl-15" mod="N" predicative="true" type="CONTINENT">African</PLACE>
+countries, police said.
+
+Red Cross officials administered first aid on the scene, and the
+detainees were taken to a processing <PLACE form="NOM" id="Pl-41" type="FAC">center</PLACE> for the government to
+begin expulsion proceedings.
+
+Tens of thousands of destitute Africans try to enter <PLACE country="ES" form="NAM" gazref="IGDB:19596523" id="Pl-7" latLong="40.000°N 4.000°W" type="COUNTRY">Spain</PLACE> illegally
+each year by crossing the perilous <PLACE country="ES" form="NAM" gazref="IGDB:19616005" id="Pl-20" latLong="35.950°N 5.600°W" type="WATER">Strait of Gibraltar</PLACE> to reach the
+southern <PLACE country="ES" form="NOM" gazref="IGDB:19596523" id="Pl-21" latLong="40.000°N 4.000°W" mod="S" type="COUNTRY">mainland</PLACE> or by sailing <SIGNAL id="S-2">northwest</SIGNAL> to the <PLACE country="ES" form="NAM" gazref="IGDB:19624382" id="Pl-22" latLong="28.000°N 15.500°W" state="ES-CN" type="RGN">Canary Islands</PLACE> out
+in the <PLACE form="NAM" gazref="IGDB:18493680" id="Pl-23" latLong="10.000°N 25.000°W" type="WATER">Atlantic</PLACE>.
+
+They seek a better life doing menial jobs in <PLACE country="ES" form="NAM" gazref="IGDB:19596523" id="Pl-8" latLong="40.000°N 4.000°W" type="COUNTRY">Spain</PLACE> or hope to use the
+<PLACE country="ES" form="NOM" gazref="IGDB:19596523" id="Pl-11" latLong="40.000°N 4.000°W" type="COUNTRY">country</PLACE> as a stepping stone to other points in <PLACE continent="EU" form="NAM" gazref="IGDB:30064878" id="Pl-24" type="CONTINENT">Europe</PLACE>. Most are
+caught trying to sneak in and some die in the attempt.
+
+(dw)
+
+</TEXT>
+
+
+
+
+
+
+
+<RLINK direction="S" id="Pa-1" signals="S-1" source="Pl-19"/><RLINK direction="NW" id="Pa-2" signals="S-2" target="Pl-22"/><LINK id="L-1" linkType="IN" source="Pl-1" target="Pl-4"/><LINK id="L-2" linkType="IN" source="Pl-17" target="Pl-6"/><LINK id="L-3" linkType="EQ" source="Pl-16" target="Pl-17"/><LINK id="L-4" linkType="IN" source="Pl-19" target="Pl-14"/><LINK id="L-5" linkType="IN" source="Pl-22" target="Pl-23"/></DOC></SpatialML>

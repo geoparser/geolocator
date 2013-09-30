@@ -1,0 +1,35 @@
+<SpatialML version="3.0"><DOC>
+
+ CNN_ENG_20030403_183513.1 
+ NEWS STORY 
+ 2003-04-03 18:36:54 
+
+<TEXT>
+
+
+these are the latest developments in the war on <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-1" latLong="33.000°N 44.000°E" type="COUNTRY">iraq</PLACE>. the
+pentagon tonight said coalition troops have reached <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-5" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">baghdad</PLACE>
+<PLACE country="IQ" form="NAM" id="Pl-93" state="IQ-BG" type="FAC">international airport</PLACE>. troops are involved in heavy
+fighting with <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-2" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">iraqi</PLACE> forces. the pentagon says the strategy
+is to seize key objectives in and around <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-6" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">baghdad</PLACE>. reports
+suggesting <PLACE country="IQ" form="NOM" id="Pl-94" predicative="true" type="FAC">airport</PLACE> buildings have been attacked, but
+runways remain operational. tonight, a series of large
+explosions rocking central <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-7" latLong="33.339°N 44.394°E" mod="CENTRAL" state="IQ-BG" type="PPLC">baghdad</PLACE>, as we've been reporting
+to you over the course of this hour. coalition aircraft
+were heard flying overhead. it's not clear what the targets
+are. certainly, some of them near and around <PLACE country="IQ" form="NAM" id="Pl-92" type="FAC">saddam hussein
+international airport</PLACE> although there have been strikes in
+central <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-8" latLong="33.339°N 44.394°E" mod="CENTRAL" state="IQ-BG" type="PPLC">baghdad</PLACE> as well. in the course of the past hour.
+the army's 3rd infantry division 1st marine division,
+leading the assault against <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-9" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">baghdad</PLACE>. the 3rd infantry is
+approaching from the southwest, the 1st marines from the
+southeast. armored forces destroyed dozens of <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-3" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">iraqi</PLACE> tanks
+and personnel carriers in their advance on <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-10" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">baghdad</PLACE>. <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-4" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">iraqi</PLACE>
+forces using soviet-era tanks. they stand no chance against
+the m1 abrams tanks used by army and marines.
+
+</TEXT>
+
+
+ 2003-04-03 18:37:53 
+<LINK id="L-1" linkType="IN" source="Pl-93" target="Pl-5"/></DOC></SpatialML>

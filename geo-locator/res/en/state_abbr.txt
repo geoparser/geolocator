@@ -1,0 +1,51 @@
+AL	Ala.	Ala.	AL	US-AL	Alabama
+AK	Alaska	US-AKK	AK	Alaska	Alaska	Alas.
+AZ	Arizona	US-AZ	AZ	AZ	Ariz.	Ariz.	Az.
+AR	Arkansas	US-AR	AR	AR	Ark.	Ark.	
+CA	California	US-CA	CA	CA	CF	Calif.	Calif.	Ca.	Cal.	Cali.
+CO	Colorado	US-CO	CO	CO	CL	Colo.	Colo.	Col.
+CT	Connecticut	US-CT	CT	CT	CT	Conn.	Conn.	Ct.
+DE	Delaware	US-DE	DE	DE	DL	Del.	Del.	De.
+DC	District of Columbia	US-DC	DC	DC	DC	D.C.	D.C.	Wash. D.C.
+FL	Florida	US-FL	FL	FL	FL	Fla.	Fla.	Fl.	Flor.
+GA	Georgia	US-GA	GA	GA	GA	Ga.	Ga.	
+HI	Hawaiʻi	US-HI	HI	HI	HA	Hawaii	Hawaii	H.I.
+ID	Idaho	US-ID	ID	ID	ID	Idaho	Idaho	Id., Ida.
+IL	Illinois	US-IL	IL	IL	IL	Ill.	Ill.	Il.	 Ills.	Ill's
+IN	Indiana	US-IN	IN	IN	IN	Ind.	Ind.	In.
+IA	Iowa	US-IA	IA	IA	IA	Iowa	Iowa	Ia., Ioa.
+KA	Kansas	US-KS	KS	KS	KA	Kans.	Kan.	Ks., Ka.
+KY	Kentucky	US-KY	KY	KY	KY	Ky.	Ky.	Ken.	Kent.
+LA	Louisiana	US-LA	LA	LA	LA	La.	La.	
+ME	Maine	US-ME	ME	ME	ME	Maine	Maine	Me.
+MD	Maryland	US-MD	MD	MD	MD	Md.	Md.	
+MA	Massachusetts	US-MA	MA	MA	MS	Mass.	Mass.	
+MI	Michigan	US-MI	MI	MI	MC	Mich.	Mich.	
+MN	Minnesota	US-MN	MN	MN	MN	Minn.	Minn.	Mn.
+MS	Mississippi	US-MS	MS	MS	MI	Miss.	Miss.	
+MO	Missouri	US-MO	MO	MO	MO	Mo.	Mo.	
+MT	Montana	US-MT	MT	MT	MT	Mont.	Mont.	
+NE	Nebraska	US-NE	NE	NE	NB	Nebr.	Neb.	
+NV	Nevada	US-NV	NV	NV	NV	Nev.	Nev.	Nv.
+NH	New Hampshire	US-NH	NH	NH	NH	N.H.	N.H.	
+NJ	New Jersey	US-NJ	NJ	NJ	NJ	N.J.	N.J.	
+NM	New Mexico	US-NM	NM	NM	NM	N. Mex.	N.M.	New M.
+NY	New York	US-NY	NY	NY	NY	N.Y.	N.Y.	N. York
+NC	North Carolina	US-NC	NC	NC	NC	N.C.	N.C.	N. Car.
+ND	North Dakota	US-ND	ND	ND	ND	N. Dak.	N.D.	NoDak
+OH	Ohio	US-OH	OH	OH	OH	Ohio	Ohio	O., Oh.
+OK	Oklahoma	US-OK	OK	OK	OK	Okla.	Okla.	Ok.
+OR	Oregon	US-OR	OR	OR	OR	Oreg.	Ore.	Or.
+PA	Pennsylvania (Commonwealth)	US-PA	PA	PA	PA	Pa.	Pa.	Penn., Penna.
+RI	Rhode Island	US-RI	RI	RI	RI	R.I.	R.I.	R.I. & P.P.
+SC	South Carolina	US-SC	SC	SC	SC	S.C.	S.C.	S. Car.
+SD	South Dakota	US-SD	SD	SD	SD	S. Dak.	S.D.	SoDak
+TN	Tennessee	US-TN	TN	TN	TN	Tenn.	Tenn.	Tn.
+TX	Texas	US-TX	TX	TX	TX	Tex.	Texas	Tx.
+UT	Utah	US-UT	UT	UT	UT	Utah	Utah	Ut.
+VT	Vermont	US-VT	VT	VT	VT	Vt.	Vt.	
+VA	Virginia	US-VA	VA	VA	VA	Va.	Va.	Virg.
+WA	Washington	US-WA	WA	WA	WN	Wash.	Wash.	Wa.	Wn.
+WV	West Virginia	US-WV	WV	WV	WV	W. Va.	W.Va.	W.V.	W. Virg.
+WI	Wisconsin	US-WI	WI	WI	WS	Wis.	Wis.	Wi.	 Wisc.
+WY	Wyoming	US-WY	WY	WY	WY	Wyo.	Wyo.	Wy.

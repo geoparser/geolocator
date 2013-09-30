@@ -1,0 +1,30 @@
+<SpatialML version="3.0"><DOC>
+
+ CNN_ENG_20030329_170349.7 
+ NEWS STORY 
+ 2003-03-29 17:17:30 
+
+<TEXT>
+
+
+today's battles include pictures of the oil field fires in southern
+<PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-1" latLong="33.000°N 44.000°E" mod="S" type="COUNTRY">iraq</PLACE>. firefighters continue their work at the <PLACE country="PS" form="NAM" id="Pl-3" predicative="true" state="PS-WE" type="PPL">ramallah</PLACE> oil <PLACE country="PS" form="NOM" id="Pl-10" state="PS-WE" type="FAC">field</PLACE>.
+officials say they capped one blaze, leaving only two wells still
+burning out of 500 oil fields in the <PLACE country="PS" form="NOM" id="Pl-4" state="PS-WE" type="RGN">area</PLACE>. they say some iraqis who
+worked in the <PLACE country="PS" form="NOM" id="Pl-11" type="FAC">field</PLACE> before the war already are asking for their jobs
+back. and these pictures show iraqis running for cover just before
+<PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-7" predicative="true" type="COUNTRY">u.s.</PLACE> planes dropped a bomb near northern <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-2" latLong="33.000°N 44.000°E" mod="N" type="COUNTRY">iraq</PLACE>. just as they disappear
+over the ridge, you can hear the planes and the explosions and then
+you see the cloud. ask any <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-8" predicative="true" type="COUNTRY">american</PLACE> marine and they'll tell you
+they'll do anything possible to recover the bodies of fallen comrades.
+that grim task was carried out by marines engaged in the fierce battle
+for the city of <PLACE country="IQ" form="NAM" gazref="IGDB:16897120" id="Pl-5" latLong="31.054°N 46.259°E" state="IQ-DQ" type="PPL">nasiriyah</PLACE> <PLACE country="IQ" form="NAM" gazref="IGDB:16897120" id="Pl-6" latLong="31.054°N 46.259°E" state="IQ-DQ" type="PPL">nasiriyah</PLACE>. aless so vinci is there with the
+marines.
+
+</TEXT>
+
+
+ 2003-03-29 17:18:16 
+
+
+<LINK id="L-1" linkType="IN" source="Pl-10" target="Pl-3"/></DOC></SpatialML>

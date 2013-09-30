@@ -1,0 +1,53 @@
+USA
+NYC
+U S
+U S A
+Ala
+Ariz
+Ark
+A S
+Ala
+Alaska
+Ariz
+Ark
+C Z
+Calif
+Colo
+Conn
+D C
+Del
+Fla
+Guam
+Hawaii
+Idaho
+Ind
+Iowa
+Kans
+M P
+Maine
+Mich
+Minn
+Mont
+N Dak
+N Mex
+N C
+N H
+N J
+N Y
+Nebr
+Nev
+Ohio
+Okla
+Oreg
+P R
+R I
+S Dak
+S C
+Tenn
+Tex
+Utah
+V I
+W Va
+Wash
+Wis
+Wyo

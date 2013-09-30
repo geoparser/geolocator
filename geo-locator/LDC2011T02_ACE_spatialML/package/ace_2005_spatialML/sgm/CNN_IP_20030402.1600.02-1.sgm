@@ -1,0 +1,93 @@
+<SpatialML version="3.0"><DOC>
+
+ CNN_IP_20030402.1600.02-1 
+ STORY 
+ 2003-04-02T16:00:00-05:00  
+
+
+Push to <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-22" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">Baghdad</PLACE> Begins; POW Safe in Army's Care
+
+<TEXT>
+
+
+ WOODRUFF 
+As coalition forces push ahead in their march toward <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-23" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">Baghdad</PLACE>, they have
+encountered some resistance in the Shiite holy city of <PLACE country="IQ" form="NAM" gazref="IGDB:208786850" id="Pl-28" state="IQ-KA" type="PPLA">Karbala</PLACE>. But
+<PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-17" predicative="true" type="COUNTRY">American</PLACE> troops and their superior technology have turned out to be a key
+factor in the fighting there. And to the south, <PLACE country="GB" form="NAM" gazref="IGDB:17389505" id="Pl-31" latLong="54.000°N 4.000°W" predicative="true" type="COUNTRY">British</PLACE> forces continue
+their attack on targets around <PLACE country="IQ" form="NAM" gazref="IGDB:16897821" id="Pl-30" latLong="30.494°N 47.819°E" state="IQ-BA" type="PPLA">Basra</PLACE>. ITN correspondent Tim Ewart
+reports.
+
+(BEGIN VIDEOTAPE)
+
+ TIM EWART, ITN CORRESPONDENT 
+These are soldiers of the <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-19" predicative="true" type="COUNTRY">U.S.</PLACE> 3rd Infantry, fighting near <PLACE country="IQ" form="NAM" gazref="IGDB:208786850" id="Pl-29" state="IQ-KA" type="PPLA">Karbala</PLACE>,
+<SIGNAL id="S-1">southwest</SIGNAL> of <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-24" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">Baghdad</PLACE>. They are facing Saddam Hussein's Republican Guard,
+his finest soldiers. But for all the resistance, coalition aircraft rule
+the skies and coalition technology is overwhelmingly superior. <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-20" predicative="true" type="COUNTRY">U.S.</PLACE>
+commanders believe the Republican Guard is a doomed force.
+
+
+ BRIG. GEN. VINCENT BROOKS, <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-21" predicative="true" type="COUNTRY">U.S.</PLACE> CENTRAL COMMAND 
+We will approach <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-25" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">Baghdad</PLACE>. The dagger is clearly pointed at the heart of
+the regime right now and will remain pointed at it until the regime is
+gone.
+
+
+ EWART 
+To the south, more black smoke over the town of <PLACE country="IQ" form="NAM" gazref="IGDB:16897821" id="Pl-34" latLong="30.494°N 47.819°E" state="IQ-BA" type="PPLA">Basra</PLACE>. <PLACE country="GB" form="NAM" gazref="IGDB:17389505" id="Pl-32" latLong="54.000°N 4.000°W" predicative="true" type="COUNTRY">British</PLACE> troops
+control the outskirts of the <PLACE country="IQ" form="NOM" gazref="IGDB:16897821" id="P-320" latLong="30.494°N 47.819°E" state="IQ-BA" type="PPLA">town</PLACE>, and today destroyed another <PLACE country="IQ" form="NOM" gazref="IGDB:16897821" id="Pl-37" latLong="30.494°N 47.819°E" state="IQ-BA" type="FAC">building</PLACE>
+they said housed <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-1" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">Iraqi</PLACE> fighters. There is much fear here of the Saddam
+loyalists who still hold sway in <PLACE country="IQ" form="NAM" gazref="IGDB:16897821" id="Pl-35" latLong="30.494°N 47.819°E" state="IQ-BA" type="PPLA">Basra</PLACE> and of the invading troops waiting
+at the gates. (on camera): The Americans are racing towards <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-26" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">Baghdad</PLACE>, the
+<PLACE country="GB" form="NAM" gazref="IGDB:17389505" id="Pl-33" latLong="54.000°N 4.000°W" predicative="true" type="COUNTRY">British</PLACE> still seem anxious to make their progress here as measured as
+possible. <PLACE country="IQ" form="NAM" gazref="IGDB:16897821" id="Pl-36" latLong="30.494°N 47.819°E" state="IQ-BA" type="PPLA">Basra</PLACE> will fall. But there may first be fighting in the
+<PLACE country="IQ" form="NOM" gazref="IGDB:16896419" id="Pl-27" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">capital</PLACE>, <SIGNAL id="S-2">250 miles</SIGNAL> to the <SIGNAL id="S-3">north</SIGNAL>. Tim Ewart, ITV News, southern <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-2" latLong="33.000°N 44.000°E" mod="S" type="COUNTRY">Iraq</PLACE>.
+
+(END VIDEOTAPE)
+
+ WOODRUFF 
+From the south to the north in the rolling <PLACE country="IQ" form="NOM" id="Pl-38" type="MTS">hills</PLACE> of northern <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-3" latLong="33.000°N 44.000°E" mod="N" type="COUNTRY">Iraq</PLACE>,
+coalition air strikes targeted <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-4" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">Iraqi</PLACE> positions today in what's been
+called a ferocious bombardment. It happened outside the oil-rich city of
+<PLACE country="IQ" form="NAM" gazref="IGDB:16892885" id="Pl-39" latLong="35.468°N 44.392°E" state="IQ-TS" type="PPLA">Kirkuk</PLACE>. CNN's Brent Sadler is there.
+
+(BEGIN VIDEOTAPE)
+
+ BRENT SADLER, CNN CORRESPONDENT 
+A back <PLACE form="NOM" id="Pl-312" type="FAC">road</PLACE> leading to <PLACE country="IQ" form="NAM" gazref="IGDB:16892885" id="Pl-40" latLong="35.468°N 44.392°E" state="IQ-TS" type="PPLA">Kirkuk</PLACE>, the heartland of northern <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-5" latLong="33.000°N 44.000°E" mod="N" type="COUNTRY">Iraq</PLACE>'s oil
+wealth. A <PLACE form="NOM" id="Pl-313" type="FAC">road</PLACE> that's now in the hands of <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-6" latLong="33.000°N 44.000°E" mod="N" predicative="true" type="COUNTRY">Iraqi</PLACE> <PLACE country="IQ" form="NAM" gazref="IGDB:208909932" id="Pl-45" predicative="true" type="RGN">Kurdish</PLACE> forces. Occupying
+these positions, strattled along a crescent-shaped front line east of
+<PLACE country="IQ" form="NAM" gazref="IGDB:16892885" id="Pl-41" latLong="35.468°N 44.392°E" state="IQ-TS" type="PPLA">Kirkuk</PLACE>. This <PLACE form="NOM" id="Pl-315" type="RGN">land</PLACE> fell into <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-7" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">Iraqi</PLACE>-<PLACE country="IQ" form="NAM" gazref="IGDB:208909932" id="Pl-46" predicative="true" type="RGN">Kurdish</PLACE> hands without a shot being
+fired. <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-8" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">Iraqi</PLACE> soldiers fled these positions in a hurry, under the
+onslaught of coalition bombing. This is the end of the road for <PLACE country="IQ" form="NAM" gazref="IGDB:208909932" id="Pl-47" predicative="true" type="RGN">Kurdish</PLACE>
+forces manning this remote checkpoint. But with special permission, they
+let us through. We are now between the lines, a no man's land of
+abandoned <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-9" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">Iraqi</PLACE> bunkers and an unnerving silence, broken by the roar of
+warplanes and the distant surge of air strikes. This <PLACE form="NOM" id="Pl-317" type="FAC">territory</PLACE> is within
+easy artillery range of Saddam Hussein's forces and circling <PLACE country="IQ" form="NAM" gazref="IGDB:16892885" id="Pl-42" latLong="35.468°N 44.392°E" state="IQ-TS" type="PPLA">Kirkuk</PLACE>. The
+oil <PLACE country="IQ" form="NOM" gazref="IGDB:16892885" id="Pl-48" latLong="35.468°N 44.392°E" state="IQ-TS" type="PPLA">capital</PLACE> of northern <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-10" latLong="33.000°N 44.000°E" mod="N" type="COUNTRY">Iraq</PLACE> is visible behind me, just over there, a
+harmless flare of burning gases is easily identifiable. <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-11" latLong="33.000°N 44.000°E" type="COUNTRY">Iraq</PLACE>'s precious
+oil <PLACE form="NOM" id="Pl-319" type="FAC">field</PLACE> remain intact. Also intact, <PLACE country="IQ" form="NAM" gazref="IGDB:16892885" id="Pl-43" latLong="35.468°N 44.392°E" state="IQ-TS" type="PPLA">Kirkuk</PLACE>'s defenses, in the distant
+haze. <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-12" latLong="33.000°N 44.000°E" type="COUNTRY">Iraq</PLACE>'s armed opposition, including these Kurds, waits on the
+sidelines to join the fray, if <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-18" type="COUNTRY">America</PLACE> asks.
+
+
+ PRIME MINISTER BARHAM SALEH, <PLACE country="IQ" form="NAM" gazref="IGDB:208909932" id="Pl-49" predicative="true" type="RGN">KURDISTAN</PLACE> REGIONAL GOV. 
+This is about freedom for <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-13" latLong="33.000°N 44.000°E" type="COUNTRY">Iraq</PLACE>. This is about the liberation of <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-14" latLong="33.000°N 44.000°E" type="COUNTRY">Iraq</PLACE>, and
+we Iraqis must shoulder the responsibility of helping in the process of
+liberation.
+
+
+ SADLER 
+And, says the <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-15" latLong="33.000°N 44.000°E" type="COUNTRY">Iraqi</PLACE> opposition, in winning this war. Brent Sadler, CNN,
+near <PLACE country="IQ" form="NAM" gazref="IGDB:16892885" id="Pl-44" latLong="35.468°N 44.392°E" state="IQ-TS" type="PPLA">Kirkuk</PLACE> in northern <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-16" latLong="33.000°N 44.000°E" mod="N" predicative="true" type="COUNTRY">Iraq</PLACE>.
+
+(END VIDEOTAPE)
+</TEXT>
+
+
+
+
+
+<RLINK direction="SW" id="Pa-1" signals="S-1" source="Pl-24" target="Pl-29"/><RLINK direction="N" distance="250:mi" id="Pa-2" signals="S-2 S-3" target="Pl-27"/><LINK id="L-1" linkType="IN" source="Pl-38" target="Pl-3"/><LINK id="L-2" linkType="IN" source="Pl-44" target="Pl-16"/><LINK id="L-4" linkType="PO" source="Pl-6" target="Pl-45"/><LINK id="L-5" linkType="PO" source="Pl-7" target="Pl-46"/><LINK id="L-7" linkType="IN" source="Pl-48" target="Pl-10"/><LINK id="L-8" linkType="IN" source="Pl-319" target="Pl-11"/></DOC></SpatialML>

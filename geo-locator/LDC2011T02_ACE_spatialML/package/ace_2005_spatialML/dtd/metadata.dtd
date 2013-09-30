@@ -1,0 +1,43 @@
+<!-- The Metadata element will conform to future ISLE specification.
+     For now, we include the Dublin Core elements, plus room for
+     extensions.  Later we will distinguish between ATLAS
+     and private extensions, conforming with the Open Archives Initiative.
+
+     $Id: metadata.dtd,v 1.3 2002/09/13 19:33:38 chris Exp $
+-->
+
+<!ATTLIST Corpus
+    xmlns:dc CDATA  #FIXED    "http://www.ukoln.ac.uk/interop-focus/activities/z3950/int_profile/bath/draft/stable1.html"
+>
+
+<!ENTITY % dces "dc:title | dc:creator | dc:subject | dc:description |
+ dc:publisher | dc:contributor | dc:date | dc:type | dc:format |
+ dc:identifier | dc:source | dc:language | dc:relation | dc:coverage |
+ dc:rights" >
+
+<!ELEMENT Metadata ((%dces;)*, OtherMetadata*)>
+<!ATTLIST Metadata 
+  type        NMTOKEN  #IMPLIED
+>
+
+<!ELEMENT OtherMetadata (#PCDATA)>
+<!ATTLIST OtherMetadata
+  name        NMTOKEN  #REQUIRED
+  type        NMTOKEN  #REQUIRED
+>
+ 
+<!ELEMENT dc:title (#PCDATA)>
+<!ELEMENT dc:creator (#PCDATA)>
+<!ELEMENT dc:subject (#PCDATA)>
+<!ELEMENT dc:description (#PCDATA)>
+<!ELEMENT dc:publisher (#PCDATA)>
+<!ELEMENT dc:contributor (#PCDATA)>
+<!ELEMENT dc:date (#PCDATA)>
+<!ELEMENT dc:type (#PCDATA)>
+<!ELEMENT dc:format (#PCDATA)>
+<!ELEMENT dc:identifier (#PCDATA)>
+<!ELEMENT dc:source (#PCDATA)>
+<!ELEMENT dc:language (#PCDATA)>
+<!ELEMENT dc:relation (#PCDATA)>
+<!ELEMENT dc:coverage (#PCDATA)>
+<!ELEMENT dc:rights (#PCDATA)>

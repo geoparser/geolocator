@@ -1,0 +1,50 @@
+<SpatialML version="3.0"><DOC>
+
+ XIN_ENG_20030423.0011 
+ NEWS STORY 
+ 20030423 
+
+
+<PLACE country="ID" form="NAM" gazref="IGDB:17320538" id="Pl-4" latLong="5.000°S 120.000°E" predicative="true" type="COUNTRY">Indonesian</PLACE> Muslim cleric stands trial for treason
+
+<TEXT>
+
+<PLACE country="ID" form="NAM" gazref="IGDB:17320348" id="Pl-1" latLong="6.174°S 106.829°E" state="ID-JK" type="CIVIL">JAKARTA</PLACE>, April 23 (Xinhua)
+
+The <PLACE country="ID" form="NAM" gazref="IGDB:17320348" id="Pl-2" latLong="6.174°S 106.829°E" mod="CENTRAL" predicative="true" state="ID-JK" type="CIVIL">Central Jakarta</PLACE> District Court began Wednesday the trial of
+Muslim cleric Abu Bakar Ba' asyir who has been in custody since last
+October on charges of treason and immigration offenses.
+
+Ba'asyir, 64, was arrested on preliminary charges of involvement in a
+series of church bombings on the eve of the 2000 Christmas and an
+alleged plot to assassinate  Megawati Soekarnoputri in 1999, when she
+was vice president.
+
+He is also charged with immigration offenses for having a <PLACE country="MY" form="NAM" gazref="IGDB:17594843" id="Pl-5" latLong="2.500°N 112.500°E" predicative="true" type="COUNTRY">Malaysian</PLACE>
+citizenship since 1993.
+
+Seven prosecutors read in turn the indictment against Ba'asyir at the
+makeshift court <PLACE country="ID" form="NOM" id="Pl-29" type="FAC">room</PLACE> in the Meteorology and Geophysics Agency's
+<PLACE country="ID" form="NOM" id="Pl-31" type="FAC">office</PLACE> in <PLACE country="ID" form="NAM" gazref="IGDB:17320348" id="Pl-3" latLong="6.174°S 106.829°E" mod="CENTRAL" state="ID-JK" type="CIVIL">Central Jakarta</PLACE>.
+
+The authorities have moved the trial venue for security reasons and
+to allow wider media coverage.
+
+Ba'asyir was not officially charged with the <PLACE country="ID" form="NAM" gazref="IGDB:17328626" id="Pl-6" latLong="6.123°S 106.991°E" state="ID-BA" type="CIVIL">Bali</PLACE> bombing last
+October, but police said he gave his blessing to the <PLACE country="ID" form="NAM" gazref="IGDB:17328626" id="Pl-7" latLong="6.123°S 106.991°E" predicative="true" state="ID-BA" type="CIVIL">Bali</PLACE>
+perpetrators. Police believed Ba'asyir was the spiritual leader of
+Jemaah Islamiyah, the terrorist network in <PLACE continent="AI" form="NAM" gazref="IGDB:30009613" id="Pl-9" mod="SE" type="CONTINENT">Southeast Asia</PLACE> which is
+widely blamed for the <PLACE country="ID" form="NAM" gazref="IGDB:17328626" id="Pl-8" latLong="6.123°S 106.991°E" predicative="true" state="ID-BA" type="CIVIL">Bali</PLACE> bombing.
+
+According to the Criminal Code, treason is punishable with a possible
+death penalty.
+
+Ba'asyir has publicly denied any wrongdoing and refused to answer
+police questioning.
+
+</TEXT>
+
+
+
+
+<LINK id="L-1" linkType="IN" source="Pl-29" target="Pl-31"/><LINK id="L-2" linkType="IN" source="Pl-31" target="Pl-3"/></DOC></SpatialML>

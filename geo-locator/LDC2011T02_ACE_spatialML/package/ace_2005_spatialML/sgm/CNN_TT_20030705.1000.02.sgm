@@ -1,0 +1,83 @@
+<SpatialML version="3.0"><DOC>
+
+ CNN_TT_20030705.1000.02 
+ STORY 
+ 2003-07-05T10:00:00-05:00  
+
+
+Will <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-1" type="COUNTRY">U.S.</PLACE> Send Troops Into <PLACE continent="AF" country="LR" form="NAM" gazref="IGDB:17866482" id="P-50" latLong="6.5 -9.5" type="COUNTRY">Liberia</PLACE>?; Hussein Releases New Audiotape; 
+Travelers Face Delays at Airports
+
+<TEXT>
+
+
+ DAVIS 
+We'll get to that story in a moment. But first, we're going to go to
+outside <PLACE country="RU" form="NAM" gazref="IGDB:17039439" id="Pl-2" latLong="55.752°N 37.616°E" state="MOS" type="PPLC">Moscow</PLACE>, to our correspondent Jill Dougherty, who is covering
+explosions at a rock concert -- Jill.
+
+
+ JILL DOUGHERTY, CNN <PLACE country="RU" form="NAM" gazref="IGDB:17039439" id="Pl-3" latLong="55.752°N 37.616°E" state="MOS" type="PPLC">MOSCOW</PLACE> BUREAU CHIEF 
+Yes. You know, we're just down the <PLACE country="RU" form="NOM" id="Pl-37" type="FAC">street</PLACE> from where that happened. It's
+right outside a big air <PLACE country="RU" form="NOM" id="Pl-38" type="FAC">base</PLACE> called <PLACE country="RU" form="NOM" id="Pl-39" type="FAC">Tushino</PLACE>, where a concert, a rock
+concert called Wings was taking place. There were about 20,000 people
+inside that <PLACE country="RU" form="NOM" id="Pl-43" type="FAC">stadium</PLACE>. And luckily, if you can say it's lucky, the two
+explosions took place outside of the <PLACE country="RU" form="NOM" id="Pl-44" type="FAC">stadium</PLACE>, apparently at the <PLACE continent="AI" country="RU" form="NOM" id="P-51" state="MOS" type="FAC">entrance</PLACE>.
+In fact, we're just close to that entrance a few minutes ago, where two
+female suicide bombers tried to get into the <PLACE country="RU" form="NOM" id="Pl-45" type="FAC">stadium</PLACE>. That is the latest
+information that we have. It went up toward the gate. We're not allowed
+to go in. And one woman exploded whatever she had, the type of
+explosives, destroying herself and killing reportedly three people at
+that point. And then about 15 minutes later, the other explosion by the
+other woman at another gate. You can still see, in fact, and I was down
+there as I said just a minute ago, you can still see two bodies lying on
+the <PLACE country="RU" form="NOM" id="Pl-49" type="FAC">street</PLACE>, and police are obviously taking forensic evidence and trying
+to figure out precisely how it happened, but I could say that it would
+appear to fit that scenario of having the two females suicide bombers.
+The people who were inside the <PLACE country="RU" form="NOM" id="Pl-46" type="FAC">stadium</PLACE> really did not know what was going
+on. But outside the <PLACE country="RU" form="NOM" id="Pl-47" type="FAC">stadium</PLACE>, the latest reports, 18 people killed, and
+many wounded, although we don't have a final figure on that. The latest
+was 20, but the numbers have been increasing. Back to you.
+
+
+ DAVIS 
+Jill, have there been any claims of responsibility, Jill?
+
+
+ DOUGHERTY 
+Not that we have heard, although you would have to say that this really
+does have the fingerprint of <PLACE country="RU" form="NAM" gazref="IGDB:17103517" id="Pl-5" latLong="43.300°N 45.700°E" state="CE" type="CIVIL">Chechen</PLACE> terrorists. After all, just in the
+past month or so, we have had a couple of incidents in <PLACE country="RU" form="NAM" gazref="IGDB:17103517" id="Pl-6" latLong="43.300°N 45.700°E" state="CE" type="CIVIL">Chechnya</PLACE> and the
+region in the south of <PLACE country="RU" form="NAM" gazref="IGDB:17005945" id="Pl-10" latLong="60.000°N 100.000°E" mod="S" type="COUNTRY">Russia</PLACE> of females suicide bombers with explosives
+strapped to their waist, blowing themselves up, and killing people
+besides. So this would appear to fit that description. And also, police
+are saying that they found the passport of one of the women, a girl, 20
+years old, who does have a name that is <PLACE country="RU" form="NAM" gazref="IGDB:17103517" id="Pl-7" latLong="43.300°N 45.700°E" state="CE" type="CIVIL">Chechen</PLACE>.
+
+
+ STARR 
+Now, Jill, has Vladimir Putin given any indication yet, even though it's
+very early on, of any further security crackdowns? Do the <PLACE country="RU" form="NAM" gazref="IGDB:17005945" id="Pl-11" latLong="60.000°N 100.000°E" type="COUNTRY">Russian</PLACE> people
+support his moves on the security issues against the Chechens?
+
+
+ DOUGHERTY 
+Well, if they're cracking down on security in <PLACE country="RU" form="NAM" gazref="IGDB:17039439" id="Pl-4" latLong="55.752°N 37.616°E" state="MOS" type="PPLC">Moscow</PLACE>, you would have to
+say that people do support that by and large, because they're scared. You
+know, they're worried. Remember last October, you had the <PLACE country="RU" form="NOM" id="Pl-48" predicative="true" type="FAC">theater</PLACE> hostage
+crisis, and people want security. Now, if you're talking about the
+crackdowns in <PLACE country="RU" form="NAM" gazref="IGDB:17103517" id="Pl-8" latLong="43.300°N 45.700°E" state="CE" type="CIVIL">Chechnya</PLACE>, there you have to say that it's kind of a mixed
+bag. Many people think they ought to simply get rid of the terrorists, do
+whatever they can and get tough, but there are other people who believe
+that it's precisely that type of get tough and round them up type of
+approach that's spurring on the violence and -- by the Chechens. But
+you'd have to say, also, that and it is fair to say that there is an
+element of international terrorism, as well. It is not just, you know,
+rebels in <PLACE country="RU" form="NAM" gazref="IGDB:17103517" id="Pl-9" latLong="43.300°N 45.700°E" state="CE" type="CIVIL">Chechnya</PLACE> wanting to be free. There is also an element of
+international terrorism involved.
+
+</TEXT>
+
+
+</DOC>
+</SpatialML>

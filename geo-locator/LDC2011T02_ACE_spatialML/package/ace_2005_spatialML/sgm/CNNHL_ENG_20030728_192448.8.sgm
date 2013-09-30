@@ -1,0 +1,23 @@
+<SpatialML version="3.0"><DOC>
+
+ CNNHL_ENG_20030728_192448.8 
+ NEWS STORY 
+ 2003-07-28 19:42:53 
+
+<TEXT>
+
+
+<PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-1" type="COUNTRY">u.s.</PLACE> soldiers have discovered a large cache of guerilla weapons in
+saddam hussein's hometown of <PLACE country="IQ" form="NAM" gazref="IGDB:16888105" id="Pl-2" latLong="34.597°N 43.677°E" state="SD" type="PPL">tikrit</PLACE>. the stash was freshly buried just
+a quarter mile from the gates of the 4th infantry division's
+<PLACE id="Pl-27" type="FAC">headquarters</PLACE> in <PLACE country="IQ" form="NAM" gazref="IGDB:16888105" id="Pl-3" latLong="34.597°N 43.677°E" state="SD" type="PPL">tikrit</PLACE>. it included 40 anti-tank mines, dozens of
+mortar rounds and hundreds of pounds of gunpowder. troops found the
+weapons outside an abandoned <PLACE id="Pl-25" type="FAC">building</PLACE> <PLACE id="Pl-26" type="FAC">that</PLACE> once belonged to saddam's
+fedayeen militia.
+
+</TEXT>
+
+
+ 2003-07-28 19:43:11 
+</DOC>
+</SpatialML>

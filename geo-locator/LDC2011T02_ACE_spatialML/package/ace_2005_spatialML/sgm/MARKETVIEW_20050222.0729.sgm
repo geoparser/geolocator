@@ -1,0 +1,29 @@
+<SpatialML version="3.0"><DOC>
+
+ MARKETVIEW_20050222.0729 
+ WEB TEXT 
+ 2005-02-22T07:29:00 
+
+
+<PLACE country="RU" form="NAM" gazref="IGDB:17005945" id="Pl-1" latLong="60.000°N 100.000°E" type="COUNTRY">Russia</PLACE>: Pure potential, or, potentially, nothing
+
+<TEXT>
+
+
+ Byrne 
+ 2005-02-22T07:29:00 
+Read this report on the <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-4" predicative="true" type="COUNTRY">U.S.</PLACE>-<PLACE country="RU" form="NAM" gazref="IGDB:17005945" id="Pl-2" latLong="60.000°N 100.000°E" predicative="true" type="COUNTRY">Russia</PLACE> Technology Symposium . It's a
+great summary of the paradoxes of the <PLACE country="RU" form="NAM" gazref="IGDB:17005945" id="Pl-3" latLong="60.000°N 100.000°E" predicative="true" type="COUNTRY">Russian</PLACE> economy: They have a huge
+untapped supply of valuable IT labor, but their IT exports are only a
+tenth of their military exports (and only a thirtieth of <PLACE country="IN" form="NAM" gazref="IGDB:17902205" id="Pl-5" latLong="20.000°N 77.000°E" type="COUNTRY">India</PLACE>'s IT
+exports). They develop lots of new technology, but nobody can tell who
+owns what. And, of course, their securities laws and property rights are
+even flimsier than <PLACE country="CN" form="NAM" gazref="IGDB:18099327" id="Pl-6" latLong="35.000°N 105.000°E" type="COUNTRY">China</PLACE>'s -- after the Putin administration mugged
+Yukos on the grounds that it was too attractive a target to leave alone,
+they lost a lot of trust. Still, they have an unbelieveable amount of
+untapped potential.
+
+</TEXT>
+
+
+</DOC></SpatialML>

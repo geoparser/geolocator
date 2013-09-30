@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE Corpus SYSTEM "http://www.nist.gov/speech/atlas/aif.dtd">
+
+<Corpus xmlns="http://www.nist.gov/speech/atlas" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://www.ukoln.ac.uk/interop-focus/activities/z3950/int_profile/bath/draft/stable1.html" id="Cor310" AIFVersion="1.1" type="spatialml" schemeLocation="http://callisto.mitre.org/maia/spatialml.maia.xml">
+  <Metadata/>
+  <SimpleSignal id="Sig310" type="text" mimeClass="text" mimeType="sgml" xlink:href="BACONSREBELLION_20050206.1345.sgml.sgml" encoding="UTF-8" track="ALL" xlink:type="simple">
+    <body encoding="Base64">PERPQz4KCiBCQUNPTlNSRUJFTExJT05fMjAwNTAyMDYuMTM0NSAKIFdFQiBURVhUIAogMjAwNS0wMi0wNlQxMzo0NTowMCAKCgpTZXJ2aW5nIHRoZSBOYXRpb24KCjxURVhUPgoKCiBXaWxsIFZlaHJzIAogMjAwNS0wMi0wNlQxMzo0NTowMCAKRm9ybWVyIFNlbmF0b3IgQ2h1Y2sgUm9iYiBoYXNuJ3QgYmVlbiBoZWFyZCBmcm9tIGxhdGVseS4gUGFyYWRlCm1hZ2F6aW5lIHJlbWluZHMgdXMgdG9kYXkgdGhhdCBoZSdzIGEgY28tY2hhaXIgb2YgdGhlIENvbW1pc3Npb24gb24gdGhlCkludGVsbGlnZW5jZSBDYXBhYmlsaXRpZXMgb2YgdGhlIFVuaXRlZCBTdGF0ZXMgUmVnYXJkaW5nIFdlYXBvbnMgb2YgTWFzcwpEZXN0cnVjdGlvbi4gVGhleSB3aWxsIHJlcG9ydCBvbiBNYXJjaCAzMS4gSSBzdXNwZWN0IFJvYiB3aWxsIHNwZWFrIG91dAphZnRlciB0aGF0IGRhdGUsIGFsdGhvdWdoIG11Y2ggb2YgdGhlIENvbW1pdHRlZSdzIHJlcG9ydCB3aWxsIGJlCmNsYXNzaWZpZWQuCgpWaXJnaW5pYSBpcyBibGVzc2VkIHRvIGhhdmUgc28gbWFueSByZXNwZWN0ZWQgZm9yZWlnbiBwb2xpY3kgYW5kCnNlY3VyaXR5IHBvbGljeSBwdWJsaWMgc2VydmFudHMsIHBhc3QgYW5kIHByZXNlbnQuCgoKIFBhdWwgCiA/Pz8/LT8/LT8/VDE2OjM4OjAwIApHb29kIG9sZCBDaHVjayBSb2JiLi4uSSBhc3N1bWUgZXZlcnlvbmUgb24gaGVyZSBoYXMgc2VlbiAmcXVvdDtUaGUgUGVyZmVjdApDYW5kaWRhdGUmcXVvdDs/IFF1aXRlIGEgdHJlYXQuCgo8L1RFWFQ+CgoKPC9ET0M+</body>
+  </SimpleSignal>
+  <AnchorSet containedType="text-point">
+    <Anchor id="Anc10278" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">296</Parameter>
+      <SignalRef xlink:href="#Sig310" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc10279" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">309</Parameter>
+      <SignalRef xlink:href="#Sig310" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc10280" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">486</Parameter>
+      <SignalRef xlink:href="#Sig310" role="text" xlink:type="simple"/>
+    </Anchor>
+    <Anchor id="Anc10281" type="text-point">
+      <Parameter type="char" unit="NULL_UNIT" role="char">494</Parameter>
+      <SignalRef xlink:href="#Sig310" role="text" xlink:type="simple"/>
+    </Anchor>
+  </AnchorSet>
+  <RegionSet containedType="link-subordinates"/>
+  <RegionSet containedType="rlink-subordinates"/>
+  <RegionSet containedType="text-extent">
+    <Region id="Reg5347" type="text-extent">
+      <AnchorRef xlink:href="#Anc10279" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc10278" role="start" xlink:type="simple"/>
+    </Region>
+    <Region id="Reg5348" type="text-extent">
+      <AnchorRef xlink:href="#Anc10281" role="end" xlink:type="simple"/>
+      <AnchorRef xlink:href="#Anc10280" role="start" xlink:type="simple"/>
+    </Region>
+  </RegionSet>
+  <Analysis id="Ana1855" type="link-extent-set" role="link-extent-set">
+    <AnnotationSet containedType="link-extent"/>
+  </Analysis>
+  <Analysis id="Ana1856" type="link-set" role="link-set">
+    <AnnotationSet containedType="LINK"/>
+  </Analysis>
+  <Analysis id="Ana1857" type="place-set" role="place-set">
+    <AnnotationSet containedType="PLACE">
+      <Annotation id="Ann5347" type="PLACE">
+        <RegionRef xlink:href="#Reg5347" role="text-extent" xlink:type="simple"/>
+        <Content type="place-content">
+          <Parameter type="string" unit="NULL_UNIT" role="CTV"/>
+          <Parameter type="string" unit="NULL_UNIT" role="comment"/>
+          <Parameter type="string" unit="NULL_UNIT" role="continent"/>
+          <Parameter type="string" unit="NULL_UNIT" role="country">US</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="county"/>
+          <Parameter type="string" unit="NULL_UNIT" role="description"/>
+          <Parameter type="string" unit="NULL_UNIT" role="form">NAM</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="gazref">IGDB:840</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="id">Pl-1</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="latLong"/>
+          <Parameter type="string" unit="NULL_UNIT" role="mod"/>
+          <Parameter type="string" unit="NULL_UNIT" role="nonLocUse"/>
+          <Parameter type="string" unit="NULL_UNIT" role="predicative"/>
+          <Parameter type="string" unit="NULL_UNIT" role="state"/>
+          <Parameter type="string" unit="NULL_UNIT" role="type">COUNTRY</Parameter>
+        </Content>
+      </Annotation>
+      <Annotation id="Ann5348" type="PLACE">
+        <RegionRef xlink:href="#Reg5348" role="text-extent" xlink:type="simple"/>
+        <Content type="place-content">
+          <Parameter type="string" unit="NULL_UNIT" role="CTV"/>
+          <Parameter type="string" unit="NULL_UNIT" role="comment"/>
+          <Parameter type="string" unit="NULL_UNIT" role="continent"/>
+          <Parameter type="string" unit="NULL_UNIT" role="country">US</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="county"/>
+          <Parameter type="string" unit="NULL_UNIT" role="description"/>
+          <Parameter type="string" unit="NULL_UNIT" role="form">NAM</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="gazref">IGDB:30126100</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="id">Pl-2</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="latLong">37.500&#176;N 78.500&#176;W</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="mod"/>
+          <Parameter type="string" unit="NULL_UNIT" role="nonLocUse"/>
+          <Parameter type="string" unit="NULL_UNIT" role="predicative"/>
+          <Parameter type="string" unit="NULL_UNIT" role="state">US-VA</Parameter>
+          <Parameter type="string" unit="NULL_UNIT" role="type">CIVIL</Parameter>
+        </Content>
+      </Annotation>
+    </AnnotationSet>
+  </Analysis>
+  <Analysis id="Ana1858" type="rlink-extent-set" role="rlink-extent-set">
+    <AnnotationSet containedType="rlink-extent"/>
+  </Analysis>
+  <Analysis id="Ana1859" type="rlink-set" role="rlink-set">
+    <AnnotationSet containedType="RLINK"/>
+  </Analysis>
+  <Analysis id="Ana1860" type="signal-set" role="signal-set">
+    <AnnotationSet containedType="SIGNAL"/>
+  </Analysis>
+</Corpus>

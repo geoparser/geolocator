@@ -1,0 +1,21 @@
+<SpatialML version="3.0"><DOC>
+
+ CNNHL_ENG_20030403_193455.30 
+ NEWS STORY 
+ 2003-04-03 19:53:35 
+
+<TEXT>
+
+
+<PLACE country="IQ" form="NAM" id="Pl-136" state="IQ-BG" type="FAC">saddam international airport</PLACE> has become a battlefield. witnesses say
+<PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-1" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">iraqi</PLACE> troops are dug in trying to fend off coalition troops making
+their way into the <PLACE country="IQ" form="NOM" gazref="IGDB:16896419" id="Pl-3" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLA">capital</PLACE>'s main <PLACE country="IQ" form="NOM" id="Pl-137" state="IQ-BG" type="FAC">airport</PLACE>. a reuters correspondent
+said dozens of <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-2" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">iraqi</PLACE> civilians and soldiers were killed in what
+witnesses called a barrage of <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-4" predicative="true" type="COUNTRY">u.s.</PLACE> artillery.
+
+</TEXT>
+
+
+ 2003-04-03 19:53:49 
+
+<LINK id="L-1" linkType="IN" source="Pl-137" target="Pl-3"/></DOC></SpatialML>

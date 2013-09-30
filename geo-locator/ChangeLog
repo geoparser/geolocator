@@ -1,0 +1,10 @@
+Version 3.0 to version 4.0:
+
+1.
+Added  Morpha-stemmer from
+http://mvnrepository.com/artifact/edu.washington.cs.knowitall/morpha-stemmer
+It's a component from KnowItAll system.
+
+2.
+Added Interface classes: Desktop and About
+

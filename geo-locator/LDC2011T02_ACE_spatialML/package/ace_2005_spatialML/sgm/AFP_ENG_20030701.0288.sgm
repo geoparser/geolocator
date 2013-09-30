@@ -1,0 +1,78 @@
+<SpatialML version="3.0"><DOC>
+
+ AFP_ENG_20030701.0288 
+ NEWS STORY 
+ 20030701 
+
+
+<PLACE country="NG" form="NAM" gazref="IGDB:17979109" id="Pl-1" latLong="10.000°N 8.000°E" type="COUNTRY">Nigerian</PLACE> police fire tear gas, beat journalists on day two of strike
+
+<TEXT>
+
+<PLACE country="NG" form="NAM" gazref="IGDB:18002987" id="Pl-6" latLong="9.083°N 7.533°E" state="FC" type="PPLC">ABUJA</PLACE>, July 1 (AFP)
+
+<PLACE country="NG" form="NAM" gazref="IGDB:17979109" id="Pl-2" latLong="10.000°N 8.000°E" type="COUNTRY">Nigerian</PLACE> police fired tear gas Tuesday to disperse strikers gathering
+outside the government's main administrative offices and assaulted
+three journalists covering the protests.
+
+As a general strike called to protest a government decision to
+increase fuel prices by 54 percent entered its second day, protesters
+gathered in front of the Federal Secretariat building in <PLACE country="NG" form="NAM" gazref="IGDB:18002987" id="Pl-7" latLong="9.083°N 7.533°E" state="FC" type="PPLC">Abuja</PLACE>.
+
+A first gathering of a few dozen people was dispersed by a volley of
+tear gas from riot police who arrived in 18 jeeps, but when labour
+leader Adams Oshiomhole arrived to address the strikers, hundreds of
+supporters gathered.
+
+Police again fired tear gas and waded into the crowd, sending the
+strikers scattering for cover in the secretariat building itself.
+
+A <PLACE country="NG" form="NAM" gazref="IGDB:17979109" id="Pl-3" latLong="10.000°N 8.000°E" type="COUNTRY">Nigerian</PLACE> photographer from the <PLACE country="US" form="NAM" gazref="IGDB:976772" id="Pl-11" latLong="40.714°N 74.006°W" state="NY" type="PPL">New York</PLACE>-based agency the Associated
+Press (AP), George Osodi, the labour editor of the <PLACE country="NG" form="NAM" gazref="IGDB:17979109" id="Pl-4" latLong="10.000°N 8.000°E" type="COUNTRY">Nigerian</PLACE> daily The
+Vanguard Funmi Komolafe and Vanguard reporter Rotimi Ajayi were
+beaten by police.
+
+The AP photographer's camera was smashed and he was beaten with whips
+and rifle butts, leaving him badly bruised.
+
+In the commercial capital <PLACE country="NG" form="NAM" gazref="IGDB:17982645" id="Pl-10" latLong="6.453°N 3.396°E" state="LA" type="PPL">Lagos</PLACE>, students were setting up barricades
+around their <PLACE continent="AF" country="NG" form="NOM" id="P-14" state="LA" type="FAC">campus</PLACE>, while police played a cat-and-mouse game with
+protesters elsewhere in the <PLACE country="NG" form="NOM" gazref="IGDB:17982645" id="Pl-12" latLong="6.453°N 3.396°E" state="LA" type="PPL">city</PLACE>.
+
+Later Oshiomhole emerged from the secretariat <PLACE continent="AF" country="NG" form="NOM" id="P-15" state="FC" type="FAC">building</PLACE> <SIGNAL id="S-1">in</SIGNAL> <PLACE country="NG" form="NAM" gazref="IGDB:18002987" id="Pl-8" latLong="9.083°N 7.533°E" state="FC" type="PPLC">Abuja</PLACE> and
+once more addressed supporters, calling on them to show restraint.
+
+&quot;I want to assure you that I'm safe,&quot; he said. &quot;There is no peace in
+life without struggle. Every job has its own hazards.
+
+&quot;My plea is that <PLACE country="NG" form="NAM" gazref="IGDB:17979109" id="Pl-5" latLong="10.000°N 8.000°E" type="COUNTRY">Nigerian</PLACE> workers should be peaceful, but don't go to
+work until these issues are resolved.&quot;
+
+After Oshiomhole drove off, protesters began to disperse quietly and
+the police scaled down their presence.
+
+Meanwhile there were conflicting reports that protesters had been
+shot dead by security forces on Monday.
+
+Asked by AFP to confirm press and television reports that between two
+and eight people had been shot, national police spokesman Chris
+Olakpe had initially said: &quot;It was four.&quot; But he later rang back to
+deny the reports.
+
+&quot;I have checked our records and found that 88 people were arrested
+nationwide, but I have no record of people shot,&quot; he said.
+
+According to the <PLACE country="NG" form="NOM" gazref="IGDB:18002985" id="Pl-13" latLong="8.833°N 7.167°E" state="FC" type="CIVIL">state</PLACE>-owned Daily Times eight people were killed in
+protests in <PLACE country="NG" form="NAM" gazref="IGDB:18002987" id="Pl-9" latLong="9.083°N 7.533°E" state="FC" type="PPLC">Abuja</PLACE> on Monday, the first day of a general strike.
+Another daily, The Champion, put the number at two.
+
+Both papers said that security forces, either police or army, had
+shot at protesters. An army spokesman told AFP he had no knowledge of
+the incident.
+
+</TEXT>
+
+
+
+
+<LINK id="L-1" linkType="IN" signals="S-1" source="P-15" target="Pl-8"/></DOC></SpatialML>

@@ -1,0 +1,49 @@
+<SpatialML version="3.0"><DOC>
+
+ APW_ENG_20030414.0392 
+ NEWS STORY 
+ 20030414 
+
+
+<PLACE country="CZ" form="NAM" gazref="IGDB:19456509" id="Pl-1" latLong="49.750°N 15.000°E" type="COUNTRY">Czech</PLACE> nuclear plant gets permission to produce at full capacity
+
+<TEXT>
+
+<PLACE country="CZ" form="NAM" gazref="IDGB:19446827" id="Pl-4" latLong="50.083°N 14.467°E" state="PR" type="PPLC">PRAGUE</PLACE>, <PLACE country="CZ" form="NAM" gazref="IGDB:19456509" id="Pl-2" latLong="49.750°N 15.000°E" type="COUNTRY">Czech Republic</PLACE> (AP)
+
+The troubled nuclear power <PLACE continent="EU" country="CZ" form="NOM" id="P-12" state="JC" type="FAC">plant</PLACE> in <PLACE country="CZ" form="NAM" gazref="IGDB:19443411" id="Pl-5" latLong="49.200°N 14.350°E" state="JC" type="PPL">Temelin</PLACE> received permission from
+state authorities Monday to start power production at full capacity.
+
+Pavel Pitterman, the spokesman for the State Office for Nuclear
+Safety, said his office gave the plant permission to run its second,
+newer 1,000-megawatt unit at full capacity. The <PLACE continent="EU" country="CZ" form="NOM" id="P-13" state="JC" type="FAC">plant's</PLACE> first
+1,000-megawatt unit has already operated at full capacity during past
+tests.
+
+The spokesman for the <PLACE country="CZ" form="NAM" gazref="IGDB:19443411" id="Pl-6" latLong="49.200°N 14.350°E" state="JC" type="PPL">Temelin</PLACE> plant, Milan Nebesar, said that an
+18-month trial production at full capacity at the second unit, needed
+to declare the unit ready for commercial production, would start
+Friday.
+
+The plant, based on <PLACE country="RU" form="NAM" gazref="IGDB:17005945" id="Pl-7" latLong="60.000°N 100.000°E" type="COUNTRY">Russian</PLACE> design and upgraded with <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-8" type="COUNTRY">U.S.</PLACE> technology,
+has been plagued by frequent, non-nuclear malfunctions since testing
+began in November 2000.
+
+Located <SIGNAL id="S-1">just 60 kilometers (35 miles)</SIGNAL> <SIGNAL id="S-2">north</SIGNAL> of the <PLACE country="AT" form="NAM" gazref="IGDB:18025553" id="Pl-10" latLong="47.333°N 13.333°E" mod="BORDER" type="COUNTRY">Austrian</PLACE> border,
+it has been a source of friction between the two countries.
+
+Critics in non-nuclear <PLACE country="AT" form="NAM" gazref="IGDB:18025553" id="Pl-9" latLong="47.333°N 13.333°E" type="COUNTRY">Austria</PLACE> argue the <PLACE continent="EU" country="CZ" form="NOM" id="P-14" state="JC" type="FAC">plant</PLACE> is unsafe and demand
+that it be shut down, but <PLACE country="CZ" form="NAM" gazref="IGDB:19456509" id="Pl-3" latLong="49.750°N 15.000°E" type="COUNTRY">Czech</PLACE> authorities insist the plant is safe.
+
+The <PLACE continent="EU" country="CZ" form="NOM" id="P-15" state="JC" type="FAC">plant's</PLACE> first unit, currently shut down for planned maintenance
+scheduled to take two months, has already entered the last stage of
+tests and should be ready for commercial use at the end of 2003.
+
+</TEXT>
+
+
+
+
+
+
+<RLINK direction="N" distance="60:mi" id="Pa-1" signals="S-1 S-2" source="Pl-10"/><LINK id="L-1" linkType="IN" source="Pl-4" target="Pl-2"/></DOC></SpatialML>

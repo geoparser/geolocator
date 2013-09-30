@@ -1,0 +1,24 @@
+<SpatialML version="3.0"><DOC>
+
+ CNN_ENG_20030401_233449.5 
+ NEWS STORY 
+ 2003-04-01 23:38:21 
+
+<TEXT>
+
+
+an airport in <PLACE country="US" form="NAM" gazref="IGDB:295048" id="Pl-1" latLong="24.555°N 81.783°W" state="FL" type="PPL">key west</PLACE>, <PLACE country="US" form="NAM" gazref="IGDB:295478" id="Pl-2" latLong="28.750°N 82.500°W" state="FL" type="CIVIL">florida</PLACE>, today became the setting of what
+appeared to be a desperate attempt to enter the <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-4" type="COUNTRY">u.s.</PLACE> by a <PLACE country="CU" form="NAM" gazref="IGDB:18380782" id="Pl-6" latLong="21.500°N 80.000°W" type="COUNTRY">cuban</PLACE>
+national. the man was arrested there after authorities say he hijacked
+a <PLACE country="CU" form="NAM" gazref="IGDB:18380782" id="Pl-7" latLong="21.500°N 80.000°W" type="COUNTRY">cuban</PLACE> plane using what was reported to be grenades, ordering the
+pilots to fly to <PLACE country="US" form="NAM" gazref="IGDB:295478" id="Pl-3" latLong="28.750°N 82.500°W" state="FL" type="CIVIL">florida</PLACE>. the hijacker got off the plane wearing a
+jacket that said, <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-5" type="COUNTRY">america</PLACE> across the back. and a small child clinging
+to his leg.
+
+</TEXT>
+
+
+ 2003-04-01 23:38:39 
+
+
+<LINK id="L-1" linkType="IN" source="Pl-1" target="Pl-2"/></DOC></SpatialML>

@@ -1,0 +1,26 @@
+<SpatialML version="3.0"><DOC>
+
+ CNN_IP_20030417.1600.06 
+ STORY 
+ 2003-04-17T16:00:00-05:00  
+
+
+<PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-1" type="COUNTRY">U.S.</PLACE> Captures Another of Hussein's Half Brothers
+
+<TEXT>
+
+
+ WOODRUFF 
+Two Americans who gave their lives to Operation <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-2" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">Iraqi</PLACE> Freedom were buried
+at <PLACE country="US" form="NAM" gazref="IGDB:1784506" id="Pl-4" latLong="38.890°N 77.084°W" predicative="true" state="US-VA" type="PPL">Arlington</PLACE> <PLACE country="US" form="NAM" id="Pl-49" state="US-VA" type="FAC">National Cemetery</PLACE> today. Marine Lance Corporal Patrick Nixon
+was one of 17 killed in an ambush near <PLACE country="IQ" form="NAM" gazref="IGDB:16897120" id="Pl-3" latLong="30.250°N 48.400°E" state="IQ-DQ" type="PPL">Nasiriyah</PLACE> on March 23. He was 21
+years old and the first Tennessean to die in the war. And <PLACE country="US" form="NAM" gazref="IGDB:1780783" id="Pl-5" latLong="44.500°N 114.250°W" state="US-ID" type="CIVIL">Idaho</PLACE> Air
+National Guardsman Major Gregory Stone was buried with honors at
+<PLACE country="US" form="NAM" gazref="IGDB:1784506" id="Pl-6" latLong="38.890°N 77.084°W" state="US-VA" type="PPL">Arlington</PLACE>. He died of injuries from a grenade attack by a fellow soldier.
+And that is it for this special edition of INSIDE POLITICS. I'm Judy
+Woodruff. We thank you for joining us.
+
+</TEXT>
+
+
+<LINK id="L-1" linkType="IN" source="Pl-49" target="Pl-4"/></DOC></SpatialML>

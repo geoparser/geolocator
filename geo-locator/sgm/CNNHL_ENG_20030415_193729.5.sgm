@@ -1,0 +1,24 @@
+<SpatialML version="3.0"><DOC>
+
+ CNNHL_ENG_20030415_193729.5 
+ NEWS STORY 
+ 2003-04-15 19:35:55 
+
+<TEXT>
+
+
+a <PLACE country="PS" form="NAM" gazref="IGDB:208674239" id="Pl-1" predicative="true" type="COUNTRY">palestinian</PLACE> terrorist leader wanted for a deadly 1985 cruise ship
+hijacking is in <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-3" predicative="true" type="COUNTRY">u.s.</PLACE> custody in <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-5" latLong="33.000°N 44.000°E" type="COUNTRY">iraq</PLACE>. <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-4" predicative="true" type="COUNTRY">u.s.</PLACE> sources tell cnn mohammed
+&quot;abu&quot; abbas was captured <SIGNAL id="S-2">about 50 miles</SIGNAL> <SIGNAL id="S-1">west</SIGNAL> of <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-6" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">baghdad</PLACE>. <PLACE country="PS" form="NAM" gazref="IGDB:208674239" id="Pl-2" predicative="true" type="COUNTRY">palestinian</PLACE>
+sources say he had tried to flee into <PLACE country="SY" form="NAM" gazref="IGDB:17451884" id="Pl-7" latLong="35.000°N 38.000°E" type="COUNTRY">syria</PLACE>, but was turned away at
+the <PLACE country="SY" form="NOM" gazref="IGDB:17451884" id="Pl-8" latLong="35.000°N 38.000°E" mod="BORDER" type="COUNTRY">border</PLACE>. in october of 1985, four hijackers under his command took
+over the <PLACE country="IT" form="NAM" gazref="IGDB:19880600" id="Pl-9" latLong="42.833°N 12.833°E" predicative="true" type="COUNTRY">italian</PLACE> cruise ship &quot;achille lauro&quot; and killed a wheelchair-
+bound <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-11" predicative="true" type="COUNTRY">american</PLACE> tourist, leo klinghoffer. abbas was convicted in
+absentia by an <PLACE country="IT" form="NAM" gazref="IGDB:19880600" id="Pl-10" latLong="42.833°N 12.833°E" predicative="true" type="COUNTRY">italian</PLACE> court and sentenced to five life terms in
+prison.
+
+</TEXT>
+
+
+ 2003-04-15 19:36:23 
+<RLINK direction="W" distance="50:mi" id="Pa-1" signals="S-1 S-2" source="Pl-6"/></DOC></SpatialML>

@@ -1,0 +1,34 @@
+<SpatialML version="3.0"><DOC>
+
+ CNN_ENG_20030402_190500.11 
+ NEWS STORY 
+ 2003-04-02 19:07:31 
+
+<TEXT>
+
+
+also ahead, the anatomy of a rescue, just a couple of hours ago,
+rescued p.o.w. jessica lynch arrived at the <PLACE country="DE" form="NAM" gazref="IGDB:18153609" id="Pl-1" latLong="49.450°N 7.533°E" state="DE-RP" type="PPL">ramstein</PLACE> <PLACE country="DE" form="NOM" id="P-17" state="DE-RP" type="FAC">air base</PLACE> in
+<PLACE country="DE" form="NAM" gazref="IGDB:18224345" id="Pl-2" latLong="51.500°N 10.500°E" type="COUNTRY">germany</PLACE> for medical treatment. a little later we'll speak with her
+family and talk a closer look at the daring operation that produced
+her safe recovery, but first the push into <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-3" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">baghdad</PLACE>. coalition field
+commanders say <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-16" predicative="true" type="COUNTRY">u.s.</PLACE> troops are now <SIGNAL id="S-1">within 15 miles</SIGNAL> of the <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-12" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">iraqi</PLACE>
+<PLACE country="IQ" form="NOM" gazref="IGDB:16896419" id="Pl-6" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">capital</PLACE>. they say their forces today with the <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-13" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">iraqi</PLACE> republican guard
+units as part of a protwo-pronged advance on the <PLACE country="IQ" form="NOM" gazref="IGDB:16896419" id="Pl-7" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">city</PLACE>. <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-14" predicative="true" type="COUNTRY">u.s.</PLACE> troops
+could be in <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-4" latLong="33.339°N 44.394°E" mod="S" state="IQ-BG" type="PPLC">baghdad</PLACE> southern outskirts by early thursday. however, the
+pentagon is down playing the idea that an invasion of <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-5" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">baghdad</PLACE> is
+imminent. for the second straight day, <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-8" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">iraqi</PLACE> television meanwhile has
+broadcast a statement from the <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-9" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">iraqi</PLACE> president saddam hussein.
+however, despite the appearance of saddam hussein in and what was said
+to be new fattage, the statement itself was read by an <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-10" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">iraqi</PLACE> news
+anchor wearing a military uniform. <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-15" predicative="true" type="COUNTRY">u.s.</PLACE> officials say they aren't sure
+whether the <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-11" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">iraqi</PLACE> president is still alive. regardless, the statement
+praised iraqis who have fought coalition forces. it was said to be
+saddam hussein's response to a letter from his niece.
+
+</TEXT>
+
+
+ 2003-04-02 19:08:42 
+
+<RLINK distance="15 miles" frame="EXTRINSIC" id="R-2" signals="S-1" target="Pl-6"/><LINK id="L-1" linkType="IN" source="Pl-6" target="Pl-12"/><LINK id="L-3" linkType="IN" source="Pl-1" target="Pl-2"/><LINK id="L-4" linkType="IN" source="P-17" target="Pl-1"/></DOC></SpatialML>

@@ -1,0 +1,21 @@
+<!-- Registered MIME Types: 
+see http://www.isi.edu/in-notes/iana/assignments/media-types/media-types
+
+- application
+- audio
+- image
+- message
+- model
+- multipart
+- text
+- video
+
+-->
+<!ENTITY % MCSupported "application | audio | image | text | video">
+<!ENTITY % MCOthers "message | model | multipart">
+<!ENTITY % MIMEClasses "%MCSupported;">
+
+<!ENTITY % MIMETypes "NMTOKEN">
+
+<!-- Registered Parameter datatypes -->
+<!ENTITY % DataTypes "boolean | float | int | string | other">

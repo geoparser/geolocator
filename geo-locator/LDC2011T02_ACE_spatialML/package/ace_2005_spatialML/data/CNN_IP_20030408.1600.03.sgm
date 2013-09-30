@@ -1,0 +1,150 @@
+<SpatialML version="3.0"><DOC>
+
+ CNN_IP_20030408.1600.03 
+ STORY 
+ 2003-04-08T16:00:00-05:00  
+
+
+null
+
+<TEXT>
+
+
+ WOODRUFF 
+And, as we listened to John King's report, we can tell you that President
+Bush has just -- his plane has just landed at <PLACE form="NAM" id="Pl-424" type="FAC">Andrews Air Force Base</PLACE>,
+just <SIGNAL id="S-1">close to</SIGNAL> the <PLACE country="US" form="NAM" gazref="IGDB:532871" id="Pl-1" latLong="38.895°N 77.037°W" state="US-DC" type="RGN">Washington</PLACE> area, the president having flown back to the
+<PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-2" type="COUNTRY">United States</PLACE> from that meeting in <PLACE country="GB" form="NAM" gazref="IGDB:17395725" id="Pl-3" latLong="54.500°N 6.500°W" state="GB-NIR" type="CIVIL">Northern Ireland</PLACE> in <PLACE country="GB" form="NAM" gazref="IGDB:17410393" id="Pl-4" latLong="54.583°N 5.933°W" state="GB-NIR" type="PPLA">Belfast</PLACE> with the
+<PLACE country="GB" form="NAM" gazref="IGDB:17389505" id="Pl-5" latLong="54.000°N 4.000°W" predicative="true" type="COUNTRY">British</PLACE> prime minister, Tony Blair. You just heard John reporting about
+it. They primarily talked about the war in <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-7" latLong="33.000°N 44.000°E" type="COUNTRY">Iraq</PLACE>, the aftermath of <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-8" latLong="33.000°N 44.000°E" type="COUNTRY">Iraq</PLACE>.
+But they also discussed the <PLACE form="NAM" gazref="IGDB:208667208" id="Pl-14" type="RGN">Middle East</PLACE> and, as well, getting the
+<PLACE country="GB" form="NAM" gazref="IGDB:17395725" id="Pl-13" latLong="54.500°N 6.500°W" state="GB-NIR" type="CIVIL">Northern Ireland</PLACE> peace process started up again. It has been said that
+Saddam Hussein ruled <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-9" latLong="33.000°N 44.000°E" type="COUNTRY">Iraq</PLACE> with an iron fist. I guess you can say in the
+past tense. His regime has left behind some disturbing evidence to
+support those claims. The abandoned secret police <PLACE form="NOM" id="Pl-410" type="FAC">headquarters</PLACE> in <PLACE country="IQ" form="NAM" gazref="IGDB:16897821" id="Pl-15" latLong="30.494°N 47.819°E" state="IQ-BA" type="PPLA">Basra</PLACE>
+is just one example. ITN's Bill Neely is with the Royal Marines and he
+takes us on a tour of <PLACE country="IQ" form="NAM" gazref="IGDB:16897821" id="Pl-16" latLong="30.494°N 47.819°E" state="IQ-BA" type="PPLA">Basra</PLACE>'s <PLACE country="IQ" form="NOM" id="Pl-387" state="IQ-BA" type="FAC">chamber of horrors</PLACE>.
+
+(BEGIN VIDEOTAPE)
+
+ BILL NEELY, ITN REPORTER (voice-over) 
+Saddam Hussein's <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-10" latLong="33.000°N 44.000°E" type="COUNTRY">Iraq</PLACE> is a state of terror, and this is where it's
+planned and perpetrated, the <PLACE form="NOM" id="Pl-407" type="FAC">headquarters</PLACE> of his secret police, this one
+in <PLACE country="IQ" form="NAM" gazref="IGDB:16897821" id="Pl-17" latLong="30.494°N 47.819°E" state="IQ-BA" type="PPLA">Basra</PLACE>. No <PLACE country="GB" form="NAM" gazref="IGDB:17389505" id="Pl-6" latLong="54.000°N 4.000°W" predicative="true" type="COUNTRY">British</PLACE> soldier has been here yet. Today, as I walked in, I
+met Iraqis, none of whom had ever been inside willingly. What was to
+follow was a horrific education in terror and torture: in the smoking
+<PLACE form="NOM" id="Pl-411" type="FAC">basement</PLACE> of the bombed <PLACE form="NOM" id="Pl-389" type="FAC">building</PLACE>, a <PLACE form="NOM" id="Pl-412" type="FAC">warren</PLACE> of cells. Here, prisoners were
+tortured.
+
+
+ UNIDENTIFIED MALE 
+Yes, of course.
+
+
+ NEELY 
+People died.
+
+
+ UNIDENTIFIED MALE 
+People died, people in prison without court, without trial.
+
+
+ NEELY 
+Any people who Saddam did not like.
+
+
+ UNIDENTIFIED MALE 
+Of course. Of course.
+
+
+ NEELY (voice-over) 
+The <PLACE form="NOM" id="Pl-390" type="FAC">building</PLACE> is crumbling. Down we went, further to cells that had no
+light, little air, cockroaches, filth, and, on the ground, a gas mask and
+bottles of chemicals.
+
+
+ UNIDENTIFIED MALE 
+You can imagine this every day, every month. So many people come here,
+but we don't know about them at all.
+
+
+ NEELY 
+These ordinary Iraqis had been terrified to come here, until today,
+though one student on the left had been here before.
+
+
+ UNIDENTIFIED MALE 
+He was one of the prisoners here. (on camera): For how long?
+
+
+ UNIDENTIFIED MALE 
+Eight years.
+
+
+ UNIDENTIFIED MALE 
+Eight, nine, eight years.
+
+
+ NEELY (voice-over) 
+And his crime for eight years in jail? He prayed too much and was seen as
+a dangerous radical. (on camera): More cells. (voice-over): But the
+Mukhabarat <PLACE form="NOM" id="Pl-395" type="FAC">headquarters</PLACE> had more horrors to reveal.
+
+
+ UNIDENTIFIED MALE 
+And they tied their hands behind and hung them and hung them for many
+days.
+
+
+ NEELY 
+These men had relatives murdered here. So desperate are they to tell
+their story that they began reenacting what they and their brothers and
+friends have suffered. The hook in the ceiling is for one purpose only,
+another hook in a different cell and a different form of torture. Saddam
+Hussein controlled <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-11" latLong="33.000°N 44.000°E" type="COUNTRY">Iraq</PLACE> through fear, torture and execution. And it
+happened here to tens of thousands of Iraqis that Saddam's secret police
+deemed dangerous. This man cowered for months, crammed with 300 mothers
+into a huge cell. Hamid Fatil (ph) may look like he's acting, but he was
+tortured here, along with his two brothers, who were executed. This man
+was here, too, with his brother.
+
+
+ UNIDENTIFIED MALE 
+They sentenced him to death. And they sent him to <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-19" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">Baghdad</PLACE> and killed. He
+was hanged there, hanged.
+
+
+ UNIDENTIFIED MALE 
+There's a prisoner under the name of Ahmed Adis Aeid (ph).
+
+
+ NEELY 
+They kept records of prisoners, these and their fingerprints all that's
+left of them, apart from the photographs they took of exactly what they
+had done. (on camera): If there is an evil center to Saddam Hussein's
+regime, then it is surely here and in other places of torture. And
+there's plenty here that we simply cannot show you. In this <PLACE form="NOM" id="Pl-422" type="FAC">block</PLACE>, it was
+men over here, hundreds of them, and women and children here.
+(voice-over): To call all this a <PLACE form="NOM" id="Pl-403" type="FAC">chamber of horrors</PLACE> is a cliche. And this
+<PLACE form="NOM" id="Pl-402" type="FAC">place</PLACE> is beyond cliche. The hundreds or thousands who died here who were
+given no trial, no voice, cry out. On the ground, I found a book called
+&quot;The Psychology of Interrogation,&quot; as if the men who worked here for
+Saddam needed a handbook. I was glad of the fresh air and glad to leave,
+glad I could. No one knows yet whether the new <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-12" latLong="33.000°N 44.000°E" type="COUNTRY">Iraq</PLACE> will be the kind of
+place where these children can grow up free of the fear, the horror of
+torture. Bill Neely, ITV News, <PLACE country="IQ" form="NAM" gazref="IGDB:16897821" id="Pl-18" latLong="30.494°N 47.819°E" state="IQ-BA" type="PPLA">Basra</PLACE>.
+
+(END VIDEOTAPE)
+
+ WOODRUFF 
+Unspeakable. Journalists killed in the line of duty in <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-20" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">Baghdad</PLACE> -- how
+neutral are reporters in a war supposed to be? Our Jeff Greenfield
+examines that question when we come back.
+
+</TEXT>
+
+
+
+
+
+<RLINK frame="INTRINSIC" id="R-1" signals="S-1" source="Pl-424" target="Pl-1"/><LINK id="L-2" linkType="IN" source="Pl-4" target="Pl-3"/><LINK id="L-3" linkType="IN" source="Pl-410" target="Pl-15"/><LINK id="L-4" linkType="IN" source="Pl-387" target="Pl-16"/><LINK id="L-5" linkType="IN" source="Pl-411" target="Pl-389"/><LINK id="L-6" linkType="IN" source="Pl-412" target="Pl-411"/></DOC></SpatialML>

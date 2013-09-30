@@ -1,0 +1,64 @@
+<SpatialML version="3.0"><DOC>
+
+ CNN_IP_20030405.1600.01-3 
+ STORY 
+ 2003-04-05T16:00:00-05:00  
+
+
+Coalition Troops Penetrate Outskirts of <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-1" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">Baghdad</PLACE>
+
+<TEXT>
+
+
+ WOODRUFF 
+Thanks very much. An investigation is under way at a makeshift <PLACE form="NOM" id="Pl-107" type="FAC">morgue</PLACE> in
+southern <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-2" latLong="33.000°N 44.000°E" mod="S" type="COUNTRY">Iraq</PLACE> after a gruesome discovery by some <PLACE country="GB" form="NAM" gazref="IGDB:17389505" id="Pl-7" latLong="54.000°N 4.000°W" predicative="true" type="COUNTRY">British</PLACE> troops. Tim
+Ewart of ITN News reports on evidence of atrocities at an abandoned <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-3" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">Iraqi</PLACE>
+military <PLACE form="NOM" id="Pl-112" type="FAC">base</PLACE>.
+
+(BEGIN VIDEOTAPE)
+
+ TIM EWART, ITV NEWS (voice-over) 
+It was a discovery that horrified the soldiers who made it. The remains
+of hundreds of men were found in plastic bags and Unsealed hard-board
+coffins. <PLACE country="GB" form="NAM" gazref="IGDB:17389505" id="Pl-8" latLong="54.000°N 4.000°W" predicative="true" type="COUNTRY">British</PLACE> troops found the bodies at an abandoned <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-4" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">Iraqi</PLACE> military
+<PLACE form="NOM" id="Pl-113" type="FAC">base</PLACE> on the outskirts of <PLACE country="IQ" form="NAM" gazref="IGDB:16887301" id="Pl-10" latLong="31.183°N 46.117°E" mod="BORDER" state="IQ-DQ">Azubayr</PLACE>. The evidence suggested it was the scene
+of appalling atrocities. The teeth in many of the skulls had been broken,
+and bones appeared to be wrapped in strips of military uniform. It's not
+clear how long the bodies had lain here, but they were clearly not from
+this war.
+
+
+ UNIDENTIFIED MALE 
+You come to expect everything in war fighting. The coffins were there. It
+was a bit more of a surprise when I discovered the bags with the human
+remains inside.
+
+
+ EWART 
+Inside a neighboring <PLACE form="NOM" id="Pl-104" type="FAC">building</PLACE>, there was evidence of cells and a catalog
+of photographs of the dead. Most had died from gunshot wounds to the
+head. Others were mutilated beyond recognition, their faces burned and
+swollen. Outside, soldiers discovered what they described as a purpose-
+built shooting <PLACE form="NOM" id="Pl-105" type="FAC">gallery</PLACE>, the brickwork behind it riddled with bullets.
+Identity cards revealed the names of some of the dead. Forensic
+specialists will now visit the scene and hope to establish the truth of
+what happened here and when. (on camera): Today's discovery seems to
+provide shocking evidence of atrocities under Saddam Hussein's regime.
+Most people are afraid to talk openly about what's been happening here.
+But when they do, <PLACE country="GB" form="NAM" gazref="IGDB:17389505" id="Pl-9" latLong="54.000°N 4.000°W" predicative="true" type="COUNTRY">British</PLACE> soldiers believe, more horrors will come to
+light. Tim Ewart, ITV News, <PLACE country="IQ" form="NAM" gazref="IGDB:16887301" id="Pl-11" latLong="31.183°N 46.117°E" state="IQ-DQ">Azubayr</PLACE>.
+
+(END VIDEOTAPE)
+
+ WOODRUFF 
+Well, from a gruesome finding to a dangerous one in central <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-5" latLong="33.000°N 44.000°E" mod="CENTRAL" type="COUNTRY">Iraq</PLACE>. <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-12" type="COUNTRY">U.S.</PLACE>
+troops work to clear that area of <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-6" latLong="33.000°N 44.000°E" mod="CENTRAL" predicative="true" type="COUNTRY">Iraqi</PLACE> weapons, coming up.
+
+</TEXT>
+
+
+
+
+
+<LINK id="L-1" linkType="IN" source="Pl-107" target="Pl-2"/><LINK id="L-3" linkType="IN" source="Pl-112" target="Pl-3"/><LINK id="L-4" linkType="IN" source="Pl-113" target="Pl-4"/><LINK id="L-5" linkType="IN" source="Pl-113" target="Pl-10"/></DOC></SpatialML>

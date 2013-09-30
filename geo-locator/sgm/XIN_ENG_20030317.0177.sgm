@@ -1,0 +1,46 @@
+<SpatialML version="3.0"><DOC>
+
+ XIN_ENG_20030317.0177 
+ NEWS STORY 
+ 20030317 
+
+
+AU condemns coup in <PLACE country="CF" form="NAM" gazref="IGDB:18657497" id="Pl-1" latLong="7.000°N 21.000°E" type="COUNTRY">Central Africa Republic</PLACE>
+
+<TEXT>
+
+<PLACE country="ET" form="NAM" gazref="IGDB:19396903" id="Pl-14" latLong="9.033°N 38.700°E" state="ET-AA" type="CIVIL">ADDIS ABABA</PLACE>, March 17 (Xinhua)
+
+Interim Chairperson of the Commission of the <PLACE continent="AF" form="NAM" gazref="IGDB:30002777" id="Pl-4" predicative="true" type="CONTINENT">African</PLACE>  Union (AU)
+Amara Essy has strongly condemned the coup d'etat that took place in
+the <PLACE country="CF" form="NAM" gazref="IGDB:18657497" id="Pl-2" latLong="7.000°N 21.000°E" type="COUNTRY">Central Africa Republic</PLACE> on March 15, 2003.
+
+According to a press release of the AU on Monday, Essy said AU
+&quot;rejects and unequivocally condemns unconstitutional change of
+government in keeping with the provisions of its constitutive act as
+well as the decisions and declarations adopted by the <PLACE country="DZ" form="NAM" gazref="IGDB:19541629" id="Pl-6" latLong="36.763°N 3.051°E" predicative="true" state="DZ-16" type="CIVIL">Algiers</PLACE> and
+<PLACE country="TG" form="NAM" gazref="IGDB:18502028" id="Pl-7" latLong="6.132°N 1.223°E" predicative="true" state="TG-M" type="CIVIL">Lome</PLACE> Summits.&quot;
+
+In conformity with the <PLACE country="TG" form="NAM" gazref="IGDB:18502028" id="Pl-8" latLong="6.132°N 1.223°E" predicative="true" state="TG-M" type="CIVIL">Lome</PLACE> Declaration, the release said the AU
+Central Organ of the Mechanism for Conflict Prevention, Management
+and Resolution will meet very shortly to consider the situation and
+the measures to be taken.
+
+Last Saturday night, rebels in the <PLACE country="CF" form="NAM" gazref="IGDB:18657497" id="Pl-3" latLong="7.000°N 21.000°E" type="COUNTRY">Central Africa Republic</PLACE>, captured
+the <PLACE form="NOM" id="Pl-496" type="FAC">airport</PLACE> in the capital city of <PLACE country="CF" form="NAM" gazref="IGDB:18660438" id="Pl-10" latLong="4.367°N 18.583°E" state="CF-BGF" type="PPLC">Bangui</PLACE> and the <PLACE country="CF" form="NOM" id="Pl-498" type="FAC">residence</PLACE> of 
+President Ange-Felix Patasse, who is out of the <PLACE country="CF" form="NOM" gazref="IGDB:18657497" id="Pl-9" latLong="7.000°N 21.000°E" type="COUNTRY">country</PLACE>.
+
+The rebels have captured the <PLACE country="CF" form="NOM" gazref="IGDB:18657497" id="Pl-13" latLong="7.000°N 21.000°E" type="COUNTRY">country</PLACE>'s main international <PLACE form="NOM" id="Pl-497" type="FAC">airport</PLACE>,
+said a top official in a 300-strong <PLACE continent="AF" form="NAM" gazref="IGDB:30002777" id="Pl-5" predicative="true" type="CONTINENT">African</PLACE> security force policing
+the <PLACE country="CF" form="NOM" gazref="IGDB:18660438" id="Pl-12" latLong="4.367°N 18.583°E" state="CF-BGF" type="PPLC">city</PLACE>.
+
+The rebels identified themselves to residents in the <PLACE country="CF" form="NOM" gazref="IGDB:18660438" id="Pl-11" latLong="4.367°N 18.583°E" state="CF-BGF" type="PPLC">city</PLACE> as troops
+loyal to former general staff  Gen. Francois Bozize, who staged a
+foiled coup bid in October.
+
+</TEXT>
+
+
+
+
+<LINK id="L-1" linkType="IN" source="Pl-496" target="Pl-10"/><LINK id="L-2" linkType="IN" source="Pl-497" target="Pl-13"/></DOC></SpatialML>

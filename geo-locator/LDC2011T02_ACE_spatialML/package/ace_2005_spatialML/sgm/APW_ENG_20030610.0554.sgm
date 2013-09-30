@@ -1,0 +1,71 @@
+<SpatialML version="3.0"><DOC>
+
+ APW_ENG_20030610.0554 
+ NEWS STORY 
+ 20030610 
+
+
+<PLACE form="NAM" id="Pl-1" predicative="true" type="CELESTIAL">Mars</PLACE> rover is launched on voyage to look for evidence of water
+
+<TEXT>
+
+<PLACE country="US" form="NAM" gazref="IGDB:280995" id="Pl-11" latLong="28.406°N 80.605°W" state="US-FL" type="PPL">CAPE CANAVERAL</PLACE>, <PLACE country="US" form="NAM" gazref="IGDB:295478" id="Pl-13" latLong="28.750°N 82.500°W" state="US-FL" type="CIVIL">Florida</PLACE> (AP)
+
+A rocket holding the first of two <PLACE form="NAM" id="Pl-2" predicative="true" type="CELESTIAL">Mars</PLACE> rovers blasted off Tuesday on
+a seven-month voyage to the red <PLACE form="NOM" id="Pl-14" type="CELESTIAL">planet</PLACE> where the golf-cart-sized
+vehicles will search for evidence that there was once enough water to
+support life on <PLACE form="NAM" id="Pl-3" type="CELESTIAL">Mars</PLACE>.
+
+The rover named Spirit lifted off from the <PLACE country="US" form="NAM" gazref="IGDB:280995" id="Pl-12" latLong="28.406°N 80.605°W" predicative="true" state="US-FL" type="PPL">Cape Canaveral</PLACE> <PLACE country="US" form="NOM" id="Pl-234" state="US-FL" type="FAC">Air Force
+Station</PLACE> aboard a Boeing Delta II rocket at 1:58 p.m. (1758 GMT).
+
+Thunderstorms delayed the launch by two days, and launch officials
+contended with a last-minute communications glitch between stations
+that will track the spacecraft.
+
+The second rover, named Opportunity, will be launched later this
+month, and both are expected to arrive at <PLACE form="NAM" id="Pl-4" type="CELESTIAL">Mars</PLACE> in January.
+
+Moving on six wheels, the $800 million rovers act as robotic
+geologists. Each is equipped with a panoramic camera, a camera for
+close-up views of rocks and a drill to cut into rocks. The data will
+be transmitted back to <PLACE form="NAM" id="Pl-15" type="CELESTIAL">Earth</PLACE>.
+
+Previous missions have shown <PLACE form="NAM" id="Pl-5" type="CELESTIAL">Mars</PLACE> had water in the past, but
+scientists want to find out how long the water was there and in what
+quantities. Scientists believe the water may show that <PLACE form="NAM" id="Pl-6" type="CELESTIAL">Mars</PLACE> once was
+able to support life.
+
+The rovers' landing sites, on opposite sides of the planet, were
+chosen for their likelihood of holding evidence of water. Studying
+the minerals in rocks can tell scientists how the rocks were formed,
+whether they were ever submerged in water, and whether hot water ever
+ran over them.
+
+The rovers are expected to travel up to 132 feet (39.6 meters) each
+<PLACE form="NAM" id="Pl-16" predicative="true" type="CELESTIAL">Martian</PLACE> day, which is 24 hours and 39{ minutes long.
+
+The missions are expected to last three months but could run longer.
+The rovers eventually will shut down as dust builds up on their solar
+panels and they will remain on the planet.
+
+Only 12 out of 30 previous attempts have reached <PLACE form="NAM" id="Pl-7" type="CELESTIAL">Mars</PLACE>, and only three
+out of nine attempts have succeeded in landing on the planet.
+
+NASA revamped its <PLACE form="NAM" id="Pl-8" predicative="true" type="CELESTIAL">Mars</PLACE> program after the failure of two unmanned
+missions to <PLACE form="NAM" id="Pl-9" type="CELESTIAL">Mars</PLACE> four years ago.
+
+The space agency has been under intense scrutiny since February when
+the space shuttle Columbia disintegrated over <PLACE country="US" form="NAM" gazref="IGDB:1780801" id="Pl-17" latLong="31.250°N 99.250°W" state="US-TX" type="CIVIL">Texas</PLACE>, killing all
+seven crew members. A logo patch of that last Columbia mission was
+attached to both <PLACE form="NAM" id="Pl-10" predicative="true" type="CELESTIAL">Mars</PLACE> rovers.	    _	_  _  =
+
+On the Net:
+
+Rover Mission: http://mars.jpl.nasa.gov/mer
+
+</TEXT>
+
+
+
+<LINK id="L-1" linkType="IN" source="Pl-11" target="Pl-13"/><LINK id="L-2" linkType="IN" source="Pl-234" target="Pl-12"/></DOC></SpatialML>

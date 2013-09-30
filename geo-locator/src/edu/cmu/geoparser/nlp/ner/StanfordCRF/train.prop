@@ -1,0 +1,32 @@
+#location of the training file
+trainFile = mldata/feature/NER/es/train.txt
+
+serializeTo = mldata/model/NER/es/Stanford-ner-model-es.ser.gz
+
+#structure of your training file; this tells the classifier
+#that the word is in column 0 and the correct answer is in
+#column 1
+map = word=0,normalized=1,shape=2,features=3,tag=4,cat=5,answer=6
+
+#these are the features we'd like to train with
+#some are discussed below, the rest can be
+#understood by looking at NERFeatureFactory
+useClassFeature= true
+useWord= true
+useNGrams= true
+
+#no ngrams will be included that do not contain either the
+#beginning or end of the word
+noMidNGrams=true
+useDisjunctive=true
+maxNGramLeng=6
+usePrev=true
+useNext=true
+useSequences=true
+usePrevSequences=true
+useNextSequences=true
+
+maxLeft=1
+useWordPairs = true
+useGenericFeatures = true
+

@@ -1,0 +1,21 @@
+<SpatialML version="3.0"><DOC>
+
+ CNNHL_ENG_20030424_123502.25 
+ NEWS STORY 
+ 2003-04-24 13:52:32 
+
+<TEXT>
+
+
+police in <PLACE country="US" form="NAM" gazref="IGDB:1780798" id="Pl-3" latLong="40.750°N 77.750°W" state="PA" type="CIVIL">pennsylvania</PLACE> a student fatally shot a principal before
+killing himself this morning. it happened in the <PLACE continent="NA" country="US" form="NOM" id="P-4" state="PA" type="FAC">cafeteria</PLACE> of <PLACE continent="NA" country="US" form="NAM" id="P-5" state="PA" type="RGN">red lion
+area</PLACE> junior high <PLACE continent="NA" country="US" form="NAM" id="P-6" state="PA" type="FAC">school</PLACE> <SIGNAL id="S-1">about 30 miles</SIGNAL> <SIGNAL id="S-2">southeast</SIGNAL> of <PLACE country="US" form="NAM" id="Pl-2" state="PA" type="PPL">harrisburg</PLACE>. it
+happened at 7:30 this morning. students then were moved across the
+street to a <PLACE continent="NA" country="US" form="NAM" id="P-7" state="PA" type="FAC">senior high school</PLACE>.
+
+</TEXT>
+
+
+ 2003-04-24 13:52:46 
+
+<RLINK direction="SE" distance="30:mi" id="Pa-1" signals="S-1 S-2" source="Pl-2"/><RLINK direction="SE" distance="30 miles" frame="INTRINSIC" id="R-2" signals="S-1 S-2" source="P-6" target="Pl-2"/></DOC></SpatialML>

@@ -1,0 +1,45 @@
+<SpatialML version="3.0"><DOC>
+
+ AFP_ENG_20030530.0132 
+ NEWS STORY 
+ 20030530 
+
+
+<PLACE country="SG" form="NAM" gazref="IGDB:19926364" id="Pl-1" latLong="1.367°N 103.800°E" predicative="true" type="COUNTRY">Singapore</PLACE> doctors to perform risky operation on <PLACE country="IR" form="NAM" gazref="IGDB:16932748" id="Pl-5" latLong="32.000°N 53.000°E" predicative="true" type="COUNTRY">Iranian</PLACE> twins
+
+<TEXT>
+
+<PLACE country="SG" form="NAM" gazref="IGDB:19926364" id="Pl-2" latLong="1.367°N 103.800°E" type="COUNTRY">SINGAPORE</PLACE>, May 30 (AFP)
+
+<PLACE country="SG" form="NAM" gazref="IGDB:19926364" id="Pl-3" latLong="1.367°N 103.800°E" predicative="true" type="COUNTRY">Singapore</PLACE> doctors will proceed with an unpredecented and risky
+operation to separate a pair of adult <PLACE country="IR" form="NAM" gazref="IGDB:16932748" id="Pl-6" latLong="32.000°N 53.000°E" predicative="true" type="COUNTRY">Iranian</PLACE> twins joined at the
+head, a <PLACE country="SG" form="NOM" id="Pl-9" predicative="true" type="FAC">hospital</PLACE> official said Friday.
+
+The official, who asked not to be named, said the decision to go
+ahead with the operation is expected to be announced to the media on
+Monday by doctors and executives of <PLACE country="SG" form="NAM" id="Pl-10" type="FAC">Raffles Hospital</PLACE>, where the
+surgery will be carried out.
+
+A team of specialists here have been conducting tests on the female
+twins, Laleh and Ladan Bijani, since last year to determine if the
+operation can be successful.
+
+The twins, both qualified lawyers aged in their late 20s, are joined
+at the head and the operation involves separating two individually
+functioning brains encased within a single bony structure,
+neurosurgeon Keith Goh said in December.
+
+The pair flew to <PLACE country="SG" form="NAM" gazref="IGDB:19926364" id="Pl-4" latLong="1.367°N 103.800°E" type="COUNTRY">Singapore</PLACE> last year after hearing of the successful
+surgery on <PLACE country="NP" form="NAM" gazref="IGDB:18977604" id="Pl-7" latLong="28.000°N 84.000°E" predicative="true" type="COUNTRY">Nepalese</PLACE> babies Ganga and Jamuna Shrestha, who were
+separated in a 97-hour operation at a <PLACE country="SG" form="NOM" id="Pl-11" type="FAC">hospital</PLACE> here.
+
+Attempts by Laleh and Ladan to have their operation elsewhere in the
+world were rejected, with doctors in <PLACE country="DE" form="NAM" gazref="IGDB:18224345" id="Pl-8" latLong="51.500°N 10.500°E" type="COUNTRY">Germany</PLACE> saying one or both of
+them could die.
+
+</TEXT>
+
+
+
+
+</DOC></SpatialML>

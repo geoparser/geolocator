@@ -1,0 +1,52 @@
+<SpatialML version="3.0"><DOC>
+
+ XIN_ENG_20030324.0191 
+ NEWS STORY 
+ 20030324 
+
+
+Five killed in coalition bombing on <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-1" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">Baghdad</PLACE>
+
+<TEXT>
+
+<PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-2" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">BAGHDAD</PLACE>, March 24 (Xinhua)
+
+Five <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-6" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">Iraqi</PLACE> civilians, including a woman, were killed Monday when
+their houses were hit by a missile fired by the <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-13" predicative="true" type="COUNTRY">US</PLACE>-led coalition
+warplanes, witnesses said.
+
+Their houses are located in <PLACE country="IQ" form="NAM" id="Pl-17" type="PPL">Al-Azamiyah</PLACE>, one of the most populous
+areas in the <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-7" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">Iraqi</PLACE> capital of <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-3" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">Baghdad</PLACE>, they said.
+
+One <PLACE country="IQ" form="NOM" id="Pl-103" state="IQ-BG" type="FAC">house</PLACE> was destroyed during the strike and casualties have been
+removed from the <PLACE country="IQ" form="NOM" gazref="IGDB:16896419" id="Pl-18" latLong="33.339°N 44.394°E" state="IQ-BG" type="RGN">area</PLACE>.
+
+The <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-14" predicative="true" type="RGN">US</PLACE>-led coalition forces launched a new round of airstrikes on
+<PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-4" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">Baghdad</PLACE> at 2:30 p.m. (1130GMT) on Monday.
+
+Huge explosions were heard in different parts of <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-5" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">Baghdad</PLACE> and air raid
+siren sounded throughout the <PLACE country="IQ" form="NOM" gazref="IGDB:16896419" id="Pl-16" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">capital city</PLACE>, they said, adding that
+<PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-8" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">Iraqi</PLACE> anti-aircraft artillery had begun to fire back.
+
+Although the coalition leaders have repeatedly assured that every
+effort would be made to minimize civilian casualties in the current
+<PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-9" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">Iraq</PLACE> war, at least 130 <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-10" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">Iraqi</PLACE> civilians have been reportedly killed
+since the war started five days ago.
+
+According to other reports reaching here, five <PLACE country="SY" form="NAM" gazref="IGDB:17451884" id="Pl-19" latLong="35.000°N 38.000°E" predicative="true" type="COUNTRY">Syrian</PLACE> bus passengers
+were killed and 10 others were injured on Sunday morning when a <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-15" predicative="true" type="COUNTRY">US</PLACE>
+missile hit the bus they were traveling in near the <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-11" latLong="33.000°N 44.000°E" mod="BORDER" predicative="true" type="COUNTRY">Iraqi</PLACE> border.
+
+The vehicle was carrying Syrians fleeing the war in <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-12" latLong="33.000°N 44.000°E" type="COUNTRY">Iraq</PLACE>.
+
+</TEXT>
+
+
+
+
+
+
+
+
+
+<LINK id="L-1" linkType="IN" source="Pl-3" target="Pl-7"/></DOC></SpatialML>

@@ -1,0 +1,48 @@
+<SpatialML version="3.0"><DOC>
+
+ rec.arts.disney.parks_20050309.2133 
+ WEB TEXT 
+ 2005-03-09T21:33:00 
+
+
+Street address for All Star Movies
+
+<TEXT>
+
+
+ A.H. Griffin 
+ Wed, 9 Mar 2005 21:33:05 -0500 
+ Street address for All Star Movies 
+
+I am trying to locate the street address for All Star Movies so I can print
+directions for our bus driver. Any help?
+
+--
+Dollywood Hillery
+TDC Honor Guard of Mouse Ears and Dolly Parton Wigs
+
+----== Posted via Newsfeeds.Com - Unlimited-Uncensored-Secure Usenet News==----
+The #1 Newsgroup Service in the World! 120,000+ Newsgroups
+----= East and West-Coast Server Farms - Total Privacy via Encryption =----
+
+
+
+ Theresa 
+ 9 Mar 2005 18:53:40 -0800 
+ Re: Street address for All Star Movies 
+
+I believe that the address is:
+
+<PLACE country="US" form="NAM" id="Pl-1" state="FL" type="ROAD">1901 W. Buena Vista Dr.</PLACE>
+<PLACE country="US" form="NAM" gazref="IGDB:303708" id="Pl-2" latLong="28.393°N 81.539°W" state="FL" type="PPL">Lake Buena Vista</PLACE>, <PLACE country="US" form="NAM" gazref="IGDB:295478" id="Pl-3" latLong="28.750°N 82.500°W" state="FL" type="CIVIL">FL</PLACE> <PLACE country="US" form="NAM" id="Pl-4" state="FL" type="POSTALCODE">32830</PLACE>
+
+telephone number is 407 939 7000
+
+Theresa
+
+
+</TEXT>
+
+
+
+<LINK id="L-1" linkType="IN" source="Pl-1" target="Pl-2"/><LINK id="L-2" linkType="IN" source="Pl-2" target="Pl-3"/><LINK id="L-3" linkType="IN" source="Pl-1" target="Pl-4"/></DOC></SpatialML>

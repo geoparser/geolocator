@@ -1,0 +1,135 @@
+<!-- 
+
+A DTD for ATLAS Interchange Format [AIF], a means of interchanging
+annotations. AIF has been developed following joint discussions with
+Bird (LDC), Day (MITRE), Garofolo (NIST), Henderson (MITRE) and Laprun
+(NIST).
+
+Current maintainer: Chris Laprun [ chris.laprun@nist.gov ]
+
+$Id: aif.dtd,v 1.22 2002/09/13 19:32:14 chris Exp $
+
+-->
+
+<!-- ** PARAMETER ENTITIES ** -->
+<!ENTITY % MetadataDef SYSTEM "metadata.dtd"> %MetadataDef;
+
+<!ENTITY % FeatureData "(Feature  | Parameter)+">
+
+<!ENTITY % containerAtt "
+    containedType NMTOKEN   #REQUIRED">
+
+<!ENTITY % refAtt "    
+    xlink:type    CDATA             #FIXED    'simple'
+    xlink:href    CDATA             #REQUIRED
+    role          NMTOKEN           #REQUIRED">
+
+<!ENTITY % idAtt "
+    id          ID       #REQUIRED
+    type        NMTOKEN  #REQUIRED">
+
+<!-- ** ELEMENTS ** -->
+<!ELEMENT Corpus ( Metadata, (SimpleSignal | SignalGroup)*, AnchorSet*, RegionSet*, Analysis*)>
+<!ATTLIST Corpus
+    %idAtt;
+    AIFVersion  CDATA    #FIXED    "1.1"
+    xmlns       CDATA    #FIXED    "http://www.nist.gov/speech/atlas"
+    xmlns:xlink CDATA    #FIXED    "http://www.w3.org/1999/xlink"
+    schemeLocation CDATA #REQUIRED
+>
+
+<!ELEMENT Analysis ( Metadata?, AnnotationSet* )>
+<!ATTLIST Analysis
+    %idAtt;
+    role        NMTOKEN  #REQUIRED
+>
+
+<!ELEMENT AnchorSet ( Anchor* )>
+<!ATTLIST AnchorSet %containerAtt;>
+
+<!ELEMENT AnnotationSet ( Annotation* )>
+<!ATTLIST AnnotationSet %containerAtt;>
+
+<!ELEMENT RegionSet ( Region* )>
+<!ATTLIST RegionSet %containerAtt;>
+
+<!ELEMENT SimpleSignal ( Metadata? )>
+<!ATTLIST SimpleSignal
+    %idAtt;
+    mimeClass   CDATA      #REQUIRED
+    mimeType    CDATA      #REQUIRED
+    encoding    CDATA      #REQUIRED
+    xlink:type  CDATA      #FIXED        "simple"
+    xlink:href  CDATA      #REQUIRED
+    track       NMTOKEN    "ALL"
+>
+
+<!ELEMENT SignalGroup ( Metadata?, SignalRef+ )>
+<!ATTLIST SignalGroup %idAtt;>
+
+<!ELEMENT Annotation ( (RegionRef | RegionDefinedByChildren), (Content | ContentDefinedByChildren), Children* )>
+<!ATTLIST Annotation %idAtt;>
+
+<!ELEMENT Content ( RegionRef? , (%FeatureData;)? )>
+<!ATTLIST Content
+    type       NMTOKEN    #REQUIRED
+>
+
+<!ELEMENT Feature %FeatureData;>
+<!ATTLIST Feature
+    role        NMTOKEN    #REQUIRED
+    type        NMTOKEN    #REQUIRED     
+>
+
+<!ELEMENT Region 
+    ( (AnchorRef | RegionRef | AnnotationRef)*, 
+    (AnchorRefSet | RegionRefSet | AnnotationRefSet)* )>
+<!ATTLIST Region %idAtt;>
+
+<!ELEMENT Anchor ( SignalRef, Parameter+ )>
+<!ATTLIST Anchor %idAtt;>
+
+<!ELEMENT Parameter ( #PCDATA )>
+<!ATTLIST Parameter
+    type        NMTOKEN     #REQUIRED 
+    role        NMTOKEN     #REQUIRED    
+    unit        NMTOKEN     #REQUIRED
+>
+
+<!ELEMENT AnchorRefSet ( AnchorRef* )>
+<!ATTLIST AnchorRefSet %containerAtt;>
+
+<!ELEMENT AnnotationRefSet ( AnnotationRef* )>
+<!ATTLIST AnnotationRefSet %containerAtt;>
+
+<!ELEMENT RegionRefSet ( RegionRef* )>
+<!ATTLIST RegionRefSet %containerAtt;>
+
+<!ELEMENT Children ( AnnotationRef* )>
+<!ATTLIST Children %containerAtt;
+  role        NMTOKEN #REQUIRED
+>
+
+<!ELEMENT ContentDefinedByChildren EMPTY>
+<!ATTLIST ContentDefinedByChildren
+   withContainedType NMTOKEN #REQUIRED
+   withRole          NMTOKEN #REQUIRED
+>
+
+<!ELEMENT RegionDefinedByChildren EMPTY>
+<!ATTLIST RegionDefinedByChildren
+   withContainedType NMTOKEN #REQUIRED
+   withRole          NMTOKEN #REQUIRED
+>
+
+<!ELEMENT RegionRef EMPTY>
+<!ATTLIST RegionRef %refAtt;>
+
+<!ELEMENT AnchorRef EMPTY>
+<!ATTLIST AnchorRef %refAtt;>
+
+<!ELEMENT AnnotationRef EMPTY>
+<!ATTLIST AnnotationRef %refAtt;>
+
+<!ELEMENT SignalRef EMPTY>
+<!ATTLIST SignalRef %refAtt;>

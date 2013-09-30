@@ -1,0 +1,5 @@
+Trained model:
+
+Training: sections 01-24 WSJ
+Testing: section 00
+Highest accuracy: 97.00%

@@ -1,0 +1,43 @@
+<SpatialML version="3.0"><DOC>
+
+ CNN_IP_20030405.1600.01-1 
+ STORY 
+ 2003-04-05T16:00:00-05:00  
+
+
+Coalition Troops Penetrate Outskirts of <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-14" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">Baghdad</PLACE>
+
+<TEXT>
+
+(BEGIN VIDEOTAPE)
+
+ MILES O'BRIEN, CNN CORRESPONDENT (voice-over) 
+Seven-eleven a.m. Eastern, 4:11 p.m. in <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-1" latLong="33.000°N 44.000°E" type="COUNTRY">Iraq</PLACE>. At its daily briefing, <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-16" predicative="true" type="COUNTRY">U.S.</PLACE>
+Central Command says Operation <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-2" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">Iraqi</PLACE> Freedom is far from finished in
+<PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-15" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">Baghdad</PLACE>, even though <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-17" predicative="true" type="COUNTRY">U.S.</PLACE> forces are inside the <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-3" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">Iraqi</PLACE> <PLACE country="IQ" form="NOM" gazref="IGDB:16896419" id="Pl-8" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">capital</PLACE>.
+Eight-fifteen a.m. <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-4" latLong="33.000°N 44.000°E" type="COUNTRY">Iraq</PLACE>'s information minister reads a message he says is
+from Saddam Hussein urging Iraqis to step up attacks against coalition
+forces. Eight-thirty-six a.m. Walter Rodgers reports according to Army
+sources, <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-5" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">Iraqi</PLACE> officials are fleeing <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-9" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">Baghdad</PLACE> in droves, using civilian
+convoys top avoid being targeted by coalition air strikes.
+Eight-forty-three a.m. CNN Pentagon correspondent Barbara Starr reports
+coalition troops entering <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-10" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">Baghdad</PLACE> were met with fierce fighting, and
+there were casualties on both sides. Nine-oh-six a.m. CNN's Martin
+Savidge, embedded with the 1st Battalion, 7th Marines, reports the unit
+has reached the extreme southeast suburbs of <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-11" latLong="33.339°N 44.394°E" mod="SE" state="IQ-BG" type="PPLC">Baghdad</PLACE>, adding to forces
+the <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-18" type="COUNTRY">U.S.</PLACE> says now encircle the <PLACE country="IQ" form="NOM" gazref="IGDB:16896419" id="Pl-6" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">city</PLACE>. Twelve-thirteen p.m. At the
+<PLACE country="US" form="NAM" gazref="IGDB:1473192" id="Pl-228" latLong="38.871°N 77.056°W" state="US-VA" type="FAC">Pentagon</PLACE>, Barbara Starr reports officials say today begins a new strategy
+in the skies over <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-12" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">Baghdad</PLACE>. The coalition air force will begin providing
+urban combat air support over the <PLACE country="IQ" form="NOM" gazref="IGDB:16896419" id="Pl-7" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">city</PLACE>. Now the operating plan includes
+both ground and air missions. Twelve-twenty-one p.m. CNN's Wolf Blitzer
+reports according to an eyewitness, a bomb has hit central <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-13" latLong="33.339°N 44.394°E" mod="CENTRAL" state="IQ-BG" type="PPLC">Baghdad</PLACE> only a
+few hundred meters from the <PLACE country="PS" form="NAM" gazref="IGDB:208674239" id="Pl-19" predicative="true" type="COUNTRY">Palestine</PLACE> <PLACE country="PS" form="NAM" id="Pl-229" type="FAC">Hotel</PLACE>. The <PLACE country="PS" form="NAM" gazref="IGDB:208674239" id="Pl-20" predicative="true" type="COUNTRY">Palestine</PLACE> <PLACE country="PS" form="NAM" id="Pl-230" type="FAC">Hotel</PLACE> is where
+much of the international press corps is based.
+
+(END VIDEOTAPE)
+</TEXT>
+
+
+
+
+<LINK id="L-1" linkType="IN" source="Pl-8" target="Pl-3"/><LINK id="L-2" linkType="IN" source="Pl-229" target="Pl-19"/><LINK id="L-3" linkType="IN" source="Pl-230" target="Pl-20"/></DOC></SpatialML>

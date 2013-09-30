@@ -1,0 +1,55 @@
+<SpatialML version="3.0"><DOC>
+
+ AFP_ENG_20030616.0715 
+ NEWS STORY 
+ 20030616 
+
+
+Mother held after a second baby found dead in <PLACE country="US" form="NAM" gazref="IGDB:1780806" id="Pl-4" latLong="44.500°N 90.000°W" state="WI" type="CIVIL">Wisconsin</PLACE>
+
+<TEXT>
+
+<PLACE country="US" form="NAM" gazref="IGDB:1582834" id="Pl-1" latLong="43.073°N 89.401°W" state="WI" type="PPL">MADISON</PLACE>, <PLACE country="US" form="NAM" gazref="IGDB:1780806" id="Pl-2" latLong="44.500°N 90.000°W" state="WI" type="CIVIL">Wisconsin</PLACE>, June 16 (AFP)
+
+The skeleton of a second baby has been found at a rural <PLACE country="US" form="NAM" gazref="IGDB:1780806" id="Pl-3" latLong="44.500°N 90.000°W" predicative="true" state="WI" type="CIVIL">Wisconsin</PLACE>
+<PLACE country="US" form="NOM" id="Pl-12" state="US-WI" type="FAC">home</PLACE> where a 22-year-old woman's dead infant was discovered in a blue
+plastic container June 8, officials said Monday.
+
+Kristin Scott, the mother, told police she gave birth secretly to
+both babies at her parents' <PLACE country="US" form="NOM" id="Pl-13" state="US-WI" type="FAC">home</PLACE> in <PLACE country="US" county="Richland County" form="NAM" gazref="IGDB:1563494" id="Pl-5" latLong="43.220°N 90.548°W" state="WI" type="PPL">Byrds Creek</PLACE>, <PLACE country="US" form="NAM" gazref="IGDB:1582112" id="Pl-6" latLong="43.383°N 90.433°W" state="WI" type="CIVIL">Richland County</PLACE>, one
+of unknown sex in April 2001 and the other, a fullterm girl, January
+14.
+
+Police arrested her in <PLACE country="US" form="NAM" gazref="IGDB:1330173" id="Pl-8" latLong="32.449°N 99.733°W" state="TX" type="PPL">Abilene</PLACE>, <PLACE country="US" form="NAM" gazref="IGDB:1780801" id="Pl-7" latLong="31.250°N 99.250°W" state="TX" type="CIVIL">Texas</PLACE>, Saturday where she had moved
+with a friend June 2.
+
+She is being held on 50,000 dollars bail on a charge of first-degree
+reckless homicide and hiding a corpse in the death of the infant born
+in January.
+
+Scott told police she did not tend to the baby, and it died after 30
+minutes. She said the baby had to die, according to the criminal
+complaint.
+
+The woman's parents, William and Nancy Scott, found the decomposing
+body of the first baby in her closet after they went looking for the
+source of a foul odor in their house.
+
+Scott told investigators she had moved that body around before she
+moved to <PLACE country="US" form="NAM" gazref="IGDB:1780801" id="Pl-9" latLong="31.250°N 99.250°W" state="TX" type="CIVIL">Texas</PLACE>, sometimes in the closet at the <PLACE country="US" form="NAM" gazref="IGDB:1563494" id="Pl-10" latLong="43.220°N 90.548°W" state="TX" type="PPL">Byrds Creek</PLACE> <PLACE country="US" form="NOM" id="Pl-14" state="US-WI" type="FAC">house</PLACE>, in
+the trunk of her car and in the closet of her <PLACE country="US" form="NOM" id="Pl-15" state="US-WI" type="FAC">apartment</PLACE> in <PLACE continent="NA" country="WF" form="NAM" gazref="IGDB:1578616" id="P-16" state="WI" type="PPL">Richland
+Center</PLACE>, the complaint said.
+
+The sheriff released no other details about the second baby.
+
+</TEXT>
+
+
+
+
+
+
+
+
+
+<LINK id="L-1" linkType="IN" source="Pl-1" target="Pl-2"/><LINK id="L-2" linkType="IN" source="Pl-5" target="Pl-6"/><LINK id="L-3" linkType="IN" source="Pl-8" target="Pl-7"/><LINK id="L-4" linkType="IN" source="Pl-12" target="Pl-3"/><LINK id="L-5" linkType="IN" source="Pl-13" target="Pl-5"/><LINK id="L-6" linkType="IN" source="Pl-14" target="Pl-10"/><LINK id="L-7" linkType="IN" source="Pl-15" target="P-16"/></DOC></SpatialML>

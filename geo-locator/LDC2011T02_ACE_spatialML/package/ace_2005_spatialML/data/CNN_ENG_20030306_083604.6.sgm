@@ -1,0 +1,26 @@
+<SpatialML version="3.0"><DOC>
+
+ CNN_ENG_20030306_083604.6 
+ NEWS STORY 
+ 2003-03-06 08:36:54 
+
+<TEXT>
+
+
+tens of thousands of college and high school students stage antiwar
+protests on campuses yesterday from coast-to-coast. <PLACE country="US" form="NAM" gazref="IGDB:1780778" id="Pl-1" latLong="37.250°N 119.750°W" state="CA" type="CIVIL">california</PLACE> now,
+high school and college students there skipped class to show their
+opposition to a <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-2" predicative="true" type="COUNTRY">u.s.</PLACE>-led war with <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-3" latLong="33.000°N 44.000°E" type="COUNTRY">iraq</PLACE>. the books not bombs
+demonstration coored naed by the national youth and student peace
+coalition. record temperatures in the <PLACE country="US" form="NOM" gazref="IGDB:840" id="Pl-4" mod="N" type="COUNTRY">north</PLACE>. threatening right now to
+freeze over <PLACE country="CA" form="NAM" gazref="IGDB:19425629" id="Pl-5" latLong="47.500°N 88.000°W" predicative="true" state="CA-ONT" type="WATER">lake superior</PLACE> surface. if so, forecasters say it will be
+the first time there in about two decades. <PLACE country="CA" form="NAM" gazref="IGDB:19425629" id="Pl-6" latLong="47.500°N 88.000°W" state="CA-ONT" type="WATER">lake superior</PLACE>, the largest
+of the five great lakes. it doesn't look too frozen there.
+
+</TEXT>
+
+
+ 2003-03-06 08:37:27 
+
+
+</DOC></SpatialML>

@@ -1,0 +1,26 @@
+<SpatialML version="3.0"><DOC>
+
+ CNN_ENG_20030403_060032.0 
+ NEWS STORY 
+ 2003-04-03 07:04:43 
+
+<TEXT>
+
+
+<PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-2" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">iraqi</PLACE> forces are overwhelmed and could soon collapse. jessica lynch
+says she cannot wait to get home to <PLACE country="US" form="NAM" gazref="IGDB:1780805" id="Pl-4" latLong="38.500°N 80.500°W" state="US_WV" type="CIVIL">west virginia</PLACE>. the 19-year-old
+army private spoke to her parents yesterday pie phone from a <PLACE country="DE" form="NOM" id="Pl-515" type="FAC">hospital</PLACE>
+in <PLACE country="DE" form="NAM" gazref="IGDB:18224345" id="Pl-5" latLong="51.500°N 10.500°E" type="COUNTRY">germany</PLACE>. greg lynch says that when he talked to his daughter she
+hadn't eaten in eight days and was quite hungry. the <PLACE country="DE" form="NAM" gazref="IGDB:532871" id="Pl-6" latLong="38.895°N 77.037°W" predicative="true" state="US-DC" type="PPLC">washington</PLACE> post
+is reporting she shot several <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-3" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">iraqi</PLACE> soldiers before she was captured
+and she was shot herself, too. coming up on our next hour, <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-1" predicative="true" type="COUNTRY">u.s.</PLACE> forces
+edged toward the outskirts of <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-7" latLong="33.339°N 44.394°E" state="US-BG" type="PPLC">baghdad</PLACE> and we'll tell you what kind of
+resistance they're fating from saddam hussein's elite republican
+guard.
+
+</TEXT>
+
+
+ 2003-04-03 07:05:14 
+
+<LINK id="L-1" linkType="IN" source="Pl-515" target="Pl-5"/></DOC></SpatialML>

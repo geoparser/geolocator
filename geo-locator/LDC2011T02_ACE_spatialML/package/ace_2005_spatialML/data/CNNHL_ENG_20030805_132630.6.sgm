@@ -1,0 +1,28 @@
+<SpatialML version="3.0"><DOC>
+
+ CNNHL_ENG_20030805_132630.6 
+ NEWS STORY 
+ 2003-08-05 13:43:24 
+
+<TEXT>
+
+
+was a deadly bombing at a <PLACE continent="AI" country="ID" form="NOM" id="P-6" state="ID-JK" type="FAC">hotel</PLACE> <SIGNAL id="S-1">in</SIGNAL> <PLACE country="ID" form="NAM" gazref="IGDB:17320348" id="Pl-2" latLong="6.174°S 106.829°E" state="JK" type="PPLC">jakarta</PLACE> the work of an al qaeda-
+linked militant group? no one has claimed responsibility for the
+attack which killed at least ten people. more that 100 others were
+injured, many critically. <PLACE country="ID" form="NAM" gazref="IGDB:17320538" id="Pl-3" latLong="5.000°S 120.000°E" type="COUNTRY">indonesian</PLACE> police believe a suicide bomber
+detonated explosives in a <PLACE continent="AI" country="ID" form="NOM" id="P-5" state="ID-JK" type="VEHICLE">taxi</PLACE> <SIGNAL id="S-2">near</SIGNAL> the <PLACE continent="AI" country="ID" form="NOM" id="P-7" state="ID-JK" type="FAC">front lobby</PLACE> <SIGNAL id="S-3">of</SIGNAL> the <PLACE continent="AI" country="ID" form="NAM" id="P-8" state="ID-JK" type="FAC">j.w.
+marriott</PLACE>. it happened at the height of lunch hour. two americans were
+among the injured. police in <PLACE country="ID" form="NAM" gazref="IGDB:17320348" id="Pl-1" latLong="6.174°S 106.829°E" state="JK" type="PPLC">jakarta</PLACE> say there have been warnings over
+the past few weeks that a militant islamic group was planning an
+attack. they believe it's the same group suspected in last year's
+<PLACE continent="AI" country="ID" form="NOM" id="P-9" predicative="true" state="ID-BA" type="FAC">nightclub</PLACE> bombing <SIGNAL id="S-4">in</SIGNAL> <PLACE country="ID" form="NAM" gazref="IGDB:17328624" id="Pl-4" latLong="8.500°S 115.000°E" state="BA" type="CIVIL">bali</PLACE> that killed 200 people.
+
+</TEXT>
+
+
+ 2003-08-05 13:44:02 
+
+
+
+<RLINK frame="INTRINSIC" id="R-1" signals="S-2" source="P-5" target="P-7"/><RLINK frame="INTRINSIC" id="R-2" signals="S-4" source="P-9" target="Pl-4"/><LINK id="L-1" linkType="IN" signals="S-1" source="P-6" target="Pl-2"/><LINK id="L-2" linkType="DC" signals="S-3" source="P-7" target="P-8"/></DOC></SpatialML>

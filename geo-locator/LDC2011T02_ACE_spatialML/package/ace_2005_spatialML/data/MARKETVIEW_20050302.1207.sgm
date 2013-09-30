@@ -1,0 +1,29 @@
+<SpatialML version="3.0"><DOC>
+
+ MARKETVIEW_20050302.1207 
+ WEB TEXT 
+ 2005-03-02T12:07:00 
+
+
+Yuganskneftegaz to be spun off from Rosneft
+
+<TEXT>
+
+
+ Byrne 
+ 2005-03-02T12:07:00 
+After being stolen from Yukos, Yuganskneftegaz will be spun off from
+Rosneft, which will then be sold to Gazprom . So far, what we've seen is
+that 1) An asset was owned by the <PLACE country="RU" form="NOM" id="Pl-3">state</PLACE>, 2) It was sold for a
+ridiculously low price, 3) It was stolen back by the <PLACE country="RU" form="NOM" id="Pl-4">state</PLACE>, and 4) Now
+it's being shuffled around among various <PLACE country="RU" form="NOM" id="Pl-5">state</PLACE>-owned and
+<PLACE country="RU" form="NOM" id="Pl-6">state</PLACE>-influenced companies. However, some other actions are signalling a
+shift: <PLACE country="RU" form="NAM" gazref="IGDB:17005945" id="Pl-1" latLong="60.000°N 100.000°E" type="COUNTRY">Russia</PLACE> is also reducing the local ownership requirement for
+Gazprom, allowing outsiders to buy into the stock. Not that any
+reasonable people would buy <PLACE country="RU" form="NAM" gazref="IGDB:17005945" id="Pl-2" latLong="60.000°N 100.000°E" predicative="true" type="COUNTRY">Russian</PLACE> assets when the rights to such
+assets are so tenuous, but still...
+
+</TEXT>
+
+
+</DOC></SpatialML>

@@ -1,0 +1,33 @@
+# file names (training, testing, unlabeled, and semi-supervised data files)
+traindata_file=train.tagged
+testdata_file=test.tagged
+unlbldata_file=data.untagged
+
+order=1
+
+# number of training iterations
+num_iterations=180
+
+# some rare thresholds for features and context predicates
+f_rare_threshold=0
+cp_rare_threshold=2
+
+#sigma_square=100
+
+evaluate_during_training=1
+
+# chunk information for chunk-based evaluation
+chunk_evaluate_during_training=1
+chunktype=IOB2
+chunk=b-np:i-np:np
+chunk=b-pp:i-pp:pp
+chunk=b-vp:i-vp:vp
+chunk=b-sbar:i-sbar:sbar
+chunk=b-adjp:i-adjp:adjp
+chunk=b-advp:i-advp:advp
+chunk=b-prt:i-prt:prt
+chunk=b-lst:i-lst:lst
+chunk=b-intj:i-intj:intj
+chunk=b-conjp:i-conjp:conjp
+chunk=b-ucp:i-ucp:ucp
+

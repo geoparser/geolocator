@@ -1,0 +1,52 @@
+<SpatialML version="3.0"><DOC>
+
+ APW_ENG_20030423.0079 
+ NEWS STORY 
+ 20030423 
+
+
+<PLACE country="SG" form="NAM" gazref="IGDB:19926364" id="Pl-1" latLong="1.367°N 103.800°E" type="COUNTRY">Singapore</PLACE> extends use of SARS thermal scanners to include checkpoints
+with <PLACE country="MY" form="NAM" gazref="IGDB:17594843" id="Pl-8" latLong="2.500°N 112.500°E" type="COUNTRY">Malaysia</PLACE>
+
+<TEXT>
+
+<PLACE country="SG" form="NAM" gazref="IGDB:19926364" id="Pl-2" latLong="1.367°N 103.800°E" type="COUNTRY">SINGAPORE</PLACE> (AP)
+
+<PLACE country="SG" form="NAM" gazref="IGDB:19926364" id="Pl-3" latLong="1.367°N 103.800°E" type="COUNTRY">Singapore</PLACE> authorities extended the use of its state-of-the-art
+thermal imaging scanner to fight the deadly SARS virus by placing
+units at its border with <PLACE country="MY" form="NAM" gazref="IGDB:17594843" id="Pl-9" latLong="2.500°N 112.500°E" mod="BORDER" type="COUNTRY">Malaysia</PLACE>.
+
+The Immigration and Checkpoints Authority said it began a trial of
+the scanners Wednesday at its <PLACE country="SG" form="NAM" gazref="IGDB:20026475" id="Pl-12" latLong="1.444°N 103.777°E" type="PPL">Woodlands</PLACE> and <PLACE country="SG" form="NAM" gazref="IGDB:19926275" id="Pl-13" latLong="1.321°N 103.657°E" type="PPL">Tuas</PLACE> checkpoints to
+screen for people suffering from severe acute respiratory syndrome.
+
+Nine scanners, developed locally for military purposes, were placed
+at <PLACE country="SG" form="NAM" gazref="IGDB:19926364" id="Pl-4" latLong="1.367°N 103.800°E" type="COUNTRY">Singapore</PLACE>'s <PLACE country="SG" form="NAM" gazref="IGDB:20052940" id="Pl-14" latLong="1.393°N 103.990°E" type="PPL">Changi</PLACE> Airport last week to check people arriving from
+SARS-affected countries.
+
+Those who show up on the camera screen as ``hot bodies,'' or with a
+temperature greater than 37.5 degrees Celsius (99.5 degrees
+Fahrenheit), will be pulled aside.
+
+Each day about 90,000 people cross the border between <PLACE country="MY" form="NAM" gazref="IGDB:17594843" id="Pl-10" latLong="2.500°N 112.500°E" type="COUNTRY">Malaysia</PLACE> and
+<PLACE country="SG" form="NAM" gazref="IGDB:19926364" id="Pl-5" latLong="1.367°N 103.800°E" type="COUNTRY">Singapore</PLACE>. Any person found to be entering <PLACE country="SG" form="NAM" gazref="IGDB:19926364" id="Pl-6" latLong="1.367°N 103.800°E" type="COUNTRY">Singapore</PLACE> with a high
+temperature would be directed to a nearby nurse station for further
+checks.
+
+<PLACE country="SG" form="NAM" gazref="IGDB:19926364" id="Pl-7" latLong="1.367°N 103.800°E" type="COUNTRY">Singapore</PLACE> has reported 16 deaths, the world's third-highest toll, out
+of 186 infected from the flu-like illness. Globally, at least 236
+people have died and more than 4,000 have become sickened with the
+illness.
+
+Immigration and Checkpoints Authority spokeswoman Ngoon Pei Ling said
+during the trial period the scanners would be placed at bus
+checkpoints, where passengers are already required to disembark for
+immigration purposes.
+
+</TEXT>
+
+
+
+
+
+<LINK id="L-2" linkType="EC" source="Pl-10" target="Pl-5"/></DOC></SpatialML>

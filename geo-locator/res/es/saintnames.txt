@@ -1,0 +1,4599 @@
+John	77 saints, 69 blessed
+Maria	24 saints, 71 blessed
+Peter	63 saints, 28 blessed
+Thomas	16 saints, 46 blessed
+William	12 saints, 36 blessed
+Paul	35 saints, 8 blessed
+Joseph	26 saints, 7 blessed
+Marie	7 saints, 25 blessed
+Felix	26 saints, 1 blessed
+Andrew	18 saints, 7 blessed
+James	16 saints, 9 blessed
+Robert	7 saints, 18 blessed
+Anthony	12 saints, 12 blessed
+Dominic	15 saints, 9 blessed
+Richard	7 saints, 17 blessed
+Giovanni	6 saints, 17 blessed
+Leo	17 saints, 5 blessed
+Vincent	20 saints, 1 blessed
+Alexander	19 saints, 1 blessed
+Maximus	19 saints
+Michael	6 saints, 13 blessed
+Pedro	8 saints, 11 blessed
+Anastasius	18 saints
+Edward	3 saints, 15 blessed
+Francis	8 saints, 10 blessed
+Victor	17 saints, 1 blessed
+Antonio	6 saints, 11 blessed
+Francisco	8 saints, 9 blessed
+José	7 saints, 10 blessed
+Juan	9 saints, 8 blessed
+Benedict	14 saints, 2 blessed
+Julian	14 saints, 2 blessed
+Mary	10 saints, 6 blessed
+Bernard	11 saints, 4 blessed
+Dionysius	14 saints, 1 blessed
+Louis	5 saints, 10 blessed
+Nicholas	6 saints, 9 blessed
+Giuseppe	8 saints, 6 blessed
+Gregory	13 saints, 1 blessed
+Teresa	8 saints, 6 blessed
+Hugh	8 saints, 5 blessed
+Philip	10 saints, 3 blessed
+Pierre	5 saints, 8 blessed
+Theodore	13 saints
+Albert	9 saints, 3 blessed
+Francesco	8 saints, 4 blessed
+Jean	7 saints, 5 blessed
+Severinus	12 saints
+Agnes	6 saints, 5 blessed
+Anne	5 saints, 6 blessed
+Augustine	9 saints, 2 blessed
+Margaret	7 saints, 4 blessed
+Pietro	11 blessed
+Stephen	11 saints
+Athanasius	10 saints
+Bartholomew	5 saints, 5 blessed
+Caterina	6 saints, 4 blessed
+Charles	5 saints, 5 blessed
+Giacomo	1 saint, 9 blessed
+Jeanne	7 saints, 3 blessed
+Lawrence	3 saints, 7 blessed
+Angelo	1 saint, 8 blessed
+Edmund	5 saints, 4 blessed
+George	3 saints, 6 blessed
+Leontius	9 saints
+Lucius	9 saints
+Romanus	8 saints, 1 blessed
+Saturninus	9 saints
+Theophilus	9 saints
+Adrian	7 saints, 1 blessed
+Andrea	3 saints, 5 blessed
+Claudius	8 saints
+Fortunatus	8 saints
+François	5 saints, 3 blessed
+Françoise	2 saints, 6 blessed
+Gerard	4 saints, 4 blessed
+Henry	4 saints, 4 blessed
+Hilary	8 saints
+Ignatius	4 saints, 4 blessed
+Isidore	6 saints, 2 blessed
+Justus	8 saints
+Luigi	2 saints, 6 blessed
+Paulinus	8 saints
+Zosimus	8 saints
+Abraham	7 saints
+Alonso	3 saints, 4 blessed
+Ambrose	5 saints, 2 blessed
+Angela	1 saint, 6 blessed
+Anna	7 blessed
+Apollinaris	6 saints, 1 blessed
+Baptist	5 saints, 2 blessed
+Boniface	6 saints, 1 blessed
+Christina	3 saints, 4 blessed
+Christopher	2 saints, 5 blessed
+Columba	5 saints, 2 blessed
+Cyprian	6 saints, 1 blessed
+Daniel	6 saints, 1 blessed
+David	6 saints, 1 blessed
+Donatus	7 saints
+Elizabeth	7 saints
+Faustus	7 saints
+Florentius	7 saints
+Gabriel	5 saints, 2 blessed
+Jan	4 saints, 3 blessed
+Juliana	6 saints, 1 blessed
+Luke	6 saints, 1 blessed
+Macarius	7 saints
+Matthew	5 saints, 2 blessed
+Matthias	2 saints, 5 blessed
+Ralph	2 saints, 5 blessed
+Roger	7 blessed
+Sebastian	1 saint, 6 blessed
+Sergius	7 saints
+Simeon	7 saints
+Simon	5 saints, 2 blessed
+Valerius	7 saints
+Walter	4 saints, 3 blessed
+Zeno	7 saints
+Abundius	6 saints
+Agatha	6 saints
+Benignus	6 saints
+Bruno	6 saints
+Colmán	6 saints
+Conrad	3 saints, 3 blessed
+Diego	2 saints, 4 blessed
+Eleutherius	6 saints
+Emilian	5 saints, 1 blessed
+Eusebius	6 saints
+Ferreolus	5 saints, 1 blessed
+Hermes	6 saints
+Honoratus	5 saints, 1 blessed
+Lambert	5 saints, 1 blessed
+Laurence	5 saints, 1 blessed
+Lorenzo	3 saints, 3 blessed
+Lucy	4 saints, 2 blessed
+Luis	2 saints, 4 blessed
+Martin	4 saints, 2 blessed
+Odo	4 saints, 2 blessed
+Paternus	6 saints
+Serapion	5 saints, 1 blessed
+Theodosius	6 saints
+Therese	1 saint, 5 blessed
+Tommaso	1 saint, 5 blessed
+Victorinus	6 saints
+Apollonius	5 saints
+Arnold	4 saints, 1 blessed
+Basil	5 saints
+Basilissa	5 saints
+Beatrice	3 saints, 2 blessed
+Benedetto	3 saints, 2 blessed
+Bertha	4 saints, 1 blessed
+Candida	4 saints, 1 blessed
+Cassian	4 saints, 1 blessed
+Catherine	2 saints, 3 blessed
+Clement	5 saints
+Cyril	5 saints
+Desiderius	4 saints, 1 blessed
+Domingo	4 saints, 1 blessed
+Elias	3 saints, 2 blessed
+Emmanuel	2 saints, 3 blessed
+Eugene	3 saints, 2 blessed
+Flavian	5 saints
+Frederick	2 saints, 3 blessed
+Germanus	5 saints
+Gertrude	4 saints, 1 blessed
+Hypatius	5 saints
+Julia	4 saints, 1 blessed
+Julius	5 saints
+Justin	5 saints
+Lupus	5 saints
+Madeleine	1 saint, 4 blessed
+Marcellinus	5 saints
+Marcellus	5 saints
+Margherita	1 saint, 4 blessed
+Marguerite	3 saints, 2 blessed
+Mark	4 saints, 1 blessed
+Maurice	3 saints, 2 blessed
+Maurus	4 saints, 1 blessed
+Miguel	3 saints, 2 blessed
+Nicolas	1 saint, 4 blessed
+Palladius	5 saints
+Patrick	2 saints, 3 blessed
+Paula	4 saints, 1 blessed
+Peregrinus	5 saints
+Pius	3 saints, 1 blessed, 1 venerable
+Raymond	5 saints
+Raynerius	4 saints, 1 blessed
+Romulus	5 saints
+Rosa	4 saints, 1 blessed
+Rufus	5 saints
+Rusticus	5 saints
+Sabinus	5 saints
+Secundus	5 saints
+Theobald	4 saints, 1 blessed
+Theodora	5 saints
+Timothy	5 saints
+Trophimus	5 saints
+Urban	3 saints, 2 blessed
+Ursicinus	5 saints
+Valentine	5 saints
+Venantius	5 saints
+Victoria	2 saints, 3 blessed
+Vitalis	4 saints, 1 blessed
+Xavier	3 saints, 2 blessed
+Agapius	4 saints
+Alfonso	1 saint, 3 blessed
+Amandus	4 saints
+Amatus	3 saints, 1 blessed
+Anastasia	4 saints
+André	2 saints, 2 blessed
+Anselm	4 saints
+Antonia	4 blessed
+Antoninus	4 saints
+Arnulf	4 saints
+Aurea	4 saints
+Bartolomeo	4 blessed
+Bernardino	2 saints, 2 blessed
+Bernardo	1 saint, 3 blessed
+Bonaventura	1 saint, 3 blessed
+Carpophorus	4 saints
+Caspar	4 blessed
+Cassius	4 saints
+Cecilia	4 saints
+Chiara	1 saint, 3 blessed
+Conon	4 saints
+Cosmas	4 saints
+Crescentian	4 saints
+Cuthbert	4 saints
+Domenico	1 saint, 3 blessed
+Émilie	2 saints, 2 blessed
+Gerald	4 saints
+Giovanna	4 blessed
+Guillaume	4 blessed
+Guy	3 saints, 1 blessed
+Hyacinth	4 saints
+Innocent	2 saints, 2 blessed
+Irene	4 saints
+Jacques	1 saint, 3 blessed
+João	2 saints, 2 blessed
+Josefa	4 blessed
+Lazarus	4 saints
+Louise	2 saints, 2 blessed
+Maddalena	1 saint, 3 blessed
+Marcian	4 saints
+Marco	4 blessed
+Maximian	4 saints
+Maximinus	4 saints
+Modestus	4 saints
+Nicetas	4 saints
+Paphnutius	4 saints
+Pelagius	4 saints
+Philippa	1 saint, 3 blessed
+Rose	1 saint, 3 blessed
+Severus	4 saints
+Simplicius	4 saints
+Thecla	3 saints, 1 blessed
+Theodoric	4 saints
+Theodosia	4 saints
+Theodotus	4 saints
+Valerian	4 saints
+Verónica	2 saints, 2 blessed
+Achilleus	3 saints
+Adalbert	2 saints, 1 blessed
+Agostino	1 saint, 2 blessed
+Alban	3 saints
+Alberto	2 saints, 1 blessed
+Alexius	1 saint, 2 blessed
+Aloysius	1 saint, 2 blessed
+Amadeus	1 saint, 2 blessed
+Amalberga	3 saints
+Amantius	3 saints
+Ammon	3 saints
+Ana	3 blessed
+Ananias	3 saints
+Andronicus	3 saints
+Antoine	2 saints, 1 blessed
+Aquilinus	3 saints
+Arcadius	3 saints
+Aredius	3 saints
+Asterius	3 saints
+Atto	3 saints
+Aurelian	3 saints
+Aventinus	3 saints
+Avitus	3 saints
+Bartolomé	3 blessed
+Battista	1 saint, 2 blessed
+Benno	2 saints, 1 blessed
+Benvenuto	1 saint, 2 blessed
+Bertrand	2 saints, 1 blessed
+Caesarius	3 saints
+Carlo	2 saints, 1 blessed
+Carlos	3 blessed
+Ciarán	3 saints
+Claude	1 saint, 2 blessed
+Constantius	2 saints, 1 blessed
+Cornelius	3 saints
+Crónán	3 saints
+Dalmatius	3 saints
+Deodatus	3 saints
+Desideratus	3 saints
+Deusdedit	3 saints
+Dolores	3 blessed
+Domitian	3 saints
+Domnina	3 saints
+Donatian	3 saints
+Eberhard	2 saints, 1 blessed
+Elena	3 blessed
+Elfleda	3 saints
+Elisabeth	1 saint, 2 blessed
+Elisabetta	3 blessed
+Eskil	2 saints, 1 blessed
+Ethelwold	3 saints
+Eugenia	1 saint, 2 blessed
+Eulogius	3 saints
+Euphrasia	3 saints
+Exuperius	3 saints
+Felician	3 saints
+Felipe	1 saint, 2 blessed
+Fernando	1 saint, 2 blessed
+Fidelis	3 saints
+Filippo	2 saints, 1 blessed
+Flavius	3 saints
+Flora	3 saints
+Francesca	3 saints
+Francisca	3 blessed
+Fulk	3 saints
+Gaius	3 saints
+Giles	1 saint, 2 blessed
+Godfrey	1 saint, 2 blessed
+Gonzalo	3 blessed
+Gregorio	2 saints, 1 blessed
+Helena	3 saints
+Heliodorus	3 saints
+Heraclius	3 saints
+Hesychius	3 saints
+Hubert	3 saints
+Isaac	3 saints
+Isabel	2 saints, 1 blessed
+Jacinto	3 blessed
+Jakob	3 blessed
+Jesús	1 saint, 2 blessed
+Joachim	3 saints
+Josaphat	1 saint, 2 blessed
+Josep	2 saints, 1 blessed
+Julietta	3 saints
+Leonard	2 saints, 1 blessed
+Liberatus	1 saint, 2 blessed
+Lucia	2 saints, 1 blessed
+Lucian	3 saints
+Ludovico	3 blessed
+Mancius	3 blessed
+Marinus	2 saints, 1 blessed
+Marius	3 saints
+Martha	3 saints
+Masiá	3 blessed
+Maura	3 saints
+Maurilius	3 saints
+Maxima	3 saints
+Mennas	3 saints
+Methodius	3 saints
+Montanus	3 saints
+Moses	3 saints
+Mykola	3 blessed
+Narcissus	3 saints
+Orentius	3 saints
+Pamphilus	3 saints
+Paola	1 saint, 2 blessed
+Paolo	1 saint, 2 blessed
+Papias	3 saints
+Paschasius	3 saints
+Pastor	3 saints
+Pelagia	3 saints
+Petronius	3 saints
+Phocas	3 saints
+Placidus	3 saints
+Pontian	3 saints
+Quadratus	3 saints
+Quirinus	3 saints
+Raynald	1 saint, 2 blessed
+Regulus	3 saints
+Remigius	3 saints
+Restituta	2 saints, 1 blessed
+Sabbas	3 saints
+Sabinian	3 saints
+Sacerdos	3 saints
+Salvius	3 saints
+Secundinus	3 saints
+Serenus	3 saints
+Sixtus	3 saints
+Susanna	2 saints, 1 blessed
+Sylvester	3 saints
+Thaddeus	1 saint, 2 blessed
+Theodota	3 saints
+Theonas	3 saints
+Theophanes	3 saints
+Titus	2 saints, 1 blessed
+Tomás	1 saint, 2 blessed
+Vigilius	3 saints
+Vincenzo	1 saint, 2 blessed
+Abbo	2 saints
+Abibus	2 saints
+Achillas	2 saints
+Adalbero	2 saints
+Adalgis	2 saints
+Adalsindis	2 saints
+Adauctus	2 saints
+Adela	2 saints
+Adelaide	2 saints
+Adelelmus	2 saints
+Adolf	1 saint, 1 blessed
+Adolphus	2 saints
+Agape	2 saints
+Agapitus	2 saints
+Agatho	2 saints
+Agricola	2 saints
+Aidan	2 saints
+Aigulf	2 saints
+Aimo	1 saint, 1 blessed
+Alain	2 blessed
+Alberic	2 saints
+Alessandro	1 saint, 1 blessed
+Alfredo	2 blessed
+Alphege	2 saints
+Amabilis	2 saints
+Amata	1 saint, 1 blessed
+Amator	2 saints
+Ambrosio	2 blessed
+Amicus	2 saints
+Ammonaria	2 saints
+Ammonius	2 saints
+Amparo	2 blessed
+Amphilochius	2 saints
+Anatolia	2 saints
+Anatolius	2 saints
+Anectus	2 saints
+Anianus	2 saints
+Anicetus	2 saints
+Anthimus	2 saints
+Antoni	1 saint, 1 blessed
+Antonina	2 saints
+Antonius	2 saints
+Apollo	2 saints
+Aquila	2 saints
+Armentarius	2 saints
+Arsenius	2 saints
+Artemas	2 saints
+Artemius	2 saints
+Athenodorus	2 saints
+Aubert	2 saints
+Aurelius	2 saints
+Auxentius	2 saints
+Baldwin	2 saints
+Baptista	2 blessed
+Baptiste	2 saints
+Barbara	2 saints
+Barlaam	2 saints
+Bartolomea	1 saint, 1 blessed
+Bartolomeu	2 blessed
+Basileus	2 saints
+Basilides	2 saints
+Berthold	2 saints
+Bertilla	2 saints
+Bertulf	2 saints
+Bonitus	2 saints
+Boris	2 saints
+Brendan	2 saints
+Broccán	2 saints
+Caius	1 saint, 1 blessed
+Candidus	2 saints
+Canute	2 saints
+Caprasius	2 saints
+Carpus	2 saints
+Carterius	2 saints
+Carthach	2 saints
+Castulus	2 saints
+Castus	2 saints
+Ceferino	2 blessed
+Celestine	2 saints
+Celsus	2 saints
+Christian	1 saint, 1 blessed
+Clarus	2 saints
+Claudine	1 saint, 1 blessed
+Constantine	2 saints
+Contardo	1 saint, 1 blessed
+Corrado	1 saint, 1 blessed
+Crescens	2 saints
+Crescentia	1 saint, 1 blessed
+Crescentius	2 saints
+Cyriaca	2 saints
+Cyrinus	2 saints
+Damian	2 saints
+Damien	1 saint, 1 blessed
+Dasius	2 saints
+Digna	2 saints
+Dionysia	2 saints
+Dioscorus	2 saints
+Domenica	2 blessed
+Dorotheus	2 saints
+Eadberht	2 saints
+Ebba	2 saints
+Edburga	2 saints
+Elian	2 saints
+Elpidius	2 saints
+Engelmund	2 saints
+Epicharis	2 saints
+Epiphanius	2 saints
+Epipodius	2 saints
+Ethelbert	2 saints
+Ethelburga	2 saints
+Eucherius	2 saints
+Eulalia	2 saints
+Euphemia	2 saints
+Eusebia	1 saint, 1 blessed
+Eustace	2 saints
+Eustochium	1 saint, 1 blessed
+Eustorgius	2 saints
+Eutropius	2 saints
+Eutychius	2 saints
+Ewald	2 saints
+Faustina	2 saints
+Faustinus	2 saints
+Felice	1 saint, 1 blessed
+Felicissimus	2 saints
+Felicitas	2 saints
+Finian	2 saints
+Finnian	2 saints
+Fintan	2 saints
+Firmatus	2 saints
+Firminus	2 saints
+Flavia	2 saints
+Florian	2 saints
+Floribert	2 saints
+Florus	2 saints
+Fortunata	1 saint, 1 blessed
+Fructuosus	2 saints
+Frumentius	2 saints
+Fulgentius	2 saints
+Gaetano	2 saints
+Gall	2 saints
+Garcia	2 saints
+Gaspar	1 saint, 1 blessed
+Geminian	2 saints
+Gemma	1 saint, 1 blessed
+Genevieve	1 saint, 1 blessed
+Gerold	2 saints
+Giacinto	1 saint, 1 blessed
+Giordano	1 saint, 1 blessed
+Girolamo	2 blessed
+Giuseppina	2 blessed
+Glycerius	2 saints
+Godfried	2 saints
+Guarinus	2 saints
+Guido	2 blessed
+Hadelin	2 saints
+Hedda	2 saints
+Heinrich	2 blessed
+Helen	1 saint, 1 blessed
+Herbert	2 saints
+Herculanus	1 saint, 1 blessed
+Herman	1 saint, 1 blessed
+Hermias	2 saints
+Hermogenes	2 saints
+Herodion	2 saints
+Hervé	2 saints
+Hilaria	2 saints
+Hildegard	1 saint, 1 blessed
+Hippolytus	2 saints
+Hormisdas	2 saints
+Humbert	2 blessed
+Humphrey	2 blessed
+Ida	1 saint, 1 blessed
+Irenaeus	2 saints
+Isaiah	1 saint, 1 blessed
+Ivan	2 blessed
+Ivo	2 saints
+Jacobus	1 saint, 1 blessed
+Januarius	2 saints
+Jeremiah	2 saints
+Joannes	2 saints
+Josephine	1 saint, 1 blessed
+Jozef	1 saint, 1 blessed
+Jucundus	2 saints
+Julien	2 blessed
+Julio	1 saint, 1 blessed
+Jutta	1 saint, 1 blessed
+Juvenal	2 saints
+Ladislaus	2 saints
+Laura	1 saint, 1 blessed
+Laurentia	1 saint, 1 blessed
+Leonardo	2 saints
+Leopold	2 saints
+Leucius	2 saints
+Liberalis	2 saints
+Liborius	1 saint, 1 blessed
+Licinius	2 saints
+Ludolph	2 saints
+Lupercus	2 saints
+Lydia	2 saints
+Macedonius	2 saints
+Macrina	2 saints
+Magdalene	2 saints
+Manuel	2 blessed
+Marcellina	1 saint, 1 blessed
+Margareta	2 blessed
+Mariam	2 blessed
+Mateo	2 saints
+Matteo	2 blessed
+Maurontus	2 saints
+Maxentius	2 saints
+Maximilian	2 saints
+Mechtildis	2 saints
+Melania	2 saints
+Meletius	2 saints
+Mercedes	2 blessed
+Mercurius	2 saints
+Michel	1 saint, 1 blessed
+Michele	2 blessed
+Milles	2 saints
+Monica	1 saint, 1 blessed
+Mummolus	2 saints
+Myron	2 saints
+Natalia	1 saint, 1 blessed
+Nerses	2 saints
+Nicasius	2 saints
+Nicola	1 saint, 1 blessed
+Nicolaas	2 saints
+Nicostratus	2 saints
+Noël	1 saint, 1 blessed
+Notburga	2 saints
+Oliver	2 saints
+Olympiades	2 saints
+Onesimus	2 saints
+Optatus	2 saints
+Osanna	2 blessed
+Osmanna	2 saints
+Oswald	2 saints
+Otto	1 saint, 1 blessed
+Pablo	1 saint, 1 blessed
+Pascual	1 saint, 1 blessed
+Paternian	2 saints
+Patiens	2 saints
+Patroclus	2 saints
+Paulo	2 saints
+Pavel	2 blessed
+Peregrine	2 blessed
+Philemon	2 saints
+Philomena	2 saints
+Pilar	2 blessed
+Plato	2 saints
+Polycarp	2 saints
+Pomposa	2 saints
+Porphyrius	2 saints
+Primitivus	2 saints
+Primus	2 saints
+Prisca	2 saints
+Priscus	2 saints
+Prosper	2 saints
+Protasius	2 saints
+Publius	2 saints
+Quintian	2 saints
+Rafael	2 saints
+Redemptus	1 saint, 1 blessed
+Regina	1 saint, 1 blessed
+René	1 saint, 1 blessed
+Restitutus	2 saints
+Rita	1 saint, 1 blessed
+Rogatian	2 saints
+Rosalie	2 blessed
+Rufinus	2 saints
+Salvinus	2 saints
+Samson	2 saints
+Savina	1 saint, 1 blessed
+Secunda	2 saints
+Secundian	2 saints
+Servusdei	2 saints
+Severa	2 saints
+Severianus	2 saints
+Sigebert	2 saints
+Sigfrid	2 saints
+Stanisław	1 saint, 1 blessed
+Stefano	2 blessed
+Sulpicius	2 saints
+Syagrius	2 saints
+Symeon	1 saint, 1 blessed
+Terence	1 saint, 1 blessed
+Tetricus	2 saints
+Thalelaeus	2 saints
+Thea	2 saints
+Theodard	2 saints
+Theodulus	2 saints
+Theofrid	2 saints
+Tiburtius	2 saints
+Timoteo	2 blessed
+Toribio	2 saints
+Turibius	2 saints
+Ugolino	2 blessed
+Ulrich	2 saints
+Ultan	2 saints
+Urbitius	2 saints
+Ursula	1 saint, 1 blessed
+Ursus	2 saints
+Valens	2 saints
+Veranus	2 saints
+Viator	2 saints
+Vicente	1 saint, 1 blessed
+Victorian	2 saints
+Victoricus	2 saints
+Vitalian	2 saints
+Vitus	2 saints
+Wigbert	2 saints
+Wilfrid	2 saints
+Willehad	2 saints
+Wincenty	2 blessed
+Władysław	2 blessed
+Zachary	2 saints
+Zenobius	2 saints
+Zephyrinus	1 saint, 1 blessed
+Zoe	2 saints
+Zoticus	2 saints
+Aaron	1 saint
+Abbán	1 saint
+Abdas	1 saint
+Abdiesus	1 saint
+Abdon	1 saint
+Abel	1 saint
+Abercius	1 saint
+Abiatha	1 saint
+Abra	1 saint
+Abran	1 saint
+Abundantius	1 saint
+Acarius	1 saint
+Acca	1 saint
+Aceolus	1 saint
+Acepsimas	1 saint
+Achaicus	1 saint
+Acius	1 saint
+Acutius	1 saint
+Acyllinus	1 saint
+Acyndinus	1 saint
+Ada	1 saint
+Adalar	1 saint
+Adalbald	1 saint
+Adalgott	1 saint
+Adalhard	1 saint
+Adam	1 blessed
+Adamnan	1 saint
+Adaucus	1 saint
+Adele	1 saint
+Adelina	1 saint
+Adeloga	1 saint
+Adeodatus	1 saint
+Aderald	1 saint
+Adjutor	1 saint
+Ado	1 saint
+Adomnán	1 saint
+Adrianus	1 saint
+Adulf	1 saint
+Aedesius	1 saint
+Aedh	1 saint
+Aelred	1 saint
+Aengus	1 saint
+Aetherius	1 saint
+Afra	1 saint
+Africus	1 saint
+Agabius	1 saint
+Agabus	1 saint
+Aganus	1 saint
+Agapetus	1 saint
+Agathangelo	1 blessed
+Agathangelus	1 saint
+Agathius	1 saint
+Agathodorus	1 saint
+Agathonica	1 saint
+Agathopodes	1 saint
+Agathopus	1 saint
+Ageranus	1 saint
+Agericus	1 saint
+Agia	1 saint
+Agilbert	1 saint
+Agilberta	1 saint
+Agileus	1 saint
+Agilulfus	1 saint
+Agilus	1 saint
+Agnello	1 blessed
+Agnellus	1 saint
+Agnese	1 saint
+Agnofleda	1 saint
+Agobard	1 saint
+Agofredus	1 saint
+Agostina	1 saint
+Agrecius	1 saint
+Agricolus	1 saint
+Agrippina	1 saint
+Agrippinus	1 saint
+Aichardus	1 saint
+Ailbe	1 saint
+Ailerán	1 saint
+Alberico	1 blessed
+Albertinus	1 saint
+Albina	1 saint
+Albinus	1 saint
+Alburga	1 saint
+Alcmund	1 saint
+Alda	1 blessed
+Aldate	1 saint
+Aldebrandus	1 saint
+Aldegonde	1 saint
+Aldegrin	1 saint
+Aldemar	1 saint
+Aldericus	1 saint
+Aldhelm	1 saint
+Aldo	1 saint
+Aldric	1 saint
+Alena	1 saint
+Alessio	1 saint
+Alexandra	1 saint
+Alexandrina	1 blessed
+Aleydis	1 saint
+Alfano	1 saint
+Alferius	1 saint
+Alfred	1 saint
+Alfreda	1 saint
+Alfrick	1 saint
+Alfwold	1 saint
+Alicja	1 blessed
+Alipius	1 saint
+Alix	1 blessed
+Allucio	1 saint
+Almachius	1 saint
+Almirus	1 saint
+Almus	1 saint
+Alnoth	1 saint
+Alodia	1 saint
+Alpais	1 blessed
+Alphaeus	1 saint
+Alphius	1 saint
+Alphonsa	1 saint
+Alrad	1 blessed
+Altfrid	1 saint
+Altigianus	1 saint
+Altmann	1 saint
+Alto	1 saint
+Alvarado	1 blessed
+Alvarez	1 blessed
+Alvitus	1 saint
+Amalburga	1 saint
+Amarand	1 saint
+Amarin	1 saint
+Amasius	1 saint
+Amaswinthus	1 saint
+Ambrogio	1 blessed
+Amor	1 saint
+Ampelius	1 saint
+Ampelus	1 saint
+Ampliatus	1 saint
+Amulwinus	1 saint
+Amunia	1 saint
+Anacletus	1 saint
+Anatole	1 saint
+Andeolus	1 saint
+Andreas	1 saint
+Andres	1 blessed
+Andriy	1 blessed
+Andrzej	1 saint
+Angadresma	1 saint
+Ángel	1 blessed
+Angelelmus	1 saint
+Angelina	1 blessed
+Angélique	1 blessed
+Angilbert	1 saint
+Anglinus	1 saint
+Angus	1 saint
+Ann	1 saint
+Annemund	1 saint
+Annibale	1 blessed
+Anno	1 saint
+Annobert	1 saint
+Annunziata	1 blessed
+Ansanus	1 saint
+Ansbald	1 saint
+Ansbert	1 saint
+Ansegisus	1 saint
+Anselmo	1 blessed
+Ansfried	1 saint
+Ansgar	1 saint
+Ansovinus	1 saint
+Anstrudis	1 saint
+Ansueris	1 saint
+Ansuinus	1 saint
+Ansurius	1 saint
+Anterus	1 saint
+Anthelm	1 saint
+Anthia	1 saint
+Antholian	1 saint
+Antide	1 saint
+Antidius	1 saint
+Antigones	1 saint
+Antiochus	1 saint
+Antipas	1 saint
+Anton	1 blessed
+Antoniette	1 blessed
+Antonino	1 saint
+Anysia	1 saint
+Anysius	1 saint
+Apelles	1 saint
+Aphian	1 saint
+Aphrahat	1 saint
+Aphrodisius	1 saint
+Apollonia	1 saint
+Apollos	1 saint
+Apphia	1 saint
+Appian	1 saint
+Apronia	1 saint
+Apronian	1 saint
+Aprus	1 saint
+Aquilina	1 saint
+Arator	1 saint
+Arbogast	1 saint
+Arcangelo	1 blessed
+Archangela	1 blessed
+Archelais	1 saint
+Archelaus	1 saint
+Archippus	1 saint
+Ardalion	1 saint
+Ardanus	1 saint
+Ardo	1 saint
+Arduinus	1 saint
+Arethas	1 saint
+Argeus	1 saint
+Argimirius	1 saint
+Ariadne	1 saint
+Arialdo	1 saint
+Arian	1 saint
+Aristarchus	1 saint
+Aristides	1 saint
+Aristobulus	1 saint
+Ariston	1 saint
+Armagillus	1 saint
+Armogastes	1 saint
+Arnaldo	1 blessed
+Arsacius	1 saint
+Artaldus	1 saint
+Artemide	1 blessed
+Arthur	1 blessed
+Arwald	1 saint
+Asaph	1 saint
+Ascelina	1 saint
+Ascensión	1 saint
+Asclepiades	1 saint
+Asella	1 saint
+Aspasius	1 saint
+Aspren	1 saint
+Assicus	1 saint
+Asteria	1 saint
+Astericus	1 saint
+Astius	1 saint
+Astrik	1 saint
+Asyncritus	1 saint
+Athanasia	1 saint
+Athelm	1 saint
+Athenogenes	1 saint
+Athracht	1 saint
+Atilano	1 saint
+Attala	1 saint
+Attalas	1 saint
+Attalia	1 saint
+Atticus	1 saint
+Attilanus	1 saint
+Aucejas	1 saint
+Audaldus	1 saint
+Augulus	1 saint
+Augurius	1 saint
+Augusta	1 saint
+Augustalus	1 saint
+Auguste	1 saint
+Augustin	1 saint
+Augusto	1 blessed
+Aunacharius	1 saint
+Aurelia	1 saint
+Auspicius	1 saint
+Austindus	1 saint
+Austreberta	1 saint
+Austregisilus	1 saint
+Austremonius	1 saint
+Autbod	1 saint
+Autonomous	1 saint
+Auxanus	1 saint
+Ava	1 saint
+Aventine	1 saint
+Avertanus	1 blessed
+Avilius	1 saint
+Aybert	1 saint
+Aymard	1 saint
+Ayrald	1 blessed
+Azas	1 saint
+Babolen	1 saint
+Babylas	1 saint
+Bacchus	1 saint
+Bademus	1 saint
+Badilo	1 saint
+Badulfus	1 saint
+Bagnus	1 saint
+Baithin	1 saint
+Balbina	1 saint
+Baldassare	1 blessed
+Baldegundis	1 saint
+Balderic	1 saint
+Baldomerus	1 saint
+Balendin	1 saint
+Balthasar	1 blessed
+Balther	1 saint
+Balthild	1 saint
+Bandaridus	1 saint
+Barachisius	1 saint
+Baradates	1 saint
+Barbasymas	1 saint
+Barbatus	1 saint
+Barbe	1 saint
+Bardo	1 saint
+Barhadbesciabas	1 saint
+Barnabas	1 saint
+Barsanuphius	1 saint
+Barsimaeus	1 saint
+Bartolo	1 blessed
+Basiliscus	1 saint
+Basinus	1 saint
+Basolus	1 saint
+Bassa	1 saint
+Bassian	1 saint
+Bassus	1 saint
+Bathus	1 saint
+Baudacarius	1 saint
+Bautista	1 blessed
+Bavo	1 saint
+Beatus	1 saint
+Bede	1 saint
+Begga	1 saint
+Belina	1 saint
+Bellinus	1 saint
+Benedetta	1 blessed
+Benedicta	1 saint
+Bénilde	1 saint
+Benildis	1 saint
+Benjamin	1 saint
+Benoît	1 saint
+Benvenuta	1 blessed
+Beoadh	1 saint
+Beocca	1 saint
+Berach	1 saint
+Berard	1 saint
+Berarius	1 saint
+Bercharius	1 saint
+Bercthun	1 saint
+Beregisius	1 saint
+Berencardus	1 saint
+Berengarius	1 blessed
+Berenice	1 saint
+Beretta	1 saint
+Berlinda	1 saint
+Bernadette	1 saint
+Bernarda	1 saint
+Bernardina	1 blessed
+Bernhard	1 blessed
+Berno	1 saint
+Bernward	1 saint
+Berthaldus	1 saint
+Bertharius	1 saint
+Bertilia	1 saint
+Bertinus	1 saint
+Bertoara	1 saint
+Bertram	1 saint
+Bertwald	1 saint
+Betto	1 saint
+Bibiana	1 saint
+Bilhild	1 saint
+Birgitta	1 saint
+Birillus	1 saint
+Birinus	1 saint
+Birnstan	1 saint
+Bladulf	1 saint
+Blaesilla	1 saint
+Blaise	1 saint
+Blaithmaic	1 saint
+Blandina	1 saint
+Blandine	1 blessed
+Blath	1 saint
+Blitmund	1 saint
+Bobinus	1 saint
+Bobo	1 saint
+Bodagisil	1 saint
+Boetharius	1 saint
+Bogdan	1 saint
+Bogumilus	1 saint
+Boisil	1 saint
+Bolcan	1 saint
+Bolesława	1 blessed
+Bona	1 saint
+Bonaventure	1 saint
+Bonfilius	1 saint
+Bonifacia	1 blessed
+Bonizella	1 blessed
+Bonne	1 blessed
+Bononio	1 saint
+Bosa	1 saint
+Botuid	1 saint
+Botwulf	1 saint
+Braulius	1 saint
+Bregwin	1 saint
+Bretannion	1 saint
+Brian	1 blessed
+Briarch	1 saint
+Brice	1 saint
+Brictus	1 saint
+Brigid	1 saint
+Brigida	1 blessed
+Brioc	1 saint
+Brithwald	1 saint
+Brito	1 saint
+Britta	1 saint
+Britwin	1 saint
+Brocard	1 saint
+Bron	1 saint
+Brónach	1 saint
+Bronislava	1 blessed
+Bronislaw	1 blessed
+Brynach	1 saint
+Brynoth	1 saint
+Bunkerd	1 blessed
+Burchard	1 saint
+Cadfan	1 saint
+Cadoc	1 saint
+Cadwallader	1 saint
+Caecilius	1 saint
+Caedmon	1 saint
+Caerealis	1 saint
+Caesaria	1 saint
+Cagnoald	1 saint
+Caimin	1 saint
+Cainnech	1 saint
+Calais	1 saint
+Calepodius	1 saint
+Caletricus	1 saint
+Calixtus	1 blessed
+Callinica	1 saint
+Callinicus	1 saint
+Calliope	1 saint
+Calliopus	1 saint
+Callistratus	1 saint
+Callistus	1 saint
+Callixtus	1 saint
+Calminius	1 saint
+Calocerus	1 saint
+Calogerus	1 saint
+Calupan	1 saint
+Cambiagio	1 blessed
+Camelian	1 saint
+Camerinus	1 saint
+Camilla	1 saint
+Camillo	1 saint
+Camillus	1 blessed
+Cannatus	1 saint
+Cannera	1 saint
+Canog	1 saint
+Cantius	1 saint
+Capitolina	1 saint
+Caradoc	1 saint
+Caralippus	1 saint
+Caridad	1 blessed
+Carina	1 saint
+Carponius	1 saint
+Casilda	1 saint
+Castor	1 saint
+Castora	1 blessed
+Castorius	1 saint
+Castritian	1 saint
+Catald	1 saint
+Catalina	1 saint
+Cathan	1 saint
+Cathróe	1 saint
+Ceallach	1 saint
+Cedd	1 saint
+Celechrist	1 saint
+Celerinus	1 saint
+Cellach	1 saint
+Censurius	1 saint
+Centola	1 saint
+Ceolwulf	1 saint
+Ceraunus	1 saint
+Cerealus	1 saint
+Cermanus	1 saint
+Ceslaus	1 blessed
+Chad	1 saint
+Chaeremon	1 saint
+Chanton	1 saint
+Charalampus	1 saint
+Charbel	1 saint
+Charitina	1 saint
+Charlemagne	1 blessed
+Charlotte	1 blessed
+Chelidonia	1 saint
+Chrodegang	1 saint
+Chromatius	1 saint
+Chrysanthus	1 saint
+Cían	1 saint
+Cianán	1 saint
+Cilinia	1 saint
+Cillene	1 saint
+Cindeus	1 saint
+Cirilo	1 saint
+Cisellus	1 saint
+Clare	1 saint
+Claritus	1 saint
+Clateus	1 saint
+Claudia	1 saint
+Claudio	1 blessed
+Clelia	1 saint
+Clemencia	1 blessed
+Clemens	1 saint
+Clemente	1 blessed
+Clémentine	1 blessed
+Cleonicus	1 saint
+Cleopas	1 saint
+Cleopatra	1 saint
+Clerus	1 saint
+Clether	1 saint
+Clodulf	1 saint
+Clotilda	1 saint
+Clotsindis	1 saint
+Cloud	1 saint
+Codratus	1 saint
+Coelfrid	1 saint
+Cointha	1 saint
+Colette	1 saint
+Colga	1 saint
+Coloman	1 saint
+Colomba	1 blessed
+Columbanus	1 saint
+Columbinus	1 saint
+Comgall	1 saint
+Comgan	1 saint
+Conal	1 saint
+Conan	1 saint
+Concordius	1 saint
+Condedus	1 saint
+Condesa	1 blessed
+Conindrus	1 saint
+Conleth	1 saint
+Connat	1 saint
+Conogon	1 saint
+Conor	1 blessed
+Consortia	1 saint
+Constabilis	1 saint
+Constantian	1 saint
+Constantina	1 saint
+Consuelo	1 blessed
+Contentius	1 saint
+Conus	1 saint
+Convoyon	1 saint
+Conwall	1 saint
+Corbinian	1 saint
+Cordula	1 saint
+Corebus	1 saint
+Corentin	1 saint
+Cormac	1 saint
+Corona	1 saint
+Credan	1 saint
+Crispin	1 saint
+Crispina	1 saint
+Crispinian	1 saint
+Crispino	1 saint
+Crispus	1 saint
+Cristóbal	1 blessed
+Cristoforo	1 blessed
+Crocifissa	1 blessed
+Cronidas	1 saint
+Cuaran	1 saint
+Cucuphas	1 saint
+Cummian	1 saint
+Cunibert	1 saint
+Cunigunde	1 saint
+Curcodomus	1 saint
+Curomotus	1 saint
+Cuthburga	1 saint
+Cuthman	1 saint
+Cyprienne	1 blessed
+Cyra	1 saint
+Cyrenia	1 saint
+Cyriacus	1 saint
+Cyrion	1 saint
+Cyrus	1 saint
+Cythinus	1 saint
+Cythius	1 saint
+Dacius	1 saint
+Dadas	1 saint
+Dafrosa	1 blessed
+Dagobert	1 saint
+Daig	1 saint
+Dallán	1 saint
+Damasus	1 saint
+Damiano	1 blessed
+Daria	1 saint
+Darío	1 blessed
+Darius	1 saint
+Darulagdach	1 saint
+Dathus	1 saint
+Dativus	1 saint
+Daudi	1 blessed
+Davinus	1 saint
+Declán	1 saint
+Decorosus	1 saint
+Decuman	1 saint
+Deicolus	1 saint
+Deiniol	1 saint
+Delores	1 blessed
+Delphine	1 blessed
+Delphinus	1 saint
+Demetria	1 saint
+Demetrian	1 saint
+Demetrius	1 saint
+Denis	1 blessed
+Deochar	1 saint
+Deogracias	1 blessed
+Deogratius	1 saint
+Dermot	1 blessed
+Derphuta	1 saint
+Désiré	1 blessed
+Devniolin	1 saint
+Devota	1 saint
+Diana	1 blessed
+Diarmaid	1 blessed
+Dictinus	1 saint
+Didacus	1 blessed
+Didier	1 saint
+Didymus	1 saint
+Diemoth	1 blessed
+Diman	1 saint
+Dina	1 blessed
+Diodorus	1 saint
+Diogenes	1 saint
+Diomedes	1 saint
+Dionisio	1 blessed
+Dioscurus	1 saint
+Disibod	1 saint
+Dismas	1 saint
+Dochow	1 saint
+Dodo	1 saint
+Domangard	1 saint
+Dometius	1 saint
+Dominator	1 saint
+Domingos	1 blessed
+Dominica	1 saint
+Dominik	1 blessed
+Domitilla	1 saint
+Domitius	1 saint
+Domninus	1 saint
+Domnius	1 saint
+Domnolus	1 saint
+Domnus	1 saint
+Donald	1 saint
+Donata	1 saint
+Dorothea	1 saint
+Dorothy	1 saint
+Dorymedon	1 saint
+Dositheus	1 saint
+Drausinus	1 saint
+Drithelm	1 saint
+Droctoveus	1 saint
+Drogo	1 saint
+Drostan	1 saint
+Drusus	1 saint
+Druthmar	1 saint
+Dubricus	1 saint
+Dubtach	1 saint
+Dulas	1 saint
+Dulcardus	1 saint
+Dulcidius	1 saint
+Dúnchad	1 saint
+Dunchaid	1 saint
+Dunstan	1 saint
+Dymphna	1 saint
+Eadfrith	1 saint
+Eadnoth	1 saint
+Eadsige	1 saint
+Eanfleda	1 saint
+Eanswida	1 saint
+Earconwald	1 saint
+Eata	1 saint
+Ebbo	1 saint
+Eberigisil	1 saint
+Ebontius	1 saint
+Ebrulf	1 saint
+Ecclesius	1 saint
+Echa	1 saint
+Edana	1 saint
+Edgar	1 saint
+Edigna	1 blessed
+Edistus	1 saint
+Edith	1 saint
+Edme	1 blessed
+Edwin	1 saint
+Efflam	1 saint
+Egbert	1 saint
+Egdunus	1 saint
+Egelred	1 saint
+Egidio	1 blessed
+Egilhard	1 saint
+Egilo	1 saint
+Egino	1 saint
+Egwin	1 saint
+Eigil	1 saint
+Elaeth	1 saint
+Elaphius	1 saint
+Elerius	1 saint
+Elesbaan	1 saint
+Eleuchadius	1 saint
+Eleusippus	1 saint
+Eleuterus	1 saint
+Elgar	1 saint
+Elgiva	1 saint
+Eligius	1 saint
+Eliphius	1 saint
+Eloque	1 saint
+Elsiar	1 saint
+Elstan	1 saint
+Elvan	1 saint
+Elwen	1 saint
+Elzéar	1 blessed
+Emebert	1 saint
+Emerentiana	1 saint
+Emeric	1 saint
+Emerita	1 saint
+Emil	1 blessed
+Emilas	1 saint
+Emilia	1 blessed
+Emiliana	1 saint
+Emilina	1 blessed
+Emilion	1 saint
+Emilius	1 saint
+Emma	1 saint
+Emmeram	1 saint
+Emygdius	1 saint
+Encarnacion	1 blessed
+Enda	1 saint
+Engelbert	1 saint
+Engelmar	1 venerable
+Engelmer	1 saint
+Englatius	1 saint
+Engratia	1 saint
+Ennodius	1 saint
+Enodoch	1 saint
+Enogatus	1 saint
+Enrico	1 blessed
+Enrique	1 blessed
+Eoban	1 saint
+Eochod	1 saint
+Epaenetus	1 saint
+Epaphras	1 saint
+Epaphroditus	1 saint
+Eparchius	1 saint
+Ephrem	1 saint
+Ephysius	1 saint
+Epimachus	1 saint
+Epiphania	1 saint
+Episteme	1 saint
+Equitius	1 saint
+Erasmus	1 saint
+Erastus	1 saint
+Erentrude	1 saint
+Erhard	1 saint
+Eric	1 saint
+Ermelinde	1 saint
+Ermengol	1 saint
+Erminold	1 saint
+Ernest	1 saint
+Esterwine	1 saint
+Etheldreda	1 saint
+Etheldritha	1 saint
+Etienne	1 saint
+Etto	1 saint
+Eubulus	1 saint
+Eucarpius	1 saint
+Eudokia	1 saint
+Eudoxius	1 saint
+Eugendus	1 saint
+Eugénie	1 saint
+Eugenius	1 saint
+Eulampia	1 saint
+Eulampius	1 saint
+Euphrasius	1 saint
+Euphronius	1 saint
+Euphrosyne	1 saint
+Euplus	1 saint
+Eurosia	1 blessed
+Eusignius	1 saint
+Eustathius	1 saint
+Eustochio	1 blessed
+Euthalia	1 saint
+Euthymia	1 blessed
+Euthymius	1 saint
+Eutropia	1 saint
+Eutyches	1 saint
+Eutychian	1 saint
+Eva	1 blessed
+Evangelist	1 blessed
+Evaristus	1 saint
+Evellius	1 saint
+Everard	1 blessed
+Everild	1 saint
+Evermund	1 saint
+Evilasius	1 saint
+Evodius	1 saint
+Exanthus	1 saint
+Exuperantius	1 saint
+Eysteinn	1 saint
+Ezequiel	1 saint
+Fabian	1 saint
+Fabiola	1 saint
+Fabius	1 saint
+Fachanan	1 saint
+Facundus	1 saint
+Faith	1 saint
+Fanchea	1 saint
+Fandila	1 saint
+Fara	1 saint
+Faro	1 saint
+Fausta	1 saint
+Faustino	1 blessed
+Fazzio	1 saint
+Febronia	1 saint
+Féchín	1 saint
+Felicia	1 blessed
+Felicidad	1 blessed
+Félicité	1 blessed
+Felicula	1 saint
+Felim	1 saint
+Felinus	1 saint
+Ferdinando	1 blessed
+Feredarius	1 saint
+Fergna	1 saint
+Fergus	1 saint
+Ferrutius	1 saint
+Festus	1 saint
+Fiachan	1 saint
+Fiacre	1 saint
+Fibitius	1 saint
+Fidel	1 blessed
+Fidharleus	1 saint
+Fidolus	1 saint
+Fidweten	1 saint
+Fillan	1 saint
+Fina	1 saint
+Finbar	1 saint
+Firmian	1 saint
+Firmina	1 saint
+Firmus	1 saint
+Flannán	1 saint
+Flaviana	1 saint
+Flavitus	1 saint
+Florentina	1 saint
+Florentino	1 blessed
+Florentinus	1 saint
+Flosculus	1 saint
+Foillan	1 saint
+Forannan	1 saint
+Fortis	1 blessed
+Framechildis	1 saint
+Franca	1 saint
+Frances	1 saint
+Francisco Fernandez	1 blessed
+Francisus	1 saint
+Franciszek	1 blessed
+Franco	1 blessed
+Fraternus	1 saint
+Friard	1 saint
+Frideswide	1 saint
+Fridianus	1 saint
+Fridolin	1 saint
+Frithestan	1 saint
+Frodobert	1 saint
+Frodulphus	1 saint
+Fromundus	1 saint
+Fructus	1 saint
+Frugentius	1 saint
+Fulbert	1 saint
+Fulco	1 blessed
+Fulrad	1 saint
+Fursey	1 saint
+Fusca	1 saint
+Fuscian	1 saint
+Gabinus	1 saint
+Gabriela	1 blessed
+Gabriele	1 saint
+Gabrielle	1 blessed
+Gaetana	1 blessed
+Gagericus	1 saint
+Gaiana	1 saint
+Galation	1 saint
+Galdinus	1 saint
+Galgano	1 saint
+Galla	1 saint
+Gallicanus	1 saint
+Gamelbert	1 saint
+Gangulphus	1 saint
+Garbhan	1 saint
+Garibaldus	1 saint
+Gaspard	1 blessed
+Gaspare	1 saint
+Gatian	1 saint
+Gaucherius	1 saint
+Gaudentius	1 saint
+Gauderic	1 saint
+Gaudiosus	1 saint
+Gebetrude	1 saint
+Gebhard	1 saint
+Gebizo	1 saint
+Gebuinus	1 saint
+Gedeon	1 saint
+Gelasius	1 saint
+Gemellus	1 saint
+Geminus	1 saint
+Generosa	1 saint
+Genesius	1 saint
+Gennadius	1 saint
+Gennaro	1 blessed
+Genoveffa	1 blessed
+Gentian	1 saint
+Gentilis	1 blessed
+Georges	1 blessed
+Georgia	1 saint
+Gerardo	1 saint
+Gerasimus	1 saint
+Gerbold	1 saint
+Gerebald	1 saint
+Gerebernus	1 saint
+Geremarus	1 saint
+Geremia	1 blessed
+Gerinus	1 saint
+Gerlac	1 saint
+Gerland	1 saint
+Germaine	1 saint
+Germanicus	1 saint
+Germerius	1 saint
+Gerolamo	1 saint
+Gerontius	1 saint
+Gerulph	1 saint
+Gervasius	1 saint
+Gervinus	1 saint
+Getulius	1 saint
+Ghislain	1 saint
+Giacinta	1 saint
+Gianna	1 saint
+Gibardus	1 saint
+Gibitrudis	1 saint
+Gilbert	1 saint
+Gildard	1 saint
+Gildas	1 saint
+Gilduin	1 saint
+Gioacchino	1 blessed
+Giorgio	1 blessed
+Giovan	1 saint
+Giovenale	1 blessed
+Gisella	1 blessed
+Giulia	1 blessed
+Giuliana	1 saint
+Giustina	1 blessed
+Giustino	1 saint
+Gladys	1 saint
+Glaphyra	1 saint
+Glastian	1 saint
+Gleb	1 saint
+Glodesind	1 saint
+Glyceria	1 saint
+Goar	1 saint
+Goban	1 saint
+Gobnait	1 saint
+Gobrain	1 saint
+Godeberta	1 saint
+Godelina	1 saint
+Godo	1 saint
+Godric	1 saint
+Godwin	1 saint
+Goeric	1 saint
+Goeznoveus	1 saint
+Gohardus	1 saint
+Gomidas	1 blessed
+Gonsalo	1 saint
+Gonzaga	1 saint
+Goran	1 saint
+Gordian	1 saint
+Gorgonia	1 saint
+Gorman	1 saint
+Gormcal	1 saint
+Gosbert	1 saint
+Goswin	1 saint
+Gotthard	1 saint
+Gottschalk	1 saint
+Gracia	1 saint
+Gratia	1 blessed
+Gratian	1 saint
+Gratus	1 saint
+Grimbald	1 saint
+Grimoaldo	1 blessed
+Grimoaldus	1 saint
+Guadalupe	1 blessed
+Guala	1 blessed
+Gualfardus	1 blessed
+Gualtero	1 saint
+Gudelia	1 saint
+Gudula	1 saint
+Guenhael	1 saint
+Guerembaldus	1 saint
+Guibert	1 saint
+Guinizo	1 saint
+Guitmarus	1 saint
+Gulstan	1 saint
+Gumesindus	1 saint
+Gundebert	1 saint
+Gundekar	1 blessed
+Gundelindis	1 saint
+Gundenis	1 saint
+Gunioc	1 saint
+Gunther	1 blessed
+Gunthiern	1 saint
+Guntramnus	1 saint
+Gurias	1 saint
+Gurloes	1 saint
+Guthlac	1 saint
+Gwynllyw	1 saint
+Gyavire	1 saint
+Habentius	1 saint
+Habet	1 saint
+Haduin	1 saint
+Hadulph	1 saint
+Hallvard	1 saint
+Hans	1 blessed
+Harold	1 saint
+Hartman	1 blessed
+Hatebrand	1 saint
+Hathes	1 saint
+Hedwig	1 saint
+Hegesippus	1 saint
+Heimerad	1 saint
+Helene	1 blessed
+Heliconis	1 saint
+Hélie	1 blessed
+Helladius	1 saint
+Hemma	1 saint
+Henri	1 saint
+Heraclas	1 saint
+Heradius	1 saint
+Herculanils	1 saint
+Hereswitha	1 saint
+Heribert	1 saint
+Hermagoras	1 saint
+Hermas	1 saint
+Hermenegild	1 saint
+Hermenland	1 saint
+Hermione	1 saint
+Hermogius	1 saint
+Hermolaus	1 saint
+Hermylus	1 saint
+Heron	1 saint
+Herulph	1 saint
+Hidulf	1 saint
+Hiero	1 saint
+Hieron	1 saint
+Hieronides	1 saint
+Hieronymus	1 saint
+Hieu	1 saint
+Hilarinus	1 saint
+Hilario	1 saint
+Hilarion	1 saint
+Hilarius	1 saint
+Hilda	1 saint
+Hildebert	1 saint
+Hildegrin	1 saint
+Hildegund	1 saint
+Hildelitha	1 saint
+Hildeman	1 saint
+Hildemar	1 blessed
+Hildemarca	1 saint
+Hiltrude	1 saint
+Himelin	1 saint
+Himerius	1 saint
+Homobonus	1 saint
+Honestus	1 saint
+Honorata	1 saint
+Honoré	1 saint
+Honorina	1 saint
+Honorius	1 saint
+Hroznata	1 blessed
+Hryhoriy	1 blessed
+Humbald	1 blessed
+Humbeline	1 blessed
+Humilis	1 blessed
+Humilitas	1 saint
+Hunger	1 saint
+Hunna	1 saint
+Huno	1 saint
+Hybald	1 saint
+Hyginus	1 saint
+Hywyn	1 saint
+Ia	1 saint
+Ignacia	1 blessed
+Ignacio	1 saint
+Ignazio	1 saint
+Ildefonso	1 blessed
+Ildefonsus	1 saint
+Illtyd	1 saint
+Imana	1 blessed
+Imelda	1 blessed
+Imma	1 saint
+Ina	1 saint
+Inácio	1 blessed
+Inan	1 saint
+Indractus	1 saint
+Inés	1 blessed
+Ingrid	1 saint
+Íñigo	1 saint
+Innocenzo	1 blessed
+Inocencio	1 saint
+Iphigenia	1 saint
+Ippolito	1 blessed
+Irmgard	1 blessed
+Isabelle	1 blessed
+Isaurus	1 saint
+Ischyrion	1 saint
+Isfrid	1 saint
+Isidora	1 saint
+Isnard	1 blessed
+Ita	1 saint
+Ithamar	1 saint
+Jacinta	1 blessed
+Jacopino	1 blessed
+Jacopone	1 blessed
+Jadwiga	1 saint
+Jaime	1 saint
+Jakub	1 blessed
+Januaria	1 saint
+Jarlath	1 saint
+Jason	1 saint
+Jenaro	1 saint
+Jerome	1 saint
+Jerzy	1 blessed
+Jildo	1 blessed
+Joan	1 blessed
+Joana	1 blessed
+Joanna	1 blessed
+Joannicus	1 saint
+Joanninus	1 blessed
+Joaquina	1 saint
+Johann	1 blessed
+Jón	1 saint
+Jonas	1 saint
+Jonatus	1 saint
+Jorandus	1 saint
+Jordan	1 blessed
+Josaphata	1 blessed
+Josemaría	1 saint
+Jovinian	1 saint
+Jovinus	1 saint
+Jovita	1 saint
+Juana	1 blessed
+Jucunda	1 saint
+Judas	1 saint
+Jude	1 saint
+Judicael	1 saint
+Judoc	1 saint
+Julie	1 saint
+Juliette	1 blessed
+Junian	1 saint
+Junípero	1 blessed
+Jurgis	1 blessed
+Justina	1 saint
+Justinian	1 saint
+Justino	1 saint
+Juventinus	1 saint
+Kamen	1 blessed
+Karl	1 blessed
+Kaspar	1 blessed
+Katarina	1 saint
+Kateri	1 blessed
+Katharina	1 blessed
+Katharine	1 saint
+Kazimierz	1 saint
+Kenelm	1 saint
+Kentigerna	1 saint
+Kessog	1 saint
+Kevin	1 saint
+Kiara	1 saint
+Kilian	1 saint
+Kizito	1 saint
+Klymentiy	1 blessed
+Kundegunda	1 saint
+Kuriakose	1 blessed
+Kyneburga	1 saint
+Kyneswide	1 saint
+Lactali	1 saint
+Laetantius	1 saint
+Laetus	1 saint
+Landelin	1 saint
+Landericus	1 saint
+Landoald	1 saint
+Landrada	1 saint
+Landulf	1 saint
+Lantfrid	1 saint
+Laserian	1 saint
+László	1 blessed
+Laurel	1 blessed
+Laurent	1 saint
+Laurentinus	1 saint
+Laurianus	1 saint
+Laurus	1 saint
+Lauto	1 saint
+Lea	1 saint
+Leander	1 saint
+Lebuin	1 saint
+Lelia	1 saint
+Leoba	1 saint
+Leobald	1 saint
+Leobardus	1 saint
+Leobinus	1 saint
+Leocadia	1 saint
+Leocritia	1 saint
+Leodegar	1 saint
+Leonardus	1 saint
+Leonianus	1 saint
+Leonid	1 blessed
+Leonides	1 saint
+Léonie	1 blessed
+Leopardus	1 saint
+Leothade	1 saint
+Leovigild	1 saint
+Leudinus	1 saint
+Leudomer	1 saint
+Leutfridus	1 saint
+Liafdag	1 saint
+Libentius	1 saint
+Liberata	1 saint
+Liberius	1 saint
+Libert	1 saint
+Lidanus	1 saint
+Liduina	1 blessed
+Lidwina	1 saint
+Liephard	1 saint
+Lietbertus	1 saint
+Liliosa	1 saint
+Limbania	1 saint
+Linus	1 saint
+Liphardus	1 saint
+Liudhard	1 saint
+Liutwin	1 saint
+Livinus	1 saint
+Lolanus	1 saint
+Loman	1 saint
+Lomer	1 saint
+Longinus	1 saint
+Longis	1 saint
+Lotharius	1 saint
+Lua	1 saint
+Lucas	1 saint
+Lucerius	1 saint
+Luchesio	1 blessed
+Lucidius	1 saint
+Lucilla	1 saint
+Lucillian	1 saint
+Lucina	1 saint
+Lucio	1 blessed
+Lucretia	1 saint
+Ludan	1 saint
+Ludger	1 saint
+Ludmila	1 saint
+Ludovica	1 blessed
+Lüfthildis	1 saint
+Lullus	1 saint
+Lupicinus	1 saint
+Lutgarde	1 saint
+Luxorius	1 saint
+Lybe	1 saint
+Lycerius	1 saint
+Lyutis	1 saint
+Mabyn	1 saint
+Macaille	1 saint
+Macaria	1 saint
+Maccallin	1 saint
+Macedo	1 saint
+Madelgisilus	1 saint
+Madeline	1 saint
+Maël	1 saint
+Mafalda	1 saint
+Magdalen	1 blessed
+Magdalveus	1 saint
+Maglorius	1 saint
+Magnus	1 saint
+Magorianus	1 saint
+Maharsapor	1 saint
+Maimbod	1 saint
+Majoricus	1 saint
+Maksymilian	1 saint
+Malachy	1 saint
+Malchus	1 saint
+Malrubius	1 saint
+Mamas	1 saint
+Mamertus	1 saint
+Mamlacha	1 saint
+Mammaea	1 saint
+Mansuetus	1 saint
+Marana	1 saint
+Maravillas	1 blessed
+Marcel	1 blessed
+Marcella	1 saint
+Marcellian	1 saint
+Marcellianus	1 saint
+Marcellin	1 saint
+Marchelm	1 saint
+Marcia	1 saint
+Marciana	1 saint
+Marciano	1 saint
+Marcianus	1 saint
+Marcionilla	1 saint
+Marcolino	1 blessed
+Marculf	1 saint
+Marcus	1 saint
+Mardonius	1 saint
+Marian	1 saint
+Mariana	1 saint
+Marianne	1 blessed
+Mariano	1 blessed
+Marianus	1 saint
+Marina	1 saint
+Marko	1 saint
+Marmaduke	1 blessed
+Maro	1 saint
+Marolus	1 saint
+Maroveus	1 saint
+Marthe	1 blessed
+Martialis	1 saint
+Martina	1 saint
+Martinian	1 saint
+Martius	1 saint
+Marura	1 saint
+Maruthas	1 saint
+Maternus	1 saint
+Mathias	1 saint
+Mathurin	1 saint
+Matilda	1 saint
+Matilde	1 blessed
+Matiya	1 saint
+Matrona	1 saint
+Matt	1 venerable
+Matthia	1 blessed
+Matyas	1 blessed
+Maughold	1 saint
+Maurinus	1 saint
+Mavilus	1 saint
+Maxellendis	1 saint
+Maxentia	1 saint
+Mbaga	1 saint
+Medard	1 saint
+Medericus	1 saint
+Medrald	1 saint
+Megingaud	1 saint
+Meinrad	1 saint
+Meinuph	1 saint
+Meinwerk	1 blessed
+Mél	1 saint
+Melaine	1 saint
+Melan	1 saint
+Melapsippus	1 saint
+Melas	1 saint
+Melasippus	1 saint
+Melchior	1 blessed
+Melchor	1 saint
+Melito	1 saint
+Mella	1 saint
+Mellitus	1 saint
+Mellon	1 saint
+Memmius	1 saint
+Memorius	1 saint
+Meneleus	1 saint
+Menignus	1 saint
+Menna	1 saint
+Menodora	1 saint
+Mercurialis	1 saint
+Merewenna	1 saint
+Meriadoc	1 saint
+Merinus	1 saint
+Mesrop	1 saint
+Messalina	1 saint
+Metod	1 blessed
+Metranus	1 saint
+Metrodora	1 saint
+Metrophanes	1 saint
+Meuris	1 saint
+Michaela	1 saint
+Michaelina	1 blessed
+Michelina	1 blessed
+Midan	1 saint
+Mieczyslaw	1 blessed
+Migdonius	1 saint
+Milburga	1 saint
+Mildgyth	1 saint
+Mildred	1 saint
+Miles	1 blessed
+Miltiades	1 saint
+Minias	1 saint
+Minnborinus	1 saint
+Mirocles	1 saint
+Mitrius	1 saint
+Mochelloc	1 saint
+Mochoemoc	1 saint
+Mochta	1 saint
+Moderan	1 saint
+Modesta	1 saint
+Modeste	1 saint
+Modoald	1 saint
+Modomnoc	1 saint
+Moelray	1 saint
+Molagga	1 saint
+Moling	1 saint
+Moloc	1 saint
+Monaldus	1 saint
+Monas	1 saint
+Monegundis	1 saint
+Monessa	1 saint
+Moninne	1 saint
+Monique	1 blessed
+Monitor	1 saint
+Monon	1 saint
+Morwenna	1 saint
+Moseus	1 saint
+Mucius	1 saint
+Mugagga	1 saint
+Mukasa	1 saint
+Mummolin	1 saint
+Mundus	1 saint
+Mungo	1 saint
+Mura	1 saint
+Murtagh	1 saint
+Musa	1 saint
+Mutien	1 saint
+Mydwyn	1 saint
+Myrope	1 saint
+Nabor	1 saint
+Narcisa	1 saint
+Narzales	1 saint
+Natalis	1 saint
+Nathalan	1 saint
+Nazaria	1 blessed
+Nazarius	1 saint
+Nemesia	1 blessed
+Nemesion	1 saint
+Neon	1 saint
+Neot	1 saint
+Nereus	1 saint
+Nestor	1 saint
+Nicanor	1 saint
+Niccolò	1 blessed
+Nicephorus	1 saint
+Niceta	1 blessed
+Nicetius	1 saint
+Nicodemus	1 saint
+Nicomedes	1 saint
+Niklaus	1 saint
+Nikola	1 saint
+Nikolaus	1 blessed
+Nimatullah	1 saint
+Ninian	1 saint
+Nino	1 saint
+Noe	1 saint
+Nonna	1 saint
+Nonnus	1 saint
+Norbert	1 saint
+Nothelm	1 saint
+Notker	1 blessed
+Novatus	1 saint
+Novellone	1 blessed
+Numerian	1 saint
+Nunilo	1 saint
+Nuno	1 saint
+Nunzio	1 blessed
+Nykyta	1 blessed
+Nymphodora	1 saint
+Obdulia	1 saint
+Obitius	1 saint
+Octavian	1 saint
+Octavius	1 saint
+Oda	1 saint
+Oddino	1 blessed
+Odhran	1 saint
+Odilia	1 saint
+Odilo	1 saint
+Odorico	1 blessed
+Odran	1 saint
+Odulf	1 saint
+Oduvald	1 saint
+Offa	1 saint
+Olaf	1 saint
+Oleksiy	1 blessed
+Olga	1 saint
+Oliva	1 saint
+Ollegarius	1 saint
+Olof	1 saint
+Olympas	1 saint
+Olympia	1 blessed
+Olympias	1 saint
+Olympius	1 saint
+Omer	1 saint
+Oncho	1 saint
+Onesiphorus	1 saint
+Opportuna	1 saint
+Optatian	1 saint
+Ordonius	1 saint
+Orestes	1 saint
+Oriculus	1 saint
+Oringa	1 blessed
+Orlando	1 blessed
+Ormond	1 saint
+Orontius	1 saint
+Orsiesius	1 saint
+Osburga	1 saint
+Osgyth	1 saint
+Osmund	1 saint
+Othmar	1 saint
+Oudaceus	1 saint
+Ovidius	1 saint
+Owen	1 saint
+Pabo	1 saint
+Pachomius	1 saint
+Pacian	1 saint
+Pacifico	1 saint
+Pacificus	1 blessed
+Paduinus	1 saint
+Paganus	1 saint
+Palaemon	1 saint
+Palatias	1 saint
+Palmatius	1 saint
+Palomino	1 blessed
+Pambo	1 saint
+Pammachius	1 saint
+Panacea	1 blessed
+Pancharius	1 saint
+Pancras	1 saint
+Pancratius	1 saint
+Pantaenus	1 saint
+Pantalemon	1 saint
+Pantaleon	1 saint
+Papas	1 saint
+Papinianus	1 saint
+Papius	1 saint
+Papulus	1 saint
+Papylus	1 saint
+Paramon	1 saint
+Parasceva	1 saint
+Pardulphus	1 saint
+Paregorius	1 saint
+Paris	1 saint
+Parisio	1 saint
+Parmenas	1 saint
+Parmenius	1 saint
+Paschal	1 saint
+Pascharius	1 saint
+Paterius	1 saint
+Patermuthius	1 saint
+Patientia	1 saint
+Patricia	1 saint
+Patrobas	1 saint
+Paulina	1 saint
+Pauline	1 blessed
+Pausilippus	1 saint
+Pega	1 saint
+Peleus	1 saint
+Peleusius	1 saint
+Pelinus	1 saint
+Pellegrino	1 saint
+Pepin	1 blessed
+Pere	1 blessed
+Perfectus	1 saint
+Pergentinus	1 saint
+Perpetua	1 saint
+Perpetuus	1 saint
+Perseveranda	1 saint
+Petar	1 saint
+Petra	1 blessed
+Petro	1 blessed
+Petronax	1 saint
+Petronilla	1 saint
+Petrus	1 saint
+Phaebadius	1 saint
+Pharaildis	1 saint
+Philadelphus	1 saint
+Philastrius	1 saint
+Phileas	1 saint
+Philetus	1 saint
+Philibert	1 saint
+Philippine	1 saint
+Philo	1 saint
+Philogonius	1 saint
+Philologus	1 saint
+Philomenus	1 saint
+Philoterus	1 saint
+Phlegon	1 saint
+Phoebe	1 saint
+Photina	1 saint
+Piaton	1 saint
+Pient	1 saint
+Pier	1 blessed
+Pierina	1 blessed
+Pierius	1 saint
+Pieter	1 saint
+Piety	1 blessed
+Pigmenius	1 saint
+Pina	1 blessed
+Pinytus	1 saint
+Pio	1 saint
+Pionius	1 saint
+Pior	1 saint
+Piotr	1 blessed
+Piran	1 saint
+Pirminus	1 saint
+Placide	1 saint
+Placidia	1 saint
+Placido	1 blessed
+Platonides	1 saint
+Plautilla	1 saint
+Plechelm	1 saint
+Plegmund	1 saint
+Plutarch	1 saint
+Podius	1 saint
+Poemon	1 saint
+Pollio	1 saint
+Polydore	1 saint
+Polyeuctus	1 saint
+Polyxena	1 saint
+Pompeius	1 saint
+Pompilio	1 saint
+Pomponius	1 saint
+Pontianus	1 saint
+Poppo	1 saint
+Porcarius	1 saint
+Portian	1 saint
+Potamiana	1 saint
+Potamon	1 saint
+Potentian	1 saint
+Pothinus	1 saint
+Praejectus	1 saint
+Praepedigna	1 saint
+Prætextatus	1 saint
+Pragmatius	1 saint
+Primitiva	1 saint
+Priscilla	1 saint
+Probus	1 saint
+Proceso	1 blessed
+Processus	1 saint
+Prochorus	1 saint
+Proclus	1 saint
+Procopius	1 saint
+Proculus	1 saint
+Prosdoce	1 saint
+Prosdocimus	1 saint
+Protogenes	1 saint
+Protus	1 saint
+Prudentius	1 saint
+Prudenza	1 blessed
+Ptolemaeus	1 saint
+Publia	1 saint
+Pudens	1 saint
+Pulcheria	1 saint
+Quadragesimus	1 saint
+Quartus	1 saint
+Quentin	1 saint
+Quinidius	1 saint
+Quintius	1 saint
+Quintus	1 saint
+Quiriacus	1 saint
+Quiricus	1 saint
+Quodvultdeus	1 saint
+Rabanus	1 saint
+Rachilidis	1 saint
+Racho	1 saint
+Radbod	1 saint
+Radegund	1 saint
+Radegunde	1 saint
+Radim	1 saint
+Rafaela	1 blessed
+Rafal	1 blessed
+Rafał	1 saint
+Raffaella	1 blessed
+Rafqa	1 blessed
+Raimondo	1 blessed
+Rainbold	1 saint
+Rambert	1 saint
+Ramon	1 blessed
+Ranulphus	1 saint
+Raoul	1 saint
+Raphael	1 saint
+Raphaela	1 saint
+Rasso	1 saint
+Raverein	1 saint
+Raymund	1 blessed
+Regimbald	1 saint
+Reginald	1 blessed
+Régis	1 blessed
+Regula	1 saint
+Reineldis	1 saint
+Reinold	1 saint
+Relindis	1 saint
+Remaclus	1 saint
+Rembert	1 saint
+Remedius	1 saint
+Rémy	1 saint
+Renatus	1 saint
+Renovatus	1 saint
+Reverianus	1 saint
+Rheticus	1 saint
+Rhipsime	1 saint
+Ribert	1 saint
+Ricardo	1 blessed
+Riccardo	1 saint
+Richardis	1 saint
+Richarius	1 saint
+Richildis	1 blessed
+Richimir	1 saint
+Richrudis	1 saint
+Rigobert	1 saint
+Rioch	1 saint
+Ritbert	1 saint
+Rizzerio	1 blessed
+Roberto	1 saint
+Roch	1 saint
+Roderick	1 saint
+Rodobald	1 saint
+Rodolfo	1 blessed
+Rodrigo	1 saint
+Rodriguez	1 blessed
+Rogellus	1 saint
+Romaeus	1 blessed
+Roman	1 blessed
+Romana	1 saint
+Romano	1 blessed
+Romaric	1 saint
+Romeo	1 blessed
+Romphar	1 saint
+Romuald	1 saint
+Ronald	1 saint
+Rónán	1 saint
+Roque	1 saint
+Rosalia	1 saint
+Rosalina	1 blessed
+Ruadán	1 saint
+Rudesind	1 saint
+Rudolph	1 saint
+Rufina	1 saint
+Rumbold	1 saint
+Rumwold	1 saint
+Rupert	1 saint
+Rusticula	1 saint
+Sabbatius	1 saint
+Sabina	1 saint
+Sadoc	1 blessed
+Sadoth	1 saint
+Sæbbi	1 saint
+Sæthryth	1 saint
+Sagar	1 saint
+Salaun	1 saint
+Sallustia	1 saint
+Salomea	1 blessed
+Salvador	1 saint
+Salvatore	1 blessed
+Samonas	1 saint
+Samthann	1 saint
+Samuel	1 saint
+Samuele	1 blessed
+Sancha	1 saint
+Sancja	1 blessed
+Sanctinus	1 saint
+Sanctius	1 saint
+Sandila	1 saint
+Sandratus	1 saint
+Santiago	1 blessed
+Sarbel	1 saint
+Sarmata	1 saint
+Saturnina	1 saint
+Satyrus	1 saint
+Sava	1 saint
+Scannal	1 saint
+Scholastica	1 saint
+Sebaldus	1 saint
+Sebastiano	1 blessed
+Secondo	1 blessed
+Secundina	1 saint
+Sedna	1 saint
+Senán	1 saint
+Senator	1 saint
+Sennen	1 saint
+Senoch	1 saint
+Senorina	1 saint
+Sequanus	1 saint
+Seraphim	1 saint
+Seraphina	1 saint
+Seraphino	1 saint
+Serapia	1 saint
+Serena	1 saint
+Serenidus	1 saint
+Serlo	1 blessed
+Servandus	1 saint
+Servatius	1 saint
+Servulus	1 saint
+Servus	1 saint
+Severian	1 saint
+Sexburga	1 saint
+Sharbel	1 saint
+Shenute	1 saint
+Sibyllina	1 blessed
+Sidney	1 blessed
+Sidonius	1 saint
+Sigiramnus	1 saint
+Sigismund	1 saint
+Sigmund	1 blessed
+Silas	1 saint
+Silvanus	1 saint
+Silverius	1 saint
+Silvestro	1 blessed
+Silvia	1 saint
+Simone	1 blessed
+Siricius	1 saint
+Sisebut	1 saint
+Sisenandus	1 saint
+Sisinius	1 saint
+Sisinnius	1 saint
+Sisoes	1 saint
+Socrates	1 saint
+Sofia	1 blessed
+Sola	1 saint
+Solange	1 saint
+Solomon	1 saint
+Sopater	1 saint
+Sophie	1 saint
+Sophronius	1 saint
+Sossius	1 saint
+Sosthenes	1 saint
+Soter	1 saint
+Soteris	1 saint
+Speciosus	1 saint
+Sperandea	1 saint
+Speratus	1 saint
+Spes	1 saint
+Speusippus	1 saint
+Spyridon	1 saint
+Stachys	1 saint
+Stanislaus	1 saint
+Stefan	1 blessed
+Stella	1 blessed
+Stercntius	1 saint
+Stilla	1 blessed
+Stratonicus	1 saint
+Sturm	1 saint
+Swithbert	1 saint
+Swithin	1 saint
+Swithun	1 saint
+Sylvia	1 saint
+Symmachus	1 saint
+Symphorian	1 saint
+Symphorianus	1 saint
+Symphorosa	1 saint
+Szymon	1 blessed
+Tabitha	1 saint
+Tanca	1 saint
+Tanco	1 saint
+Tarasius	1 saint
+Tarbula	1 saint
+Tarsicia	1 saint
+Tarsicius	1 saint
+Tarsilla	1 saint
+Tarsykiya	1 blessed
+Tassach	1 saint
+Tatiana	1 saint
+Tation	1 saint
+Tatwine	1 saint
+Taurin	1 saint
+Taurinus	1 saint
+Tavernier	1 blessed
+Telesphorus	1 saint
+Teodor	1 blessed
+Teofilo	1 saint
+Terentian	1 saint
+Ternatius	1 saint
+Tertius	1 saint
+Tertullian	1 saint
+Tertullinus	1 saint
+Tetta	1 saint
+Thaïs	1 saint
+Thalus	1 saint
+Thamel	1 saint
+Tharacus	1 saint
+Themistocles	1 saint
+Theodemir	1 saint
+Theodichildis	1 saint
+Theodoret	1 saint
+Theodorus	1 saint
+Theodulf	1 saint
+Theonestus	1 saint
+Theopemptus	1 saint
+Théophane	1 saint
+Theophylact	1 saint
+Theoprepius	1 saint
+Theotimus	1 saint
+Theotonius	1 saint
+Theresa	1 blessed
+Theresia	1 blessed
+Thespesius	1 saint
+Thethmar	1 saint
+Thiemo	1 blessed
+Thiento	1 saint
+Thomais	1 saint
+Thomian	1 saint
+Thordgith	1 saint
+Thorfinn	1 saint
+Thorlak	1 saint
+Thraseas	1 saint
+Thrysus	1 saint
+Thyrsus	1 saint
+Tibba	1 saint
+Tiberius	1 saint
+Tigernach	1 saint
+Tigides	1 saint
+Tigirius	1 saint
+Tilbert	1 saint
+Tillo	1 saint
+Timolaus	1 saint
+Timon	1 saint
+Titan	1 saint
+Titian	1 saint
+Tobias	1 blessed
+Tola	1 saint
+Torello	1 blessed
+Torpes	1 saint
+Totnan	1 saint
+Tranquilino	1 saint
+Tranquillinus	1 saint
+Trason	1 saint
+Tressan	1 saint
+Triphyllius	1 saint
+Triverius	1 saint
+Troadius	1 saint
+Trojanus	1 saint
+Trudo	1 saint
+Trudpert	1 saint
+Trumwin	1 saint
+Trypho	1 saint
+Tryphonia	1 saint
+Tuda	1 saint
+Tudwal	1 saint
+Turiaf	1 saint
+Turketil	1 saint
+Tutilo	1 saint
+Tychicus	1 saint
+Tychon	1 saint
+Tydfil	1 saint
+Tyrannio	1 saint
+Ubald	1 saint
+Ulfrid	1 saint
+Ulphia	1 saint
+Ulrika	1 blessed
+Uni	1 saint
+Urciscenus	1 saint
+Uribe	1 saint
+Urpasian	1 saint
+Ursicius	1 saint
+Ursinus	1 saint
+Ursmar	1 saint
+Ursulina	1 blessed
+Usthazanes	1 saint
+Valentina	1 saint
+Valentinian	1 saint
+Valentinus	1 blessed
+Valeria	1 saint
+Varus	1 saint
+Vasil	1 blessed
+Vasyl	1 blessed
+Vedast	1 saint
+Venerandus	1 saint
+Venerius	1 saint
+Venturino	1 saint
+Verdiana	1 saint
+Verecundus	1 saint
+Veremundus	1 saint
+Verena	1 saint
+Vergilius	1 saint
+Verian	1 saint
+Verissimus	1 saint
+Verulus	1 saint
+Verus	1 saint
+Vestina	1 saint
+Veturius	1 saint
+Vicelin	1 saint
+Victoire	1 blessed
+Victorius	1 saint
+Victricius	1 saint
+Victurius	1 saint
+Vigor	1 saint
+Vilana	1 blessed
+Villanus	1 saint
+Villicus	1 saint
+Vincente	1 blessed
+Vincentia	1 saint
+Vincentian	1 saint
+Vincenza	1 saint
+Vindemialis	1 saint
+Vindician	1 saint
+Vintila	1 saint
+Virgilius	1 saint
+Virginia	1 blessed
+Virila	1 saint
+Vissia	1 saint
+Vitale	1 saint
+Vitalina	1 saint
+Vitaliy	1 blessed
+Vitonus	1 saint
+Viventiolus	1 saint
+Viventius	1 saint
+Vivian	1 saint
+Vladimir	1 saint
+Vodalus	1 saint
+Voloc	1 saint
+Volodymyr	1 blessed
+Volusian	1 saint
+Votus	1 saint
+Vulfiagius	1 saint
+Vulganius	1 saint
+Vulgis	1 saint
+Vulmar	1 saint
+Vulpian	1 saint
+Waccar	1 saint
+Walabonsus	1 saint
+Walbert	1 saint
+Walburga	1 saint
+Waldebert	1 saint
+Waldetrudis	1 saint
+Walericus	1 saint
+Walfrid	1 saint
+Walstan	1 saint
+Walthen	1 blessed
+Waltman	1 blessed
+Wando	1 saint
+Wandregisel	1 saint
+Waningus	1 saint
+Warinus	1 saint
+Wastrada	1 saint
+Wenceslaus	1 saint
+Wendelin	1 saint
+Werburg	1 saint
+Werburga	1 saint
+Werenfrid	1 saint
+Wiborada	1 saint
+Wicterp	1 saint
+Widradus	1 saint
+Wigstan	1 saint
+Wilfretrudis	1 saint
+Wilfrida	1 saint
+Willeic	1 saint
+Willibald	1 saint
+Willibrord	1 saint
+Willigis	1 saint
+Wiltrudis	1 saint
+Winaman	1 saint
+Winebald	1 saint
+Winewald	1 saint
+Winifred	1 saint
+Winnoc	1 saint
+Wiomad	1 saint
+Wistremundus	1 saint
+Witesindus	1 saint
+Withburga	1 saint
+Witta	1 saint
+Wivina	1 saint
+Wojciech	1 blessed
+Wolfgang	1 saint
+Wolfhelm	1 blessed
+Wulfhilda	1 saint
+Wulframn	1 saint
+Wulfric	1 saint
+Wulfstan	1 saint
+Wulsin	1 saint
+Xantippa	1 saint
+Yakym	1 blessed
+Ymar	1 saint
+Yolande	1 blessed
+Youssef	1 saint
+Ysarn	1 saint
+Yvette	1 blessed
+Ywi	1 saint
+Zacchaeus	1 saint
+Zama	1 saint
+Zambdas	1 saint
+Zanitas	1 saint
+Zdenka	1 blessed
+Zdislava	1 saint
+Zechariah	1 saint
+Zefirino	1 blessed
+Zenas	1 saint
+Zita	1 saint
+Zoilus	1 saint
+Zygmunt	1 blessed
+Zechariah	m	31 characters
+Shemaiah		27 characters
+Azariah	m	21 characters
+Meshullam		21 characters
+Shimei		20 characters
+Maaseiah		18 characters
+Joel	m	14 characters
+Jonathan	m	14 characters
+Hananiah		13 characters
+Joseph	m	13 characters
+Malchiah		13 characters
+Shallum	m	13 characters
+Benaiah		12 characters
+Hashabiah		12 characters
+Johanan		12 characters
+Obadiah		12 characters
+Eliezer		11 characters
+Zichri		11 characters
+Jehiel		10 characters
+Jeiel		10 characters
+Jeshua		10 characters
+Jozabad		10 characters
+Michael	m	10 characters
+Nethanel		10 characters
+Seraiah		10 characters
+Shephatiah		10 characters
+Zadok		10 characters
+Amariah		9 characters
+Elam		9 characters
+Eliel		9 characters
+Maachah		9 characters
+Mattaniah		9 characters
+Shecaniah		9 characters
+Zebadiah		9 characters
+Abijah	m, f	8 characters
+Adaiah		8 characters
+Bani		8 characters
+Elkanah		8 characters
+Hilkiah		8 characters
+Shelemiah		8 characters
+Simon	m	8 characters
+Ahijah		7 characters
+Eleazar		7 characters
+Eliashib		7 characters
+Hanan		7 characters
+Jeremiah		7 characters
+Jerimoth		7 characters
+Jeroham		7 characters
+Micah		7 characters
+Pedaiah		7 characters
+Sheba		6 characters, 1 place
+Uzzi		7 characters
+Zabad		7 characters
+Zaccur		7 characters
+Zerah		7 characters
+Elah	m	6 characters
+Eliab		6 characters
+Elioenai		6 characters
+Eliphelet		6 characters
+Elishama		6 characters
+Ezer		6 characters
+Hanani		6 characters
+Harim		6 characters
+Hur		6 characters
+Iddo		6 characters
+Ishmael		6 characters
+Jehohanan		6 characters
+Jeshaiah		6 characters
+Joash	m	6 characters
+Judah	m	6 characters
+Judas	m	6 characters
+Malluch		6 characters
+Mary	f	6 characters
+Nathan		6 characters
+Zedekiah	m	6 characters
+Abihail		5 characters
+Abimelech		5 characters
+Ammihud		5 characters
+Asaiah		5 characters
+Asaph		5 characters
+Azarel		5 characters
+Berechiah		5 characters
+Delaiah		5 characters
+Elihu		5 characters
+Elnathan		5 characters
+Gedaliah		5 characters
+Gera		5 characters
+Hattush		5 characters
+Heber		5 characters
+Immer		5 characters
+Isaiah	m	5 characters
+Jahath		5 characters
+Jahaziel		5 characters
+Jedaiah		5 characters
+Jehoiada		5 characters
+Jehu	m	5 characters
+Jeremoth		5 characters
+Jether		5 characters
+Jeush		5 characters
+Jobab		5 characters
+John	m	5 characters
+Kish		5 characters
+Manasseh	m	5 characters
+Mattithiah		5 characters
+Micaiah		5 characters
+Obed		5 characters
+Rehum		5 characters
+Shaphat		5 characters
+Shebaniah		5 characters
+Uriah		5 characters
+Uzziah	m	5 characters
+Uzziel		5 characters
+Zimri	m	5 characters
+Abdon		4 characters
+Akkub		4 characters
+Alexander	m	4 characters
+Amasai		4 characters
+Amaziah	m	4 characters
+Ammiel		4 characters
+Amminadab		4 characters
+Amon	m	4 characters
+Asahel		4 characters
+Azmaveth		4 characters
+Azrikam		4 characters
+Baanah		4 characters
+Benjamin	m	4 characters
+Beriah		4 characters
+Binnui		4 characters
+Eber		4 characters
+Eden	m,	2 characters, 2 places
+Elasah		4 characters
+Eliakim		4 characters
+Elijah		4 characters
+Enoch		4 characters
+Ethan		4 characters
+Gaius	, m	4 characters
+Hadad		4 characters
+Hasshub		4 characters
+Herod		4 characters
+Hezekiah	m	4 characters
+Hodaviah		4 characters
+Ishi		4 characters
+Isshiah		4 characters
+Jaazaniah		4 characters
+Jair		4 characters
+James	m	4 characters
+Jediael		4 characters
+Jehoshaphat	m	4 characters
+Joah		4 characters
+Joiarib		4 characters
+Joshua		4 characters
+Kenaz		4 characters
+Korah		4 characters
+Meremoth		4 characters
+Mijamin		4 characters
+Naaman		4 characters
+Nadab	, m	4 characters
+Nethaniah		4 characters
+Omri	m	4 characters
+Pelatiah		4 characters
+Pethahiah		4 characters
+Rephaiah		4 characters
+Reuel		4 characters
+Saul	m	4 characters
+Shammah	, m	4 characters
+Shaphan		4 characters
+Shelomith		4 characters
+Shelomoth		4 characters
+Shema		4 characters
+Shemariah		4 characters
+Sherebiah		4 characters
+Shimri		4 characters
+Simeon		4 characters
+Timna	m, f	4 characters
+Uzza		4 characters
+Zabdi		4 characters
+Zephaniah		4 characters
+Abdi		3 characters
+Abinadab		3 characters
+Adiel		3 characters
+Adin		3 characters
+Adonijah		3 characters
+Ahimelech		3 characters
+Ahio		3 characters
+Ahitub		3 characters
+Alemeth		3 characters
+Anah	f, m	3 characters
+Ananias	, m	3 characters
+Arah		3 characters
+Aram		3 characters
+Assir		3 characters
+Ater		3 characters
+Athaliah	m, f	3 characters
+Attai		3 characters
+Azaziah		3 characters
+Azgad		3 characters
+Azriel		3 characters
+Azzur		3 characters
+Baal		3 characters
+Barzillai		3 characters
+Bebai		3 characters
+Bela		3 characters
+Ben-hadad		3 characters
+Bethel		3 places
+Bunni		3 characters
+Caleb		3 characters
+Carmi		3 characters
+Daniel	m	3 characters
+Darius	m	3 characters
+Elon		3 characters
+Ephah	m, f	3 characters
+Epher		3 characters
+Er		3 characters
+Ezra		3 characters
+Gershom		3 characters
+Gilead		3 characters
+Hadoram		3 characters
+Hanun		3 characters
+Haran		3 characters
+Hepher		3 characters
+Hodiah		3 characters
+Hoshea	m	3 characters
+Igal		3 characters
+Ira		3 characters
+Jachin		3 characters
+Jamin		3 characters
+Jarib		3 characters
+Jehoram	m	3 characters
+Jehozabad		3 characters
+Jerahmeel		3 characters
+Jeuel		3 characters
+Joab		3 characters
+Jotham	m	3 characters
+Kemuel		3 characters
+Levi	m	3 characters
+Mattenai		3 characters
+Meraioth		3 characters
+Mesha		3 characters
+Meshezabel		3 characters
+Miniamin		3 characters
+Nahash		3 characters
+Nahath		3 characters
+Nehemiah		3 characters
+Obed-edom		3 characters
+Paseah		3 characters
+Pashhur		3 characters
+Philip	m	3 characters
+Phinehas		3 characters
+Ram		3 characters
+Reaiah		3 characters
+Rechab		3 characters
+Shammua		3 characters
+Shechem		3 characters
+Shelah		3 characters
+Shimea		3 characters
+Shobal		3 characters
+Shubael		3 characters
+Tahath		3 characters
+Tamar		3 characters
+Tarshish		3 characters
+Uri		3 characters
+Uriel		3 characters
+Uz		3 characters
+Zimmah		3 characters
+Ziza		3 characters
+Abda		2 characters
+Abiel		2 characters
+Abiezer		2 characters
+Abigail		2 characters
+Abiram		2 characters
+Abishua		2 characters
+Absalom	m	2 characters
+Achbor		2 characters
+Achish		2 characters
+Adah		2 characters
+Adna		2 characters
+Adnah		2 characters
+Adrammelech		2 characters
+Agag		2 characters
+Ahab	m	2 characters
+Ahasuerus	m	2 characters
+Ahaz	m	2 characters
+Ahaziah	m	2 characters
+Ahi	m	2 characters
+Ahiah		2 characters
+Ahiezer		2 characters
+Ahimaaz		2 characters
+Ahiman		2 characters
+Ahinoam	f	2 characters
+Ahlai		2 characters
+Aiah		2 characters
+Alphaeus		2 characters
+Amasa		2 characters
+Amnon		2 characters
+Amram		2 characters
+Amzi		2 characters
+Anaiah		2 characters
+Anathoth		2 characters
+Ard		2 characters
+Ariel		2 characters
+Arioch		2 characters
+Asa	m	2 characters
+Azubah		2 characters
+Baal-hanan		2 characters
+Baana		2 characters
+Baruch		2 characters
+Becher		2 characters
+Bedan		2 characters
+Beeri		2 characters
+Beor		2 characters
+Bethany		2 places
+Bethlehem		2 places
+Bethsaida		2 places
+Bezai		2 characters
+Bezalel		2 characters
+Bigvai		2 characters
+Bilgah		2 characters
+Bilhan		2 characters
+Bukki		2 characters
+Buz		2 characters
+Calcol		2 characters
+Carmel		2 places
+Claudius	m,	2 characters
+Conaniah		2 characters
+Cush		2 characters
+Cushi		2 characters
+Deborah		2 characters
+Dedan		2 characters
+Demetrius		2 characters
+Dishon		2 characters
+Dodo		2 characters
+Ebed		2 characters
+Eder		2 characters
+Ehud		2 characters
+Elhanan		2 characters
+Eliada		2 characters
+Eliasaph		2 characters
+Eliehoenai		2 characters
+Eliphaz		2 characters
+Elizaphan		2 characters
+Elzabad		2 characters
+Ephraim		2 characters
+Erastus	m	2 characters
+Eshcol		2 characters
+Ezbon		2 characters
+Gad		2 characters
+Galal		2 characters
+Gamaliel		2 characters
+Gemariah		2 characters
+Giddel		2 characters
+Gog		2 characters
+Gomer	m, f	2 characters
+Guni		2 characters
+Hakkoz		2 characters
+Hanniel		2 characters
+Hariph		2 characters
+Hashabniah		2 characters
+Hashum		2 characters
+Havilah		2 characters
+Hebron		2 characters
+Heldai		2 characters
+Helez		2 characters
+Heman		2 characters
+Hephzibah		2 characters
+Hermes	m	2 characters
+Hezir		2 characters
+Hezron		2 characters
+Hiram		2 characters
+Hori		2 characters
+Hoshaiah		2 characters
+Hotham		2 characters
+Imnah		2 characters
+Imri		2 characters
+Ishbosheth	m	2 characters
+Ishmaiah		2 characters
+Ishvi		2 characters
+Ithiel		2 characters
+Ithran		2 characters
+Ittai		2 characters
+Jabin		2 characters
+Jaddua		2 characters
+Jakim		2 characters
+Japhia		2 characters
+Jashobeam		2 characters
+Jashub		2 characters
+Jehallelel		2 characters
+Jehdeiah		2 characters
+Jehoahaz	m	2 characters
+Jehoash	m	2 characters
+Jehoiarib		2 characters
+Jehonathan		2 characters
+Jekamiah		2 characters
+Jephunneh		2 characters
+Jeroboam	m	2 characters
+Jesus	m	2 characters
+Jezrahiah		2 characters
+Joha		2 characters
+Joiada		2 characters
+Jonadab		2 characters
+Joram	m	2 characters
+Joshaphat		2 characters
+Josiah	m	2 characters
+Kadmiel		2 characters
+Kelub		2 characters
+Kenaanah		2 characters
+Kenaniah		2 characters
+Kolaiah		2 characters
+Kore		2 characters
+Laadan		2 characters
+Lamech		2 characters
+Lazarus	m	2 characters
+Libni		2 characters
+Lucius	m	2 characters
+Maaziah		2 characters
+Machir		2 characters
+Mahalalel		2 characters
+Mahalath		2 characters
+Mahath		2 characters
+Mahlah		2 characters
+Mahli		2 characters
+Mark	m	2 characters
+Mattan		2 characters
+Mattathias		2 characters
+Matthat		2 characters
+Mehetabel		2 characters
+Melchi		2 characters
+Mephibosheth		2 characters
+Meshillemoth		2 characters
+Mibsam		2 characters
+Mikloth		2 characters
+Milcah	f	2 characters
+Miriam		2 characters
+Mishael		2 characters
+Mishma		2 characters
+Mithredath		2 characters
+Moza		2 characters
+Naamah		2 characters
+Nahor		2 characters
+Nahum		2 characters
+Neariah		2 characters
+Nebo		2 characters
+Nemuel		2 characters
+Nepheg		2 characters
+Ner		2 characters
+Nergalsarezer		2 characters
+Noadiah		2 characters
+Noah	m, f	2 characters
+Oded		2 characters
+Oholibamah	m, f	2 characters
+Ozem		2 characters
+Palti		2 characters
+Pelaiah		2 characters
+Pelet		2 characters
+Peleth		2 characters
+Penuel		2 characters
+Puah	m, f	2 characters
+Rahab	m, f	2 characters
+Rehob		2 characters
+Rekem		2 characters
+Rezin		2 characters
+Rimmon		2 characters
+Rufus	m	2 characters
+Sallu		2 characters
+Salome		2 characters
+Samuel	m	2 characters
+Segub		2 characters
+Shaaph		2 characters
+Sharezer		2 characters
+Shebna		2 characters
+Shemer		2 characters
+Shemiramoth		2 characters
+Sheva		2 characters
+Shobab		2 characters
+Shua		2 characters
+Shuah		2 characters
+Shuthelah		2 characters
+Sisera		2 characters
+Tabeel		2 characters
+Tahan		2 characters
+Talmai		2 characters
+Teman		2 characters
+Tikvah		2 characters
+Tobiah		2 characters
+Tobijah		2 characters
+Tola		2 characters
+Ulam		2 characters
+Unni		2 characters
+Uthai		2 characters
+Zabbai		2 characters
+Zabdiel		2 characters
+Zerahiah		2 characters
+Zibeon		2 characters
+Ziha		2 characters
+Zillethai		2 characters
+Ziph		2 characters
+Zohar		2 characters
+Zur		2 characters
+Aaron	m	1 character
+Abaddon		1 character
+Abagtha		1 character
+Abdeel		1 character
+Abdiel		1 character
+Abednego	m	1 character
+Abel	m	1 character
+Abi-albon		1 character
+Abiasaph		1 character
+Abiathar		1 character
+Abida		1 character
+Abidan		1 character
+Abihu		1 character
+Abihud		1 character
+Abimael		1 character
+Abinoam		1 character
+Abishag	f	1 character
+Abishai		1 character
+Abishur		1 character
+Abital		1 character
+Abitub		1 character
+Abiud		1 character
+Abner		1 character
+Abraham	m	1 character
+Achaicus	m	1 character
+Achan		1 character
+Achim		1 character
+Achsah	f	1 character
+Adalia		1 character
+Adam		1 character
+Adbeel		1 character
+Addar		1 character
+Addi		1 character
+Adina		1 character
+Adino		1 character
+Adlai		1 character
+Admatha		1 character
+Adoni-bezek		1 character
+Adonikam		1 character
+Adoniram		1 character
+Adoni-zedek		1 character
+Adriel		1 character
+Aeneas		1 character
+Agabus	m	1 character
+Agee		1 character
+Agrippa		1 character
+Agur		1 character
+Aharhel	m	1 character
+Ahasbai	m	1 character
+Ahban		1 character
+Aher	m	1 character
+Ahiam		1 character
+Ahian	m	1 character
+Ahihud		1 character
+Ahikam		1 character
+Ahilud	m	1 character
+Ahimoth		1 character
+Ahinadab		1 character
+Ahira		1 character
+Ahisamach		1 character
+Ahishahar		1 character
+Ahishar		1 character
+Ahithophel		1 character
+Aholiab		1 character
+Ahumai		1 character
+Ahuzzam		1 character
+Ahuzzath		1 character
+Ahzai	m	1 character
+Akan		1 character
+Alexandria		1 place
+Allon		1 character
+Almodad		1 character
+Alvah		1 character
+Alvan		1 character
+Amal		1 character
+Amalek		1 character
+Amashai		1 character
+Amasiah		1 character
+Amittai		1 character
+Amminadib		1 character
+Ammishaddai		1 character
+Ammizabad		1 character
+Amok		1 character
+Amos		1 character
+Amoz		1 character
+Ampliatus	m	1 character
+Amraphel		1 character
+Anak		1 character
+Anammelech		1 character
+Anan		1 character
+Anani		1 character
+Ananiah		1 character
+Anath		1 character
+Andrew	m	1 character
+Andronicus	m	1 character
+Aner		1 character
+Aniam		1 character
+Anna		1 character
+Annas		1 character
+Antipas	m	1 character
+Antothiah		1 character
+Anub		1 character
+Apelles	m	1 character
+Aphiah		1 character
+Aphses		1 character
+Apollos	m	1 character
+Apollyon		1 character
+Apphia	f	1 character
+Aquila	m	1 character
+Arad		1 character
+Aran		1 character
+Araunah		1 character
+Arba		1 character
+Archelaus		1 character
+Archippus	m	1 character
+Arcturus		1 character
+Ardon		1 character
+Areli		1 character
+Aretas		1 character
+Argob		1 character
+Aridai		1 character
+Aridatha		1 character
+Arieh		1 character
+Arisai		1 character
+Aristarchus	m	1 character
+Aristobulus	m	1 character
+Armoni		1 character
+Arnan		1 character
+Arodi		1 character
+Arphaxad		1 character
+Artaxerxes	m	1 character
+Artemas	m	1 character
+Artemis	f	1 character
+Arza		1 character
+Asarel		1 character
+Asarelah		1 character
+Asenath	f	1 character
+Ashbel	m	1 character
+Asher		1 character
+Ashhur		1 character
+Ashima	f	1 character
+Ashkenaz		1 character
+Ashpenaz		1 character
+Ashtoreth		1 character
+Ashvath		1 character
+Asiel		1 character
+Asnah		1 character
+Asnapper		1 character
+Aspatha		1 character
+Asriel		1 character
+Asshur		1 character
+Asyncritus	m	1 character
+Atarah		1 character
+Athaiah		1 character
+Athlai		1 character
+Augustus	m	1 character
+Azaliah		1 character
+Azaniah		1 character
+Azaz	m	1 character
+Azazel	m	1 character
+Azbuk		1 character
+Azel		1 character
+Aziel		1 character
+Aziza		1 character
+Azor		1 character
+Azzan		1 character
+Baal-berith		1 character
+Baali		1 character
+Baalis		1 character
+Baal-peor		1 character
+Baal-zebub		1 character
+Baara	f	1 character
+Baaseiah		1 character
+Baasha	m	1 character
+Bakbakkar		1 character
+Bakbuk		1 character
+Bakbukiah		1 character
+Balaam		1 character
+Baladan		1 character
+Balak		1 character
+Barabbas		1 character
+Barak		1 character
+Barakel		1 character
+Bariah		1 character
+Barkos		1 character
+Barnabas	m	1 character
+Bartholomew	m	1 character
+Bartimaeus		1 character
+Basemath	f	1 character
+Basmath	f	1 character
+Bathsheba		1 character
+Bathshua	f	1 character
+Bazluth		1 character
+Bealiah		1 character
+Bechorath		1 character
+Bedad		1 character
+Bedeiah		1 character
+Beeliada	m	1 character
+Beelzebub	m	1 character
+Beera		1 character
+Beerah		1 character
+Belial		1 character
+Belshazzar		1 character
+Belteshazzar		1 character
+Ben-abinadab		1 character
+Ben-ammi		1 character
+Ben-dekar		1 character
+Ben-geber		1 character
+Ben-hanan		1 character
+Ben-hayil		1 character
+Ben-hesed		1 character
+Ben-hur		1 character
+Beninu		1 character
+Beno		1 character
+Benob		1 character
+Ben-zoheth		1 character
+Bera		1 character
+Beraiah		1 character
+Berakah		1 character
+Bered		1 character
+Beri		1 character
+Bernice		1 character
+Besai		1 character
+Besodeiah		1 character
+Beth		1 place
+Bethuel		1 character
+Beulah		1 place
+Bezer		1 character
+Bichri	m	1 character
+Bidkar		1 character
+Bigtha		1 character
+Bigthan		1 character
+Bildad		1 character
+Bilgai		1 character
+Bilhah		1 character
+Bilshan		1 character
+Bimhal		1 character
+Binea		1 character
+Birsha		1 character
+Birzaith		1 character
+Bishlam		1 character
+Bithiah	f	1 character
+Biztha		1 character
+Blastus		1 character
+Boaz		1 character
+Bocheru		1 character
+Bukkiah		1 character
+Bunah		1 character
+Buzi		1 character
+Caiaphas		1 character
+Cain		1 character
+Cainan		1 character
+Canaan		1 character
+Candace		1 character
+Carcas		1 character
+Carpus	m	1 character
+Carshena		1 character
+Castor	m	1 character
+Cheran		1 character
+Chilion		1 character
+Chloe		1 character
+Christ		1 title
+Chuza		1 character
+Cileab		1 character
+Claudia		1 character
+Clement	m	1 character
+Cleopas	m	1 character
+Clopas		1 character
+Col-hozeh		1 character
+Cornelius		1 character
+Cosam		1 character
+Coz	m	1 character
+Cozbi	f	1 character
+Crescens	m	1 character
+Crispus	m	1 character
+Cushan-rishathaim		1 character
+Cyrus	m	1 character
+Dagon		1 character
+Dalphon		1 character
+Damaris		1 character
+Dan	m	1 character
+Darda		1 character
+Darkon		1 character
+Dathan		1 character
+David	m	1 character
+Debir		1 character
+Delilah		1 character
+Demas		1 character
+Devil		1 title
+Diana	f	1 character
+Diblaim		1 character
+Dibri		1 character
+Diklah		1 character
+Dinah		1 character
+Dionysius	m	1 character
+Diotrephes		1 character
+Dishan		1 character
+Dodai		1 character
+Dodavahu		1 character
+Doeg		1 character
+Drusilla		1 character
+Dumah		1 character
+Ebal		1 character
+Ebed-melech		1 character
+Ebenezer		1 place
+Ebiasaph		1 character
+Edom		1 character
+Eglah		1 character
+Eglon		1 character
+Ehi		1 character
+Eker		1 character
+El		1 character
+Eladah		1 character
+Eldaah		1 character
+Eldad		1 character
+Elead		1 character
+Eli	m	1 character
+Eliahba		1 character
+Eliam		1 character
+Eliathah		1 character
+Elidad		1 character
+Elienai		1 character
+Elihoreph		1 character
+Elika		1 character
+Elimelech		1 character
+Eliphelehu		1 character
+Elisha		1 character
+Elishah		1 character
+Elishaphat		1 character
+Elisheba		1 character
+Elishua		1 character
+Eliud		1 character
+Elizabeth	f	1 character
+Elizur		1 character
+Elmadam		1 character
+Elnaam		1 character
+Elpaal		1 character
+Eluzai		1 character
+Elymas	m	1 character
+Enan		1 character
+Enosh		1 character
+Epaenetus	m	1 character
+Epaphras	m	1 character
+Epaphroditus	m	1 character
+Ephai		1 character
+Ephlal		1 character
+Ephod		1 character
+Ephrath		1 character
+Ephron		1 character
+Eran		1 character
+Eri		1 character
+Esarhaddon		1 character
+Esau		1 character
+Eshban		1 character
+Eshek		1 character
+Eshtemoa		1 character
+Eshton		1 character
+Esli		1 character
+Esther	f	1 character
+Etam		1 character
+Ethbaal		1 character
+Ethnan		1 character
+Ethni		1 character
+Eubulus		1 character
+Eunice		1 character
+Euodia		1 character
+Eutychus		1 character
+Eve		1 character
+Evi		1 character
+Evil-merodach		1 character
+Ezbai		1 character
+Ezekiel		1 character
+Ezri		1 character
+Felix		1 character
+Fortunatus	m	1 character
+Gaal		1 character
+Gabbai		1 character
+Gabriel	m	1 character
+Gaddi		1 character
+Gaddiel		1 character
+Gadi		1 character
+Gaham		1 character
+Gahar		1 character
+Gallio		1 character
+Gamul		1 character
+Gareb		1 character
+Gatam		1 character
+Gazez		1 character
+Gazzam		1 character
+Geber		1 character
+Gedor		1 character
+Gehazi		1 character
+Gemalli		1 character
+Genubath		1 character
+Gershon		1 character
+Geshan		1 character
+Geshem		1 character
+Gether		1 character
+Gethsemane		1 place
+Geuel		1 character
+Gibbar		1 character
+Gibea		1 character
+Giddalti		1 character
+Gideon	m	1 character
+Gideoni		1 character
+Gilalai		1 character
+Ginath		1 character
+Ginnethon		1 character
+Gishpa		1 character
+Goliath		1 character
+Haahashtari		1 character
+Habakkuk		1 character
+Habazziniah		1 character
+Hacaliah		1 character
+Hadadezer		1 character
+Hadlai		1 character
+Hagab		1 character
+Hagabah		1 character
+Hagar		1 character
+Haggai		1 character
+Haggedolim		1 character
+Haggi		1 character
+Haggiah		1 character
+Haggith		1 character
+Hagri		1 character
+Hakkatan		1 character
+Hakupha		1 character
+Hallohesh		1 character
+Ham		1 character
+Haman		1 character
+Hammedatha		1 character
+Hammelech		1 character
+Hammoleketh		1 character
+Hammuel		1 character
+Hamor		1 character
+Hamul		1 character
+Hamutal		1 character
+Hanamel		1 character
+Hannah		1 character
+Happizzez		1 character
+Harbona		1 character
+Hareph		1 character
+Harhaiah		1 character
+Harhas		1 character
+Harhur		1 character
+Harnepher		1 character
+Haroeh		1 character
+Harsha		1 character
+Harum		1 character
+Harumaph		1 character
+Haruz		1 character
+Hasadiah		1 character
+Hashabnah		1 character
+Hashbaddanah		1 character
+Hashem		1 character
+Hashenaah		1 character
+Hashmonah		1 character
+Hashubah		1 character
+Hasrah		1 character
+Hassenuah		1 character
+Hassophereth		1 character
+Hasupha		1 character
+Hathach		1 character
+Hathath		1 character
+Hatipha		1 character
+Hatita		1 character
+Hattil		1 character
+Hazael		1 character
+Hazaiah		1 character
+Hazarmoth		1 character
+Hazelelponi		1 character
+Haziel		1 character
+Hazo		1 character
+Hegai		1 character
+Helah		1 character
+Heled		1 character
+Helek		1 character
+Helem		1 character
+Heli		1 character
+Helkai		1 character
+Helon		1 character
+Hemam		1 character
+Hemath		1 character
+Hemdan		1 character
+Hen		1 character
+Henadad		1 character
+Heresh		1 character
+Hermas	m	1 character
+Hermogenes		1 character
+Herodias		1 character
+Herodion	m	1 character
+Heth		1 character
+Hezion		1 character
+Hezro		1 character
+Hiddai		1 character
+Hiel		1 character
+Hillel		1 character
+Hirah		1 character
+Hizki		1 character
+Hobab		1 character
+Hobaiah		1 character
+Hod		1 character
+Hodesh		1 character
+Hoglah		1 character
+Hoham		1 character
+Hophni		1 character
+Hophra	m	1 character
+Horam		1 character
+Hosah		1 character
+Hosea	m	1 character
+Hoshama		1 character
+Hothir		1 character
+Hubbah		1 character
+Hul		1 character
+Huldah	f	1 character
+Hupham		1 character
+Huppah		1 character
+Huppim		1 character
+Hurai		1 character
+Huram		1 character
+Huri		1 character
+Hushah		1 character
+Hushai		1 character
+Husham		1 character
+Hushim		1 character
+Hymenaeus		1 character
+Ibhar		1 character
+Ibneiah		1 character
+Ibri		1 character
+Ibsam		1 character
+Ibzan		1 character
+Ichabod		1 character
+Idbash		1 character
+Igdaliah		1 character
+Ikkesh		1 character
+Ilai		1 character
+Imla		1 character
+Immanuel		1 character
+Imna		1 character
+Imrah		1 character
+Iphedeiah		1 character
+Ir		1 character
+Irad		1 character
+Iram		1 character
+Iri		1 character
+Irijah		1 character
+Irnahash		1 character
+Iru		1 character
+Isaac	m	1 character
+Iscah	f	1 character
+Ishbah		1 character
+Ishbak		1 character
+Ishhod		1 character
+Ishijah		1 character
+Ishma		1 character
+Ishmerai		1 character
+Ishpah		1 character
+Ishpan		1 character
+Ishvah		1 character
+Ismachiah		1 character
+Issachar		1 character
+Ithamar		1 character
+Ithmah		1 character
+Ithream		1 character
+Izhar		1 character
+Izrahiah		1 character
+Izri		1 character
+Izziah	m	1 character
+Jaakan		1 character
+Jaakobah		1 character
+Jaala		1 character
+Jaalam		1 character
+Jaanai		1 character
+Jaareshiah		1 character
+Jaasau		1 character
+Jaasiel		1 character
+Jaaziah		1 character
+Jaaziel		1 character
+Jabal		1 character
+Jabesh		1 character
+Jabez		1 character
+Jachan		1 character
+Jacob	m	1 character
+Jada	m	1 character
+Jaddai		1 character
+Jadon		1 character
+Jael	f	1 character
+Jahdai		1 character
+Jahdiel		1 character
+Jahdo		1 character
+Jahleel		1 character
+Jahmai		1 character
+Jahzeel		1 character
+Jahzeiah		1 character
+Jahzerah		1 character
+Jairus		1 character
+Jakeh		1 character
+Jalon		1 character
+Jambres		1 character
+Jamlech		1 character
+Jannai		1 character
+Jannes		1 character
+Japheth		1 character
+Jarah		1 character
+Jareb		1 character
+Jared		1 character
+Jarha		1 character
+Jaroah		1 character
+Jashar		1 character
+Jashen		1 character
+Jashubi-lehem		1 character
+Jason	m	1 character
+Jathniel		1 character
+Javan		1 character
+Jaziz		1 character
+Jeaterai		1 character
+Jeberechiah		1 character
+Jecoliah	f	1 character
+Jedidah	f	1 character
+Jeduthun		1 character
+Jeezer		1 character
+Jehath		1 character
+Jehezkel		1 character
+Jehiah		1 character
+Jehieli		1 character
+Jehizkiah		1 character
+Jehoaddah		1 character
+Jehoaddin		1 character
+Jehoiachin	m	1 character
+Jehoiakim	m	1 character
+Jehosheba	f	1 character
+Jehozadak		1 character
+Jehubbah		1 character
+Jehucal		1 character
+Jehudi		1 character
+Jehudijah	f	1 character
+Jekameam		1 character
+Jekuthiel		1 character
+Jemimah		1 character
+Jemuel		1 character
+Jephthah		1 character
+Jerah		1 character
+Jered		1 character
+Jeremai		1 character
+Jeriah		1 character
+Jeribai		1 character
+Jericho		1 place
+Jeriel		1 character
+Jerioth		1 character
+Jerusalem		1 place
+Jerusha		1 character
+Jeshebeab		1 character
+Jesher		1 character
+Jeshishai		1 character
+Jeshohaiah		1 character
+Jesimel		1 character
+Jesse		1 character
+Jetheth		1 character
+Jethro		1 character
+Jetur		1 character
+Jeuz		1 character
+Jezebel	f	1 character
+Jezer		1 character
+Jeziel		1 character
+Jezliah	m	1 character
+Jezoar		1 character
+Jezreel		1 character
+Jibsam		1 character
+Jidlaph		1 character
+Joahaz	m	1 character
+Joanna		1 character
+Job	m	1 character
+Jochebed	f	1 character
+Joda		1 character
+Joed		1 character
+Joelah		1 character
+Joezer		1 character
+Jogli		1 character
+Joiakim		1 character
+Jokim		1 character
+Jokshan		1 character
+Joktan		1 character
+Jonah		1 character
+Jonam		1 character
+Jorah		1 character
+Jorai		1 character
+Jordan		1 place
+Jorim		1 character
+Jorkoam		1 character
+Josech		1 character
+Joshah		1 character
+Joshaviah		1 character
+Joshbekashah		1 character
+Joshibiah		1 character
+Josiphiah		1 character
+Jubal		1 character
+Jude		1 character
+Judith	f	1 character
+Julia	f	1 character
+Julius	m	1 character
+Junia		1 character
+Jupiter	m	1 character
+Jushab-hesed		1 character
+Kallai		1 character
+Kareah		1 character
+Kedar		1 character
+Kedemah		1 character
+Kedorlaomer		1 character
+Keilah		1 character
+Kelaiah		1 character
+Kelal		1 character
+Keluhi		1 character
+Kemosh		1 character
+Kenan		1 character
+Kenani		1 character
+Keren-Happuch	f	1 character
+Keros		1 character
+Kerub		1 character
+Kesed		1 character
+Keturah	f	1 character
+Keziah		1 character
+Kimham		1 character
+Kishi		1 character
+Kislon		1 character
+Kohath		1 character
+Laadah		1 character
+Laban		1 character
+Lael		1 character
+Lahad		1 character
+Lahmi		1 character
+Laish		1 character
+Lappidoth		1 character
+Leah	f	1 character
+Lebanah		1 character
+Lehi		1 place
+Lemuel	m	1 character
+Likhi		1 character
+Linus	m	1 character
+Lo-ammi		1 character
+Lois		1 character
+Lo-ruhamah		1 character
+Lot	m	1 character
+Lotan		1 character
+Lucifer	m	1 character
+Lud		1 character
+Luke	m	1 character
+Lydia	f	1 character
+Lysanias		1 character
+Maadai		1 character
+Maadiah		1 character
+Maai		1 character
+Maasai		1 character
+Maath		1 character
+Maaz		1 character
+Machbanai		1 character
+Machbenah		1 character
+Machi		1 character
+Madai		1 character
+Madmannah		1 character
+Magbish		1 character
+Magdala		1 place
+Magdiel		1 character
+Magog		1 character
+Magpiash		1 character
+Maharai		1 character
+Mahasham	f	1 character
+Mahazioth		1 character
+Maher-shalal-hash-baz	m	1 character
+Mahlon		1 character
+Mahol		1 character
+Maknadebai		1 character
+Malachi		1 character
+Malcham		1 character
+Malchiel		1 character
+Malchiram		1 character
+Malchishua		1 character
+Malchus		1 character
+Mallothi		1 character
+Mamre		1 character
+Manaen		1 character
+Manahath		1 character
+Manoah		1 character
+Maoch		1 character
+Maon		1 character
+Marduk	m	1 character
+Mareshah		1 character
+Marsena		1 character
+Martha	f	1 character
+Mash		1 character
+Massa		1 character
+Matred	f	1 character
+Matri		1 character
+Mattatha		1 character
+Mattattah		1 character
+Matthan		1 character
+Matthew	m	1 character
+Matthias	m	1 character
+Mebunnai	m	1 character
+Medad		1 character
+Medan		1 character
+Mehida		1 character
+Mehir		1 character
+Mehujael		1 character
+Mehuman		1 character
+Melatiah		1 character
+Melchizedek		1 character
+Melea		1 character
+Melech		1 character
+Memucan		1 character
+Menahem	m	1 character
+Meni		1 character
+Menna		1 character
+Meonenim		1 character
+Meonothai		1 character
+Merab	f	1 character
+Meraiah		1 character
+Merari		1 character
+Mercury	m	1 character
+Mered		1 character
+Meres		1 character
+Merodach-baladan		1 character
+Meshach		1 character
+Meshech		1 character
+Meshelemiah		1 character
+Meshillemith		1 character
+Meshobab		1 character
+Meshullemeth	f	1 character
+Messiah		1 title
+Methuselah		1 character
+Methushael		1 character
+Me-zahab		1 character
+Mibhar		1 character
+Mibzar		1 character
+Mica		1 character
+Michal	f	1 character
+Micri		1 character
+Midian		1 character
+Mikneiah		1 character
+Milalai		1 character
+Mirmah		1 character
+Misham		1 character
+Mishmannah		1 character
+Mispar		1 character
+Mizraim		1 character
+Mizzah		1 character
+Mnason		1 character
+Moab		1 character
+Molech		1 character
+Molid		1 character
+Mordecai		1 character
+Moriah		1 place
+Moses		1 character
+Muppim		1 character
+Mushi		1 character
+Myra		1 place
+Naam		1 character
+Naarah		1 character
+Naarai		1 character
+Nabal		1 character
+Naboth		1 character
+Nachon		1 character
+Naggai		1 character
+Naham		1 character
+Nahamani		1 character
+Naharai		1 character
+Nahbi		1 character
+Nahshon		1 character
+Naomi	f	1 character
+Naphish		1 character
+Naphtali		1 character
+Narcissus	m	1 character
+Nathan-melech		1 character
+Nazarene		1 title
+Nazareth		1 place
+Nebai		1 character
+Nebaioth		1 character
+Nebat		1 character
+Nebuchadnezzar		1 character
+Nebusarsekim		1 character
+Nebushazban		1 character
+Nebuzaradan		1 character
+Necho	m	1 character
+Nedabiah		1 character
+Nehushta		1 character
+Nekoda		1 character
+Nereus		1 character
+Nergal		1 character
+Neri		1 character
+Neriah		1 character
+Neziah		1 character
+Nezib		1 character
+Nibhaz		1 character
+Nicanor	m	1 character
+Nicodemus	m	1 character
+Nicolas		1 character
+Nimrod		1 character
+Nimshi		1 character
+Nisroch		1 character
+Nobah		1 character
+Nod		1 place
+Nogah		1 character
+Nohah		1 character
+Nun		1 character
+Nympha		1 character
+Obal		1 character
+Obil		1 character
+Ochran		1 character
+Og		1 character
+Ohad		1 character
+Ohel		1 character
+Oholah		1 character
+Oholibah		1 character
+Olympas	m	1 character
+Omar		1 character
+On		1 character
+Onam		1 character
+Onan		1 character
+Onesimus	m	1 character
+Onesiphorus	m	1 character
+Ophir		1 character
+Ophrah		1 character
+Oreb		1 character
+Oren		1 character
+Orion		1 character
+Orpah	f	1 character
+Othni		1 character
+Othniel		1 character
+Ozni		1 character
+Paarai		1 character
+Padon		1 character
+Pagiel		1 character
+Pahath-moab		1 character
+Palel		1 character
+Pallu		1 character
+Paltiel		1 character
+Parmashta		1 character
+Parmenas	m	1 character
+Parnach		1 character
+Parosh		1 character
+Parshandatha		1 character
+Paruah		1 character
+Pasach		1 character
+Patrobas	m	1 character
+Paul	m	1 character
+Pedahel		1 character
+Pedahzur		1 character
+Pekah	m	1 character
+Pekahiah	m	1 character
+Pelaliah		1 character
+Peleg		1 character
+Peninnah		1 character
+Peresh		1 character
+Perez		1 character
+Persis		1 character
+Peruda		1 character
+Peter	m	1 character
+Pethuel		1 character
+Peulthai		1 character
+Phanuel		1 character
+Phicol		1 character
+Philemon	m	1 character
+Philetus		1 character
+Philologus	m	1 character
+Phlegon	m	1 character
+Phoebe	f	1 character
+Phygelus		1 character
+Pildash		1 character
+Pilha		1 character
+Piltai		1 character
+Pinon		1 character
+Piram		1 character
+Pispah		1 character
+Pithon		1 character
+Pochereth-hazzebaim		1 character
+Pollux	m	1 character
+Pontius		1 character
+Poratha		1 character
+Porcius	m	1 character
+Potiphar		1 character
+Potiphera		1 character
+Priscilla	f	1 character
+Prochorus	m	1 character
+Pua	m	1 character
+Publius		1 character
+Pudens	m	1 character
+Pul		1 character
+Purah		1 character
+Put		1 character
+Putiel		1 character
+Pyrrhus		1 character
+Quartus	m	1 character
+Quirinus		1 character
+Raamah		1 character
+Raamiah		1 character
+Rabmag		1 character
+Rabsaris		1 character
+Rabshakeh		1 character
+Rachel		1 character
+Raddai		1 character
+Raham		1 character
+Rakem		1 character
+Ramiah		1 character
+Rapha		1 character
+Raphah		1 character
+Raphu		1 character
+Reba		1 character
+Rebecca		1 character
+Reelaiah		1 character
+Regem		1 character
+Regem-melech		1 character
+Rehabiah		1 character
+Rehoboam	m	1 character
+Rei		1 character
+Remaliah		1 character
+Rephael		1 character
+Rephah		1 character
+Rephan		1 character
+Resheph		1 character
+Reu		1 character
+Reuben		1 character
+Reumah		1 character
+Rezia		1 character
+Rezon		1 character
+Rhesa		1 character
+Rhoda		1 character
+Ribai		1 character
+Rinnah		1 character
+Riphath		1 character
+Rizpah		1 character
+Rodanim		1 character
+Rohgah		1 character
+Romamti-ezer		1 character
+Rosh		1 character
+Ruhamah		1 character
+Ruth	f	1 character
+Sabtah		1 character
+Sabtecha		1 character
+Sacar		1 character
+Sachiah		1 character
+Sallai		1 character
+Salmon		1 character
+Salu		1 character
+Samgar-nebo		1 character
+Samlah		1 character
+Samson		1 character
+Sanballat		1 character
+Saph		1 character
+Sapphira	f	1 character
+Sarah	f	1 character
+Saraph		1 character
+Sargon	m	1 character
+Satan	m	1 character
+Sceva		1 character
+Seba		1 character
+Secundus		1 character
+Seir		1 character
+Seled		1 character
+Semachiah		1 character
+Semein		1 character
+Senaah		1 character
+Sennacherib		1 character
+Seorim		1 character
+Serah		1 character
+Sered		1 character
+Sergius		1 character
+Serug		1 character
+Seth		1 character
+Sethur		1 character
+Shaashgaz		1 character
+Shabbethai		1 character
+Shaddai		1 character
+Shadrach		1 character
+Shage		1 character
+Shaharaim		1 character
+Shallun	m	1 character
+Shalmai		1 character
+Shalman		1 character
+Shalmaneser		1 character
+Shama		1 character
+Shamed		1 character
+Shamgar		1 character
+Shamir		1 character
+Shamma		1 character
+Shamsherai		1 character
+Shapham		1 character
+Sharai		1 character
+Sharar		1 character
+Sharon		1 place
+Shashai		1 character
+Shashak		1 character
+Shavsha		1 character
+Sheal		1 character
+Shealtiel		1 character
+Sheariah		1 character
+Shear-jashub		1 character
+Sheber		1 character
+Shedeur		1 character
+Shehariah		1 character
+Sheleph		1 character
+Shelesh		1 character
+Shelomi		1 character
+Shelumiel		1 character
+Shem		1 character
+Shemaah		1 character
+Shemeber		1 character
+Shemida		1 character
+Shemuel		1 character
+Shenazzar		1 character
+Shepho		1 character
+Shephuphan		1 character
+Sherah		1 character
+Sheresh		1 character
+Sheshai		1 character
+Sheshan		1 character
+Sheshbazzar		1 character
+Sheth		1 character
+Shethar		1 character
+Shethar-bozenai		1 character
+Shilhi		1 character
+Shillem		1 character
+Shiloh		1 character
+Shilshah		1 character
+Shimeah		1 character
+Shimeath	f	1 character
+Shimeon		1 character
+Shimon		1 character
+Shimrath		1 character
+Shimrith	f	1 character
+Shimron		1 character
+Shimshai		1 character
+Shinab		1 character
+Shiphi		1 character
+Shiphrah		1 character
+Shiphtan		1 character
+Shisha		1 character
+Shishak		1 character
+Shitrai		1 character
+Shiza		1 character
+Shobach		1 character
+Shobai		1 character
+Shobek		1 character
+Shobi		1 character
+Shoham		1 character
+Shomer		1 character
+Shophach		1 character
+Shual		1 character
+Shuham		1 character
+Shuni		1 character
+Shupham		1 character
+Shuppim		1 character
+Sia		1 character
+Sidon		1 character
+Sihon		1 character
+Silas	m	1 character
+Sisamai		1 character
+Sithri		1 character
+So	m	1 character
+Soco		1 character
+Sodi		1 character
+Solomon	m	1 character
+Sopater	m	1 character
+Sophereth		1 character
+Sosthenes	m	1 character
+Sotai		1 character
+Stachys	m	1 character
+Stephanas		1 character
+Stephen	m	1 character
+Suah		1 character
+Succoth-benoth	f	1 character
+Susanna		1 character
+Susi		1 character
+Syntyche		1 character
+Tabbaoth		1 character
+Tabitha	f	1 character
+Tabrimon		1 character
+Tahash		1 character
+Tahpenes	f	1 character
+Talitha		1 title
+Talmon		1 character
+Tammuz		1 character
+Tanhumeth		1 character
+Taphath		1 character
+Tappuah		1 character
+Tarea		1 character
+Tartak		1 character
+Tattenai		1 character
+Tebah		1 character
+Tebaliah		1 character
+Tehinnah		1 character
+Tekoa		1 character
+Telah		1 character
+Telem		1 character
+Tema		1 character
+Temah		1 character
+Temeni		1 character
+Terah		1 character
+Teresh		1 character
+Tertius	m	1 character
+Tertullus		1 character
+Theophilus		1 character
+Theudas		1 character
+Thomas	m	1 character
+Tibni		1 character
+Tidal		1 character
+Tiglath-pileser		1 character
+Tilon	m	1 character
+Timaeus		1 character
+Timon	m	1 character
+Timothy	m	1 character
+Tiras		1 character
+Tirhakah	m	1 character
+Tirhanah	m	1 character
+Tiria	m	1 character
+Tirzah	f	1 character
+Titius		1 character
+Titus	m	1 character
+Toah		1 character
+Tob-adonijah		1 character
+Togarmah		1 character
+Tohu		1 character
+Toi		1 character
+Trophimus		1 character
+Tryphena		1 character
+Tryphosa		1 character
+Tubal		1 character
+Tubal-cain		1 character
+Tychicus	m	1 character
+Tyrannus		1 character
+Ucal		1 character
+Uel		1 character
+Ulla		1 character
+Ur		1 character
+Urban	m	1 character
+Uzai		1 character
+Uzal		1 character
+Uzzah		1 character
+Vaizatha		1 character
+Vaniah		1 character
+Vashni		1 character
+Vashti		1 character
+Vophsi		1 character
+Yahweh		1 character
+Zaavan		1 character
+Zabbud		1 character
+Zabud		1 character
+Zaccai		1 character
+Zacchaeus		1 character
+Zaham		1 character
+Zalaph		1 character
+Zalmon		1 character
+Zalmunna		1 character
+Zanoah		1 character
+Zattu		1 character
+Zaza		1 character
+Zebah		1 character
+Zebedee		1 character
+Zebidah		1 character
+Zebina		1 character
+Zebul		1 character
+Zebulun	m	1 character
+Zeeb		1 character
+Zelek		1 character
+Zelophehad		1 character
+Zemira		1 character
+Zenas	m	1 character
+Zepho		1 character
+Zeresh		1 character
+Zereth		1 character
+Zeri		1 character
+Zeror		1 character
+Zeruah		1 character
+Zerubbabel		1 character
+Zeruiah		1 character
+Zetham		1 character
+Zethan		1 character
+Zethar		1 character
+Zeus	m	1 character
+Zia		1 character
+Ziba		1 character
+Zibia		1 character
+Zibiah	f	1 character
+Zillah		1 character
+Zilpah		1 character
+Zimran		1 character
+Zion		1 place
+Ziphah		1 character
+Ziphion		1 character
+Zippor		1 character
+Zipporah	f	1 character
+Zobebah		1 character
+Zoheth		1 character
+Zophah		1 character
+Zophai		1 character
+Zophar		1 character
+Zuar		1 character
+Zuph		1 character
+Zuriel		1 character
+Zurishaddai		1 character

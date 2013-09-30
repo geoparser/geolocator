@@ -1,0 +1,66 @@
+<SpatialML version="3.0"><DOC>
+
+ CNN_IP_20030406.1600.03 
+ STORY 
+ 2003-04-06T16:00:00-05:00  
+
+
+War in <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-1" latLong="33.000°N 44.000°E" type="COUNTRY">Iraq</PLACE>
+
+<TEXT>
+
+
+ WOODRUFF 
+An apparent friendly fire incident in northern <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-2" latLong="33.000°N 44.000°E" mod="N" type="COUNTRY">Iraq</PLACE> is taking more of a
+toll on <PLACE country="IQ" form="NAM" gazref="IGDB:20032588" id="Pl-18" latLong="36.288°N 42.174°E" predicative="true" type="PPL">Kurdish</PLACE> leaders than we knew at first. Eighteen people are now
+reported dead. And there are late reports that the 45 wounded include the
+brother and a son of a <PLACE country="IQ" form="NAM" gazref="IGDB:20032588" id="Pl-19" latLong="36.288°N 42.174°E" predicative="true" type="PPL">Kurdish</PLACE> political leader. Julian Manyon of ITN has
+more from <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-3" latLong="33.000°N 44.000°E" mod="N" type="COUNTRY">Northern Iraq</PLACE>.
+
+(BEGIN VIDEOTAPE)
+
+ JULIAN MANYON, ITN CORRESPONDENT (voice-over) 
+It is another friendly fire disaster. This morning, an <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-9" predicative="true" type="COUNTRY">American</PLACE> bomb
+destroyed a convoy carrying high officials of the <PLACE country="IQ" form="NAM" gazref="IGDB:20032588" id="Pl-20" latLong="36.288°N 42.174°E" predicative="true" type="PPL">Kurdish</PLACE> Peshmerga
+forces, which have been fighting alongside the Americans on the northern
+front. At least 17 <PLACE country="IQ" form="NAM" gazref="IGDB:20032588" id="Pl-21" latLong="36.288°N 42.174°E" predicative="true" type="PPL">Kurdish</PLACE> commanders and their guards were killed, along
+with an interpreter working for the BBC. More than 40 were injured. The
+military chief of the <PLACE country="IQ" form="NAM" gazref="IGDB:20032588" id="Pl-22" latLong="36.288°N 42.174°E" predicative="true" type="PPL">Kurdish</PLACE> KDP, the brother of their leader, Massud
+Barzani (ph), was gravely hurt. (on camera): Trying to organize a
+northern front with just a few hundred <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-13" predicative="true" type="COUNTRY">U.S.</PLACE> Special Forces troops and the
+poorly armed <PLACE country="IQ" form="NAM" gazref="IGDB:20032588" id="Pl-16" latLong="36.288°N 42.174°E" predicative="true" type="PPL">Kurdish</PLACE> Peshmerga guerrillas was always going to be a
+high-risk exercise. The idea was to open the way with heavy sustained
+<PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-10" predicative="true" type="COUNTRY">American</PLACE> bombing of <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-4" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">Iraqi</PLACE> positions. But today, it all went disastrously
+wrong. (voice-over): Even as we filmed the wreckage, <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-14" predicative="true" type="COUNTRY">U.S.</PLACE> jets were still
+dropping their bombs nearby. Giant explosions erupted down the <PLACE form="NOM" id="Pl-25" type="ROAD">road</PLACE>.
+Earlier, we had joined another convoy of <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-15" type="COUNTRY">U.S.</PLACE> Special Forces troops and
+<PLACE country="IQ" form="NAM" gazref="IGDB:20032588" id="Pl-17" latLong="36.288°N 42.174°E" predicative="true" type="PPL">Kurdish</PLACE> fighters as they tried to move south through country abandoned by
+the <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-5" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">Iraqi</PLACE> army. At first, all was calm. <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-11" predicative="true" type="COUNTRY">American</PLACE> troops controlled the
+operation from a rooftop. Then, as the Kurds advanced again, the Iraqis
+opened up. (on camera): Now we're hearing the boom of <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-6" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">Iraqi</PLACE> guns as they
+fire towards our positions. All morning, the Kurds have been trying to
+advance, and that was the shell going off. (voice-over): The <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-7" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">Iraqi</PLACE>
+gunners rapidly found our range, and we took refuge in an abandoned farm
+<PLACE form="NOM" id="Pl-24" type="FAC">house</PLACE>.
+
+
+ UNIDENTIFIED MALE 
+Get down. Get down!
+
+
+ MANYON 
+We finally managed to get out by car. Here in the north, <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-8" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">Iraqi</PLACE> tanks and
+guns are still firing, and the <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-12" predicative="true" type="COUNTRY">American</PLACE> effort is looking a little
+ragged. Julian Manyon, ITV News, on the northern front.
+
+(END VIDEOTAPE)
+
+ WOODRUFF 
+Julian Manyon with some very dramatic pictures as we look at the live
+pictures of <PLACE country="IQ" form="NAM" gazref="IGDB:20032588" id="Pl-23" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">Baghdad</PLACE> at night. We will take a short break, our live
+coverage continues.
+
+</TEXT>
+
+
+</DOC></SpatialML>

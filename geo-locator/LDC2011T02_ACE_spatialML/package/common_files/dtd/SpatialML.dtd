@@ -1,0 +1,72 @@
+<!ELEMENT SpatialML ( #PCDATA | PLACE | RLINK | LINK | SIGNAL )* >
+<!ATTLIST SpatialML xsi:noNamespaceSchemaLocation CDATA #IMPLIED >
+<!ATTLIST SpatialML xmlns:xsi CDATA #IMPLIED >
+<!ATTLIST SpatialML comment CDATA #IMPLIED >
+<!ATTLIST SpatialML version CDATA #IMPLIED >
+
+<!ELEMENT PLACE ( #PCDATA ) >
+<!ATTLIST PLACE id ID #REQUIRED >
+<!ATTLIST PLACE gazref CDATA #IMPLIED >
+<!ATTLIST PLACE comment CDATA #IMPLIED >
+<!ATTLIST PLACE type ( WATER | CELESTIAL | CIVIL | CONTINENT | COUNTRY | FAC | GRID | 
+                       LATLONG | MTN | MTS | PPL | PPLA | PPLC | POSTALCODE | POSTBOX | RGN |
+                       ROAD | UTM | VEHICLE ) #IMPLIED >
+<!ATTLIST PLACE mod ( BOTTOM | BORDER | CENTRAL | LEFT | NEAR | RIGHT | TOP | 
+                      N | NNE | NE | ENE |
+                      E | ESE | SE | SSE |
+                      S | SSW | SW | WSW | 
+                      W | WNW | NW | NNW ) #IMPLIED >
+<!ATTLIST PLACE continent ( AF | AN | AI | AU | EU | GO | LA | NA | PA | SA ) #IMPLIED >
+<!-- Country codes are ISO-3166 two-letters. -->
+<!ATTLIST PLACE country ( AD | AE | AF | AG | AI | AL | AM | AN | AO | AQ | AR | AS | AT | AU |
+                          AW | AX | AZ | BA | BB | BD | BE | BF | BG | BH | BI | BJ | BM | BN |
+                          BO | BR | BS | BT | BV | BW | BY | BZ | CA | CC | CD | CF | CG | CH |
+                          CI | CK | CL | CM | CN | CO | CR | CU | CV | CX | CY | CZ | DE | DJ |
+                          DK | DM | DO | DZ | EC | EE | EG | EH | ER | ES | ET | FI | FJ | FK |
+                          FM | FO | FR | GA | GB | GD | GE | GF | GG | GH | GI | GL | GM | GN |
+                          GP | GQ | GR | GS | GT | GU | GW | GY | HK | HM | HN | HR | HT | HU |
+                          ID | IE | IL | IM | IN | IO | IQ | IR | IS | IT | JE | JM | JO | JP |
+                          KE | KG | KH | KI | KM | KN | KP | KR | KW | KY | KZ | LA | LB | LC |
+                          LI | LK | LR | LS | LT | LU | LV | LY | MA | MC | MD | ME | MG | MH |
+                          MK | ML | MM | MN | MO | MP | MQ | MR | MS | MT | MU | MV | MW | MX |
+                          MY | MZ | NA | NC | NE | NF | NG | NI | NL | NO | NP | NR | NU | NZ |
+                          OM | PA | PE | PF | PG | PH | PK | PL | PM | PN | PR | PS | PT | PW |
+                          PY | QA | RE | RO | RS | RU | RW | SA | SB | SC | SD | SE | SG | SH |
+                          SI | SJ | SK | SL | SM | SN | SO | SR | ST | SV | SY | SZ | TC | TD |
+                          TF | TG | TH | TJ | TK | TL | TM | TN | TO | TR | TT | TV | TW | TZ |
+                          UA | UG | UM | US | UY | UZ | VA | VC | VE | VG | VI | VN | VU | WF |
+                          WS | YE | YT | ZA | ZM | ZW | OTHER ) #IMPLIED >
+<!ATTLIST PLACE form ( NAM | NOM ) #IMPLIED >
+<!ATTLIST PLACE county CDATA #IMPLIED >
+<!ATTLIST PLACE state NMTOKEN #IMPLIED >
+<!ATTLIST PLACE latLong CDATA #IMPLIED >
+<!ATTLIST PLACE nonLocUse ( true | false ) #IMPLIED >
+<!ATTLIST PLACE predicative ( true | false ) #IMPLIED >
+<!ATTLIST PLACE description CDATA #IMPLIED >
+ 
+<!ELEMENT RLINK EMPTY >
+<!ATTLIST RLINK id ID #REQUIRED >
+<!ATTLIST RLINK comment CDATA #IMPLIED >
+<!ATTLIST RLINK source IDREF #IMPLIED >
+<!ATTLIST RLINK target IDREF #IMPLIED >
+<!ATTLIST RLINK signals IDREFS #IMPLIED >
+<!ATTLIST RLINK frame ( VIEWER | INTRINSIC | EXTRINSIC ) #IMPLIED >
+<!ATTLIST RLINK direction ( BEHIND | ABOVE | BELOW | FRONT |
+                      N | NNE | NE | ENE |
+                      E | ESE | SE | SSE |
+                      S | SSW | SW | WSW | 
+                      W | WNW | NW | NNW ) #IMPLIED >
+<!ATTLIST RLINK distance CDATA #IMPLIED >
+ 
+<!ELEMENT LINK EMPTY >
+<!ATTLIST LINK id ID #REQUIRED >
+<!ATTLIST LINK comment CDATA #IMPLIED >
+<!ATTLIST LINK source IDREF #REQUIRED >
+<!ATTLIST LINK target IDREF #REQUIRED >
+<!ATTLIST LINK signals IDREFS #IMPLIED >
+<!ATTLIST LINK linkType ( IN | EC | EQ | DC | PO ) #IMPLIED >
+ 
+<!ELEMENT SIGNAL ( #PCDATA ) >
+<!ATTLIST SIGNAL id ID #REQUIRED >
+<!ATTLIST SIGNAL comment CDATA #IMPLIED >
+<!ATTLIST SIGNAL type ( DISTANCE | DIRECTION ) #IMPLIED >

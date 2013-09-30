@@ -1,0 +1,24 @@
+<SpatialML version="3.0"><DOC>
+
+ CNNHL_ENG_20030728_192448.33 
+ NEWS STORY 
+ 2003-07-28 20:04:15 
+
+<TEXT>
+
+
+<PLACE country="IL" form="NAM" gazref="IGDB:19219725" id="Pl-1" latLong="31.500°N 34.750°E" type="COUNTRY">israeli</PLACE> prime minister ariel sharon is in <PLACE country="US" form="NAM" gazref="GDB:532871" id="Pl-5" latLong="38.895°N 77.037°W" state="DC" type="COUNTRY">washington</PLACE> this week. he met
+with <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-6" type="COUNTRY">american</PLACE> jewish leaders this morning and talked with national
+security adviser condoleezza rice in the afternoon. sharon will
+discuss the <PLACE form="NAM" gazref="IGDB:208667208" id="Pl-7" type="RGN">middle east</PLACE> peace process with president bush tomorrow.
+yesterday, <PLACE country="IL" form="NAM" gazref="IGDB:19219725" id="Pl-2" latLong="31.500°N 34.750°E" type="COUNTRY">israel</PLACE>'s cabinet approved sharon's decision to release
+hundreds of <PLACE country="PS" form="NAM" gazref="IGDB:208674239" id="Pl-8" type="COUNTRY">palestinian</PLACE> prisoners.si the move will allow some hamas
+and islamic jihad members in <PLACE country="IL" form="NAM" gazref="IGDB:19219725" id="Pl-3" latLong="31.500°N 34.750°E" type="COUNTRY">israeli</PLACE> prisons to go free if they meet
+the cabinet's criteria. previously, <PLACE country="IL" form="NAM" gazref="IGDB:19219725" id="Pl-4" latLong="31.500°N 34.750°E" type="COUNTRY">israel</PLACE> refused to release any
+prisoners affiliated with islamic militant groups.
+
+</TEXT>
+
+
+ 2003-07-28 20:04:43 
+</DOC></SpatialML>

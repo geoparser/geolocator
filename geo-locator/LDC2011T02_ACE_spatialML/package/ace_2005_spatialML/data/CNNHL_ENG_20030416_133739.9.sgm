@@ -1,0 +1,25 @@
+<SpatialML version="3.0"><DOC>
+
+ CNNHL_ENG_20030416_133739.9 
+ NEWS STORY 
+ 2003-04-16 13:37:49 
+
+<TEXT>
+
+
+seven former p.o.w.s are getting one step closer to home. they'll be
+arriving at <PLACE country="DE" form="NAM" gazref="IGDB:18153609" id="Pl-1" latLong="49.450°N 7.533°E" state="DE-RP" type="PPL">ramstein</PLACE> air base in <PLACE country="DE" form="NAM" gazref="IGDB:18224345" id="Pl-2" latLong="51.500°N 10.500°E" type="COUNTRY">germany</PLACE> a few hours from now. once
+doctors there say they are good to go, the seven will head stateside.
+doctors in <PLACE country="KW" form="NAM" gazref="IGDB:19210228" id="Pl-3" latLong="29.500°N 47.750°E" type="COUNTRY">kuwait</PLACE> have already said the six men and one woman are in
+good shape, so they may not have to stay in <PLACE country="DE" form="NAM" gazref="IGDB:18224345" id="Pl-4" latLong="51.500°N 10.500°E" type="COUNTRY">germany</PLACE> very long. the
+former p.o.w.s were rescued sunday <SIGNAL id="S-1">about 75 miles</SIGNAL> <SIGNAL id="S-2">north</SIGNAL> of <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-5" latLong="33.339°N 44.394°E" type="PPLC">baghdad</PLACE>.
+they've been sticking close together ever since. medical officers say
+they became a team while in captivity and want to stay together as a
+team until it's time to go to their separate homes.
+
+</TEXT>
+
+
+ 2003-04-16 13:38:20 
+
+<RLINK direction="N" distance="75:mi" id="Pa-1" signals="S-1 S-2" source="Pl-5"/></DOC></SpatialML>

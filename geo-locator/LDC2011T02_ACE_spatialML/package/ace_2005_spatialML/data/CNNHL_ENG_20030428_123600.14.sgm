@@ -1,0 +1,24 @@
+<SpatialML version="3.0"><DOC>
+
+ CNNHL_ENG_20030428_123600.14 
+ NEWS STORY 
+ 2003-04-28 13:46:16 
+
+<TEXT>
+
+
+an <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-1" predicative="true" type="COUNTRY">american</PLACE> astronaut and <PLACE country="RU" form="NAM" gazref="IGDB:17005945" id="Pl-2" latLong="60.000°N 100.000°E" predicative="true" type="COUNTRY">russian</PLACE> cosmonaut are settling in at the
+international space <PLACE form="NOM" id="Pl-33" type="FAC">station</PLACE>. a <PLACE country="RU" form="NAM" gazref="IGDB:17005945" id="Pl-4" latLong="60.000°N 100.000°E" predicative="true" type="COUNTRY">russian</PLACE> soyuz capsule dropped them off
+this morning after docking perfectly at the orbiting <PLACE form="NOM" id="Pl-34" type="FAC">outpost</PLACE>. it was
+the first manned flight to the space <PLACE form="NOM" id="Pl-35" type="FAC">station</PLACE> since the february first
+shuttle &quot;columbia&quot; disaster. about 90 minutes after the docking, the
+crews opened the hatch between the two spacecraft. edward lu and yuri
+malenchenko of <PLACE country="RU" form="NAM" gazref="IGDB:17005945" id="Pl-3" latLong="60.000°N 100.000°E" type="COUNTRY">russia</PLACE> will spend the next six months in the space
+<PLACE form="NOM" id="Pl-31" type="FAC">station</PLACE>. they're replacing the two astronauts and one cosmonaut
+currently there. the soyuz will carry that crew back to <PLACE form="NAM" id="Pl-5" type="CELESTIAL">earth</PLACE> may 4th.
+
+</TEXT>
+
+
+ 2003-04-28 13:46:36 
+</DOC></SpatialML>

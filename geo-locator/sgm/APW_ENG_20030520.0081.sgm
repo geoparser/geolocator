@@ -1,0 +1,53 @@
+<SpatialML version="3.0"><DOC>
+
+ APW_ENG_20030520.0081 
+ NEWS STORY 
+ 20030520 
+
+
+Explosion in <PLACE country="TR" form="NAM" gazref="IGDB:19226169" id="Pl-4" latLong="39.000°N 35.000°E" predicative="true" type="COUNTRY">Turkish</PLACE> cafe kills one person
+
+<TEXT>
+
+<PLACE country="TR" form="NAM" gazref="IGDB:19264662" id="Pl-1" latLong="39.927°N 32.864°E" state="TR-06" type="PPLC">ANKARA</PLACE>, <PLACE country="TR" form="NAM" gazref="IGDB:19226169" id="Pl-3" latLong="39.000°N 35.000°E" type="COUNTRY">Turkey</PLACE> (AP)
+
+An explosion in a <PLACE form="NOM" id="Pl-260" type="FAC">cafe</PLACE> at one of the <PLACE country="TR" form="NOM" gazref="IGDB:19264662" id="Pl-6" latLong="39.927°N 32.864°E" state="TR-06" type="PPLC">capital</PLACE>'s busiest intersections
+killed one woman and injured another Tuesday, police said.
+
+Police were investigating the cause of the explosion in the <PLACE form="NOM" id="Pl-266" type="FAC">restroom</PLACE>
+of the multistory <PLACE form="NAM" id="Pl-261" type="FAC">Crocodile Cafe</PLACE> in the commercial district of
+<PLACE country="TR" form="NAM" id="Pl-7" state="TR-06" type="RGN">Kizilay</PLACE> during the morning rush hour. The blast shattered walls and
+windows in the <PLACE form="NOM" id="Pl-262" type="FAC">building</PLACE>.
+
+Police recovered the body of a woman from the debris of the <PLACE form="NOM" id="Pl-265" type="FAC">restroom</PLACE>
+and carried it away in a bodybag.
+
+News reports suggested that the woman may have been a suicide bomber
+or may have died when the bomb she was planting exploded prematurely,
+but police and interior ministry officials refused to confirm the
+reports.
+
+<PLACE country="TR" form="NAM" gazref="IGDB:19264662" id="Pl-2" latLong="39.927°N 32.864°E" predicative="true" state="TR-06" type="PPLC">Ankara</PLACE> police chief Ercument Yilmaz visited the <PLACE form="NOM" id="Pl-259" type="FAC">site</PLACE> of the morning
+blast but refused to say if a bomb had caused the explosion.
+
+``Our colleagues are carrying out inspections,'' he said. There was
+no information on the identity of the injured person.
+
+It was not clear how many people were in the <PLACE form="NOM" id="Pl-258" type="FAC">cafe</PLACE> at the time of the
+blast.
+
+The explosion comes a month after a bomb exploded at a McDonald's
+<PLACE form="NOM" id="Pl-257" type="FAC">restaurant</PLACE> in <PLACE country="TR" form="NAM" gazref="IGDB:19244930" id="Pl-8" latLong="41.019°N 28.965°E" state="TR-34" type="PPL">Istanbul</PLACE>, causing damage but no injuries.
+
+Radical leftist, <PLACE country="TR" gazref="IGDB:208909932" id="Pl-9" predicative="true" type="RGN">Kurdish</PLACE> and Islamic groups are active in the <PLACE country="TR" form="NOM" gazref="IGDB:19226169" id="Pl-5" latLong="39.000°N 35.000°E" type="COUNTRY">country</PLACE>
+and have carried out bombings in the past.
+
+</TEXT>
+
+
+
+
+
+
+
+<LINK id="L-1" linkType="IN" source="Pl-1" target="Pl-3"/><LINK id="L-2" linkType="IN" source="Pl-260" target="Pl-6"/><LINK id="L-3" linkType="IN" source="Pl-266" target="Pl-261"/><LINK id="L-4" linkType="IN" source="Pl-261" target="Pl-7"/><LINK id="L-5" linkType="IN" source="Pl-257" target="Pl-8"/></DOC></SpatialML>

@@ -1,0 +1,28 @@
+<SpatialML version="3.0"><DOC>
+
+ AGGRESSIVEVOICEDAILY_20041218.0146 
+ WEB TEXT 
+ 2004-12-18T01:46:00 
+
+
+No 2nd Amendment in the <PLACE country="US" form="NAM" id="Pl-3" state="US-CA" type="RGN">Valley</PLACE>
+
+<TEXT>
+
+
+ Scott 
+ 2004-12-18T01:46:00 
+<PLACE country="US" form="NAM" gazref="IGDB:278593" id="Pl-4" latLong="37.775°N 122.418°W" state="US-CA" type="PPL">San Francisco</PLACE> is apparently bored with just being the gay capital of
+<PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-6" type="COUNTRY">America</PLACE> and is trying to muscle out <PLACE country="US" form="NAM" gazref="IGDB:532871" id="Pl-7" latLong="38.895°N 77.037°W" state="US-DC" type="PPLC">Washington</PLACE> <PLACE country="US" form="NAM" gazref="IGDB:532871" id="Pl-1" latLong="38.895°N 77.037°W" state="US-DC" type="PPLC">DC</PLACE> for the prestigious
+title of murder capital. It's possible, now that <PLACE country="US" form="NAM" gazref="IGDB:278593" id="Pl-5" latLong="37.775°N 122.418°W" predicative="true" state="US-CA" type="PPL">San Francisco</PLACE> officials
+have proposed a law that mimics the infamous <PLACE country="US" form="NAM" gazref="IGDB:532871" id="Pl-2" latLong="38.895°N 77.037°W" predicative="true" state="US-DC" type="PPLC">DC</PLACE> gun ban. Columnist
+Michelle Malkin is one of the few columnists/bloggers who has picked up
+on the story.
+
+As I said in a previous post it's all up to the voters.
+
+</TEXT>
+
+
+
+<LINK id="L-1" linkType="IN" source="Pl-7" target="Pl-1"/></DOC></SpatialML>

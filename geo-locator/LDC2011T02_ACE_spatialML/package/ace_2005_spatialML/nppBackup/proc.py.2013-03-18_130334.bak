@@ -1,0 +1,9 @@
+import os
+import sys
+import 
+
+def main():
+	curdir = os.getcwd();
+	filedir = curdir + ""
+if __name__=="__main__":
+	main();

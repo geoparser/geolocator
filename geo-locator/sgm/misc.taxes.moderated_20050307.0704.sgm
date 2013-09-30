@@ -1,0 +1,155 @@
+<SpatialML version="3.0"><DOC>
+
+ misc.taxes.moderated_20050307.0704 
+ WEB TEXT 
+ 2005-03-07T07:04:00 
+
+
+Capital Gains on House after divorce
+
+<TEXT>
+
+
+ mune19642...@yahoo.com 
+ Mon, 07 Mar 2005 12:04:48 -0000 
+ Capital Gains on House after divorce 
+
+I and my ex jointly bought the <PLACE country="US" id="Pl-119" state="ca" type="FAC">house</PLACE> in 1998 for $220,000 in
+<PLACE country="US" form="NAM" gazref="IGDB:1780778" id="Pl-1" latLong="37.250°N 119.750°W" state="CA" type="CIVIL">California</PLACE>. We lived in the <PLACE country="US" id="Pl-120" state="ca" type="FAC">house</PLACE> since then. We started
+divorce proceedings in 2004 and my wife moved out. Current
+value of the house is 540,000.
+
+I had to pay her, by refinancing my mortgage, half the
+current property value minus loan remaining which came to
+about 200,000. i.e [ (540k - 140k)/2 ] . She did not pay any
+taxes for that.
+
+Now I understand if I sell the <PLACE country="US" id="Pl-121" state="ca" type="FAC">house</PLACE> I am stuck with a
+capital gains tax as a single person on the entire gain !!!
+i.e 540k-220k = 320 K as the limit is only 250K ?
+
+This does not look fair, as my cost basis should be
+readjusted when I paid my ex half the value 200K !!!
+My real gain is much less.
+
+Any comments ??
+
+(( ------------------------------ -------------------))
+(( The Charter and the Guidelines for submitting ))
+(( messages to this newsgroup are at ))
+(( ------------------------------ -------------------))
+
+
+
+ Bill 
+ Tue, 08 Mar 2005 10:17:59 -0000 
+ Re: Capital Gains on House after divorce 
+
+    
+
+Who told you that? Sounds wrong to me: Your cost basis
+should be adjusted to reflect the additional $200,000 --
+which you paid to your wife, for her share of the <PLACE country="US" id="Pl-115" state="ca" type="FAC">house</PLACE>.
+
+
+And you should certainly also include the original $110,000
+(your share of the $220,000), which means your correct cost
+basis is now about $310,000. So if you sell for $540,000,
+your gain would be $230,000 -- and therefore free of any tax
+obligation, under current law.
+
+Of course, there may be other additions to the cost basis
+which you haven't included -- such as significant <PLACE country="US" id="Pl-112" state="ca" type="FAC">home</PLACE>
+improvements, like a room addition or remodeling of the
+kitchen. Those would also be added into _your_ basis. I've
+only dealt with the figures you provided.
+
+Bill
+
+(( ------------------------------ -------------------))
+(( The Charter and the Guidelines for submitting ))
+(( messages to this newsgroup are at ))
+(( ------------------------------ -------------------))
+
+
+
+ Gene E. Utterback, EA 
+ Wed, 09 Mar 2005 23:17:54 -0000 
+ Re: Capital Gains on House after divorce 
+
+    
+
+There are a few WRONG answers being posted on this subject
+so I thought I would expand on my original answer and give
+the OP some authority.
+
+Under Code Section 1041, any transfer of property between
+spouses during marriage or any transfer of property between
+former spouses incident to a divorce is treated as a gift.
+Because these transfers are treated as gifts, the transferee
+spouse may exclude the property received from his gross
+income under Code Section 102(a).
+
+The transferee spouse's basis in the property received for
+all purposes is the transferor's adjusted basis immediately
+before the transfer. Code Section 1041(b)(2). This carryover
+basis rule applies whether the adjusted basis of the
+transferred property is less than, equal to, or greater than
+its fair market value at the time of the transfer,
+regardless of the value of any consideration provided by the
+transferee, and applies for purposes of determining loss as
+well as gain on the subsequent disposition of the property
+by the transferee. Reg. Section 1.1041-1T(d),
+
+Code Section 1041 is not elective. It applies whether the
+transfer is for relinquishment of marital rights, for cash
+or other property, for the assumption of liabilities in
+excess of basis, or for other consideration, and is intended
+to apply to any indebtedness that is discharged. Reg.
+Section 1.1041-1T(d). Even if the transfer is a bona fide
+sale, the transferor does not recognize gain or loss, and
+the transferee does not acquire a new cost basis in the
+transferred property. Reg. Section 1.1041-1T(a) Code Section
+1041 applies regardless of whether the transfer is of
+property separately owned by the transferor or is a division
+(equal or unequal) of community property. Further, Code
+Section 1041 applies even if the transferred property is
+subject to liabilities that exceed the adjusted basis of the
+property. Reg. Section 1.1041-1T(d),
+
+EXAMPLE: Andy owns property having a fair market value of
+$10,000 and an adjusted basis of $1,000. In contemplation of
+making a transfer incident to a divorce from Becky, Andy
+borrows $5,000 from a bank, using the property as security
+for the borrowing. Andy then transfers the property to Becky
+and Becky assumes, or takes the property subject to, the
+liability to pay the $5,000 debt. Under Code Section 1041,
+Andy recognizes no gain or loss on the transfer of the
+property, and Becky's adjusted basis in the property is
+$1,000.
+
+Code Section 1041 also applies to transfers of property
+incident to a divorce. Code Section 1041(a)(2). A transfer
+of property is incident to a divorce if it occurs within one
+year after the date on which the marriage ceases or is
+related to the cessation of the marriage. A transfer is
+treated as related to the cessation of the marriage if the
+transfer is pursuant to a or separation instrument and the
+transfer occurs not more than six years after the date on
+which the marriage ceases. A divorce or separation
+instrument includes a modification or amendment to a decree
+or instrument. Reg. Section 1.1041-1T(b)
+
+Gene E. Utterback, EA, RFC
+
+(( ------------------------------ -------------------))
+(( The Charter and the Guidelines for submitting ))
+(( messages to this newsgroup are at ))
+(( ------------------------------ -------------------))
+
+
+</TEXT>
+
+
+</DOC>
+</SpatialML>

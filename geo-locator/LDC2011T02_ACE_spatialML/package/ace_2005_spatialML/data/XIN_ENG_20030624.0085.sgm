@@ -1,0 +1,47 @@
+<SpatialML version="3.0"><DOC>
+
+ XIN_ENG_20030624.0085 
+ NEWS STORY 
+ 20030624 
+
+
+<PLACE country="CN" form="NAM" gazref="IGDB:18099327" id="Pl-1" latLong="35.000°N 105.000°E" type="COUNTRY">China</PLACE> to build nuclear-powered desalinator project
+
+<TEXT>
+
+<PLACE country="CN" form="NAM" gazref="IGDB:18087715" id="Pl-4" latLong="36.668°N 116.997°E" state="37" type="PPL">JINAN</PLACE>, June 24 (Xinhua)
+
+<PLACE country="CN" form="NAM" gazref="IGDB:18099327" id="Pl-2" latLong="35.000°N 105.000°E" type="COUNTRY">China</PLACE> late this year will start building a nuclear-powered
+desalinator project in <PLACE country="CN" form="NAM" gazref="IGDB:18064135" id="Pl-5" latLong="37.533°N 121.400°E" state="37" type="PPL">Yantai City</PLACE> in east <PLACE country="CN" form="NAM" gazref="IGDB:18099327" id="Pl-3" latLong="35.000°N 105.000°E" mod="E" type="COUNTRY">China</PLACE>'s <PLACE country="CN" form="NAM" gazref="IGDB:18075644" id="Pl-7" latLong="36.000°N 119.000°E" state="37" type="CIVIL">Shandong Province</PLACE>,
+with a designed capacity of producing 52 million tons of fresh water
+a year.
+
+Officials with the Development Planning Commission of the <PLACE country="CN" form="NAM" gazref="IGDB:18075644" id="Pl-8" latLong="36.000°N 119.000°E" state="37" type="CIVIL">Shandong</PLACE>
+provincial government said the project, to be built in cooperation
+with <PLACE country="CN" form="NAM" gazref="IGDB:26002097" id="Pl-11" latLong="36.682°N 114.291°E" state="11" type="PPL">Qinghua</PLACE> University, would alleviate water shortages in the <PLACE country="CN" form="NOM" gazref="IGDB:18064135" id="Pl-12" latLong="37.533°N 121.400°E" state="37" type="PPL">city</PLACE>
+and other parts of the <PLACE country="CN" form="NAM" gazref="IGDB:18075644" id="Pl-10" latLong="36.000°N 119.000°E" state="37" type="CIVIL">Shandong Peninsula</PLACE>.
+
+<PLACE country="CN" form="NAM" gazref="IGDB:18064135" id="Pl-6" latLong="37.533°N 121.400°E" state="37" type="PPL">Yantai</PLACE> and other parts of <PLACE country="CN" form="NAM" gazref="IGDB:18075644" id="Pl-9" latLong="36.000°N 119.000°E" state="37" type="CIVIL">Shandong</PLACE> suffered acute water shortages due
+to droughts in recent years, changing climate and other reasons.
+
+Approved by the State Development and Reform Commission, the project
+is expected to cost 1.6 billion yuan (nearly 200 million <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-15" type="COUNTRY">US</PLACE> dollars).
+
+Zhang Zuoyi, director of the Nuclear Energy Technology and Design
+Institute attached to <PLACE country="CN" form="NAM" gazref="IGDB:26002097" id="Pl-13" latLong="36.682°N 114.291°E" state="11" type="PPL">Qinghua</PLACE> University, was quoted in Monday's
+<PLACE country="CN" form="NAM" gazref="IGDB:18101459" id="Pl-14" latLong="39.929°N 116.388°E" state="11" type="PPLC">Beijing</PLACE> Evening News as saying the fresh water to be produced from
+the project will cost 3.75 yuan per ton, much less than the cost of
+water from existing sources.
+
+The project is expected to use a 200-megawatt nuclear-powered reactor
+designed by the institute, according to the paper.
+
+The project would be completed and operational in 2007, it said.
+
+</TEXT>
+
+
+
+
+
+<LINK id="L-1" linkType="IN" source="Pl-7" target="Pl-3"/><LINK id="L-2" linkType="IN" source="Pl-5" target="Pl-7"/></DOC></SpatialML>

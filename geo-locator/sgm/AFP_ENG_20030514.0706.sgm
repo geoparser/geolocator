@@ -1,0 +1,43 @@
+<SpatialML version="3.0"><DOC>
+
+ AFP_ENG_20030514.0706 
+ NEWS STORY 
+ 20030514 
+
+
+<PLACE country="IL" form="NAM" gazref="IGDB:19219725" id="Pl-1" latLong="31.500°N 34.750°E" predicative="true" state="GB-ENG" type="COUNTRY">Israeli</PLACE> FM meets <PLACE country="QA" form="NAM" gazref="IGDB:19214483" id="Pl-6" latLong="25.500°N 51.250°E" type="COUNTRY">Qatari</PLACE> counterpart in <PLACE country="FR" form="NAM" gazref="IGDB:18543072" id="Pl-13" latLong="48.867°N 2.333°E" state="FR-75" type="PPLC">Paris</PLACE>
+
+<TEXT>
+
+<PLACE country="FR" form="NAM" gazref="IGDB:18543072" id="Pl-14" latLong="48.867°N 2.333°E" state="FR-75" type="PPLC">PARIS</PLACE>, May 14 (AFP)
+
+<PLACE country="IL" form="NAM" gazref="IGDB:19219725" id="Pl-2" latLong="31.500°N 34.750°E" predicative="true" type="COUNTRY">Israeli</PLACE> Foreign Minister Silvan Shalom on Wednesday stressed <PLACE country="QA" form="NAM" gazref="IGDB:19214483" id="Pl-7" latLong="25.500°N 51.250°E" type="COUNTRY">Qatar</PLACE>'s
+role in the <PLACE form="NAM" gazref="IGDB:208667208" id="Pl-16" type="RGN">Middle East</PLACE> peace process during talks with his <PLACE country="QA" form="NAM" gazref="IGDB:19214483" id="Pl-8" latLong="25.500°N 51.250°E" predicative="true" type="COUNTRY">Qatari</PLACE>
+counterpart Sheikh Hamad bin Jassem bin Jabr al-Thani in <PLACE country="FR" form="NAM" gazref="IGDB:18543072" id="Pl-15" latLong="48.867°N 2.333°E" state="FR-75" type="PPLC">Paris</PLACE>.
+
+Shalom told a joint press conference that the tiny <PLACE form="NAM" gazref="IGDB:18493586" id="Pl-17" latLong="27.000°N 51.000°E" type="WATER">Gulf</PLACE> <PLACE country="QA" form="NOM" gazref="IGDB:19214483" id="Pl-12" latLong="25.500°N 51.250°E" type="COUNTRY">state</PLACE>'s
+strong relationship with the recently appointed <PLACE form="NAM" gazref="IGDB:208674239" id="Pl-22" predicative="true" type="RGN">Palestinian</PLACE> prime
+minister, Mahmud Abbas, could be a boost for peace.
+
+&quot;We discussed the <PLACE form="NAM" gazref="IGDB:208667208" id="Pl-18" type="RGN">Middle East</PLACE> peace process. Over an hour of talks,
+we asserted the will of both parties (<PLACE country="IL" form="NAM" gazref="IGDB:19219725" id="Pl-3" latLong="31.500°N 34.750°E" type="COUNTRY">Israel</PLACE> and the Arab world) to
+do everything to return to the negotiating table,&quot; Shalom said.
+
+&quot;<PLACE country="QA" form="NAM" gazref="IGDB:19214483" id="Pl-9" latLong="25.500°N 51.250°E" type="COUNTRY">Qatar</PLACE> is a very important country on this issue. I know the special
+relationship that the <PLACE country="QA" form="NAM" gazref="IGDB:19214483" id="Pl-10" latLong="25.500°N 51.250°E" predicative="true" type="COUNTRY">Qatari</PLACE> foreign minister has with Abu Mazen,&quot; he
+said, using Abbas's alternative name.
+
+The meeting was Shalom's first encounter with an Arab counterpart
+since he took office as <PLACE country="IL" form="NAM" gazref="IGDB:19219725" id="Pl-4" latLong="31.500°N 34.750°E" type="COUNTRY">Israel</PLACE>'s foreign minister on February 27.
+
+<PLACE country="QA" form="NAM" gazref="IGDB:19214483" id="Pl-11" latLong="25.500°N 51.250°E" type="COUNTRY">Qatar</PLACE> has economic links with <PLACE country="IL" form="NAM" gazref="IGDB:19219725" id="Pl-5" latLong="31.500°N 34.750°E" type="COUNTRY">Israel</PLACE> without maintaining diplomatic
+relations, in the face of criticism from other Arab countries.
+
+Afterwards Shalom was to fly on to <PLACE country="GB" form="NAM" gazref="IGDB:17398111" id="Pl-20" latLong="51.500°N 0.117°W" state="GB-ENG" type="PPLC">London</PLACE> for talks with <PLACE country="GB" form="NAM" gazref="IGDB:17389505" id="Pl-19" latLong="54.000°N 4.000°W" predicative="true" type="COUNTRY">British</PLACE>
+Prime Minister Tony Blair and Foreign Secretary Jack Straw.
+
+</TEXT>
+
+
+
+<LINK id="L-1" linkType="EC" source="Pl-12" target="Pl-17"/></DOC></SpatialML>

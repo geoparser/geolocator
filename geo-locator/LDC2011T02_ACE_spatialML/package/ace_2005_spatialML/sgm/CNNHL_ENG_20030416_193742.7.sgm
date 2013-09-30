@@ -1,0 +1,25 @@
+<SpatialML version="3.0"><DOC>
+
+ CNNHL_ENG_20030416_193742.7 
+ NEWS STORY 
+ 2003-04-16 19:38:13 
+
+<TEXT>
+
+
+in northern <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-3" latLong="33.000°N 44.000°E" mod="N" type="COUNTRY">iraq</PLACE>, <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-1" predicative="true" type="COUNTRY">u.s.</PLACE> marines and residents exchanged gunfire in the
+city of <PLACE country="IQ" form="NAM" gazref="IGDB:16897344" id="Pl-4" latLong="36.335°N 43.119°E" state="IQ-NI" type="PPLA">mosul</PLACE> today, in the second day of civil disturbances there. a
+senior <PLACE form="NAM" id="Pl-20" predicative="true" type="RGN">kurdish</PLACE> intelligence official says citizens were protesting the
+<PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-6" predicative="true" type="COUNTRY">american</PLACE> occupation of the <PLACE country="IQ" form="NOM" gazref="IGDB:16897344" id="Pl-5" latLong="36.335°N 43.119°E" state="IQ-NI" type="PPLA">city</PLACE>'s main government <PLACE form="NOM" id="Pl-19" type="FAC">building</PLACE>. seven
+iraqis were killed by <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-2" predicative="true" type="COUNTRY">u.s.</PLACE> marines, who say they were responding to
+sniper fire. hospital officials say 17 people have been killed and 18
+wounded over the past 2 days. central command says troops were
+involved in a gun battle yesterday.
+
+</TEXT>
+
+
+ 2003-04-16 19:38:40 
+
+
+<LINK id="L-1" linkType="IN" source="Pl-19" target="Pl-5"/></DOC></SpatialML>

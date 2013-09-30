@@ -1,0 +1,119 @@
+<SpatialML version="3.0"><DOC>
+
+ CNN_IP_20030402.1600.02-2 
+ STORY 
+ 2003-04-02T16:00:00-05:00  
+
+
+Push to <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-12" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">Baghdad</PLACE> Begins; POW Safe in Army's Care
+
+<TEXT>
+
+(NEWSBREAK)
+
+ WOODRUFF 
+With <PLACE country="US" form="NAM" gazref="IGDB:840" id="Pl-11" predicative="true" type="COUNTRY">U.S.</PLACE> forces rolling closer and closer to <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-13" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">Baghdad</PLACE>, the military seems
+to be zeroing in on the ground war. But, as it has from the beginning,
+air power remains an important part of the battle. Let's check in with
+CNN's Gary Tuchman at an air <PLACE id="Pl-357" type="FAC">base</PLACE> <SIGNAL id="S-3">near</SIGNAL> <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-1" latLong="33.000°N 44.000°E" type="COUNTRY">Iraq</PLACE>. Gary you've seen it
+firsthand from the first moments.
+
+
+ GARY TUCHMAN, CNN CORRESPONDENT 
+Well, that's right, Judy. In two weeks after the air war began, there is
+no let-up and no effective response from the Iraqis. According to the Air
+Force, at any given time, there are more 200 coalition aircraft either
+over <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-2" latLong="33.000°N 44.000°E" type="COUNTRY">Iraq</PLACE>, flying to <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-3" latLong="33.000°N 44.000°E" type="COUNTRY">Iraq</PLACE> or flying from <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-4" latLong="33.000°N 44.000°E" type="COUNTRY">Iraq</PLACE>. We come to you from a <PLACE form="NOM" id="Pl-349" type="FAC">base</PLACE>
+<SIGNAL id="S-4">near</SIGNAL> the <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-5" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">Iraqi</PLACE> border. Many pilots are flying these A-10 attack planes
+behind me. They also fly F-16s. There are also Marine FA-18s and Marine
+Heriers at this <PLACE form="NOM" id="Pl-350" type="FAC">base</PLACE>. We can tell you that a lot of pilots of this <PLACE form="NOM" id="Pl-351" type="FAC">base</PLACE>
+are not flying to another base in <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-6" latLong="33.000°N 44.000°E" type="COUNTRY">Iraq</PLACE>. It's a <PLACE form="NOM" id="Pl-325" type="FAC">base</PLACE> that was taken over
+by the coalition last week. And we spent part of the day at that <PLACE form="NOM" id="Pl-327" type="FAC">base</PLACE>.
+And when you arrive there, you are greeted in a sense by Saddam Hussein.
+
+(BEGIN VIDEOTAPE)
+
+ TUCHMAN 
+This is <PLACE country="IQ" form="NAM" id="Pl-358" type="PPL">Talil</PLACE>, <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-7" latLong="33.000°N 44.000°E" type="COUNTRY">Iraq</PLACE>. The <PLACE country="IQ" form="NAM" id="Pl-343" type="FAC">Talil Air Base</PLACE>. But the are no more Iraqis here,
+the coalition took over this <PLACE country="IQ" form="NOM" id="Pl-329" type="FAC">base</PLACE> last week. It's now a major staging
+point. You know you are in <PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-8" latLong="33.000°N 44.000°E" type="COUNTRY">Iraq</PLACE> when you drive down the <PLACE country="IQ" form="NOM" id="Pl-348" type="FAC">road</PLACE> coming into
+the <PLACE country="IQ" form="NOM" id="Pl-332" type="FAC">base</PLACE> and see the portrait of Saddam Hussein. What's happen is the
+military personnel who have arrived here have taken out their markers and
+are writing messages on Saddam Hussein's portrait. You can see the main
+one here on the bottom and also here messages like, we won, April 1,
+2003. Want to give you a look. There's a lot of security personnel here.
+You can look over there and you can see the military vehicles. These are
+Air Force Security Forces with their rifles patrolling the entrance.
+There is a lot of fighting in this area. We're near the town of <PLACE country="IQ" form="NAM" gazref="IGDB:16897120" id="Pl-16" latLong="31.054°N 46.259°E" state="IQ-DQ" type="PPLA">Nasiriya</PLACE>.
+But this <PLACE country="IQ" form="NOM" id="Pl-334" type="FAC">base</PLACE> now is considered secure enough to make it a major staging
+point for the coalition.
+
+(END VIDEOTAPE)
+
+ TUCHMAN 
+A short time ago we talked to a pilot at this <PLACE country="IQ" form="NOM" id="Pl-352" type="FAC">base</PLACE> who has been to that
+<PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-9" latLong="33.000°N 44.000°E" predicative="true" type="COUNTRY">Iraqi</PLACE> <PLACE country="IQ" form="NOM" id="Pl-337" type="FAC">base</PLACE> and he too says he has signed that mural right on Saddam
+Hussein's sash. After he told us that, we asked him during his missions,
+and he's flown about 30 in the last two weeks, we asked him does he still
+have any artillery being fired at him?
+
+(BEGIN VIDEO CLIP)
+
+ UNIDENTIFIED MALE 
+Yesterday I was up <SIGNAL id="S-2">just south</SIGNAL> of <PLACE country="IQ" form="NAM" gazref="IGDB:16896419" id="Pl-14" latLong="33.339°N 44.394°E" state="IQ-BG" type="PPLC">Baghdad</PLACE> by <SIGNAL id="S-1">30 miles</SIGNAL> and we were fighting
+SA-2s and SA-6s and AAA on the ground. So they're still out there. But
+the air power and the air package that we take to the fight, we continue
+to be effective. And we attrit the <PLACE country="SA" form="NAM" gazref="IGDB:16897380" id="Pl-18" latLong="30.965°N 47.255°E" predicative="true" state="SA-03" type="PPL">Medina</PLACE> forces down to less than 50
+percent. And when we put our power punch to them and then the Army and
+the Marines move forward it's a very effective, coordinated effort.
+
+(END VIDEO CLIP)
+
+ TUCHMAN 
+Lieutenant Colonel Webb (ph) is telling us he has a mission this very
+evening. We want to tell you the Air Force has just informed us that
+between this morning and tomorrow morning, it will fly 1,900 sorties into
+<PLACE country="IQ" form="NAM" gazref="IGDB:16897518" id="Pl-10" latLong="33.000°N 44.000°E" type="COUNTRY">Iraq</PLACE>. A total over the last two weeks now of close to 24,000 sorties.
+Before we go, one more thing we want to tell you about, superstitions.
+Military people are very superstitious, like many of us are. Here at this
+particular <PLACE country="IQ" form="NOM" id="Pl-353" type="FAC">base</PLACE> they get their MREs, their MREs are their Meals Ready to
+Eat. They come in a bag. And when you get an MRE you get your meal and
+you get a little treat with it. What a lot of people here at this <PLACE country="IQ" form="NOM" id="Pl-355" type="FAC">base</PLACE>
+do, when their treat happens to be this one, this is the candy called
+Charms, many of the people refuse to eat their Charms. They consider it a
+good luck charm to keep their Charms in their clothes and not to eat
+them. So one little superstitious tale for you, Judy. Back to you.
+
+
+ WOODRUFF 
+Well, I'm one of those who thinks that we need to pay attention to our
+superstitions. Gary, one another quick question for you. That air <PLACE country="IQ" form="NOM" id="Pl-345" type="FAC">base</PLACE>
+that coalition forces have now taken control of near <PLACE country="IQ" form="NAM" gazref="IGDB:16897120" id="Pl-17" latLong="31.054°N 46.259°E" state="IQ-DQ" type="PPLA">Nasiriya</PLACE>. Are you
+able to say, are they actually using it or getting much use out of it?
+
+
+ TUCHMAN 
+What they are doing, Judy, some of these A-10s behind me go there to
+refuel, to stage operations further north. They also fly these HH-60
+helicopters, they're the search and rescue helicopters used in case they
+have to search and find somebody on the ground. They stage there and
+refuel. But right now, none of them are permanently based there, although
+the plan is for that to eventually happen.
+
+
+ WOODRUFF 
+All right, Gary Tuchman with some Charms. You saw him holding it. I will
+be talking with a ranking member of the Senate Foreign Relations
+Committee, Senator Joe Biden, just ahead, for his take on how the war is
+going. Could Tony Blair be in line for a gold medal? Tales of how some in
+Congress want to honor the <PLACE country="GB" form="NAM" gazref="IGDB:17389505" id="Pl-19" latLong="54.000°N 4.000°W" predicative="true" type="COUNTRY">British</PLACE> prime minister.
+
+</TEXT>
+
+
+
+
+
+
+
+<RLINK direction="S" distance="30:mi" id="Pa-1" signals="S-1 S-2" source="Pl-14"/><RLINK frame="INTRINSIC" id="R-2" signals="S-3" source="Pl-357" target="Pl-1"/><RLINK frame="INTRINSIC" id="R-3" signals="S-4" source="Pl-349" target="Pl-5"/><LINK id="L-3" linkType="IN" source="Pl-358" target="Pl-7"/><LINK id="L-4" linkType="DC" source="Pl-348" target="Pl-332"/></DOC></SpatialML>

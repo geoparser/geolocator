@@ -1,0 +1,34 @@
+<SpatialML version="3.0"><DOC>
+
+ NYT_ENG_20030829.0073 
+ NEWS STORY 
+ 20030829 
+
+
+WILLIAM SCHERLE, CONGRESSMAN, DEAD AT 80
+
+<TEXT>
+
+<PLACE country="US" form="NAM" gazref="IGDB:466961" id="Pl-1" latLong="41.601°N 93.609°W" state="IA" type="PPLA">DES MOINES</PLACE>, <PLACE country="US" form="NAM" gazref="IGDB:1780785" id="Pl-2" latLong="42.000°N 93.500°W" state="IA" type="CIVIL">Iowa</PLACE>
+
+William Scherle, who represented southwest <PLACE country="US" form="NAM" gazref="IGDB:1780785" id="Pl-3" latLong="42.000°N 93.500°W" mod="SW" state="IA" type="CIVIL">Iowa</PLACE> for four terms in
+Congress, died on Wednesday in <PLACE country="US" form="NAM" gazref="IGDB:456672" id="Pl-6" latLong="41.262°N 95.861°W" state="IA" type="PPL">Council Bluffs</PLACE>. He was 80.
+
+Scherle, a Republican, was first elected to Congress in 1966. Before
+that, he served in the <PLACE country="US" form="NAM" gazref="IGDB:1780785" id="Pl-4" latLong="42.000°N 93.500°W" state="IA" type="CIVIL">Iowa</PLACE> Legislature.
+
+An obituary in The <PLACE country="US" form="NAM" gazref="IGDB:836483" id="Pl-8" latLong="41.259°N 95.938°W" state="NE" type="PPL">Omaha</PLACE> World-Herald reported that Scherle had been
+known to say that his politics were conservative on everything except
+agriculture, where he was always liberal.
+
+Scherle served in the Navy and the Coast Guard during World War II.
+
+Survivors include his wife, Jane; two sons, John and William, both of
+<PLACE country="US" form="NAM" gazref="IGDB:1780785" id="Pl-5" latLong="42.000°N 93.500°W" state="IA" type="CIVIL">Iowa</PLACE>; a sister, Dorothy Kutzba of <PLACE country="US" form="NAM" gazref="IGDB:1780796" id="Pl-9" latLong="43.000°N 75.500°W" state="NY" type="CIVIL">New York</PLACE>; two brothers, Robert, of
+<PLACE country="US" form="NAM" gazref="IGDB:1780803" id="Pl-10" latLong="37.500°N 78.500°W" state="VA" type="CIVIL">Virginia</PLACE>, and Albert, of <PLACE country="US" form="NAM" gazref="IGDB:456672" id="Pl-7" latLong="41.262°N 95.861°W" state="IA" type="PPL">Council Bluffs</PLACE>; and six grandchildren.
+
+</TEXT>
+
+
+
+<LINK id="L-1" linkType="IN" source="Pl-1" target="Pl-2"/></DOC></SpatialML>

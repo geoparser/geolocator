@@ -1,0 +1,86 @@
+<SpatialML version="3.0"><DOC>
+
+ CNN_ENG_20030327_163556.20 
+ NEWS STORY 
+ 2003-03-27 16:58:58 
+
+<TEXT>
+
+
+for some americans who find themselves spending hours on
+end watching television coverage of the war, it can be hard
+to break away. that is especially true if you have a loved
+one in the war zone. but as our candy crowley reminds us,
+life does and must go on.
+
+
+reporter: spring-time and a game of catch on the <PLACE country="US" form="NAM" gazref="IGDB:532871" id="Pl-1" latLong="38.895°N 77.037°W" state="US-DC" type="PPLC">washington</PLACE>
+<PLACE country="US" form="NOM" id="Pl-529" state="US-DC" type="FAC">mall</PLACE>. a gentle breeze and a good meal beside the <PLACE form="NAM" gazref="IGDB:18493588" id="Pl-2" latLong="0.000°N 0.000°E" type="WATER">pacific
+ocean</PLACE>. that other place, the one on tv all the time, might
+as well be on another planet. and that may be the point.
+
+
+we happen to be at a very nice spot by the beach where this
+is a chance for people to get away from cnn coverage,
+everything, and kind of relax
+
+
+reporter: time to redefine normal again, which on the
+homefront now seems to mean life as you live it only
+weirder.
+
+
+i'm amazed at how unaffected i am by things, how i'm still
+coming to work and doing the same things and going for a
+walk in the morning. and it just seems so strange to me
+that it's almost a parallel universe.
+
+
+more than 70 percent of americans say they are sad about
+the war. the barber at <PLACE country="US" form="NAM" id="Pl-530" state="US-GA">hinsville</PLACE> <PLACE country="US" form="NAM" gazref="IGDB:1706317" id="Pl-3" latLong="32.750°N 83.500°W" state="US-GA" type="CIVIL">georgia</PLACE> larries that.
+
+
+they seem more depressed. a lot of them afraid they're
+going to lose their jobs, you know, the economy is down and
+all kind of stuff.
+
+
+life on the homefront seems the same at <PLACE country="US" form="NOM" id="Pl-527" state="US-CA" type="FAC">farmer's market</PLACE> in
+<PLACE country="US" form="NAM" gazref="IGDB:1663328" id="Pl-4" latLong="34.052°N 118.243°W" state="US-GA" type="PPL">los angeles</PLACE>, but it's more angst ridden.
+
+
+i don't think it's affecting our business as much as i was
+worried that it would, but you never know it's going to
+happen. if there's any kind of terrorism that happens here,
+i think that would definitely put a damper on everything.
+
+
+nationwide, people shopped less in the first week of the
+war. sales fell 2 percent from the previous week. air
+travel has fallen 10 mers since the war began and some
+hotel chains say cancellations are up. 60 percent of the
+people say they're watching the war.
+
+
+my boyfriend has been watching the tv like every single
+day, every time it comes on, he's watching it.
+
+
+maybe fewer people are shoning because they're watching tv.
+maybe fewer are flying because they worry about terrorism
+or they worry about what the war will do to the economy or
+maybe it's everything.
+
+
+there's no one economic statistics to point to a downturn,
+it's an overall feeling, a psychological feeling that
+everything is frozen, everything is on hold. consumers
+aren't spending, people aren't buying stock, everything is
+
+</TEXT>
+
+
+ 2003-03-27 17:01:17 
+
+
+<LINK id="L-1" linkType="IN" source="Pl-529" target="Pl-1"/><LINK id="L-2" linkType="IN" source="Pl-530" target="Pl-3"/><LINK id="L-3" linkType="IN" source="Pl-527" target="Pl-4"/></DOC></SpatialML>

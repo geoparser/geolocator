@@ -1,0 +1,22 @@
+<SpatialML version="3.0"><DOC>
+
+ CNN_ENG_20030820_172101.18 
+ NEWS STORY 
+ 2003-08-20 17:54:08 
+
+<TEXT>
+
+
+<PLACE country="VE" form="NAM" gazref="IGDB:19061543" id="Pl-1" latLong="10.500°N 66.917°W" state="M" type="PPLC">caracas</PLACE> celebration. tens of thousands of people poured into the
+<PLACE id="Pl-188" type="FAC">streets</PLACE> of <PLACE country="VE" form="NAM" gazref="IGDB:19039685" id="Pl-3" latLong="8.000°N 66.000°W" type="COUNTRY">venezuela</PLACE>'s <PLACE country="VE" form="NOM" gazref="IGDB:19061543" id="Pl-2" latLong="10.500°N 66.917°W" state="M" type="PPLC">capital</PLACE> to mark another step forward in their
+bid to drive president hugo chavez from power. opposition leaders
+turned in almost 3 million signatures with a referendum ending his
+presidency. chavez keeps fighting them to stay in office.
+
+</TEXT>
+
+
+ 2003-08-20 17:54:23 
+
+
+<LINK id="L-1" linkType="IN" source="Pl-2" target="Pl-3"/></DOC></SpatialML>
