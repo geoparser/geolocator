@@ -4,7 +4,7 @@ import java.text.Normalizer;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
+import java.util.HashSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -12,31 +12,6 @@ import edu.cmu.geoparser.resource.EnglishInitialResources;
 
 public class StringUtil {
 
-	/**
-	 *  Deprecated. Gang code for preparing NewText field
-	 * @param line
-	 * @return new line.
-	 */
-
-	/**
-	 * Process the String like this : RT @_IamJyothi: #needhelp #Mumbaiblasts RT @mad_nad
-	 * Stranded near some temple at dadar. I dont knw what 2 do. Which is safest
-	 * mode of tr ... remove the last words
-	 * 
-	 * @param line
-	 * @return newline
-	 */
-
-	/**
-	 * Remove Punctuation
-	 * 
-	 * @param line
-	 * @return
-	 */
-
-	// ///////////////// Gang code for preparing NewText field ends
-	// ///////////////
-	// pattern parser for parsing accent.
 	static Pattern pattern = Pattern.compile("\\p{InCombiningDiacriticalMarks}+");
 
 	/**
@@ -375,6 +350,17 @@ public class StringUtil {
 
 		return Character.isUpperCase(phrase.charAt(0));
 	}
+	public static int commonLengthfromHead(String a,String b){
+		if (a.length()==0 || b.length()==0 || a ==null || b == null) return 0;
+		int l = a.length() < b.length() ? a.length():b.length();
+		int i = 0;
+		while( a.charAt(i)==b.charAt(i)){
+			i++;
+			if(i==l)
+				return l;
+		}
+		return i;
+	}
 
 	// test function
 	public static void main(String argv[]) {
@@ -411,29 +397,48 @@ public class StringUtil {
 		 * //
 		 */
 	}
+	/**
+	 * The distance definition is : common(q,c) / q.length
+	 * @param q_gram
+	 * @param c_gram
+	 * @return double value, based on the definition.
+	 */
+	public static double getGramSimilarity(String[] q_gram, String[] c_gram) {
+		// TODO Auto-generated method stub
+		if (q_gram.length==0 || c_gram.length==0)
+			return 0;
+		
+		HashSet<String> cgram = new HashSet<String>(Arrays.asList(c_gram));
+		
+		int common = 0;
+		for ( String q : q_gram)
+			if (!cgram.contains(q)) common++;
+		
+		return (double) common / (double) q_gram.length;
+	}
 
-	public static boolean mostTokensUpperCased(List<String> tokens) {
-		if (tokens ==null)
-			return false;
-		else if(tokens.size()==0)
-			return false;
-		else{
-			double chars =0.0d, capchars = 0.0d;
-			for ( int i = 0 ; i < tokens.size(); i ++){
-				if(Character.isLetter(tokens.get(i).charAt(0)))
+	public static double PhraseCommonHeadRatio(String query, String candidate) {
+		if (query.length()==0|| candidate.length()==0) return 0;
+		// TODO Auto-generated method stub
+		String[] qtoks = query.trim().split(" ");
+		double qscore[] = new double[qtoks.length]; int i = 0;
+		String[] ctoks = candidate.trim().split(" ");
+		int effective = 0;
+		for (String q : qtoks){
+			if (q.length()==0) continue;
+			effective ++;
+			double maxcommon = 0;
+			for ( String c: ctoks){
+				int temp = StringUtil.commonLengthfromHead(q, c);
+				if (temp>maxcommon)
 				{
-					chars+=1.0d;
-					if (Character.isUpperCase(tokens.get(i).charAt(0)))
-						capchars += 1.0d;
+					maxcommon = temp;
 				}
-				
 			}
-			if (chars ==0.0d)
-				return false;
-			else{
-				System.out.println("Capitalized rate is :" + capchars/chars);
-				return capchars/chars >0.8? true:false;
-			}
+			qscore[i++] = maxcommon/(double)q.length();
 		}
+		double d = 0;
+		for ( double score : qscore) d+=score;
+		return d/(double)(effective);
 	}
 }
