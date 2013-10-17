@@ -1,0 +1,48 @@
+Our geolocator uses the following open source packages:
+
+Mate-tools, Tools for Natural Language Analysis, Generation and Machine Learning, from university of stuttgart
+http://code.google.com/p/mate-tools/downloads/detail?name=anna-3.3.jar&can=2&q=
+
+berkeley parser, a english dependency parser
+http://code.google.com/p/berkeleyparser/
+
+Apache commons
+http://commons.apache.org/
+
+guava libraries: Google Core Libraries for Java 1.6+
+http://code.google.com/p/guava-libraries/
+
+jackson: a JSON parser.
+http://jackson.codehaus.org
+
+jsonic: JSON encoder and decoder for java.
+http://jsonic.sourceforge.jp
+
+JTextPro: A Java-based Text Processing Toolkit
+http://jtextpro.sourceforge.net
+
+junit : A programmer-oriented testing framework for Java.
+http://junit.org
+
+Apache openNLP: a machine learning based toolkit for the processing of natural language text
+http://opennlp.apache.org
+
+Simple Logging Facade for Java (SLF4J)
+http://www.slf4j.org
+
+trove: High Performance Collections for Java
+http://trove.starlight-systems.com
+
+twitter4j: an unofficial Java library for the Twitter API.
+http://twitter4j.org/en/
+
+CMU Minorthird: A collection of Java classes for storing text, annotating text, and learning to extract entities and categorize text.
+http://minorthird.sourceforge.net
+
+stanford NLP
+http://nlp.stanford.edu/software/index.shtml
+
+Ark tweet NLP
+http://www.ark.cs.cmu.edu/TweetNLP/
+licene: https://github.com/brendano/ark-tweet-nlp/blob/master/LICENSE.txt
+
