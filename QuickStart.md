@@ -5,7 +5,7 @@ This is a public release version of the geo-locator, which includes the geoparse
 
 How To Run: 
 
-1. Build a folder "GeoNames" in the project folder, and put http://download.geonames.org/export/dump/allCountries.txt into it.
+1. download http://download.geonames.org/export/dump/allCountries.txt, and put it into the GeoNames folder.
 
 2. Run the GazIndexer.java in edu.cmu.geoparser.resource.gazIndexing, and set the parameters of the java program parameter as: -write GeoNames/allCountries.txt. Then run the program. It will generate a folder GazIndex in the project folder, which is the index of the gazetteer.
 
@@ -26,11 +26,9 @@ edu.cmu.geoparser.disambiguation.ContextDisamb.java
 Misspelling model:
 edu.cmu.geoparser.nlp.spelling.MisspellParser.java
 
-Demo classes:
-
-edu.cmu.geoparser.Disambiguation.ReadTweets.java.
-The main function in this shows the full streamline from geo-parsing to geo-coding.
+Demo class:
 
 edu.cmu.geoparser.ui.CommandLine.CmdInputParser.java
 This is the demo for showing on-the-fly parsing of the command line input as a tweet sentence.
+This class includes all the function you need to run the geolocator. Just change the code as you need.
 
