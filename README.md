@@ -25,17 +25,10 @@ The algorithm can run on Windows, Mac, or Linux/Unix platforms.
 1. Check out the project.
 2. Download allCountries.txt and cities1000.txt file from Geonames.org, cities1000.txt is a smaller version which only contains cities with more than 1000 population.  You may want it for testing the program, because allCountries.txt is big. Then, put both files in the GeoNames folder in the project. We didn't include those files just because they are big.
 
-3. Build the gazetteer index to run either the geolocation algorithm or the fuzzy match algorithm. Run the geoparser in indexing mode to generate the gaz index. The location of storing the index is GazIndex/ , which is hard coded into the program. The program to generate the index is the MainProc.java, which included in the edu.cmu.geoparser.ui.CommandLine. The command is:
-
-MainProc.java -index -write GazIndex
-
-4. Use the CmdInputParser.java to test the program.
-If you want to use the program, just follow the instructions in CmdInputParser.java. 
+3. Run the GazIndexer.java in edu.cmu.geoparser.resource.gazIndexing, and set the parameters of the java program parameter as: -write GeoNames/allCountries.txt. Then run the program. It will generate a folder GazIndex in the project folder, which is the index of the gazetteer. Note: Please don't index cities1000.txt. You can use cities1000.txt when loading the trie tree, but not for building the index.
 
 
-To run the fuzzy match algorithm in edu.cmu.geoparser.nlp.spelling
-java -Xmx [numbers]...m -jar.gazindexer.jar -indx [write/-read] [file to index]
-
+To run the fuzzy match algorithm in edu.cmu.geoparser.nlp.spelling, please see the instructions in FuzzyGeoMatch project.
 
 Please send email to gelern@cs.cmu.edu or wei.zhang@cs.cmu.edu if you find any bug or have any question, or any suggestions.
 
