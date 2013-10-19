@@ -33,7 +33,7 @@ public class CmdInputParser {
      * However, using cities1000.txt (downloadable in Geonames free gazetteer site also) will give you only the cities. The loading will pretty fast, though.
      * 
      */
-    String uri = "Users/indri/Eclipse_workspace/";
+    String uri = "/Users/indri/Eclipse_workspace/";
     String geonames = uri+"GeoNames/cities1000.txt";
     String gazindex = uri+"GazIndex";
     IndexSupportedTrie topotrie = new IndexSupportedTrie(geonames,gazindex, true, false);
