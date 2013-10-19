@@ -21,7 +21,6 @@ import edu.cmu.geoparser.Disambiguation.utils.JSON2Tweet;
 import edu.cmu.geoparser.Disambiguation.utils.TimeWindow4Tweets;
 import edu.cmu.geoparser.common.CollectionSorting;
 import edu.cmu.geoparser.model.Tweet;
-import edu.cmu.geoparser.parser.english.EnglishHeuristicsParser;
 import edu.cmu.geoparser.parser.english.EnglishStanfordNERParser;
 import edu.cmu.geoparser.parser.english.EnglishRuleSTBDParser;
 import edu.cmu.geoparser.parser.english.EnglishRuleToponymParser;
@@ -41,7 +40,6 @@ public class TopicalDisambiguator {
 	static HashSet<String> filterset;
 	static ArrayList<Document> locationcandidates;
 	// static GazResources gazResources = new GazResources("US");
-	static EnglishHeuristicsParser ehp;
 	static EnglishStanfordNERParser enp;
 	static EnglishRuleSTBDParser esp;
 	static EnglishRuleToponymParser etp;
@@ -71,7 +69,6 @@ public class TopicalDisambiguator {
 		}
 
 		//eap = new EnglishAbbreviationParser();
-		ehp = new EnglishHeuristicsParser();
 		enp = new EnglishStanfordNERParser();
 		esp = new EnglishRuleSTBDParser(null);
 		etp = new EnglishRuleToponymParser(null,null,false);
@@ -125,7 +122,6 @@ public class TopicalDisambiguator {
 	public static String parseEnglishTweet(Tweet tweet) {
 
 		//eap.parse(tweet);
-		ehp.parse(tweet);
 		enp.parse(tweet);
 		esp.parse(tweet);
 		//etp.parse(ist,  tweet,filterset);

@@ -10,7 +10,6 @@ import java.util.regex.Pattern;
 import edu.cmu.geoparser.model.Tweet;
 import edu.cmu.geoparser.parser.NERTagger;
 import edu.cmu.geoparser.parser.utils.ParserUtils;
-import edu.cmu.geoparser.resource.EnglishInitialResources;
 import edu.stanford.nlp.ie.AbstractSequenceClassifier;
 import edu.stanford.nlp.ie.crf.CRFClassifier;
 

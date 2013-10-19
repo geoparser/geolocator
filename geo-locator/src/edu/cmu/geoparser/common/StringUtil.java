@@ -8,7 +8,6 @@ import java.util.HashSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import edu.cmu.geoparser.resource.EnglishInitialResources;
 
 public class StringUtil {
 

@@ -7,7 +7,6 @@ import java.util.HashSet;
 import java.util.List;
 
 import edu.cmu.geoparser.common.StringUtil;
-import edu.cmu.geoparser.resource.EnglishInitialResources;
 import edu.cmu.geoparser.resource.dictionary.Dictionary;
 import edu.cmu.geoparser.resource.dictionary.Dictionary.DicType;
 
@@ -337,22 +336,6 @@ public class ParserUtils {
 		return false;
 	}
 
-	public static boolean isAbbrev(String word) {
-		int length = word.length();
-		if (word.startsWith("#"))
-			return false;
-		if (word.contains(","))
-			return false;
-		if (word.contains("\\"))
-			return false;
-
-		if (word.equals("xxx"))
-			return false;
-		if (length > 1 && length < 6)
-			return (!EnglishInitialResources.isInDictionary(word))
-					&& (!EnglishInitialResources.isTwittionaryWord(word)) && (!hasNum(word));
-		return false;
-	}
 
 	/*
 	 * returns a string from i1 to i2, inclusive, in the form [word[1] word[2]
@@ -382,71 +365,6 @@ public class ParserUtils {
 		newstr += "] " + arr.get(i2);
 
 		return newstr;
-	}
-
-	public static boolean hasPunc(String word) {
-		for (String punc : EnglishInitialResources.getPunctuations()) {
-			if (word.contains(punc)) {
-				return true;
-			}
-		}
-		return false;
-	}
-
-	public static boolean isAllPunc(String word) {
-		word = word.trim();
-		for (char punc : word.toCharArray()) {
-			if (!EnglishInitialResources.getPuncs().contains(Character.toString(punc))) {
-				return false;
-			}
-		}
-		// System.out.println(word);
-		return true;
-	}
-
-	public static boolean punctuationInPrev(String word, String line) {
-
-		int i = line.indexOf(word);
-		if (i > 2)
-			return hasPunc(line.substring(i - 3, i));
-		else if (i > 1)
-			return hasPunc(line.substring(i - 2, i));
-		else
-			return false;
-	}
-
-	public static boolean isPeriodAbbrev(String word) {
-
-		if (word.length() < 4)
-			return false;
-		if (word.endsWith("..."))
-			return false;
-		if (word.endsWith(".."))
-			return false;
-		int length = word.length();
-		for (int i = 1; i < length;) {
-			if (word.charAt(i) != '.')
-				return false;
-			i += 2;
-		}
-		String rword = word.replace(".", "").trim();
-		if (rword.length() > 4 && EnglishInitialResources.isInDictionary(rword))
-			return false;
-		return true;
-
-	}
-
-	public static boolean isAllRemovablewords(String s) {
-		String[] words = s.toLowerCase().trim().split("[ 	]");
-		boolean flag = true;
-		for (String word : words) {
-			if (!(EnglishInitialResources.isInStopWordsFile(word.trim())
-					|| EnglishInitialResources.isTwittionaryWord(word.trim()) || EnglishInitialResources
-						.isInDictionary(word.trim()))) {
-				flag = false;
-			}
-		}
-		return flag;
 	}
 
 	public static List<String> ResultReduce(List<String> matches) {

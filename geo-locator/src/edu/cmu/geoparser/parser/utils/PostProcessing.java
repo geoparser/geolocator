@@ -2,18 +2,12 @@ package edu.cmu.geoparser.parser.utils;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
-import java.util.Map;
 
 import org.apache.lucene.document.Document;
 
-import edu.cmu.geoparser.model.Coordinate;
 import edu.cmu.geoparser.model.Tweet;
-import edu.cmu.geoparser.resource.GazFactory;
-import edu.cmu.geoparser.resource.GazResources;
 import edu.cmu.geoparser.resource.trie.IndexSupportedTrie;
 
 public class PostProcessing {
