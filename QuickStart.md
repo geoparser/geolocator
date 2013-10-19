@@ -5,7 +5,7 @@ This is a public release version of the geo-locator, which includes the geoparse
 
 How To Run: 
 
-1. download http://download.geonames.org/export/dump/allCountries.txt, and put it into the GeoNames folder.
+1. download http://download.geonames.org/export/dump/allCountries.txt, and citites1000.txt in the same place, and put it into the GeoNames folder in the project root.
 
 2. Run the GazIndexer.java in edu.cmu.geoparser.resource.gazIndexing, and set the parameters of the java program parameter as: -write GeoNames/allCountries.txt. Then run the program. It will generate a folder GazIndex in the project folder, which is the index of the gazetteer.
 
