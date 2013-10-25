@@ -180,7 +180,7 @@ public class SpanishRuleSTBDParser implements STBDParser {
 			}
 			System.out.println(i);
 			System.out.println(line);
-			t.setOrigText(line);
+			t.setText(line);
 			List<String> matches = esstbdparser.parse(t);
 			if (t.getMatches().size() != 0) {
 				System.out.println(t.getMatches());

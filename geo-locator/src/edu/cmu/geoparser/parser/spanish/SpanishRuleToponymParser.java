@@ -192,7 +192,7 @@ public class SpanishRuleToponymParser implements TPParser {
 			List<String> match;
 
 			// toponym parsing
-			t.setOrigText(estweet);
+			t.setText(estweet);
 			List<String> matches = estopo.parse(t);
 			match = t.getMatches();
 			writer.write(match.toString());

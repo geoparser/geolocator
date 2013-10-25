@@ -86,7 +86,7 @@ public class EnglishRuleSTBDParser implements STBDParser {
 		// "MT @roxxsfisher: law officers asking spectators to please leave canyon ridge elem school and stone oak park for their safety. #satxwildfires";
 		// s =
 		// "Am worried about the #centraltxfires in Cedar Creek bc the Capitol of Texas Zoo is there. Lots of rescues & endangered animals. #pawcircle";
-		t.setOrigText(s);
+		t.setText(s);
 		EnglishRuleSTBDParser stparser = new EnglishRuleSTBDParser(new FeatureGenerator("en", new IndexSupportedTrie(
 				 "res/GeoNames/allCountries.txt", "GazIndex/",false, false), "res/"));
 		stparser.parse(t);

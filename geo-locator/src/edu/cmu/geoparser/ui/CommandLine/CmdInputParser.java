@@ -26,6 +26,9 @@ public class CmdInputParser {
 
   public static void main(String argv[]) throws IOException {
 
+    boolean misspell = argv[0].equals("mis")?true:false;
+    String trieDic = argv[1];
+    String gazIndex = argv[2];
     /**
      * Build the in-memory version of the gazetteer as a trie tree. 
      * Using allCountries.txt will be quite slow, the memory usage is nearly 1.2G. However, it includes all types of locations, including
@@ -33,16 +36,12 @@ public class CmdInputParser {
      * However, using cities1000.txt (downloadable in Geonames free gazetteer site also) will give you only the cities. The loading will pretty fast, though.
      * 
      */
-    String uri = "/Users/indri/Eclipse_workspace/";
-    String geonames = uri+"GeoNames/cities1000.txt";
-    String gazindex = uri+"GazIndex";
-    IndexSupportedTrie topotrie = new IndexSupportedTrie(geonames,gazindex, true, false);
+    IndexSupportedTrie topotrie = new IndexSupportedTrie(trieDic,gazIndex, true, false);
 
     /**
      * This is the main construction function for the English parser. The Spanish parser has the same form.
      */
-    EnglishParser enparser = new EnglishParser("res/", topotrie, false);
-    // SpanishParser esparser = new SpanishParser("res/", topotrie, false);
+    EnglishParser enparser = new EnglishParser("res/", topotrie, misspell);
 
     /**
      * Initialize a context disambiguation class c.

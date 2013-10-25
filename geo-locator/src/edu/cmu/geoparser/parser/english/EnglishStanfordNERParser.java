@@ -102,7 +102,7 @@ public class EnglishStanfordNERParser implements NERTagger{
 	public static void main(String argv[]) {
 		Tweet t = new Tweet();
 		EnglishStanfordNERParser snp = new EnglishStanfordNERParser();
-		t.setOrigText("Chennai is one of the major cities in the central Qitaihe. However, I live in Amberson Apartment in Pittsburgh.");
+		t.setText("Chennai is one of the major cities in the central Qitaihe. However, I live in Amberson Apartment in Pittsburgh.");
 		System.out.println(t.getOrigText());
 		snp.parse(t);
 		List<String> m = t.getMatches();

@@ -242,7 +242,7 @@ public class Desktop {
             sb.append(line).append("\t");
 
             t = new Tweet();
-            t.setOrigText(line);
+            t.setText(line);
             List<String> topo = enparser.parse(t);
             System.out.println(topo.toString());
             HashSet<String> reducedmatch = new HashSet<String>();

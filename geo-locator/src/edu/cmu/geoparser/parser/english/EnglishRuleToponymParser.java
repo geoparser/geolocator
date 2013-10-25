@@ -147,7 +147,7 @@ public class EnglishRuleToponymParser implements TPParser {
 		// //////
 		BufferedReader s = new BufferedReader(new InputStreamReader(System.in, "utf-8"));
 		while (true) {
-			t.setOrigText(s.readLine());
+			t.setText(s.readLine());
 			t.setMatches(null);
 			if (t.getOrigText().length() == 0)
 				continue;

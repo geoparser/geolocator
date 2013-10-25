@@ -8,8 +8,7 @@ import edu.stanford.nlp.util.CoreMap;
 
 public class Tweet {
 	private Long id;
-	private String origText;
-	private String newText;
+	private String text;
 	private HashMap<String, int[]> locaiton;
 	private ArrayList<LocEntity> alternatives;
 	private String formatedLocation;
@@ -44,8 +43,6 @@ public class Tweet {
 		this.dateString = dateString;
 	}
 
-	private List<CoreMap> sentences;
-
 	public boolean isNativeGPS() {
 		return nativeGPS;
 	}
@@ -63,7 +60,7 @@ public class Tweet {
     this.locaiton = new HashMap<String, int[]>();
     this.alternatives = new ArrayList<LocEntity>();
     this.matches=null;
-    this.setOrigText(s);
+    this.setText(s);
   }
 
 	public Coordinate getGeoLoc() {
@@ -91,19 +88,11 @@ public class Tweet {
 	}
 
 	public String getOrigText() {
-		return origText;
+		return text;
 	}
 
-	public void setOrigText(String origText) {
-		this.origText = origText;
-	}
-
-	public String getNewText() {
-		return newText;
-	}
-
-	public void setNewText(String newText) {
-		this.newText = newText;
+	public void setText(String origText) {
+		this.text = origText;
 	}
 
 	public HashMap<String, int[]> getLocaiton() {
@@ -122,11 +111,11 @@ public class Tweet {
 	@Override
 	public String toString() {
 
-		return id + ": " + origText + "\n" + newText;
+		return id + ": " + text + "\n" + text;
 	}
 
 	public String toResultString() {
-		return String.format("%s\t%s\t%s\t%f\t%f\t", id, origText,
+		return String.format("%s\t%s\t%s\t%f\t%f\t", id, text,
 				formatedLocation, geoLoc.getLatitude(), geoLoc.getLongtitude());
 	}
 
@@ -138,14 +127,6 @@ public class Tweet {
 	@Override
 	public int hashCode() {
 		return id.hashCode();
-	}
-
-	public List<CoreMap> getSentences() {
-		return sentences;
-	}
-
-	public void setSentences(List<CoreMap> sentences) {
-		this.sentences = sentences;
 	}
 
 	public ArrayList<LocEntity> getAlternatives() {

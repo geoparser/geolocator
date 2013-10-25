@@ -192,7 +192,7 @@ public class TopicalDisambiguator {
 			// /////////////////
 			// PARSING THE CURRENT TWEET TO GET LOCATIONS.
 			t = new Tweet();
-			t.setOrigText(statustweet.getText());
+			t.setText(statustweet.getText());
 			//t.setNewText(StringUtil.getNewText(statustweet.getText()));
 			TopicalDisambiguator.parseEnglishTweet(t);
 			parseresults = TopicalDisambiguator.getParsingResults(t);

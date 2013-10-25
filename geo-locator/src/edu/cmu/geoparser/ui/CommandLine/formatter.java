@@ -21,11 +21,12 @@ public class formatter {
 
   public static void main(String argv[]) throws IOException {
     boolean misspell = argv[0].equals("-mis") ? true : false;
-    String gazpath = argv[1];// = "GeoNames/allCountries.txt";// gazetteer from geonames
-    String input = argv[2];// = "test.csv";//to be determined.// test file path
-    String output = argv[3];// = "output2.csv"; //output file path
+    String dicPath = argv[1]; // = "GeoNames/allCountries.txt";// gazetteer from geonames
+    String indexPath = argv[2]; // index path
+    String input = argv[3];// = "tweet.csv";//to be determined.// test file path
+    String output = argv[4];// = "output2.csv"; //output file path
 
-    IndexSupportedTrie topotrie = new IndexSupportedTrie(gazpath,"GazIndex/", true, false);
+    IndexSupportedTrie topotrie = new IndexSupportedTrie(dicPath,indexPath, true, false);
 
     EnglishParser enparser = new EnglishParser("res/", topotrie, false);
     SpanishParser esparser = new SpanishParser("res/", topotrie, false);
@@ -53,7 +54,7 @@ public class formatter {
         continue;
       }
 
-      t.setOrigText(estweet);
+      t.setText(estweet);
       t.setMatches(null);
       String language = null;
 

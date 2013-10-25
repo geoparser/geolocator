@@ -20,8 +20,9 @@ import edu.cmu.geoparser.common.StringUtil;
 import edu.cmu.geoparser.io.GetReader;
 import edu.cmu.geoparser.io.GetWriter;
 
-/*
+/**
  * This is used for indexing the Gazetteer for misspelling checking.
+ * Usage: GazIndexer.java -write [geonames gaz file path] [user specified index location]
  * 
  * @Input: Gaz entries
  * 
@@ -162,20 +163,20 @@ public class GazIndexer {
 
 		String mode = argv[0];
 		if (mode.equals("-write")) {
-			if (argv.length != 2)
+			if (argv.length != 3)
 				throw new Exception("Command line argument number wrong");
 			BufferedReader br = GetReader.getUTF8FileReader(argv[1]);
-			IndexWriter iw = GetWriter.getIndexWriter("GazIndex/");
+			IndexWriter iw = GetWriter.getIndexWriter(argv[2]);
 			iw.deleteAll();
 			gi.indexGazatteer(br, iw);
-			iw.optimize();
+			//iw.optimize();
 			iw.close();
 			br.close();
 		}
 		if (mode.equals("-read")) {
 			System.out.println("input id. Output basic information. For debugging.");
 			// query first two fields.
-			IndexSearcher is = GetReader.getIndexSearcher("GazIndex/");
+			IndexSearcher is = GetReader.getIndexSearcher(argv[1]);
 			BufferedReader r = new BufferedReader(new InputStreamReader(System.in, "utf-8"));
 			String line;
 			while ((line = r.readLine()) != null) {

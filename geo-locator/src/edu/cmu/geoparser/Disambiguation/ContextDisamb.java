@@ -133,7 +133,7 @@ public class ContextDisamb {
 			SpanishParser esparser, LangDetector lang) throws IOException {
 		List<String> match = null;
 		Tweet t = new Tweet();
-		t.setOrigText(text);
+		t.setText(text);
 		t.setMatches(null);
 		String language = null;
 
@@ -446,7 +446,7 @@ public class ContextDisamb {
 
 			List<String> match = null;
 			Tweet t = new Tweet();
-			t.setOrigText(text);
+			t.setText(text);
 			t.setMatches(null);
 			String language = null;
 
