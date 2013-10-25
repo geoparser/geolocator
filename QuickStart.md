@@ -39,10 +39,15 @@ This class includes all the function you need to run the geolocator.
 
 for tweets JSon File:
 
+This is a sample for reading tweets instead of string to do the parsing.
 edu.cmu.geoparser.ui.CommandLine.TwitterJsonParser.java
+
+There's another batch reader and writer which takes tweet json file( one json per line) as input, and write the results into another file and output.
+edu.cmu.geoparser.ui.CommandLine.formatter.java
 
 Main Entrance:
 
 edu.cmu.geoparser.ui.CommandLine.MainProc.java
 This is the aggregation of several tools as a single commandLine tool.
+
 
