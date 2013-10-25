@@ -31,7 +31,18 @@ edu.cmu.geoparser.nlp.spelling.MisspellParser.java
 
 Demo class:
 
+for normal text:
+
 edu.cmu.geoparser.ui.CommandLine.CmdInputParser.java
 This is the demo for showing on-the-fly parsing of the command line input as a (tweet)sentence.
 This class includes all the function you need to run the geolocator.
+
+for tweets JSon File:
+
+edu.cmu.geoparser.ui.CommandLine.TwitterJsonParser.java
+
+Main Entrance:
+
+edu.cmu.geoparser.ui.CommandLine.MainProc.java
+This is the aggregation of several tools as a single commandLine tool.
 
