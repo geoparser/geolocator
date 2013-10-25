@@ -21,8 +21,9 @@ public class MainProc {
       else {
         throw new Exception("wrong index usage command. Should be -read or -write.");
       }
-    } else if (mode.equals("-batch"))// -batch -nmis allcountries.txt gazindex input output
-      formatter.main(new String[] { argv[1], argv[2], argv[3], argv[4],argv[5] });
+    } else if (mode.equals("-batch"))// -batch -nmis allcountries.txt gazindex input type output
+      // type should be -json or -t, where -j means json tweet, and -text means tweet text without json.
+      formatter.main(new String[] { argv[1], argv[2], argv[3], argv[4],argv[5],argv[6] });
     else {
       help();
     }
