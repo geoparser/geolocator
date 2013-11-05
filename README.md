@@ -19,13 +19,16 @@ The output format for the commandline and batch file: Each recognized location i
 
 The algorithm can run on Windows, Mac, or Linux/Unix platforms.
 
-Check out the project.
-Download allCountries.txt and cities1000.txt file from Geonames.org, cities1000.txt is a smaller version which only contains cities with more than 1000 population. You may want it for testing the program, because allCountries.txt is big. Then, put both files in the GeoNames folder in the project. We didn't include those files just because they are big.
+1.Check out the project.
+In eclipse, try import ->project from git.
 
-Run the GazIndexer.java in edu.cmu.geoparser.resource.gazIndexing, and set the parameters of the java program parameter as: -write GeoNames/allCountries.txt. Then run the program. It will generate a folder GazIndex in the project folder, which is the index of the gazetteer. Note: Please don't index cities1000.txt. You can use cities1000.txt when loading the trie tree, but not for building the index.
+2. After checked out the project into Eclipse workspace,
+Go to the terminal (if you are using linux or mac osx), or cygwin for windows, cd to the geo-locator folder, run isntall.sh to install the software.
+This is a long process because we have to download jar files, resources from geonames, and most time-consuming is the indexing of the geoname.
+The estimate time is about 1 hour. It varies with your machine. 
 
 To run the fuzzy match algorithm in edu.cmu.geoparser.nlp.spelling, please see the instructions in FuzzyGeoMatch project.
 
-Please send email to gelern@cs.cmu.edu or wei.zhang@cs.cmu.edu if you find any bug or have any question, or any suggestions.
+Please send email to gelern@cs.cmu.edu if you find any bug or have any question, or any suggestions.
 
 Thank you.

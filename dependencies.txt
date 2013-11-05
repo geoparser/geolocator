@@ -1,4 +1,27 @@
-Our geolocator uses the following open source packages:
+  This software uses several third party softwares that are publicly available:
+
+  twitter4j 3.0.3 (http://twitter4j.org/en/index.html) package for parsing the tweets into structured objects; Licensed under the Apache License, Version 2.0 
+
+  Minorthird (version 20080611, http://minorthird.sourceforge.net) for training the Named Entity Recognition model; Licensed under BSD license. 
+  
+  ark-tweet-nlp 0.3 (http://www.ark.cs.cmu.edu/TweetNLP/) for English tweet tokenization, lemmatization and tweet part-of-speech tagging, which depends on apache commons(lang and codec), Jackson 2.2.0 (http://jackson.codehaus.org), trove 3.0.3 (http://trove.starlight-systems.com), berkeley parser r32 (https://code.google.com/p/berkeleyparser/), and stanford-core-nlp  1.3.5(http://nlp.stanford.edu/software/index.shtml); 
+  GPL license.
+  
+  morpha stemmer (http://mvnrepository.com/artifact/edu.washington.cs.knowitall/morpha-stemmer/1.0.5) paper describing the stemmer is Guido Minnen, John Carroll and Darren Pearce. 2000. Robust, Applied Morphological Generation. In Proceedings of the First International Natural Language Generation Conference (INLG), Mitzpe Ramon, Israel. 201-208.
+Copyright (c) 1995-2001 University of Sheffield, University of Sussex All rights reserved.
+See https://github.com/knowitall/morpha/blob/master/LICENSE for detail.
+
+cybozu language detector (09-13-2011)for detecting English and Spanish languages(https://code.google.com/p/language-detection/), which depends on Junit 4.10(http://junit.org), jsonic 1.2.1(http://jsonic.sourceforge.jp);
+  
+  OpenNLP 1.5.3 (http://opennlp.apache.org) and mate-tools 3.3 (code.google.com/p/mate-tools/) for preprocessing the tweets data; We use a model trained by Juan Manuel Caicedo Carvajal (http://cavorite.com/labs/nlp/opennlp-models-es/) for Spanish POS-tagging.
+  
+  Apache lucene core 3.6.2 and lucene analyzers 3.1.0(http://lucene.apache.org/core/) for bulding the gazetteer index and querying it.
+  
+
+  
+  Links:
+  
+  Our geolocator uses the following open source packages:
 
 Mate-tools, Tools for Natural Language Analysis, Generation and Machine Learning, from university of stuttgart
 http://code.google.com/p/mate-tools/downloads/detail?name=anna-3.3.jar&can=2&q=
@@ -43,3 +66,4 @@ Ark tweet NLP
 http://www.ark.cs.cmu.edu/TweetNLP/
 licene: https://github.com/brendano/ark-tweet-nlp/blob/master/LICENSE.txt
 
+  
