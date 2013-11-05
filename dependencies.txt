@@ -9,9 +9,6 @@ http://code.google.com/p/berkeleyparser/
 Apache commons
 http://commons.apache.org/
 
-guava libraries: Google Core Libraries for Java 1.6+
-http://code.google.com/p/guava-libraries/
-
 jackson: a JSON parser.
 http://jackson.codehaus.org
 

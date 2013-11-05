@@ -1,4 +1,4 @@
-geolocator 
+geolocator v1.0
 =========
 
 This is a public release version of the geo-locator, which includes the geoparser, which is a location entity recognizer, and a location resolver, which tries to attach the correct geo-location to the location entites.
