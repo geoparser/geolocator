@@ -34,12 +34,11 @@ wget -P GeoNames/ http://download.geonames.org/export/dump/allCountries.zip
 
 wget -P Geonames/ http://download.geonames.org/export/dump/admin2Codes.txt
 
-cd GeoNames
 
 unzip GeoNames/cities1000.zip
 unzip GeoNames/allCountries.zip  
 
-rm cities1000.zip
-rm allCountries.zip
+rm GeoNames/cities1000.zip
+rm GeoNames/allCountries.zip
 
-java -jar indexer.jar -index -write allCountries.txt ../GazIndex/
+java -jar indexer.jar -index -write allCountries.txt GazIndex/
