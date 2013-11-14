@@ -41,4 +41,4 @@ unzip GeoNames/allCountries.zip
 rm GeoNames/cities1000.zip
 rm GeoNames/allCountries.zip
 
-java -jar indexer.jar -index -write allCountries.txt GazIndex/
+java -jar indexer.jar -index -write GeoNames/allCountries.txt GazIndex/
