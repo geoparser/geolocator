@@ -30,17 +30,12 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 
-import com.cybozu.labs.langdetect.LangDetectException;
 
 import edu.cmu.geoparser.Disambiguation.ContextDisamb;
-import edu.cmu.geoparser.io.GetReader;
 import edu.cmu.geoparser.model.Tweet;
 import edu.cmu.geoparser.nlp.languagedetector.LangDetector;
-import edu.cmu.geoparser.nlp.ner.FeatureExtractor.FeatureGenerator;
 import edu.cmu.geoparser.parser.english.EnglishParser;
-import edu.cmu.geoparser.parser.spanish.SpanishParser;
 import edu.cmu.geoparser.resource.gazindexing.CollaborativeIndex.CollaborativeIndex;
-import edu.cmu.geoparser.resource.trie.IndexSupportedTrie;
 
 /**
  * This demo shows the on-the-fly tagging of the sample text or JSON
@@ -51,14 +46,9 @@ public class CmdInputParser {
   public static void main(String argv[]) throws IOException {
 
     boolean misspell = argv[0].equals("mis")?true:false;
-    String trieDic = argv[1];
-    String gazIndex = argv[2];
+
     /**
-     * Build the in-memory version of the gazetteer as a trie tree. 
-     * Using allCountries.txt will be quite slow, the memory usage is nearly 1.2G. However, it includes all types of locations, including
-     * country, state, city, building, town, parks, lakes, oceans,...
-     * However, using cities1000.txt (downloadable in Geonames free gazetteer site also) will give you only the cities. The loading will pretty fast, though.
-     * 
+     * Use the collaborative index version instead of the in-memory version. Which aims to reduce memory usage.
      */
     CollaborativeIndex ci = new CollaborativeIndex().config("GazIndex/StringIndex",
             "GazIndex/InfoIndex", "mmap", "mmap").open();

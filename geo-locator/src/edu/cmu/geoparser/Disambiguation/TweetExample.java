@@ -25,12 +25,9 @@ package edu.cmu.geoparser.Disambiguation;
 
 import edu.cmu.geoparser.model.LocEntity;
 
-public class TweetEntry {
-
+public class TweetExample {
   public String text;
-  public LocEntity[] toponym1K,toponym1N,toponymTruce1;
-  public LocEntity[] toponym2K,toponym2N,toponymTruce2;
+  public LocEntity[] toponyms;
   public double latitude,longitude;
-  public String userLocation,timezone,userDescription;
-  
+  public String userLocation,timezone,userDescription;  
 }
