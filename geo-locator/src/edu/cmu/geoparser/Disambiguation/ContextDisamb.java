@@ -45,6 +45,8 @@ import edu.cmu.geoparser.nlp.ner.FeatureExtractor.FeatureGenerator;
 import edu.cmu.geoparser.parser.english.EnglishParser;
 import edu.cmu.geoparser.parser.spanish.SpanishParser;
 import edu.cmu.geoparser.parser.utils.ParserUtils;
+import edu.cmu.geoparser.resource.Index;
+import edu.cmu.geoparser.resource.gazindexing.CollaborativeIndex.CollaborativeIndex;
 import edu.cmu.geoparser.resource.trie.IndexSupportedTrie;
 
 public class ContextDisamb {
@@ -152,7 +154,7 @@ public class ContextDisamb {
 
 	// read text, return the extracted toponyms, along with its most likely
 	// geo-coordinates
-	public HashMap<String, String[]> extractTopoFromText(IndexSupportedTrie topotrie, String text, EnglishParser enparser,
+	public HashMap<String, String[]> extractTopoFromText(Index topotrie, String text, EnglishParser enparser,
 			SpanishParser esparser, LangDetector lang) throws IOException {
 		List<String> match = null;
 		Tweet t = new Tweet();
@@ -195,7 +197,7 @@ public class ContextDisamb {
 
 	// given topos that appear in the same tweet/paragraph/sentence, return
 	// their most likely geo-coordinates
-	public HashMap<String, String[]> returnBestTopo(IndexSupportedTrie topotrie, HashSet<String> topo) {
+	public HashMap<String, String[]> returnBestTopo(Index ci, HashSet<String> topo) {
 		HashSet<String> ntopo = new HashSet<String>();
 		for (String s : topo)
 		{
@@ -225,13 +227,7 @@ public class ContextDisamb {
 		hierMap.put("PPL", 1);
 
 		for (String str : topo) {
-			ArrayList<Document> d;
-			try {
-				d = topotrie.search(str, true);
-				//System.out.println(topotrie.searchTrie(str, true));
-			} catch (IOException e1) {
-				continue;
-			}
+			ArrayList<Document> d = ci.getDocuments(str);
 			if (d == null) {
 				//System.out.println("no GPS found for "+str);
 				continue;
@@ -343,12 +339,7 @@ public class ContextDisamb {
 		HashMap<String, String[]> result = new HashMap<String, String[]>();
 		for (String str : topo) {
 			double max_score = Double.NEGATIVE_INFINITY;
-			ArrayList<Document> d;
-			try {
-				d = topotrie.search(str, true);
-			} catch (IOException e1) {
-				continue;
-			}
+			ArrayList<Document> d= ci.getDocuments(str);
 			if (d == null) {
 				System.out.println("No GPS for "+ str);
 				continue;
@@ -453,9 +444,10 @@ public class ContextDisamb {
 
 	public static void main(String[] args) throws IOException {
 
-    IndexSupportedTrie topotrie = new IndexSupportedTrie("GeoNames/cities1000.txt", "GazIndex/",true, false);
-    EnglishParser enparser = new EnglishParser("res/", topotrie, false);
-    SpanishParser esparser = new SpanishParser("res/",topotrie,false);
+	  Index ci = new CollaborativeIndex().config("GazIndex/StringIndex",
+            "GazIndex/InfoIndex", "mmap", "mmap").open();
+	  EnglishParser enparser = new EnglishParser("res/", ci, false);
+    SpanishParser esparser = new SpanishParser("res/",ci,false);
     ContextDisamb c = new ContextDisamb();
     LangDetector lang = new LangDetector("res/langdetect.profile");
 
@@ -506,7 +498,7 @@ public class ContextDisamb {
 				for (String s : match)
 					reducedmatch.add(s.substring(3, s.length() - 3));
 
-				HashMap<String, String[]> result = c.returnBestTopo(topotrie, reducedmatch);
+				HashMap<String, String[]> result = c.returnBestTopo(ci, reducedmatch);
 
 				if (result == null)
 					System.out.println("No toponyms detected.");

@@ -32,8 +32,6 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 
-import org.apache.lucene.queryParser.ParseException;
-
 import com.csvreader.CsvReader;
 
 import edu.cmu.geoparser.common.StringUtil;
@@ -46,8 +44,10 @@ import edu.cmu.geoparser.nlp.pos.ENTweetPOSTagger;
 import edu.cmu.geoparser.nlp.pos.ESAnnaPOSTagger;
 import edu.cmu.geoparser.nlp.tokenizer.EuroLangTwokenizer;
 import edu.cmu.geoparser.parser.utils.ParserUtils;
+import edu.cmu.geoparser.resource.Index;
 import edu.cmu.geoparser.resource.dictionary.Dictionary;
 import edu.cmu.geoparser.resource.dictionary.Dictionary.DicType;
+import edu.cmu.geoparser.resource.gazindexing.CollaborativeIndex.CollaborativeIndex;
 import edu.cmu.geoparser.resource.trie.IndexSupportedTrie;
 import edu.cmu.geoparser.resource.trie.Trie;
 import edu.cmu.minorthird.classify.Feature;
@@ -59,13 +59,17 @@ public class FeatureGenerator {
 	EuroLangTwokenizer tokenizer;
 	Lemmatizer lemmatizer;
 	POSTagger postagger;
-	IndexSupportedTrie trie;
+	Index index;
 
-	@SuppressWarnings("unchecked")
-	public FeatureGenerator(String language, IndexSupportedTrie tr, String resourcepath) {
+	public Index getIndex() {
+    return index;
+  }
+
+  @SuppressWarnings("unchecked")
+	public FeatureGenerator(String language, Index index, String resourcepath) {
 		// initialize dictionary to lookup.
 		// "geoNames.com/allCountries.txt"
-		trie = tr;
+		this.index = index;
 
 		if (language.equals("en") || language.equals("es"))
 			tokenizer = new EuroLangTwokenizer();
@@ -99,7 +103,7 @@ public class FeatureGenerator {
 
 	String tweet;
 
-	public static void main(String argv[]) throws IOException, InterruptedException, ParseException {
+	public static void main(String argv[]) throws IOException, InterruptedException {
 //		argv[0] = "es";
 //		argv[1] = "GeoNames/allCountries.txt";
 		argv[2] = "res/";
@@ -107,8 +111,9 @@ public class FeatureGenerator {
 		String featuretype = "-3tok*.3pres.2cap.3caps.1pos.2pos.1gaz.1gazs.1cty.1ctys.-3-1prep";
 		// ="ct-only";
 		// ="allbutpos";
-
-		FeatureGenerator fgen = new FeatureGenerator(argv[0], new IndexSupportedTrie(argv[1], "GazIndex/",false, false), argv[2]);
+		CollaborativeIndex ci = new CollaborativeIndex()
+    .config("GazIndex/StringIndex", "GazIndex/InfoIndex", "mmap", "mmap").open();
+		FeatureGenerator fgen = new FeatureGenerator(argv[0],  ci, argv[2]);
 		String traintest[] = new String[] { "train", "test" };
 		for (int tt = 0; tt < 2; tt++) {
 			CsvReader entries = new CsvReader("trainingdata/" + argv[0] + "NER/" + traintest[tt] + "/raw.csv", ',',
@@ -231,7 +236,7 @@ public class FeatureGenerator {
 		List<String> postags = postagger.tag(Arrays.asList(t_tweet));
 		String[] f_pos = postags.toArray(new String[] {});
 
-		boolean[] f_gaz = gazTag(norm_tweet, trie);
+		boolean[] f_gaz = gazTag(norm_tweet, this.index);
 		boolean[] f_country = countryTag(norm_tweet);
 
 		for (int i = 0; i < t_tweet.length; i++) {
@@ -574,7 +579,7 @@ public class FeatureGenerator {
 	 * @param trie
 	 * @return
 	 */
-	private static boolean[] gazTag(String[] t_tweet, Trie trie) {
+	private static boolean[] gazTag(String[] t_tweet, Index index) {
 
 		boolean[] gaztag = new boolean[t_tweet.length];
 		int i = 0;
@@ -582,7 +587,7 @@ public class FeatureGenerator {
 			String history = "";
 			for (int j = i; j < t_tweet.length; j++) {
 				history += t_tweet[j];
-				if (trie.search(history).startsWith("WL")) {
+				if (index.inIndex(history)) {
 					for (int k = i; k < j + 1; k++)gaztag[k] = true;
 //					gaztag[j]=true;
 				}
@@ -592,14 +597,6 @@ public class FeatureGenerator {
 		return gaztag;
 	}
 
-	public static void mainpro(String argv[]) {
-		String tweet = "He was born in los angeles";
-		String[] t_tweet = EuroLangTwokenizer.tokenize(tweet).toArray(new String[] {});
-		boolean[] tag = gazTag(t_tweet, new IndexSupportedTrie("GeoNames/SRC_cities1000.txt","GazIndex/", false, false));
-		for (boolean t : tag) {
-			System.out.print(t + " ");
-		}
-	}
 
 	/**
 	 * COUNTRY TAGGING BASED ON GREEDY SEARCH FIND THE LONGEST MATCH STARTING
@@ -784,12 +781,5 @@ public class FeatureGenerator {
 		this.postagger = postagger;
 	}
 
-	public IndexSupportedTrie getTrie() {
-		return trie;
-	}
-
-	public void setTrie(IndexSupportedTrie trie) {
-		this.trie = trie;
-	}
 
 }

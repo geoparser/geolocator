@@ -45,6 +45,7 @@ import edu.cmu.geoparser.nlp.ner.FeatureExtractor.FeatureGenerator;
 import edu.cmu.geoparser.parser.english.EnglishParser;
 import edu.cmu.geoparser.parser.spanish.SpanishParser;
 import edu.cmu.geoparser.parser.utils.ParserUtils;
+import edu.cmu.geoparser.resource.gazindexing.CollaborativeIndex.CollaborativeIndex;
 import edu.cmu.geoparser.resource.trie.IndexSupportedTrie;
 
 public class formatter {
@@ -63,9 +64,10 @@ public class formatter {
     String type = argv[4]; // -json or -text
     String output = argv[5];// = "output2.csv"; //output file path
 
-    IndexSupportedTrie topotrie = new IndexSupportedTrie(dicPath, indexPath, true, false);
+    CollaborativeIndex ci = new CollaborativeIndex().config("GazIndex/StringIndex",
+            "GazIndex/InfoIndex", "mmap", "mmap").open();
 
-    EnglishParser enparser = new EnglishParser("res/", topotrie, false);
+    EnglishParser enparser = new EnglishParser("res/", ci, false);
     ContextDisamb c = new ContextDisamb();
     LangDetector lang = new LangDetector("res/langdetect.profile");
 
@@ -106,7 +108,7 @@ public class formatter {
         reducedmatch.add(s.substring(3, s.length() - 3));
 
       // Disambiguate topo
-      HashMap<String, String[]> result = c.returnBestTopo(topotrie, reducedmatch);
+      HashMap<String, String[]> result = c.returnBestTopo(ci, reducedmatch);
 
       if (result == null) {
         System.out.println("No GPS for any location is found.");

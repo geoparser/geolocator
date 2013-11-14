@@ -31,7 +31,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.Map.Entry;
+import java.util.Map.Entry; 
 
 public class CollectionSorting {
 
@@ -52,14 +52,14 @@ public class CollectionSorting {
   }
 
   @SuppressWarnings({ "unchecked", "rawtypes" })
-  public static ArrayList<Entry<String, Integer>> rankIntArray(ArrayList<Entry<String, Integer>> as) {
+  public static <T extends Comparable<T>> ArrayList<Entry<String, T>> rankIntArray(ArrayList<Entry<String, T>> as) {
     // sort by frequency
     Collections.sort(as, new Comparator() {
       public int compare(Object o1, Object o2) {
         Map.Entry e1 = (Map.Entry) o1;
         Map.Entry e2 = (Map.Entry) o2;
-        Integer first = (Integer) e1.getValue();
-        Integer second = (Integer) e2.getValue();
+        T first = (T) e1.getValue();
+        T second = (T) e2.getValue();
         return second.compareTo(first);
       }
     });

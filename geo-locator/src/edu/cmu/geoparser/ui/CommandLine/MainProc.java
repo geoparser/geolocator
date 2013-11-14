@@ -23,8 +23,13 @@ under the License.
  */
 package edu.cmu.geoparser.ui.CommandLine;
 
-import edu.cmu.geoparser.resource.gazindexing.GazIndexer;
+import edu.cmu.geoparser.resource.gazindexing.CollaborativeIndex.*;
 
+/**
+ * Todo: Didn't change the tool for the indexing yet.
+ * @author indri
+ *
+ */
 public class MainProc {
 
   public static void main(String argv[]) throws Exception {
@@ -38,9 +43,9 @@ public class MainProc {
       CmdInputParser.main(new String[] { argv[1], argv[2],argv[3] });
     else if (mode.equals("-index")) {
       if (argv[1].equals("-write")) // -index -write allcountries.txt gazIndex
-        GazIndexer.main(new String[] { "-write", argv[2],argv[3] });
+        CollaborativeIndex.main(new String[] { "-write", argv[2],argv[3] });
       else if (argv[1].equals("-read"))// index -read gazindex 
-        GazIndexer.main(new String[] { "-read", argv[2] });
+        CollaborativeIndex.main(new String[] { "-read", argv[2] });
       else {
         throw new Exception("wrong index usage command. Should be -read or -write.");
       }

@@ -33,7 +33,7 @@ import edu.cmu.geoparser.Disambiguation.ContextDisamb;
 import edu.cmu.geoparser.io.GetReader;
 import edu.cmu.geoparser.model.Tweet;
 import edu.cmu.geoparser.parser.english.EnglishParser;
-import edu.cmu.geoparser.resource.trie.IndexSupportedTrie;
+import edu.cmu.geoparser.resource.gazindexing.CollaborativeIndex.CollaborativeIndex;
 import twitter4j.Status;
 import twitter4j.TwitterException;
 import twitter4j.json.DataObjectFactory;
@@ -48,8 +48,9 @@ public class TwitterJsonParser {
     String uri = "/Users/indri/Eclipse_workspace/";
     String geonames = uri + "GeoNames/cities1000.txt";
     String gazindex = uri + "GazIndex";
-    IndexSupportedTrie topotrie = new IndexSupportedTrie(geonames, gazindex, true, false);
-    EnglishParser enparser = new EnglishParser("res/", topotrie, false);
+    CollaborativeIndex ci = new CollaborativeIndex().config("GazIndex/StringIndex",
+            "GazIndex/InfoIndex", "mmap", "mmap").open();
+    EnglishParser enparser = new EnglishParser("res/", ci, false);
 
     ContextDisamb c = new ContextDisamb();
 
@@ -94,7 +95,7 @@ public class TwitterJsonParser {
         for (String s : match)
           reducedmatch.add(s.substring(3, s.length() - 3));
 
-        HashMap<String, String[]> result = c.returnBestTopo(topotrie, reducedmatch);
+        HashMap<String, String[]> result = c.returnBestTopo(ci, reducedmatch);
 
         if (result == null) {
           System.out.println("No GPS for any location is found.");

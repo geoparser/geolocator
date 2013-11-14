@@ -59,6 +59,8 @@ import edu.cmu.geoparser.model.Tweet;
 import edu.cmu.geoparser.nlp.languagedetector.LangDetector;
 import edu.cmu.geoparser.nlp.ner.FeatureExtractor.FeatureGenerator;
 import edu.cmu.geoparser.parser.english.EnglishParser;
+import edu.cmu.geoparser.resource.Index;
+import edu.cmu.geoparser.resource.gazindexing.CollaborativeIndex.CollaborativeIndex;
 import edu.cmu.geoparser.resource.trie.IndexSupportedTrie;
 
 public class Desktop {
@@ -77,7 +79,8 @@ public class Desktop {
 
   private String gazpath, resroot, enNER, langd;
 
-  private IndexSupportedTrie topotrie;
+  private static final Index ci = new CollaborativeIndex().config("GazIndex/StringIndex",
+          "GazIndex/InfoIndex", "mmap", "mmap").open();
 
   private FeatureGenerator enfgen;
 
@@ -117,9 +120,8 @@ public class Desktop {
     /**
      * Initialize tagging resourses, get ready for tagging.
      */
-    final IndexSupportedTrie topotrie = new IndexSupportedTrie("GeoNames/cities1000.txt", "GazIndex/",true, false);
 
-    final EnglishParser enparser = new EnglishParser("res/", topotrie, false);
+    final EnglishParser enparser = new EnglishParser("res/", ci, false);
  
     final ContextDisamb c = new ContextDisamb();
 
@@ -271,7 +273,7 @@ public class Desktop {
             HashSet<String> reducedmatch = new HashSet<String>();
             for (String s : topo)
               reducedmatch.add(s.substring(3, s.length() - 3));
-            HashMap<String, String[]> result = c.returnBestTopo(topotrie, reducedmatch);
+            HashMap<String, String[]> result = c.returnBestTopo(ci, reducedmatch);
             Iterator<Entry<String, String[]>> i = result.entrySet().iterator();
             while (i.hasNext()) {
               Entry<String, String[]> a = i.next();

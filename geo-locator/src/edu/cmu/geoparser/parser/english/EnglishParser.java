@@ -29,12 +29,11 @@ import java.util.List;
 
 import edu.cmu.geoparser.model.Tweet;
 import edu.cmu.geoparser.nlp.ner.FeatureExtractor.FeatureGenerator;
-import edu.cmu.geoparser.nlp.spelling.EuroLangMisspellParser;
 import edu.cmu.geoparser.parser.NERTagger;
 import edu.cmu.geoparser.parser.STBDParser;
 import edu.cmu.geoparser.parser.TPParser;
 import edu.cmu.geoparser.parser.utils.ParserUtils;
-import edu.cmu.geoparser.resource.trie.IndexSupportedTrie;
+import edu.cmu.geoparser.resource.Index;
 
 public class EnglishParser {
 
@@ -43,12 +42,12 @@ public class EnglishParser {
 	TPParser tp;
 	
 	HashSet<String> match;
-	public EnglishParser(String root, IndexSupportedTrie topotrie, boolean misspell){
-    FeatureGenerator fgen = new FeatureGenerator("en", topotrie, "res/");
+	public EnglishParser(String root, Index index, boolean misspell){
+    FeatureGenerator fgen = new FeatureGenerator("en", index, "res/");
 //		match = new HashSet<String>();
 		ner = new EnglishMTNERParser(root +"en/enNER-crf-final.model",fgen);
 		stbd = new EnglishRuleSTBDParser(fgen);
-		tp = new EnglishRuleToponymParser(fgen,new EuroLangMisspellParser(fgen.getTrie().index),misspell);
+		tp = new EnglishRuleToponymParser(fgen,misspell);
 		
 	}
 	public List<String> parse(Tweet t){

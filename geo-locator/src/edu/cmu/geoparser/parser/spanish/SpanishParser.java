@@ -29,12 +29,11 @@ import java.util.List;
 
 import edu.cmu.geoparser.model.Tweet;
 import edu.cmu.geoparser.nlp.ner.FeatureExtractor.FeatureGenerator;
-import edu.cmu.geoparser.nlp.spelling.EuroLangMisspellParser;
 import edu.cmu.geoparser.parser.NERTagger;
 import edu.cmu.geoparser.parser.STBDParser;
 import edu.cmu.geoparser.parser.TPParser;
 import edu.cmu.geoparser.parser.utils.ParserUtils;
-import edu.cmu.geoparser.resource.trie.IndexSupportedTrie;
+import edu.cmu.geoparser.resource.Index;
 
 public class SpanishParser {
 
@@ -42,12 +41,12 @@ public class SpanishParser {
 	STBDParser stbd;
 	TPParser tp;
 	HashSet<String> match;
-	public SpanishParser(String root, IndexSupportedTrie topotrie, boolean misspell){
-    FeatureGenerator fgen = new FeatureGenerator("es", topotrie, "res/");
+	public SpanishParser(String root, Index index, boolean misspell){
+    FeatureGenerator fgen = new FeatureGenerator("es", index, "res/");
 //		match = new HashSet<String>();
 		ner = new SpanishMTNERParser(root +"es/esNER-crf-final.model",fgen);
 		stbd = new SpanishRuleSTBDParser(fgen);
-		tp = new SpanishRuleToponymParser(fgen,new EuroLangMisspellParser(fgen.getTrie().index),misspell);
+		tp = new SpanishRuleToponymParser(fgen);
 	}
 	public List<String> parse(Tweet t){
 		

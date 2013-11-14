@@ -36,14 +36,15 @@ import edu.cmu.geoparser.io.GetReader;
 import edu.cmu.geoparser.io.GetWriter;
 import edu.cmu.geoparser.model.Tweet;
 import edu.cmu.geoparser.parser.english.EnglishParser;
-import edu.cmu.geoparser.resource.trie.IndexSupportedTrie;
-
+import edu.cmu.geoparser.resource.gazindexing.CollaborativeIndex.CollaborativeIndex;
+import edu.cmu.geoparser.resource.Index;
 public class LDCTest {
 
   public static void main(String argv[]) throws IOException {
 
-    IndexSupportedTrie topotrie = new IndexSupportedTrie("GeoNames/allCountries.txt", "GazIndex/",true, false);
-    EnglishParser enparser = new EnglishParser("res/", topotrie, false);
+   Index ci =  new CollaborativeIndex().config("GazIndex/StringIndex",
+            "GazIndex/InfoIndex", "mmap", "mmap").open();
+    EnglishParser enparser = new EnglishParser("res/", ci, false);
     ContextDisamb c = new ContextDisamb();
     String s = null, content = null, tags = null;
     BufferedReader br = GetReader.getUTF8FileReader("PURGE.csv");
@@ -63,7 +64,7 @@ public class LDCTest {
       HashSet<String> topo = new HashSet<String>();
       for (String match : matches)
         topo.add(match.substring(3, match.length() - 3));
-      HashMap<String, String[]> dis = c.returnBestTopo(topotrie, topo);
+      HashMap<String, String[]> dis = c.returnBestTopo(ci, topo);
 
       // write into file
       bw.write(content + "\t");

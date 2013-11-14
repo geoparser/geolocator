@@ -34,27 +34,55 @@ import java.io.UnsupportedEncodingException;
 import org.apache.lucene.index.IndexReader;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.search.IndexSearcher;
+import org.apache.lucene.store.Directory;
+import org.apache.lucene.store.FSDirectory;
+import org.apache.lucene.store.NIOFSDirectory;
+
+import edu.cmu.geoparser.common.OSUtil;
 
 public class GetReader {
 
-	public static BufferedReader getUTF8FileReader(String filename)
-			throws FileNotFoundException, UnsupportedEncodingException {
-		File file = new File(filename);
-		BufferedReader bin = new BufferedReader(new InputStreamReader(
-				new FileInputStream(file),"utf-8"));
-		return bin;
-	}
-	
-	public static IndexSearcher getIndexSearcher(String filename) throws IOException {
-		IndexWriter iw = GetWriter.getIndexWriter(filename);
-		IndexReader ir=IndexReader.open(iw, false);
-		IndexSearcher searcher = new IndexSearcher(ir);
-		return searcher;
-	}
-	
-	public static BufferedReader getCommandLineReader() throws UnsupportedEncodingException{
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in, "utf-8"));
-		return br;
-	}
-	
+  public static BufferedReader getUTF8FileReader(String filename) throws FileNotFoundException,
+          UnsupportedEncodingException {
+    File file = new File(filename);
+    BufferedReader bin = new BufferedReader(new InputStreamReader(new FileInputStream(file),
+            "utf-8"));
+    return bin;
+  }
+
+  public static IndexSearcher getIndexSearcherFromWriter(String filename) throws IOException {
+    IndexWriter iw = GetWriter.getIndexWriter(filename, 1024);
+    IndexReader ir = IndexReader.open(iw, false);
+    IndexSearcher searcher = new IndexSearcher(ir);
+    return searcher;
+  }
+
+  public static IndexSearcher getIndexSearcher(String filename, String diskOrMem) throws Exception {
+    IndexReader reader;
+    Directory d ;
+    if (diskOrMem.equals("disk"))
+      d = FSDirectory.open(new File(filename));
+    else if (diskOrMem.equals("mmap"))
+      d=  MmapDirectory(new File(filename));
+    else
+      throw new Exception("parameter for directory type not defined.");
+    
+    if(OSUtil.isWindows())
+     reader = IndexReader.open(FSDirectory.open(new File(filename)));
+    else
+      reader = IndexReader.open(NIOFSDirectory.open(new File(filename))); 
+    IndexSearcher searcher = new IndexSearcher(reader);
+    return searcher;
+  }
+
+  private static Directory MmapDirectory(File file) {
+    // TODO Auto-generated method stub
+    return null;
+  }
+
+  public static BufferedReader getCommandLineReader() throws UnsupportedEncodingException {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in, "utf-8"));
+    return br;
+  }
+
 }

@@ -269,7 +269,7 @@ public class Trie {
 	 * output format: without original string stored: WLAD_XXXX_XXXX_XXXX_XXXX....
 	 * 			with original string stord: WLAD_AAA::XXX_AAA::XXX_....
 	 */
-	public String search(String s) {
+	public String inIndex(String s) {
 		if (s == null) {
 			return "EMPTY";
 		}
@@ -361,7 +361,7 @@ public class Trie {
 		long start = System.currentTimeMillis();
 		while (i++ < 1000000) {
 
-			System.out.print(trie.search(inputStr) + "\n");
+			System.out.print(trie.inIndex(inputStr) + "\n");
 			System.out.println();
 			System.out.print("\n> ");
 

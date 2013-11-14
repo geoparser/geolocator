@@ -39,6 +39,7 @@ import edu.cmu.geoparser.nlp.languagedetector.LangDetector;
 import edu.cmu.geoparser.nlp.ner.FeatureExtractor.FeatureGenerator;
 import edu.cmu.geoparser.parser.english.EnglishParser;
 import edu.cmu.geoparser.parser.spanish.SpanishParser;
+import edu.cmu.geoparser.resource.gazindexing.CollaborativeIndex.CollaborativeIndex;
 import edu.cmu.geoparser.resource.trie.IndexSupportedTrie;
 
 /**
@@ -59,12 +60,13 @@ public class CmdInputParser {
      * However, using cities1000.txt (downloadable in Geonames free gazetteer site also) will give you only the cities. The loading will pretty fast, though.
      * 
      */
-    IndexSupportedTrie topotrie = new IndexSupportedTrie(trieDic,gazIndex, true, false);
+    CollaborativeIndex ci = new CollaborativeIndex().config("GazIndex/StringIndex",
+            "GazIndex/InfoIndex", "mmap", "mmap").open();
 
     /**
      * This is the main construction function for the English parser. The Spanish parser has the same form.
      */
-    EnglishParser enparser = new EnglishParser("res/", topotrie, misspell);
+    EnglishParser enparser = new EnglishParser("res/", ci,false);
 
     /**
      * Initialize a context disambiguation class c.
@@ -127,7 +129,7 @@ public class CmdInputParser {
          * will give you a map between location, and it's string array storing the longitude, latitude, and country state info.
          */
         // Disambiguate topo
-        HashMap<String, String[]> result = c.returnBestTopo(topotrie, reducedmatch);
+        HashMap<String, String[]> result = c.returnBestTopo(ci, reducedmatch);
 
         if (result == null) {
           System.out.println("No GPS for any location is found.");

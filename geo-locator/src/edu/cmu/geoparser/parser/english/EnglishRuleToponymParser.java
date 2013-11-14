@@ -26,23 +26,18 @@ package edu.cmu.geoparser.parser.english;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.apache.lucene.queryParser.ParseException;
-
 import edu.cmu.geoparser.common.StringUtil;
 import edu.cmu.geoparser.model.Tweet;
-import edu.cmu.geoparser.nlp.MisspellParser;
 import edu.cmu.geoparser.nlp.ner.FeatureExtractor.FeatureGenerator;
-import edu.cmu.geoparser.nlp.spelling.EuroLangMisspellParser;
 import edu.cmu.geoparser.nlp.tokenizer.EuroLangTwokenizer;
 import edu.cmu.geoparser.parser.TPParser;
 import edu.cmu.geoparser.parser.utils.ParserUtils;
-import edu.cmu.geoparser.resource.trie.IndexSupportedTrie;
+import edu.cmu.geoparser.resource.gazindexing.CollaborativeIndex.CollaborativeIndex;
 
 public class EnglishRuleToponymParser implements TPParser {
 
@@ -60,12 +55,10 @@ public class EnglishRuleToponymParser implements TPParser {
 	 */
 
 	FeatureGenerator fgen;
-	MisspellParser mparser;
 	boolean misspell;
 
-	public EnglishRuleToponymParser(FeatureGenerator fgen, MisspellParser mparser, boolean misspell) {
+	public EnglishRuleToponymParser(FeatureGenerator fgen,  boolean misspell) {
 		this.fgen = fgen;
-		this.mparser = mparser;
 		this.misspell = misspell;
 	}
 
@@ -125,24 +118,13 @@ public class EnglishRuleToponymParser implements TPParser {
 				for (String kgram : kgrams) {
 					kgram = kgram.trim();
 
+					// this was used for misspelling codes, which is already deleted.
 					String corkgram = null;
 					
-					if (misspell)
-						try {
-							corkgram = mparser.parse(kgram);
-							System.out.println("The String ["+ kgram +"] has been misspelled. Corrected to	["+ corkgram+"]");
-						} catch (IOException e) {
-							// TODO Auto-generated catch block
-							e.printStackTrace();
-						} catch (ParseException e) {
-							// TODO Auto-generated catch block
-							e.printStackTrace();
-						}
-					else
 						corkgram = kgram;
 //					System.out.println("The String to look up Trie is : [" + corkgram + "]");
 
-					if (fgen.getTrie().searchTrie(corkgram, true) != null) {
+					if (fgen.getIndex().inIndex(corkgram)) {
 						if (ParserUtils.isFilterword(corkgram) || ParserUtils.isEsFilterword(corkgram)
 								) {
 							continue;
@@ -158,13 +140,12 @@ public class EnglishRuleToponymParser implements TPParser {
 		return matches;
 	}
 
-	public static void main(String argv[]) throws IOException, ParseException {
-		argv[0] = "GeoNames/cities1000.txt";
-		IndexSupportedTrie ist = new IndexSupportedTrie(argv[0],"GazIndex/", true, false);
-		FeatureGenerator feature = new FeatureGenerator("en", ist, "res/");
-		MisspellParser mparser = new EuroLangMisspellParser(ist.index);
-
-		EnglishRuleToponymParser etp = new EnglishRuleToponymParser(feature, mparser, true);
+	public static void main(String argv[]) throws IOException {
+    CollaborativeIndex ci = new CollaborativeIndex()
+    .config("GazIndex/StringIndex", "GazIndex/InfoIndex", "mmap", "mmap").open();
+		FeatureGenerator fg = new FeatureGenerator("en", ci, "res/");
+	
+		EnglishRuleToponymParser etp = new EnglishRuleToponymParser(fg, true);
 
 		Tweet t = new Tweet();
 		// //////
