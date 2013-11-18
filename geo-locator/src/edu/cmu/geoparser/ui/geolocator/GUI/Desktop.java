@@ -59,7 +59,7 @@ import edu.cmu.geoparser.model.Tweet;
 import edu.cmu.geoparser.nlp.languagedetector.LangDetector;
 import edu.cmu.geoparser.nlp.ner.FeatureExtractor.FeatureGenerator;
 import edu.cmu.geoparser.parser.english.EnglishParser;
-import edu.cmu.geoparser.resource.Index;
+import edu.cmu.geoparser.resource.gazindexing.Index;
 import edu.cmu.geoparser.resource.gazindexing.CollaborativeIndex.CollaborativeIndex;
 import edu.cmu.geoparser.resource.trie.IndexSupportedTrie;
 

@@ -33,7 +33,7 @@ import edu.cmu.geoparser.parser.NERTagger;
 import edu.cmu.geoparser.parser.STBDParser;
 import edu.cmu.geoparser.parser.TPParser;
 import edu.cmu.geoparser.parser.utils.ParserUtils;
-import edu.cmu.geoparser.resource.Index;
+import edu.cmu.geoparser.resource.gazindexing.Index;
 
 public class SpanishParser {
 

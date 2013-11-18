@@ -1,8 +1,7 @@
 package edu.cmu.geoparser.nlp;
 
-import java.util.List;
-
+import edu.cmu.geoparser.model.*;
 public interface POSTagger {
 
-	List<String> tag(List<String> string);
+	Sentence tag(Sentence sent);
 }

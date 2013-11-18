@@ -28,11 +28,16 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import edu.cmu.geoparser.model.LocEntity;
+import edu.cmu.geoparser.model.Sentence;
+import edu.cmu.geoparser.model.Token;
 import edu.cmu.geoparser.model.Tweet;
 import edu.cmu.geoparser.nlp.ner.FeatureExtractor.FeatureGenerator;
 import edu.cmu.geoparser.nlp.tokenizer.EuroLangTwokenizer;
+import edu.cmu.geoparser.parser.ParserFactory;
 import edu.cmu.geoparser.parser.STBDParser;
 import edu.cmu.geoparser.parser.utils.ParserUtils;
+import edu.cmu.geoparser.resource.ResourceFactory;
 import edu.cmu.geoparser.resource.gazindexing.CollaborativeIndex.CollaborativeIndex;
 import edu.cmu.geoparser.resource.trie.IndexSupportedTrie;
 
@@ -63,45 +68,66 @@ public class EnglishRuleSTBDParser implements STBDParser {
     this.fgen = fgen;
   }
 
+  List<LocEntity> les;
+
   /**
    * Find streets by street suffixes
    * 
    * @param tweetMatches
    * @param tweet
    */
-  public List<String> parse(Tweet tweet) {
-    String text = tweet.getOrigText();
-    List<String> tok = EuroLangTwokenizer.tokenize(text);
+  public List<LocEntity> parse(Tweet tweet) {
+    les = new ArrayList<LocEntity>();
+    Sentence tweetSent = tweet.getSentence();
+    EuroLangTwokenizer.tokenize(tweetSent);
+    fgen.getPostagger().tag(tweetSent);
 
-    List<String> poss = fgen.getPostagger().tag(tok);
     String posstr = "";
-    for (int i = 0; i < poss.size(); i++)
-      posstr += poss.get(i);
-
-    List<String> matches = new ArrayList<String>();
+    for (int i = 0; i < tweetSent.tokenLength(); i++)
+      posstr += tweetSent.getTokens()[i].getPOS();
 
     for (int j = 0; j < stpattern.length; j++) {
       streetpospattern = Pattern.compile(stpattern[j]);
       Matcher stmatcher = streetpospattern.matcher(posstr);
       while (stmatcher.find()) {
-        if (ParserUtils.isStreetSuffix(tok.get(stmatcher.end() - 1))) {
-          String temp = "";
-          for (int i = stmatcher.start(); i < stmatcher.end(); i++)
-            temp += tok.get(i) + " ";
-          matches.add("st{" + temp.trim() + "}st");
+        if (ParserUtils.isStreetSuffix(tweetSent.getTokens()[stmatcher.end() - 1].getToken())) {
+          int startpos = stmatcher.start();
+          int endpos = stmatcher.end() - 1;
+          Token[] t = new Token[endpos - startpos + 1];
+          for (int i = startpos; i <= endpos; i++) {
+            t[i - startpos] = tweet.getSentence().getTokens()[i].setNE("st");
+          }
+          LocEntity le = new LocEntity(startpos, endpos, "st", t);
+          les.add(le);
         }
       }
     }
     Matcher bdmatcher = buildingpospattern.matcher(posstr);
     while (bdmatcher.find()) {
-      if (ParserUtils.isBuildingSuffix(tok.get(bdmatcher.end() - 1))) {
-        String temp = "";
-        for (int i = bdmatcher.start(); i < bdmatcher.end(); i++)
-          temp += tok.get(i) + " ";
-        matches.add("bd{" + temp.trim() + "}bd");
+      if (ParserUtils.isBuildingSuffix(tweetSent.getTokens()[bdmatcher.end() - 1].getToken())) {
+        int startpos = bdmatcher.start();
+        int endpos = bdmatcher.end() - 1;
+
+        Token[] t = new Token[endpos - startpos + 1];
+        for (int i = startpos; i <= endpos; i++) {
+          t[i - startpos] = tweet.getSentence().getTokens()[i].setNE("bd");
+        }
+        LocEntity le = new LocEntity(startpos, endpos, "bd", t);
+        les.add(le);
       }
     }
-    return matches;
+    return les;
+  }
+
+  private static EnglishRuleSTBDParser estbdparser;
+
+  public static EnglishRuleSTBDParser getInstance() {
+    if (estbdparser == null)
+      return new EnglishRuleSTBDParser(new FeatureGenerator("en",
+              ResourceFactory.getClbIndex(), "res/"));
+    else
+      return estbdparser;
+
   }
 
   public static void main(String argv[]) {
@@ -115,15 +141,11 @@ public class EnglishRuleSTBDParser implements STBDParser {
     // "MT @roxxsfisher: law officers asking spectators to please leave canyon ridge elem school and stone oak park for their safety. #satxwildfires";
     // s =
     // "Am worried about the #centraltxfires in Cedar Creek bc the Capitol of Texas Zoo is there. Lots of rescues & endangered animals. #pawcircle";
-    t.setText(s);
+    t.setSentence(new Sentence(s));
 
-    CollaborativeIndex ci = new CollaborativeIndex().config("GazIndex/StringIndex",
-            "GazIndex/InfoIndex", "mmap", "mmap").open();
-
-    EnglishRuleSTBDParser stparser = new EnglishRuleSTBDParser(new FeatureGenerator("en", ci,
-            "res/"));
-    stparser.parse(t);
-    System.out.println(t.getMatches());
+    EnglishRuleSTBDParser stparser = ParserFactory.getEnSTBDParser();
+    List<LocEntity> locs = stparser.parse(t);
+    System.out.println(locs);
 
   }
 }

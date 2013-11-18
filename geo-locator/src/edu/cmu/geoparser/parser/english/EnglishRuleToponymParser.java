@@ -32,134 +32,187 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import edu.cmu.geoparser.common.StringUtil;
+import edu.cmu.geoparser.model.LocEntity;
+import edu.cmu.geoparser.model.Sentence;
+import edu.cmu.geoparser.model.Token;
 import edu.cmu.geoparser.model.Tweet;
+import edu.cmu.geoparser.nlp.NERFeatureFactory;
 import edu.cmu.geoparser.nlp.ner.FeatureExtractor.FeatureGenerator;
 import edu.cmu.geoparser.nlp.tokenizer.EuroLangTwokenizer;
+import edu.cmu.geoparser.parser.ParserFactory;
 import edu.cmu.geoparser.parser.TPParser;
 import edu.cmu.geoparser.parser.utils.ParserUtils;
+import edu.cmu.geoparser.resource.ResourceFactory;
 import edu.cmu.geoparser.resource.gazindexing.CollaborativeIndex.CollaborativeIndex;
 
 public class EnglishRuleToponymParser implements TPParser {
 
-	static final int GRAM = 5;
-	static String[] ngram;
-	static String[] posngram;
-	static boolean allstopwords;
-	static ArrayList<String> results;
+  static final int GRAM = 5;
 
-	static Pattern gazpattern = Pattern.compile("[AN\\^G]*[N\\^G]");
+  static String[] ngram;
 
-	/**
-	 * Gaz Matching. The parser only lookup the token array. This parser does
-	 * not tokenize the input string for efficiency reasons.
-	 */
+  static String[] posngram;
 
-	FeatureGenerator fgen;
-	boolean misspell;
+  static boolean allstopwords;
 
-	public EnglishRuleToponymParser(FeatureGenerator fgen,  boolean misspell) {
-		this.fgen = fgen;
-		this.misspell = misspell;
-	}
+  static ArrayList<String> results;
 
-	public List<String> parse(Tweet tweet) {
-		// TODO Auto-generated method stub
+  static Pattern gazpattern = Pattern.compile("[AN\\^G]*[N\\^G]");
 
-		String text = tweet.getOrigText();
-		List<String> tokens = EuroLangTwokenizer.tokenize(text);
-		
-		System.out.println(" Tokenization:\n" + tokens.toString());
-		
-		List<String> temptokens = new ArrayList<String>();
-		for (String t : tokens) {
-			if (t.startsWith("#") && t.length() > 1)
-				temptokens.add(t.substring(1));
-			else
-				temptokens.add(t);
-		}
-		tokens = temptokens;
-		List<String> postags = fgen.getPostagger().tag(tokens);
+  /**
+   * Gaz Matching. The parser only lookup the token array. This parser does not tokenize the input
+   * string for efficiency reasons.
+   */
 
-		String posstr = "";
-		for (int i = 0; i < postags.size(); i++)
-			posstr += postags.get(i);
+  FeatureGenerator fgen;
 
-		System.out.println(" POS Tagging: "+ posstr);
-		
-		List<String> matches = new ArrayList<String>();
+  public EnglishRuleToponymParser(FeatureGenerator fgen) {
+    this.fgen = fgen;
+  }
 
-		// match countries without considering the part of speech.
-		for (int i = 1; i < 5; i++) {
-			String[] igrams = StringUtil.constructgrams(tokens.toArray(new String[] {}), i, true);
-			if (igrams==null)
-				continue;
-			for (String igram : igrams) {
-				// System.out.println("igram is :["+igram+"]");
-				if (ParserUtils.isCountry(igram))
-					if (!matches.contains("tp{" + igram + "}tp")) {
-						// System.out.println("contries found.");
-						matches.add("tp{" + igram + "}tp");
-					}
-			}
-		}
+  List<LocEntity> les;
 
-		Matcher gazmatcher = gazpattern.matcher(posstr);
-		while (gazmatcher.find()) {
-			int n = gazmatcher.end() - gazmatcher.start();
-			String[] subtoks = new String[n];
-			// System.out.print("Found ");
-			for (int i = gazmatcher.start(); i < gazmatcher.end(); i++) {
-				subtoks[i - gazmatcher.start()] = tokens.get(i);
-				// System.out.print(tokens.get(i));
-			}
+  public List<LocEntity> parse(Tweet tweet) {
+    les = new ArrayList<LocEntity>();
 
-			for (int k = 1; k < n + 1; k++) {
-				String[] kgrams = StringUtil.constructgrams(subtoks, k, true);
-				for (String kgram : kgrams) {
-					kgram = kgram.trim();
+    Sentence tweetSent = tweet.getSentence();
+    EuroLangTwokenizer.tokenize(tweetSent);
+    fgen.getPostagger().tag(tweetSent);
+    Token[] tokens = tweetSent.getTokens();
 
-					// this was used for misspelling codes, which is already deleted.
-					String corkgram = null;
-					
-						corkgram = kgram;
-//					System.out.println("The String to look up Trie is : [" + corkgram + "]");
+    List<Token> temptokens = new ArrayList<Token>();
+    for (Token t : tokens) {
+      if (t.getToken().length() > 1 && t.getToken().startsWith("#")
+              && t.getToken().charAt(1) != '#')
+        temptokens.add(t.clone().setToken(t.getToken().substring(1)));
+      else
+        temptokens.add(t);
+    }
+    tokens = temptokens.toArray(new Token[] {});
 
-					if (fgen.getIndex().inIndex(corkgram)) {
-						if (ParserUtils.isFilterword(corkgram) || ParserUtils.isEsFilterword(corkgram)
-								) {
-							continue;
-						}
-						if (!matches.contains("tp{" + corkgram.trim() + "}tp"))
-							matches.add("tp{" + corkgram.trim() + "}tp");
-					}
-					// else
-					// System.out.println(corkgram+" is not in the trie");
-				}
-			}
-		}
-		return matches;
-	}
+    String posstr = "";
+    for (int i = 0; i < tweetSent.tokenLength(); i++)
+      posstr += tweetSent.getTokens()[i].getPOS();
 
-	public static void main(String argv[]) throws IOException {
-    CollaborativeIndex ci = new CollaborativeIndex()
-    .config("GazIndex/StringIndex", "GazIndex/InfoIndex", "mmap", "mmap").open();
-		FeatureGenerator fg = new FeatureGenerator("en", ci, "res/");
-	
-		EnglishRuleToponymParser etp = new EnglishRuleToponymParser(fg, true);
+    System.out.println(" POS Tagging: " + posstr);
 
-		Tweet t = new Tweet();
-		// //////
-		BufferedReader s = new BufferedReader(new InputStreamReader(System.in, "utf-8"));
-		while (true) {
-			t.setText(s.readLine());
-			t.setMatches(null);
-			if (t.getOrigText().length() == 0)
-				continue;
-			double stime = System.currentTimeMillis();
-			List<String> matches = etp.parse(t);
-			double etime = System.currentTimeMillis();
-			System.out.println(matches);
-			System.out.println(etime - stime);
-		}
-	}
+    List<String> matches = new ArrayList<String>();
+
+    // convert Tokens to Strings
+    String[] toks = new String[tokens.length];
+    for (int i = 0; i < toks.length; i++)
+      toks[i] = tokens[i].getToken();
+
+    Token[] countryToks, topoToks;// store the token array variable inside.
+
+    // match countries without considering the part of speech.
+    for (int i = 1; i < 5; i++) {
+      String[] igrams = StringUtil.constructgrams(toks, i, true);
+      if (igrams == null)
+        continue;
+
+      // current ngram starting position is j.
+      // length is i, cause it's i-gram.
+      for (int j = 0; j < igrams.length; j++) {
+        if (ParserUtils.isCountry(igrams[j])) {
+          String[] str = igrams[j].split(" ");
+          int min = i;// minimal dimension for the igram
+          if (str.length != i) {
+            System.out.println("dimension not agree when unwrapping ngram in enTopoParser.");
+            System.out.println("Proceed anyway. Discard the rest part in ngram.");
+            min = Math.min(i, str.length);// if demension not agree, choose smaller one.
+          }
+          countryToks = new Token[min];
+          for (int k = 0; k < min; k++) {
+            countryToks[k] = new Token(str[k], tweet.getId(), j);
+          }
+
+          les.add(new LocEntity(j, j + min - 1, "tp", countryToks));
+
+        }
+      }
+    }
+
+    /**
+     * match the noun phrases, and look up in the dictionary.
+     */
+
+    Matcher gazmatcher = gazpattern.matcher(posstr);
+    while (gazmatcher.find()) {
+      int n = gazmatcher.end() - gazmatcher.start();
+      String[] subtoks = new String[n];
+      // System.out.print("Found ");
+
+      // record the starting point of the noun phrase, for adjusting the ngram starting point.
+      int _offset = gazmatcher.start();
+
+      for (int i = gazmatcher.start(); i < gazmatcher.end(); i++) {
+        subtoks[i - gazmatcher.start()] = tokens[i].getToken();
+        // System.out.print(tokens.get(i));
+      }
+
+      for (int i = 1; i < n + 1; i++) {
+        // i gram. length of gram is i.
+        String[] igrams = StringUtil.constructgrams(subtoks, i, true);
+        // j-th igram. j is the starting point in the subtokens.
+        // new starting point = offset + j
+        for (int j = 0; j < igrams.length; j++) {
+          if (fgen.getIndex().inIndex(igrams[j])) {
+            if (ParserUtils.isFilterword(igrams[j]) || ParserUtils.isEsFilterword(igrams[j])) {
+              continue;
+            }
+            String[] str = igrams[j].split(" ");
+            int min = i;
+            if (str.length != i) {
+              System.out.println("dimension not agree when unwrapping ngram in enTopoParser.");
+              System.out.println("Proceed anyway. Discard the rest part in ngram.");
+              Math.min(i, str.length);// if demension not agree, choose smaller one.
+            }
+            topoToks = new Token[min];
+            for (int k = 0; k < min; k++) {
+              topoToks[k] = new Token(str[k], tweet.getId(), _offset + j);
+            }
+
+            les.add(new LocEntity(_offset + j, _offset + j + i - 1, "tp", topoToks));
+
+          }
+          // else
+          // System.out.println(corkgram+" is not in the trie");
+        }
+      }
+    }
+    return les;
+  }
+
+  private static EnglishRuleToponymParser etpparser;
+
+  public static EnglishRuleToponymParser getInstance() {
+    if (etpparser == null)
+      try {
+        return new EnglishRuleToponymParser(NERFeatureFactory.getInstance("en"));
+      } catch (Exception e) {
+        // TODO Auto-generated catch block
+        e.printStackTrace();
+      }
+    return etpparser;
+
+  }
+
+  public static void main(String argv[]) throws IOException {
+    
+    Tweet t = new Tweet();
+    BufferedReader s = new BufferedReader(new InputStreamReader(System.in, "utf-8"));
+    System.out.println(">");
+    while (true) {
+      String ss = s.readLine();
+      if (ss.length() == 0)
+        continue;
+      t.setSentence(ss);
+      double stime = System.currentTimeMillis();
+      List<LocEntity> matches = ParserFactory.getEnToponymParser().parse(t);
+      double etime = System.currentTimeMillis();
+      System.out.println(matches);
+      System.out.println(etime - stime + "\n>");
+    }
+  }
 }

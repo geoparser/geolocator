@@ -37,7 +37,7 @@ import org.apache.lucene.search.Query;
 import org.apache.lucene.search.ScoreDoc;
 
 import edu.cmu.geoparser.io.GetReader;
-import edu.cmu.geoparser.resource.Index;
+import edu.cmu.geoparser.resource.gazindexing.Index;
 
 /**
  * The trie tree is used along with the gaz index. The connection is built by the ids.

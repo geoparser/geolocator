@@ -31,7 +31,6 @@ import java.util.List;
 
 import edu.cmu.geoparser.common.StringUtil;
 import edu.cmu.geoparser.io.GetReader;
-import edu.cmu.geoparser.resource.gazindexing.GeoNameGazEntry;
 
 //This gazetteer is just for quick search.
 
@@ -47,15 +46,12 @@ public class Dictionary {
 
 	HashSet<String> set;
 	HashMap<String, String> map;
-	HashMap<String, List<GeoNameGazEntry>> gaz;
 
 	public Object getDic(DicType t) {
 		if (t == DicType.SET)
 			return set;
 		else if (t == DicType.MAP)
 			return map;
-		else if (t == DicType.GAZ)
-			return gaz;
 		else
 			return null;
 
@@ -67,8 +63,6 @@ public class Dictionary {
 			set = new HashSet<String>(size);
 		else if (type == DicType.MAP)
 			map = new HashMap<String, String>(size);
-		else if (type == DicType.GAZ)
-			gaz = new HashMap<String, List<GeoNameGazEntry>>(size);
 		else
 			System.err
 					.println("Dictionary Type is wrong. Sould be dictionary(HashSet) or map(HashMap)");

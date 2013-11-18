@@ -23,7 +23,7 @@ import opennlp.tools.util.PlainTextByLineStream;
  * The POSTagger from Juan. It's the one that we are using right now.
  * The tag set is the universal tag set that is created by google( one of the author is from LTI).
  */
-public class ESPOSTagger {
+public class ESOpenNLPPOSTagger {
 
 	static final POSModel model= new POSModelLoader().load(new File("resources.spanish/opennlp-es-pos-maxent-pos-es-1.model"));
 	static POSTaggerME tagger= new POSTaggerME(model);;
@@ -49,7 +49,7 @@ public class ESPOSTagger {
 	    	//use modified twokenizer for spanish
 	    	//tags and tokenized items are seperate, to ensure conviniency.
 	    	List<String> tokenizedline	=  EuroLangTwokenizer.tokenize(input);
-	    	List<String> tags 	= ESPOSTagger.tag(tokenizedline.toArray(new String[]{}));
+	    	List<String> tags 	= ESOpenNLPPOSTagger.tag(tokenizedline.toArray(new String[]{}));
 	
 	    	for(int i=0;i<tags.size();i++)
 	    		System.out.println(tokenizedline.get(i)+" "+tags.get(i));

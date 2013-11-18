@@ -29,6 +29,8 @@ import is2.tools.Tool;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import edu.cmu.geoparser.model.Sentence;
 import edu.cmu.geoparser.nlp.tokenizer.EuroLangTwokenizer;
 
 /**
@@ -49,7 +51,18 @@ public class AnnaLemmatizer implements edu.cmu.geoparser.nlp.Lemmatizer {
     lemmatizer = new Lemmatizer(f);
     i = new SentenceData09();
   }
-
+  List<String> text,tokens;
+  public Sentence lemmatize(Sentence sent){
+    text = new ArrayList<String>(sent.tokenLength());
+    tokens = lemmatize(text);
+    for ( int i = 0 ; i < sent.tokenLength(); i ++){
+      tokens.add(sent.getTokens()[i].getToken());
+    }
+    for ( int i = 0 ; i < sent.tokenLength(); i ++){
+      sent.getTokens()[i].setLemma(tokens.get(i));
+    }
+    return sent;
+  }
   // shows how to parse a sentences and call the tools
   public List<String> lemmatize(List<String> text) {
 

@@ -33,7 +33,7 @@ public class ENTweetPOSTagger implements POSTagger{
 	 * @param modelFilename
 	 * @throws IOException
 	 */
-	public ENTweetPOSTagger(String f) {
+	private ENTweetPOSTagger(String f) {
 		try {
 			System.err.println("loading: "+f);
 			model = Model.loadModelFromText(f);
@@ -44,7 +44,13 @@ public class ENTweetPOSTagger implements POSTagger{
 		}
 		System.out.println("ARK TWEET POS TAGGER IS LOADED.");
 	}
-
+	private static ENTweetPOSTagger entweetPosTagger;
+	
+	public static ENTweetPOSTagger getInstance(){
+	  if (entweetPosTagger==null)
+	    return new ENTweetPOSTagger("res/en/model.20120919");
+	  return entweetPosTagger;
+	}
 	/**
 	 * Run the tokenizer and tagger on one tweet's text.
 	 **/
@@ -52,6 +58,19 @@ public class ENTweetPOSTagger implements POSTagger{
 	TaggedToken tt=new TaggedToken();
 	ModelSentence ms;
 
+  List<String> poss,tokens;
+  public edu.cmu.geoparser.model.Sentence tag(edu.cmu.geoparser.model.Sentence sent){
+    tokens = new ArrayList<String>(sent.tokenLength());
+    for (int i = 0 ; i < sent.tokenLength(); i++){
+      tokens.add(sent.getTokens()[i].getToken());
+    }
+    poss = tag(tokens);
+    for ( int i = 0 ; i < sent.tokenLength(); i ++){
+      sent.getTokens()[i].setPOS(poss.get(i));
+    }
+    return sent;
+  }
+  
 	public List<String> tag(List<String> tokens) {
 
 		sentence = new Sentence();
@@ -93,4 +112,6 @@ public class ENTweetPOSTagger implements POSTagger{
 			inputStr = br.readLine();
 		}
 	}
+
+
 }

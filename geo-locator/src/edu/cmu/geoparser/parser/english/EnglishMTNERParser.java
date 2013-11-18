@@ -27,10 +27,16 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import edu.cmu.geoparser.model.LocEntity;
+import edu.cmu.geoparser.model.Sentence;
+import edu.cmu.geoparser.model.Token;
 import edu.cmu.geoparser.model.Tweet;
+import edu.cmu.geoparser.nlp.NERFeatureFactory;
 import edu.cmu.geoparser.nlp.ner.FeatureExtractor.FeatureGenerator;
 import edu.cmu.geoparser.nlp.tokenizer.EuroLangTwokenizer;
 import edu.cmu.geoparser.parser.NERTagger;
+import edu.cmu.geoparser.parser.ParserFactory;
+import edu.cmu.geoparser.resource.ResourceFactory;
 import edu.cmu.geoparser.resource.gazindexing.CollaborativeIndex.CollaborativeIndex;
 import edu.cmu.minorthird.classify.ClassLabel;
 import edu.cmu.minorthird.classify.Example;
@@ -52,6 +58,21 @@ public class EnglishMTNERParser implements NERTagger {
    * 
    */
 
+  private static EnglishMTNERParser emtparser;
+
+  public static EnglishMTNERParser getInstance() {
+    if (emtparser == null) {
+      String encrfname = "res/en/enNER-crf-final.model";
+      try {
+        return new EnglishMTNERParser(encrfname, NERFeatureFactory.getInstance("en"));
+      } catch (Exception e) {
+        // TODO Auto-generated catch block
+        e.printStackTrace();
+      }
+    }
+    return emtparser;
+  }
+
   public EnglishMTNERParser(String modelname, FeatureGenerator featureg) {
     try {
       model = (SequenceClassifier) IOUtil.loadSerialized(new java.io.File(modelname));
@@ -64,13 +85,15 @@ public class EnglishMTNERParser implements NERTagger {
   // Identifying location names by NER
   Example[] examples;
 
-  public List<String> parse(Tweet tweet) {
+  Sentence tweetSentence;
 
-    String[] t_tweet = (EuroLangTwokenizer.tokenize(tweet.getOrigText())).toArray(new String[] {});
-    examples = new Example[t_tweet.length];
+  public List<LocEntity> parse(Tweet tweet) {
+    tweetSentence = tweet.getSentence();
+    EuroLangTwokenizer.tokenize(tweetSentence);
+    examples = new Example[tweet.getSentence().tokenLength()];
 
-    // instances that is converted to feature list.
-    List<Feature[]> feature_instances = fg.extractFeature(t_tweet);
+    // instances that is converted to feature list. Some features are stored in the tokens.
+    List<Feature[]> feature_instances = fg.extractFeature(tweetSentence);
 
     for (int i = 0; i < examples.length; i++) {
 
@@ -90,59 +113,44 @@ public class EnglishMTNERParser implements NERTagger {
      * for (int i = 0; i < resultlabels.length; i++) {
      * System.out.print(resultlabels[i].bestClassName() + " "); }
      */
-    List<String> matches = tweet.getMatches();
-    if (matches == null)
-      matches = new ArrayList<String>();
+    List<LocEntity> locs = new ArrayList<LocEntity>();
 
     /**
-     * tag the result with the defined format.
+     * rewrite the loc-entity generation, to support positions.
      */
-    String buffer = "";
-    String previous = "", current = "";
+    int startpos = -1, endpos = -1;
+    String current = "O", previous = "O";
     for (int k = 0; k < resultlabels.length; k++) {
+      if (k > 0)
+        previous = current;
       current = resultlabels[k].bestClassName();
-      if (current.equals("O")) {
-        if (previous.length() == 0)
-          previous = current;
-        else if (previous.equals("O")) {
+      if (current.equals("O"))
+        if (previous.equals("O"))
           continue;
-        } else {
-          buffer = previous + "{" + buffer.trim() + "}" + previous;
-          if (!matches.contains(buffer))
-            matches.add(buffer);
-          buffer = "";
-          previous = current;
-        }
-      } else {
-        if (previous.length() == 0 || previous.equals("O")) {
-          previous = current;
-          buffer += " " + t_tweet[k];
-        } else {
-          if (previous.equals(current))
-            buffer += " " + t_tweet[k];
-          else {
-            buffer = previous + "{" + buffer.trim() + "}" + previous;
-            if (!matches.contains(buffer))
-              matches.add(buffer);
-            previous = current;
+        else {
+          endpos = k - 1;
+          System.out.println(startpos + " " + endpos + " " + previous);
+          Token[] t = new Token[endpos - startpos + 1];
+          for (int i = startpos; i <= endpos; i++) {
+            t[i - startpos] = tweet.getSentence().getTokens()[i].setNE(previous);
           }
+          LocEntity le = new LocEntity(startpos, endpos, previous, t);
+          locs.add(le);
         }
-      }
-    }
+      else if (previous.equals("O"))
+        startpos = k;
+      else
+        endpos = k;
 
-    tweet.setMatches(matches);
-    return matches;
+    }
+    return locs;
   }
 
   public static void main(String argv[]) throws IOException {
-    String encrfname = "res/en/enNER-crf-final.model";
 
-    CollaborativeIndex ci = new CollaborativeIndex().config("GazIndex/StringIndex",
-            "GazIndex/InfoIndex", "mmap", "mmap").open();
-
-    FeatureGenerator enfgen = new FeatureGenerator("en", ci, "res/");
-
-    NERTagger enner = new EnglishMTNERParser(encrfname, enfgen);
-
+    String s = "I have been studying at Schenley Park for two years.";
+    Tweet t = new Tweet(s);
+    NERTagger enner =ParserFactory.getEnNERParser();
+    System.out.println(enner.parse(t));
   }
 }

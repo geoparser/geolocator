@@ -45,7 +45,7 @@ import edu.cmu.geoparser.nlp.ner.FeatureExtractor.FeatureGenerator;
 import edu.cmu.geoparser.parser.english.EnglishParser;
 import edu.cmu.geoparser.parser.spanish.SpanishParser;
 import edu.cmu.geoparser.parser.utils.ParserUtils;
-import edu.cmu.geoparser.resource.Index;
+import edu.cmu.geoparser.resource.gazindexing.Index;
 import edu.cmu.geoparser.resource.gazindexing.CollaborativeIndex.CollaborativeIndex;
 import edu.cmu.geoparser.resource.trie.IndexSupportedTrie;
 
@@ -227,7 +227,7 @@ public class ContextDisamb {
 		hierMap.put("PPL", 1);
 
 		for (String str : topo) {
-			ArrayList<Document> d = ci.getDocuments(str);
+			ArrayList<Document> d = ci.getDocumentsByPhrase(str);
 			if (d == null) {
 				//System.out.println("no GPS found for "+str);
 				continue;
@@ -339,7 +339,7 @@ public class ContextDisamb {
 		HashMap<String, String[]> result = new HashMap<String, String[]>();
 		for (String str : topo) {
 			double max_score = Double.NEGATIVE_INFINITY;
-			ArrayList<Document> d= ci.getDocuments(str);
+			ArrayList<Document> d= ci.getDocumentsByPhrase(str);
 			if (d == null) {
 				System.out.println("No GPS for "+ str);
 				continue;

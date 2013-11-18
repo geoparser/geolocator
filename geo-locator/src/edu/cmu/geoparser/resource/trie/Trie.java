@@ -30,8 +30,6 @@ import java.util.HashSet;
 
 import edu.cmu.geoparser.common.StringUtil;
 import edu.cmu.geoparser.io.GetReader;
-import edu.cmu.geoparser.resource.gazindexing.GeoNameGazEntry;
-import edu.cmu.geoparser.resource.gazindexing.GeoNamesReader;
 
 public class Trie {
 
@@ -141,15 +139,15 @@ public class Trie {
 	 * Ex: San José -> san jose or sanjose.
 	 */
 	public void buildTrieFromGeoNamesForIndex(String filename, HashSet<String> countrycode) throws IOException {
-		GeoNamesReader namesreader = new GeoNamesReader(filename);
 		double start = System.currentTimeMillis();
-
+		BufferedReader namesreader = GetReader.getUTF8FileReader(filename);
 		int i = 0;
-		GeoNameGazEntry e;
+		String e;
 		while ((e = namesreader.readLine()) != null) {
 			System.out.print((++i % 100000 == 0) ? i + "\n" : "");
-			if (countrycode.contains(e.country))
-				addWord2Trie(e.name, e.id);
+			String [] ee= e.split("\t");
+			if (countrycode.contains(ee[4]))
+				addWord2Trie(ee[1], Long.parseLong(ee[0]));
 		}
 		double end = System.currentTimeMillis();
 

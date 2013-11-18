@@ -1,7 +1,7 @@
 package edu.cmu.geoparser.nlp;
 
-import java.util.List;
+import edu.cmu.geoparser.model.Sentence;
 
 public interface Lemmatizer {
-	List<String> lemmatize(List<String> sent);
+	Sentence lemmatize(Sentence sent);
 }

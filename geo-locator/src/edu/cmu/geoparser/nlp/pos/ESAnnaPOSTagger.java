@@ -3,7 +3,6 @@ package edu.cmu.geoparser.nlp.pos;
 import is2.data.SentenceData09;
 import is2.io.CONLLWriter09;
 import is2.lemmatizer.Lemmatizer;
-
 import is2.parser.Parser;
 import is2.tag.Tagger;
 import is2.tools.Tool;
@@ -27,6 +26,20 @@ public class ESAnnaPOSTagger implements POSTagger{
 		i = new SentenceData09();
 	}
 
+
+  List<String> poss,tokens;
+  public edu.cmu.geoparser.model.Sentence tag(edu.cmu.geoparser.model.Sentence sent){
+    tokens = new ArrayList<String>(sent.tokenLength());
+    for (int i = 0 ; i < sent.tokenLength(); i++){
+      tokens.add(sent.getTokens()[i].getToken());
+    }
+    poss = tag(tokens);
+    for ( int i = 0 ; i < sent.tokenLength(); i ++){
+      sent.getTokens()[i].setPOS(poss.get(i));
+    }
+    return sent;
+  }
+  
 	// shows how to parse a sentences and call the tools
 	public List<String> tag(List<String> text) {
 
@@ -105,7 +118,7 @@ public class ESAnnaPOSTagger implements POSTagger{
 		String s = "RT @charlymaiz: Sismo de 5.3 en Neuquén http://bit.ly/cXoteZ via @Cynega #terremoto";
 		List<String> text = EuroLangTwokenizer.tokenize(s);
 		System.out.println(text);
-		POSTagger postagger = new ESAnnaPOSTagger("resources.spanish/CoNLL2009-ST-Spanish-ALL.anna-3.3.postagger.model");
+		ESAnnaPOSTagger postagger = new ESAnnaPOSTagger("resources.spanish/CoNLL2009-ST-Spanish-ALL.anna-3.3.postagger.model");
 		List<String> tags = postagger.tag(text);
 		System.out.println(tags);
 	}

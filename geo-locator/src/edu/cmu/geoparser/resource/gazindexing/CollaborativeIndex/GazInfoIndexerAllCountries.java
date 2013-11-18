@@ -30,6 +30,7 @@ import java.io.InputStreamReader;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.DoubleField;
 import org.apache.lucene.document.Field;
+import org.apache.lucene.document.IntField;
 import org.apache.lucene.document.LongField;
 import org.apache.lucene.document.StringField;
 import org.apache.lucene.index.IndexWriter;
@@ -53,6 +54,12 @@ import edu.cmu.geoparser.io.GetWriter;
  * 
  * Features used for each word: (e.g. Chilee) 1. c,h,i,l,e,e 2. ch,hi,il,le,ee
  * 3. c_0,h_1,i_2,l_3,e_4,e_5
+ * 
+ * 
+ * country states are indexed as :
+ * 
+ * country_state_adm1_adm2_adm3
+ * However, if anyone of them is empty, we write country_state_[]_[]_[]
  */
 public class GazInfoIndexerAllCountries {
 
@@ -64,17 +71,31 @@ public class GazInfoIndexerAllCountries {
 
 		Document d = new Document();
 		StringField nfid = new StringField("ID", "0", Field.Store.YES);
+    StringField name = new StringField("ORIGINAL-NAME", "", Field.Store.YES);
+    IntField    nfaltnames = new IntField("ALTNAME-COUNT",0,Field.Store.YES);
 		DoubleField nflong = new DoubleField("LONGTITUDE", 0.0, Field.Store.YES);
 		DoubleField nfla = new DoubleField("LATITUDE", 0.0, Field.Store.YES);
 		LongField nfpop = new LongField("POPULATION", 0, Field.Store.YES);
-		StringField sfcountrystate = new StringField("COUNTRYSTATE", "0", Field.Store.YES);
-		StringField sffeature = new StringField("FEATURE", "0", Field.Store.YES);
-		StringField sftimezone = new StringField("TIMEZONE", "0", Field.Store.YES);
+    StringField sfcountry = new StringField("COUNTRY-CODE", "", Field.Store.YES);
+    StringField sfadm1 = new StringField("ADM1-CODE", "", Field.Store.YES);
+    StringField sfadm2 = new StringField("ADM2-CODE", "", Field.Store.YES);
+    StringField sfadm3 = new StringField("ADM3-CODE", "", Field.Store.YES);
+    StringField sfadm4 = new StringField("ADM4-CODE", "", Field.Store.YES);
+    StringField sffeatureclass = new StringField("FEATURE-CLASS", "", Field.Store.YES);
+    StringField sffeature = new StringField("FEATURE", "", Field.Store.YES);
+		StringField sftimezone = new StringField("TIMEZONE", "", Field.Store.YES);
 		d.add(nfid);
+		d.add(name);
+		d.add(nfaltnames);
 		d.add(nflong);
 		d.add(nfla);
 		d.add(nfpop);
-		d.add(sfcountrystate);
+		d.add(sfcountry);
+    d.add(sfadm1);
+    d.add(sfadm2);
+    d.add(sfadm3);
+    d.add(sfadm4);
+    d.add(sffeatureclass);
 		d.add(sffeature);
 		d.add(sftimezone);
 
@@ -87,6 +108,8 @@ public class GazInfoIndexerAllCountries {
 
 			// get other columns except for the location words
 			String id = column[0];
+			String utfname = column[1];
+			String altnames = column[3];
 			String latitude = column[4];
 			String longtitude = column[5];
 			double dlong, dla;
@@ -100,7 +123,6 @@ public class GazInfoIndexerAllCountries {
 			String featureclass = column[6];
 			String feature = column[7];
 			String country = column[8];
-			String state = column[10] + "_" + column[11] + "_" + column[12] + "_" + column[13];
 			String population = column[14];
 			long longpop;
 			if (population == null)
@@ -110,12 +132,19 @@ public class GazInfoIndexerAllCountries {
 
 			// To Do: set values to document d, and index it
 			nfid.setStringValue(id);// 1
+			name.setStringValue(utfname);
+			nfaltnames.setIntValue(altnames.split(",").length);
 			nflong.setDoubleValue(dlong);
 			nfla.setDoubleValue(dla);
 			nfpop.setLongValue(longpop);
 
-			sfcountrystate.setStringValue(country + "_" + state);
-			sffeature.setStringValue(featureclass + "_" + feature);
+			sfcountry.setStringValue(country.toLowerCase());
+      sfadm1.setStringValue(column[10].toLowerCase());
+      sfadm2.setStringValue(column[11].toLowerCase());
+      sfadm3.setStringValue(column[12].toLowerCase());
+      sfadm4.setStringValue(column[13].toLowerCase());
+      sffeatureclass.setStringValue(featureclass);
+			sffeature.setStringValue(feature);
 			sftimezone.setStringValue(timezone);// 13
 
 			// add this new document.

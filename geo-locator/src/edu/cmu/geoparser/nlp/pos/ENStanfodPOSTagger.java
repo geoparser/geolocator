@@ -13,9 +13,9 @@ import edu.stanford.nlp.tagger.maxent.MaxentTagger;
 /**
  * The Stanford tagger is 60 ms/30toks. 35ms/17toks, -> 2ms/1tok.
  */
-public class ENPOSTagger {
+public class ENStanfodPOSTagger {
 	public MaxentTagger tagger;
-	public ENPOSTagger(String f) {
+	public ENStanfodPOSTagger(String f) {
 		tagger = new MaxentTagger(f);
 	}
 
@@ -39,7 +39,7 @@ public class ENPOSTagger {
 	}
 
 	public static void main(String avp[]) throws IOException {
-		ENPOSTagger entagger = new ENPOSTagger("resources.english/wsj-0-18-bidirectional-distsim.tagger");
+		ENStanfodPOSTagger entagger = new ENStanfodPOSTagger("resources.english/wsj-0-18-bidirectional-distsim.tagger");
 		
 		String sample = "40.#twitterafterdark she works at the ford plant! http://t.co/ruaip2aa #pussy #booty|org";
 		List<String> tagged = null;

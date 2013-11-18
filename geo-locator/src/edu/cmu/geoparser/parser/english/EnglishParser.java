@@ -27,40 +27,42 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 
+import edu.cmu.geoparser.model.LocEntity;
 import edu.cmu.geoparser.model.Tweet;
 import edu.cmu.geoparser.nlp.ner.FeatureExtractor.FeatureGenerator;
 import edu.cmu.geoparser.parser.NERTagger;
+import edu.cmu.geoparser.parser.ParserFactory;
 import edu.cmu.geoparser.parser.STBDParser;
 import edu.cmu.geoparser.parser.TPParser;
 import edu.cmu.geoparser.parser.utils.ParserUtils;
-import edu.cmu.geoparser.resource.Index;
+import edu.cmu.geoparser.resource.gazindexing.Index;
 
+/**
+ * The aggregation of all the parsers for English.
+ * @author indri
+ *
+ */
 public class EnglishParser {
 
-	NERTagger ner;
-	STBDParser stbd;
-	TPParser tp;
+  private NERTagger ner;
+  private STBDParser stbd;
+  private TPParser tp;
 	
-	HashSet<String> match;
+	HashSet<LocEntity> match;
 	public EnglishParser(String root, Index index, boolean misspell){
-    FeatureGenerator fgen = new FeatureGenerator("en", index, "res/");
-//		match = new HashSet<String>();
-		ner = new EnglishMTNERParser(root +"en/enNER-crf-final.model",fgen);
-		stbd = new EnglishRuleSTBDParser(fgen);
-		tp = new EnglishRuleToponymParser(fgen,misspell);
-		
+		ner = ParserFactory.getEnNERParser();
+		stbd = ParserFactory.getEnSTBDParser();
+		tp = ParserFactory.getEnToponymParser();
 	}
-	public List<String> parse(Tweet t){
-		
-		match = new HashSet<String>();
-		List<String> nerresult = ner.parse(t);
-		List<String> stbdresult = stbd.parse(t);
-		List<String> toporesult = tp.parse(t);
+	public List<LocEntity> parse(Tweet t){
+		match = new HashSet<LocEntity>();
+		List<LocEntity> nerresult = ner.parse(t);
+		List<LocEntity> stbdresult = stbd.parse(t);
+		List<LocEntity> toporesult = tp.parse(t);
 		match.addAll(nerresult);
 		match.addAll(stbdresult);
 		match.addAll(toporesult);
-		
-		return ParserUtils.ResultReduce(new ArrayList<String>(match));
+		return new ArrayList<LocEntity>(match);	
 		
 	}
 }

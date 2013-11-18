@@ -64,7 +64,7 @@ public class SpanishMTNERParser implements NERTagger{
 
 	public List<String> parse(Tweet tweet) {
 
-		String[] t_tweet = (EuroLangTwokenizer.tokenize(tweet.getOrigText())).toArray(new String[] {});
+		String[] t_tweet = (EuroLangTwokenizer.tokenize(tweet.getText())).toArray(new String[] {});
 
 		examples = new Example[t_tweet.length];
 

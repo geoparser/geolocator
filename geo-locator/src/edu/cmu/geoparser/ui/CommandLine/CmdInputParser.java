@@ -26,14 +26,17 @@ package edu.cmu.geoparser.ui.CommandLine;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 
+import org.apache.lucene.document.Document;
 
 import edu.cmu.geoparser.Disambiguation.ContextDisamb;
+import edu.cmu.geoparser.model.LocEntity;
+import edu.cmu.geoparser.model.Sentence;
 import edu.cmu.geoparser.model.Tweet;
-import edu.cmu.geoparser.nlp.languagedetector.LangDetector;
 import edu.cmu.geoparser.parser.english.EnglishParser;
 import edu.cmu.geoparser.resource.gazindexing.CollaborativeIndex.CollaborativeIndex;
 
@@ -45,93 +48,70 @@ public class CmdInputParser {
 
   public static void main(String argv[]) throws IOException {
 
-    boolean misspell = argv[0].equals("mis")?true:false;
+    boolean misspell = argv[0].equals("mis") ? true : false;
 
     /**
-     * Use the collaborative index version instead of the in-memory version. Which aims to reduce memory usage.
+     * Use the collaborative index version instead of the in-memory version. Which aims to reduce
+     * memory usage.
      */
     CollaborativeIndex ci = new CollaborativeIndex().config("GazIndex/StringIndex",
             "GazIndex/InfoIndex", "mmap", "mmap").open();
-
     /**
-     * This is the main construction function for the English parser. The Spanish parser has the same form.
+     * This is the main construction function for the English parser. The Spanish parser has the
+     * same form.
      */
-    EnglishParser enparser = new EnglishParser("res/", ci,false);
+    EnglishParser enparser = new EnglishParser("res/", ci, false);
 
     /**
      * Initialize a context disambiguation class c.
      */
     ContextDisamb c = new ContextDisamb();
-    
-    /**
-     * Build a language detector. However, here we don't use it.
-     * See the class LangDetector for instructions. 
-     */
-    LangDetector lang = new LangDetector("res/langdetect.profile");
 
     String text = null;
+    Tweet t = new Tweet();
+    ArrayList<Document> cand;
+
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in, "utf-8"));
     System.out.print(">");
 
     while ((text = br.readLine()) != null) {
-
       if (text.length() == 0)
         continue;
-
-      List<String> match = null;
-      /**
-       * This is a tool for parsing tweets. So the text is wrapped into a Tweet. If you want to parser other types of text, just wrap it into a tweet,
-       * set the tweet text field with your text, and leave the other fields alone.
-       */
-      Tweet t = new Tweet(text);
-
-      /**
-       * Generate the parsed matches.
-       */
-      // Parse topo
-      match = enparser.parse(t);
-
-      if (match == null) {
+      t.setSentence(new Sentence().setSentenceString(text));
+      List<LocEntity> match = enparser.parse(t);
+      if (match == null || match.size() == 0) {
         System.out.println("No toponyms in text.");
         continue;
-      } else if (match.size() == 0) {
-        System.out.println("No toponyms in text.");
-        continue;
-      } else { // if matches are found:
-        System.out.println("The locations found :");
-        System.out.println(match);
+      }
+      /**
+       * if matches are found:
+       */
+      //System.out.println("The locations found :\n" + match);
 
-        /**
-         * Then, we disambiguate the parsed location.
-         */
-
-        /**
-         * The parsing output will give you parsed results in the form of tp{XXX}tp, or TP{XXX}TP.
-         * The next lines are for stripping the first and last three characters. 
-         */
-        HashSet<String> reducedmatch = new HashSet<String>();
-        for (String s : match)
-          reducedmatch.add(s.substring(3, s.length() - 3));
-
-        /**
-         * Here it will generate a list of topos for the reduced matches.
-         * The data passing into the returnBestTopo can be a bunch of locations. Then, the returned Hashmap 
-         * will give you a map between location, and it's string array storing the longitude, latitude, and country state info.
-         */
-        // Disambiguate topo
-        HashMap<String, String[]> result = c.returnBestTopo(ci, reducedmatch);
-
-        if (result == null) {
-          System.out.println("No GPS for any location is found.");
-        } else {
-          System.out.println("The grounded location(s) are:");
-          for (String topo : result.keySet())
-            System.out.println(topo + ": " + result.get(topo)[2] + " " + result.get(topo)[0] + " "
-                    + result.get(topo)[1]);
+      /**
+       * The parsing output will give you parsed results in the form of tp{XXX}tp, or TP{XXX}TP. The
+       * next lines are for stripping the first and last three characters.
+       */      
+      
+      for (LocEntity s : match) {
+        System.out.println("["+s+"]");
+        cand = ci.getDocumentsByPhraseStrict(s.getStringTokens());
+        if (cand == null) {
+          System.out.println("No results.");
+          continue;
+        }
+        for (int i = 0; i < cand.size(); i++) {
+          System.out.println();
+          System.out.println("ID : " + cand.get(i).get("ID"));
+          System.out.println("Lat : " + cand.get(i).get("LATITUDE"));
+          System.out.println("Lon : " + cand.get(i).get("LONGTITUDE"));
+          System.out.println("POP : " + cand.get(i).get("POPULATION"));
+          System.out.println("CNTRY_STATE : " + cand.get(i).get("COUNTRYSTATE"));
+          System.out.println("FEATURE : " + cand.get(i).get("FEATURE"));
+          System.out.println("TIMEZONE : " + cand.get(i).get("TIMEZONE"));
         }
       }
       System.out.print(">");
     }// end of while
-
   }
 }

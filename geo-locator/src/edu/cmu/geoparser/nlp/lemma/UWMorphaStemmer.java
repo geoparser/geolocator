@@ -26,6 +26,8 @@ package edu.cmu.geoparser.nlp.lemma;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
+import edu.cmu.geoparser.model.Sentence;
 import edu.cmu.geoparser.nlp.Lemmatizer;
 import edu.cmu.geoparser.nlp.tokenizer.EuroLangTwokenizer;
 import edu.washington.cs.knowitall.morpha.*;
@@ -36,8 +38,27 @@ public class UWMorphaStemmer implements Lemmatizer{
 	private List<String> n;
 	public UWMorphaStemmer(){
 	}
-	@Override
-	public List<String> lemmatize(List<String> sent) {
+	
+	private static UWMorphaStemmer uwStemmer;
+	public static UWMorphaStemmer getInstance(){
+	  if (uwStemmer==null)
+	    return new UWMorphaStemmer();
+	  return uwStemmer;
+	}
+	
+	 List<String> text,tokens;
+	  public Sentence lemmatize(Sentence sent){
+	    text = new ArrayList<String>(sent.tokenLength());
+	    for ( int i = 0 ; i < sent.tokenLength(); i ++)
+	      text.add(sent.getTokens()[i].getToken());
+	    tokens = lemmatize(text);
+	    for ( int i = 0 ; i < sent.tokenLength(); i ++){
+	      sent.getTokens()[i].setLemma(tokens.get(i));
+	    }
+	    return sent;
+	  }
+
+	private List<String> lemmatize(List<String> sent) {
 		// TODO Auto-generated method stub
 		sb = new StringBuilder();
 		for ( int i = 0 ; i <sent.size(); i ++){
@@ -48,6 +69,8 @@ public class UWMorphaStemmer implements Lemmatizer{
 	}
 	public static void main(String argv[]){
 		UWMorphaStemmer n = new UWMorphaStemmer();
+		
+		//old way of using lemmatizer, no sentence wrapping yet.
 		ArrayList<String> sent = new ArrayList<String>((EuroLangTwokenizer.tokenize(" books are surprising!")));
 		
 		System.out.println(n.lemmatize(sent));

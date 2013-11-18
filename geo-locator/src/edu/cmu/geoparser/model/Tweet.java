@@ -23,146 +23,75 @@ under the License.
  */
 package edu.cmu.geoparser.model;
 
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
-import edu.stanford.nlp.util.CoreMap;
+import twitter4j.Status;
 
 public class Tweet {
-	private Long id;
-	private String text;
-	private HashMap<String, int[]> locaiton;
-	private ArrayList<LocEntity> alternatives;
-	private String formatedLocation;
-	private Coordinate geoLoc;
-	private boolean nativeGPS;
-	private String dateString;
-	private String userLocation;
+  String id;
 
-	private List<String> matches;
+  Status status;
 
-	public List<String> getMatches() {
-		return matches;
-	}
+  Sentence sentence;
 
-	public void setMatches(List<String> matches) {
-		this.matches = matches;
-	}
+  List<LocEntity> geoLocations;
 
-	public String getUserLocation() {
-		return userLocation;
-	}
-
-	public void setUserLocation(String userLocation) {
-		this.userLocation = userLocation;
-	}
-
-	public String getDateString() {
-		return dateString;
-	}
-
-	public void setDateString(String dateString) {
-		this.dateString = dateString;
-	}
-
-	public boolean isNativeGPS() {
-		return nativeGPS;
-	}
-
-	public void setNativeGPS(boolean nativeGPS) {
-		this.nativeGPS = nativeGPS;
-	}
-
-  public Tweet() {
-    this.locaiton = new HashMap<String, int[]>();
-    this.alternatives = new ArrayList<LocEntity>();
-    this.matches=null;
+  public Tweet(){
   }
-  public Tweet(String s) {
-    this.locaiton = new HashMap<String, int[]>();
-    this.alternatives = new ArrayList<LocEntity>();
-    this.matches=null;
-    this.setText(s);
+  public Tweet(String tweetStr){
+    this.sentence = new Sentence(tweetStr);
+  }
+  public String getId() {
+    return id;
   }
 
-	public Coordinate getGeoLoc() {
-		return geoLoc;
-	}
+  public Tweet setId(String id) {
+    this.id = id;
+    return this;
+  }
 
-	public void setGeoLoc(Coordinate geoLoc) {
-		this.geoLoc = geoLoc;
-	}
+  public Status getStatus() {
+    return status;
+  }
 
-	public void setFormatedLocation(String formatedLocation) {
-		this.formatedLocation = formatedLocation;
-	}
+  public Tweet setStatus(Status status) {
+    this.status = status;
+    return this;
+  }
 
-	public String getFormatedLocation() {
-		return formatedLocation;
-	}
+  public Sentence getSentence() {
+    return sentence;
+  }
 
-	public Long getId() {
-		return id;
-	}
+  public Tweet setSentence(Sentence sentence) {
+    this.sentence = sentence;
+    return this;
+  }
 
-	public void setId(long id) {
-		this.id = id;
-	}
+  public Tweet setSentence(String sent){
+    if (sentence==null)
+      sentence = new Sentence(sent);
+    sentence.setSentenceString(sent);
+    return this;
+  }
+  public List<LocEntity> getGeoLocations() {
+    return geoLocations;
+  }
 
-	public String getOrigText() {
-		return text;
-	}
+  public Tweet setGeoLocations(List<LocEntity> geoLocations) {
+    this.geoLocations = geoLocations;
+    return this;
+  }
 
-	public void setText(String origText) {
-		this.text = origText;
-	}
+  @Override
+  public String toString() {
 
-	public HashMap<String, int[]> getLocaiton() {
-		return locaiton;
-	}
+    return "tweet id: " + id + ", text : " + sentence;
+  }
 
-	public void setLocaiton(HashMap<String, int[]> locaiton) {
-		this.locaiton = locaiton;
-	}
-
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see java.lang.Object#toString()
-	 */
-	@Override
-	public String toString() {
-
-		return id + ": " + text + "\n" + text;
-	}
-
-	public String toResultString() {
-		return String.format("%s\t%s\t%s\t%f\t%f\t", id, text,
-				formatedLocation, geoLoc.getLatitude(), geoLoc.getLongtitude());
-	}
-
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see java.lang.Object#hashCode()
-	 */
-	@Override
-	public int hashCode() {
-		return id.hashCode();
-	}
-
-	public ArrayList<LocEntity> getAlternatives() {
-		return alternatives;
-	}
-
-	public void setAlternative(ArrayList<LocEntity> alternative) {
-		this.alternatives = alternative;
-	}
-
-	public void addAlternateive(String address, double latitude,
-			double longitude) {
-		this.alternatives.add(new LocEntity(address, latitude, longitude));
-	}
+  @Override
+  public int hashCode() {
+    return id.hashCode();
+  }
 
 }

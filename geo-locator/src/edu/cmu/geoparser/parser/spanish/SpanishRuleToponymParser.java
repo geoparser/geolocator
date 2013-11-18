@@ -79,7 +79,7 @@ public class SpanishRuleToponymParser implements TPParser {
   public List<String> parse(Tweet tweet) {
     // TODO Auto-generated method stub
 
-    String text = tweet.getOrigText();
+    String text = tweet.getText();
     List<String> tokens = EuroLangTwokenizer.tokenize(text);
 
     System.out.println("Tokenization : \n" + tokens.toString());

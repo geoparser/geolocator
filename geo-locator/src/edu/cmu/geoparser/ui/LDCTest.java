@@ -36,8 +36,8 @@ import edu.cmu.geoparser.io.GetReader;
 import edu.cmu.geoparser.io.GetWriter;
 import edu.cmu.geoparser.model.Tweet;
 import edu.cmu.geoparser.parser.english.EnglishParser;
+import edu.cmu.geoparser.resource.gazindexing.Index;
 import edu.cmu.geoparser.resource.gazindexing.CollaborativeIndex.CollaborativeIndex;
-import edu.cmu.geoparser.resource.Index;
 public class LDCTest {
 
   public static void main(String argv[]) throws IOException {

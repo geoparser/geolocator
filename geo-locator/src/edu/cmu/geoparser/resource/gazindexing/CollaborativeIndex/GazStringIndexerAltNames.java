@@ -121,7 +121,9 @@ public class GazStringIndexerAltNames {
 
       // To Do: set values to document d, and index it
       nfid.setStringValue(id);// 1
+      
       phrase = phrase.toLowerCase();
+      
       sforigin.setStringValue(phrase);// 5
       normnws.setStringValue(phrase.replaceAll(" ", ""));
 
@@ -150,7 +152,7 @@ public class GazStringIndexerAltNames {
       argv[1] = "GeoNames/alternateNames.txt";
       argv[2] = "GazIndex/StringIndex/";
       BufferedReader br = GetReader.getUTF8FileReader(argv[1]);
-      IndexWriter iw = GetWriter.getIndexWriter(argv[2], 1400);
+      IndexWriter iw = GetWriter.getIndexWriter(argv[2], 1024+512);
       stringIndex.indexAlterNames(br, iw);
       // iw.optimize();
       iw.close();
@@ -165,8 +167,8 @@ public class GazStringIndexerAltNames {
       String line;
       while ((line = r.readLine()) != null) {
 
-        Query q = new TermQuery(new Term("LOWERED_ORIGIN", line));
-         TermFilter filter = new TermFilter(new Term("LOWERED_ORIGIN",line));
+        Query q = new TermQuery(new Term("LOWERED-NO-WS", line));
+         TermFilter filter = new TermFilter(new Term("LOWERED-NO-WS",line));
         long start = System.currentTimeMillis();
 //        TopDocs docs = is.search(q, filter, 100);
         TopDocs docs = is.search(q, 100);
