@@ -1,8 +1,8 @@
-f2= open("b.txt","w")
+f2= open("c.txt","w")
 
 dic ={}
-for line2 in open('TEMP_country_in_enesfr.txt'):
-	country = line2.strip().lower()
+for line2 in open('/Users/Indri/git/geolocator/geo-locator/GeoNames/admin1CodesASCII.txt'):
+	country = line2.strip().split('\t')[1].lower()
 	dic[country]=1
 
 for line in open('words.filtered_SRC1000PlusCountry.txt'):

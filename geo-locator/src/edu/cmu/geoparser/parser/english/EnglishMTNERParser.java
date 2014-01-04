@@ -23,7 +23,9 @@ under the License.
  */
 package edu.cmu.geoparser.parser.english;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -64,7 +66,7 @@ public class EnglishMTNERParser implements NERTagger {
     if (emtparser == null) {
       String encrfname = "res/en/enNER-crf-final.model";
       try {
-        return new EnglishMTNERParser(encrfname, NERFeatureFactory.getInstance("en"));
+        emtparser =  new EnglishMTNERParser(encrfname, NERFeatureFactory.getInstance("en"));
       } catch (Exception e) {
         // TODO Auto-generated catch block
         e.printStackTrace();
@@ -73,7 +75,7 @@ public class EnglishMTNERParser implements NERTagger {
     return emtparser;
   }
 
-  public EnglishMTNERParser(String modelname, FeatureGenerator featureg) {
+   EnglishMTNERParser(String modelname, FeatureGenerator featureg) {
     try {
       model = (SequenceClassifier) IOUtil.loadSerialized(new java.io.File(modelname));
       this.fg = featureg;
@@ -148,9 +150,20 @@ public class EnglishMTNERParser implements NERTagger {
 
   public static void main(String argv[]) throws IOException {
 
-    String s = "I have been studying at Schenley Park for two years.";
-    Tweet t = new Tweet(s);
-    NERTagger enner =ParserFactory.getEnNERParser();
-    System.out.println(enner.parse(t));
+    String sss = "I live in Pittsburgh. I am going to New york.";
+    Tweet t = new Tweet(sss);
+    BufferedReader s = new BufferedReader(new InputStreamReader(System.in, "utf-8"));
+    System.out.println(">");
+    while (true) {
+      String ss = s.readLine();
+      if (ss.length() == 0)
+        continue;
+      t.setSentence(ss);
+      double stime = System.currentTimeMillis();
+      List<LocEntity> matches = ParserFactory.getEnNERParser().parse(t);
+      double etime = System.currentTimeMillis();
+      System.out.println(matches);
+      System.out.println(etime - stime + "\n>");
+    }
   }
 }

@@ -95,7 +95,7 @@ public class CmdInputParser {
       
       for (LocEntity s : match) {
         System.out.println("["+s+"]");
-        cand = ci.getDocumentsByPhraseStrict(s.getStringTokens());
+        cand = ci.getDocumentsByPhraseStrict(s.getTokenString());
         if (cand == null) {
           System.out.println("No results.");
           continue;

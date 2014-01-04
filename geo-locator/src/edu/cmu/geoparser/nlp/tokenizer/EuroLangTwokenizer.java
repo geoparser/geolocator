@@ -65,7 +65,7 @@ public class EuroLangTwokenizer {
   // @ Wei Zhang
   // added question marks and exclamation mark, and long dash.
   // added ( and ) as punctuations
-  static String punctChars = "['\"“”‘’.—¿?¡!…,:;]";
+  static String punctChars = "['\"“”‘’\\|.—¿?¡!…,:;]";
 
   // static String punctSeq = punctChars+"+"; //'anthem'. => ' anthem '.
   static String punctSeq = "['\"“”‘’/_]+|[.¿?¡!,…]+|[:;]+"; // 'anthem'. =>

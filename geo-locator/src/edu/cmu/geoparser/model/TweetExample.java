@@ -23,12 +23,15 @@ under the License.
  */
 package edu.cmu.geoparser.model;
 
+import java.util.HashSet;
+
 import org.apache.lucene.document.Document;
+
+import edu.cmu.geoparser.Disambiguation.TweetContentType.CONTENTTYPE;
 
 
 public class TweetExample {
   private String text;
-
   private LocEntity[] toponyms;
   /**
    * exact document in the gazetteer.
@@ -139,6 +142,33 @@ public class TweetExample {
   }
   public String getUserInfo(){
     return userLocation +" : "+ userDescription;
+  }
+
+  public boolean containsTimezone() {
+    // TODO Auto-generated method stub
+    return !(timezone==null);
+  }
+
+  public String getToponymsAsText() {
+    // TODO Auto-generated method stub
+    StringBuilder sb = new StringBuilder();
+    for (LocEntity e : this.toponyms)
+      sb.append(e).append("\n");
+    return sb.toString();
+  }
+
+  public HashSet<String> getAllIds() {
+    // TODO Auto-generated method stub
+    if (this.toponyms==null)
+      return null;
+    HashSet<String> ids = new HashSet<String>();
+    for (LocEntity topo : this.toponyms)
+    {
+      if (topo.getGeonamesIds()==null)
+        continue;
+      ids.addAll(topo.getGeonamesIds());
+    }
+    return ids;
   }
 
 }

@@ -1,6 +1,6 @@
 package edu.cmu.geoparser.model;
 
-public class Country extends GazEntryAndFeature implements Comparable<GazEntryAndFeature>{
+public class Country extends CandidateAndFeature implements Comparable<CandidateAndFeature>{
 
   
   public Country(){
@@ -30,7 +30,7 @@ public class Country extends GazEntryAndFeature implements Comparable<GazEntryAn
 
   String abbr,lang,race;
   @Override
-  public int compareTo(GazEntryAndFeature arg0) {
+  public int compareTo(CandidateAndFeature arg0) {
     // TODO Auto-generated method stub
     return arg0.getId().compareTo(this.getId());
   }

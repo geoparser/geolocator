@@ -17,7 +17,8 @@ import org.apache.lucene.search.TermQuery;
 import org.apache.lucene.search.TopDocs;
 
 import edu.cmu.geoparser.io.GetReader;
-import edu.cmu.geoparser.model.GazEntryAndFeature;
+import edu.cmu.geoparser.model.CandidateAndFeature;
+import edu.cmu.geoparser.model.LocEntity;
 import edu.cmu.geoparser.resource.ResourceFactory;
 import edu.cmu.geoparser.resource.gazindexing.Index;
 
@@ -81,7 +82,9 @@ public class CollaborativeIndex implements Index {
   public boolean inIndex(String phrase) {
     if (phrase == null || phrase.length() == 0)
       throw new NullPointerException();
-    if (ResourceFactory.getCountryCode2CountryMap().isCountryAbbreviation(phrase))
+    if (phrase.startsWith("#"))
+      phrase = phrase.substring(1);
+    if (ResourceFactory.getCountryCode2CountryMap().isInMap(phrase.trim().toLowerCase()))
       return true;
     phrase = phrase.toLowerCase().replace(" ", "");
     TermQuery query = new TermQuery(new Term("LOWERED-NO-WS", phrase));
@@ -101,21 +104,28 @@ public class CollaborativeIndex implements Index {
   public ArrayList<Document> getDocumentsByPhrase(String phrase) {
     if (phrase == null || phrase.length() == 0)
       throw new NullPointerException();
+    if (phrase.startsWith("#"))
+      phrase = phrase.substring(1);
     TermQuery query = new TermQuery(
             new Term("LOWERED-NO-WS", phrase.toLowerCase().replace(" ", "")));
     TopDocs res = null;
     try {
-      res = stringSearcher.search(query, 200);
+      res = stringSearcher.search(query, 2500);
     } catch (IOException e) {
       // TODO Auto-generated catch block
       e.printStackTrace();
     }
-    System.out.println(res.totalHits);
-    if (res == null)
+    String abIds =null;
+    if (ResourceFactory.getCountryCode2CountryMap().isInMap(phrase.toLowerCase()))
+      abIds = ResourceFactory.getCountryCode2CountryMap().getValue(phrase.toLowerCase()).getId();
+
+//    System.out.println(res.totalHits);
+    if (res == null && abIds==null)
       return null;
-    if (res.totalHits == 0)
+    if (res.totalHits == 0 && abIds==null)
       return null;
-    ids = new HashSet<String>(res.totalHits);
+    ids = new HashSet<String>();
+    if (res!=null)
     try {
       for (ScoreDoc doc : res.scoreDocs) {
         ids.add(stringSearcher.doc(doc.doc).get("ID"));
@@ -123,8 +133,9 @@ public class CollaborativeIndex implements Index {
     } catch (Exception e) {
       e.printStackTrace();
     }
-    if (ResourceFactory.getCountryCode2CountryMap().isCountryAbbreviation(phrase))
-      ids.add(ResourceFactory.getCountryCode2CountryMap().getValue(phrase).getId());
+    if (abIds !=null)
+      ids.add(abIds);
+//    System.out.println(ids);
     // System.out.println("total number of String ids are:" + ids.size());
     q = new BooleanQuery();
 
@@ -133,7 +144,7 @@ public class CollaborativeIndex implements Index {
     }
     // use a term filter instead of a query filter.
     try {
-      TopDocs docs = infoSearcher.search(q, 200);
+      TopDocs docs = infoSearcher.search(q, 2500);
       // System.out.println("total hits in info is:" + docs.totalHits);
       returnDocs = new ArrayList<Document>(docs.totalHits);
       for (ScoreDoc d : docs.scoreDocs) {
@@ -199,6 +210,9 @@ public class CollaborativeIndex implements Index {
   public CollaborativeIndex open() {
     try {
       stringSearcher = GetReader.getIndexSearcher(stringIndexName, stringLoad);
+      // for setting the max clause count for search query.
+      BooleanQuery.setMaxClauseCount(2500);
+
     } catch (Exception e) {
       // TODO Auto-generated catch block
       e.printStackTrace();
@@ -222,7 +236,7 @@ public class CollaborativeIndex implements Index {
     HashSet<String> names = null;
     Query query = new TermQuery(new Term("ID", id));
     try {
-      TopDocs topDocs = infoSearcher.search(query, 300);
+      TopDocs topDocs = infoSearcher.search(query, 2500);
       names = new HashSet<String>(topDocs.totalHits);
       for (ScoreDoc doc : topDocs.scoreDocs) {
         names.add(stringSearcher.doc(doc.doc).get("LOWERED_ORIGIN"));
@@ -264,7 +278,7 @@ public class CollaborativeIndex implements Index {
     CollaborativeIndex ci = ResourceFactory.getClbIndex();
 
     boolean mode = true; // string
-    // mode = false; // id
+//     mode = false; // id
     /**
      * search string //id
      */
@@ -273,41 +287,17 @@ public class CollaborativeIndex implements Index {
     String s = null;
     while ((s = br.readLine()) != null) {
       if (mode) {
-        ArrayList<Document> docs = ci.getDocumentsByPhrase(s);
-        if (ResourceFactory.getCountryCode2CountryMap().isCountryAbbreviation(s))
-          docs.add(ResourceFactory.getCountryCode2CountryMap().getCountryDoc(s));
-        if (docs != null) {
-          Document bPopDoc = null;
-          long temppop = -1;
-          for (Document d : docs) {
-            long dpop = Long.parseLong(d.get("POPULATION"));
-            System.out.println(dpop);
-            System.out.println(d.get("ID") + "\t" + d.get("ORIGINAL-NAME") + "\t altNames:"
-                    + d.get("ALTNAME-COUNT") + "\t ct:" + d.get("COUNTRY-CODE") + "\t adm1 :"
-                    + d.get("ADM1-CODE") + "\t adm2: " + d.get("ADM2-CODE") + "\t lat: "
-                    + d.get("LATITUDE") + "\t lon:" + d.get("LONGTITUDE") + "\t"
-                    + d.get("FEATURE-CLASS") + "\t" + d.get("FEATURE") + "\t" + dpop);
-            if (dpop > temppop) {
-              bPopDoc = d;
-              temppop = dpop;
-            }
-          }
-          Document d = bPopDoc;
-          System.out.println(" big place is : \n" + d.get("ID") + "\t" + d.get("ORIGINAL-NAME")
-                  + "\t" + d.get("COUNTRY-CODE") + "\t" + d.get("ADM1-CODE") + "\t"
-                  + d.get("ADM2-CODE") + "\t" + d.get("ADM3-CODE") + "\t" + d.get("ADM4-CODE")
-                  + "\t" + d.get("FEATURE-CLASS") + "\t" + d.get("FEATURE") + "\t"
-                  + d.get("POPULATION"));
-        } else
+        if( ResourceFactory.getClbIndex().inIndex(s))
+          for ( Document d: ResourceFactory.getClbIndex().getDocumentsByPhrase(s) )
+          System.out.println(d);
+        else
           System.out.println("null.");
-
       } else {
         Document doc = ci.getDocumentsById(s);
         System.out.println(doc);
-        GazEntryAndFeature gc = new GazEntryAndFeature(doc);
-        System.out.println(gc.getId() + gc.getAsciiName() + gc.getCountryCode());
+        CandidateAndFeature gc = new CandidateAndFeature(s , doc, new LocEntity(0, 0, s, null));
+        System.out.println(gc.getId() + " "+gc.getAsciiName() +" " +gc.getCountryCode());
       }
     }
-
   }
 }

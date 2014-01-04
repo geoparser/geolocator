@@ -159,7 +159,7 @@ public class GazStringIndexerAllCountries {
 
     GazStringIndexerAllCountries gi = new GazStringIndexerAllCountries();
 
-    argv[0] = "-write";
+    argv[0] = "-read";
     String mode = argv[0];
 
     if (mode.equals("-write")) {

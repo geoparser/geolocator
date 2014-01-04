@@ -11,12 +11,12 @@ public class NERFeatureFactory {
   public static FeatureGenerator getInstance(String langCode) throws Exception{
     if (langCode.equalsIgnoreCase("en")){
       if (enFeatureGenerator==null)
-        return  new FeatureGenerator("en", ResourceFactory.getClbIndex(), "res/");
+        enFeatureGenerator =  new FeatureGenerator("en", ResourceFactory.getClbIndex(), "res/");
       return enFeatureGenerator;
     }
     if(langCode.equalsIgnoreCase("es")){
       if(esFeatureGenerator==null)
-        return new FeatureGenerator("es", ResourceFactory.getClbIndex(), "res/");
+        esFeatureGenerator= new FeatureGenerator("es", ResourceFactory.getClbIndex(), "res/");
       return esFeatureGenerator;
     }
     

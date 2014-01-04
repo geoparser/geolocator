@@ -123,10 +123,9 @@ public class EnglishRuleSTBDParser implements STBDParser {
 
   public static EnglishRuleSTBDParser getInstance() {
     if (estbdparser == null)
-      return new EnglishRuleSTBDParser(new FeatureGenerator("en",
+      estbdparser = new EnglishRuleSTBDParser(new FeatureGenerator("en",
               ResourceFactory.getClbIndex(), "res/"));
-    else
-      return estbdparser;
+    return estbdparser;
 
   }
 
@@ -142,10 +141,13 @@ public class EnglishRuleSTBDParser implements STBDParser {
     // s =
     // "Am worried about the #centraltxfires in Cedar Creek bc the Capitol of Texas Zoo is there. Lots of rescues & endangered animals. #pawcircle";
     t.setSentence(new Sentence(s));
-
-    EnglishRuleSTBDParser stparser = ParserFactory.getEnSTBDParser();
+    EnglishRuleSTBDParser stparser;
+    for (int i = 0; i < 100; i++)
+    {  stparser = ParserFactory.getEnSTBDParser();
     List<LocEntity> locs = stparser.parse(t);
     System.out.println(locs);
+    }
+    
 
   }
 }

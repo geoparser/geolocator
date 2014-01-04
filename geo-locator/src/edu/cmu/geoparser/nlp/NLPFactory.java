@@ -11,13 +11,9 @@ public class NLPFactory {
    * @return the enPosTagger
    */
   public static POSTagger getEnPosTagger() {
-    if (enPosTagger==null)
       return ENTweetPOSTagger.getInstance();
-    return enPosTagger;
   }
   public static Lemmatizer getEnUWStemmer(){
-    if (uwStemmer ==null)
       return UWMorphaStemmer.getInstance();
-    return uwStemmer;
   }
 }

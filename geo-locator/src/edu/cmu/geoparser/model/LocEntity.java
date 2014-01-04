@@ -23,14 +23,18 @@ under the License.
  */
 package edu.cmu.geoparser.model;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 
 import org.apache.lucene.document.Document;
+
 /**
- * An entity that is extracted from text. After it's generated, 
- * geonamesID, latitude, longitude, and population needs to be determine.
+ * An entity that is extracted from text. After it's generated, geonamesID, latitude, longitude, and
+ * population needs to be determine.
+ * 
  * @author indri
- *
+ * 
  */
 public class LocEntity {
 
@@ -38,6 +42,7 @@ public class LocEntity {
    * Those are filled out after generating the loc entity.
    */
   private int toksStart, toksEnd;
+
   private Token[] tokens;
 
   private String NEType;
@@ -46,21 +51,10 @@ public class LocEntity {
    * This is absolutely necessary.
    */
   private double latitude;
+
   private double longitude;
 
-  /**
-   * GeonamesID is optional, because we may not find it in gaz, but we have to attach geocode to it.
-   */
-  private String geonamesId;
-  private Document geonamesEntry;
 
-  public Document getGeonamesEntry() {
-    return geonamesEntry;
-  }
-
-  public void setGeonamesEntry(Document geonamesEntry) {
-    this.geonamesEntry = geonamesEntry;
-  }
 
   public int getToksStart() {
     return toksStart;
@@ -119,37 +113,35 @@ public class LocEntity {
     this.longitude = longitude;
     return this;
   }
-/**
- * tokStart, toke End, NEType, tokens are necessary.
- * Geonames ID, lat and lon are not.
- * @param tokStart
- * @param tokEnd
- * @param NEType
- * @param tokens
- */
+
+  /**
+   * tokStart, toke End, NEType, tokens are necessary. Geonames ID, lat and lon are not.
+   * 
+   * @param tokStart
+   * @param tokEnd
+   * @param NEType
+   * @param tokens
+   */
   public LocEntity(int tokStart, int tokEnd, String NEType, Token[] tokens) {
     this.NEType = NEType;
-    toksStart =tokStart;
+    toksStart = tokStart;
     toksEnd = tokEnd;
-    this.tokens=tokens;
-    
+    this.tokens = tokens;
     latitude = longitude = -999;
-    this.geonamesEntry=null;
   }
 
   @Override
   public String toString() {
-    String s =  "["+NEType+"] " ;
-    for ( Token t : tokens)
-      s += t.getToken()+" ";
-    s+= " [ " + toksStart + " " + toksEnd + "]" + (Arrays.asList(tokens)) + " ["
-            + latitude + "," + longitude + "]";
+    String s = "[" + NEType + " : ";
+    for (Token t : tokens)
+      s += t.getToken() + " ";
+    s += toksStart + "-" + toksEnd + " " + latitude + "," + longitude + "]";
     return s;
   }
 
   StringBuffer sb;
 
-  public String getStringTokens() {
+  public String getTokenString() {
     sb = new StringBuffer();
     for (Token t : tokens) {
       sb.append(t.getToken()).append(" ");
@@ -161,17 +153,38 @@ public class LocEntity {
   public boolean equals(Object lc) {
     if (lc instanceof LocEntity) {
       LocEntity le = (LocEntity) lc;
-      if (le.getStringTokens().equals(this.getStringTokens()) && le.toksStart == this.toksStart
-              && le.toksEnd == this.toksEnd
-              && le.NEType.equals(this.NEType))
+      if (le.getTokenString().equals(this.getTokenString()) && le.toksStart == this.toksStart
+              && le.toksEnd == this.toksEnd && le.NEType.equals(this.NEType))
         return true;
     }
     return false;
   }
 
-  public void setGeonamesId(String string) {
+  public static Comparator spanOrderComparator = new Comparator() {
+
+    @Override
+    public int compare(Object arg0, Object arg1) {
+      LocEntity span0 = (LocEntity) arg0;
+      LocEntity span1 = (LocEntity) arg1;
+      if ((span0.toksStart - span1.toksEnd) > (span1.toksStart - span1.toksEnd))
+        return -1;
+      if ((span0.toksStart - span1.toksEnd) == (span1.toksStart - span1.toksEnd))
+        return 0;
+      else
+        return 1;
+
+    }
+
+  };
+
+  ArrayList<String> ids;
+  
+  public LocEntity setGeoNamesId(ArrayList<String> ids){
+    this.ids=ids;
+    return this;
+  }
+  public ArrayList<String> getGeonamesIds() {
     // TODO Auto-generated method stub
-    this.geonamesId = string;
-    
+    return ids;
   }
 }

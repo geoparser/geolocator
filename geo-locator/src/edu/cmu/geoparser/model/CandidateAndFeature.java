@@ -1,8 +1,17 @@
 package edu.cmu.geoparser.model;
 
+import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.HashMap;
+import java.util.List;
 
 import org.apache.lucene.document.Document;
+
+import com.sun.xml.internal.bind.v2.runtime.unmarshaller.IntArrayData;
+
+import edu.cmu.geoparser.resource.ResourceFactory;
+import edu.cmu.geoparser.resource.gazindexing.CollaborativeIndex.InfoFields;
+import edu.stanford.nlp.util.StringUtils;
 
 /**
  * The data structure storing the gazetteer entry, and store the features given the context and
@@ -16,12 +25,19 @@ import org.apache.lucene.document.Document;
  * @author Wei Zhang
  * 
  */
-public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
+public class CandidateAndFeature implements Comparable<CandidateAndFeature> {
 
   /**
    * share the following with all the subclasses.
    * 
    */
+  // original name in the text.
+  String originName;
+
+  // Loc entity
+  LocEntity le;
+
+  // id and name in the candidate;
   String id, asciiName;
 
   int altnameCount;
@@ -38,17 +54,30 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
 
   String feature, featureClass;
 
+  boolean isCountry;
+
+  public boolean isCountry() {
+    return isCountry;
+  }
+
   String timezone;
 
   /**
    * The following variables are the feature variables. The features are generated based on the
    * context and the metadata.
    */
+
+  /**
+   * If it's a single location in the tweet.
+   */
+
+  boolean f_single;
+
   /**
    * This is for storing the rank of the gaz entry for a specific location. Now we can assign 1 when
    * it's the top one, and 0 for not being the top one.
    */
-  int f_PopRank;
+  double f_PopRank;
 
   /**
    * if contains coordinates of tweet.
@@ -58,7 +87,10 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
   /**
    * if contains user info in the tweet.
    */
-  boolean f_containsUserInfo;
+  boolean f_containsUserLoc;
+
+  // the value to store the overlap.
+  private double f_userInfoOverlap;
 
   /**
    * if contains in the timezone
@@ -76,10 +108,43 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
    */
   private int f_AltNamesRank;
 
-  public GazEntryAndFeature() {
-    f_PopRank = 0;
-    f_containsTweetCoordinates = false;
-    f_containsUserInfo = false;
+  /**
+   * timezone feature
+   */
+  private boolean f_containsTimezone;
+
+  /**
+   * The overlap of the current candidate with the other candidates in the context.
+   */
+  private int f_OtherLocOverlap;
+
+  /**
+   * The label of the whole instance, gazentryAndFeature, in the given context, of course.
+   */
+  private int Y;
+
+  private int[] featureVector;
+
+  private double f_DistanceToUserLoc;
+
+  private int f_DistanceToUserLocRank;
+
+  private boolean f_isCommonCountry;
+
+  private boolean f_isCommonState;
+
+  public CandidateAndFeature() {
+    this.f_single = false;
+    this.f_PopRank = -1;
+    this.f_containsTweetCoordinates = false;
+    this.f_containsUserLoc = false;
+    this.f_AltNamesRank = -1;
+    this.f_FeatureRank = -1;
+    this.f_inTimezone = false;
+    this.f_userInfoOverlap = -1;
+    this.f_containsTimezone = false;
+    this.f_OtherLocOverlap = -1;
+    this.Y = 0; // not a true instance as default.
   }
 
   /**
@@ -89,8 +154,10 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
    * @param d
    * @return
    */
-  public GazEntryAndFeature(Document d) {
+  public CandidateAndFeature(String name, Document d, LocEntity le) {
     this();
+    this.le = le;
+    this.originName = name;
     this.id = d.get("ID");
     this.asciiName = d.get("ORIGINAL-NAME");
     this.altnameCount = Integer.parseInt(d.get("ALTNAME-COUNT"));
@@ -105,6 +172,10 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
     this.feature = d.get("FEATURE");
     this.featureClass = d.get("FEATURE-CLASS");
     this.timezone = d.get("TIMEZONE");
+
+    // generate some indicator variables when creating the object.
+    this.isCountry = (this.countryCode.length() != 0 && this.adm1Code.equals("00") && this.adm2Code
+            .length() == 0) ? true : false;
   }
 
   /**
@@ -244,7 +315,7 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
    * @param country
    *          the country to set
    */
-  public GazEntryAndFeature setCountry(String country) {
+  public CandidateAndFeature setCountry(String country) {
     this.country = country;
     return this;
   }
@@ -253,7 +324,7 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
    * @param adm1
    *          the adm1 to set
    */
-  public GazEntryAndFeature setAdm1(String adm1) {
+  public CandidateAndFeature setAdm1(String adm1) {
     this.adm1 = adm1;
     return this;
   }
@@ -262,7 +333,7 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
    * @param adm2
    *          the adm2 to set
    */
-  public GazEntryAndFeature setAdm2(String adm2) {
+  public CandidateAndFeature setAdm2(String adm2) {
     this.adm2 = adm2;
     return this;
   }
@@ -271,7 +342,7 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
    * @param adm3
    *          the adm3 to set
    */
-  public GazEntryAndFeature setAdm3(String adm3) {
+  public CandidateAndFeature setAdm3(String adm3) {
     this.adm3 = adm3;
     return this;
   }
@@ -280,7 +351,7 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
    * @param adm4
    *          the adm4 to set
    */
-  public GazEntryAndFeature setAdm4(String adm4) {
+  public CandidateAndFeature setAdm4(String adm4) {
     this.adm4 = adm4;
     return this;
   }
@@ -289,7 +360,7 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
    * @param id
    *          the id to set
    */
-  public GazEntryAndFeature setId(String id) {
+  public CandidateAndFeature setId(String id) {
     this.id = id;
     return this;
   }
@@ -298,7 +369,7 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
    * @param asciiName
    *          the asciiName to set
    */
-  public GazEntryAndFeature setAsciiName(String asciiName) {
+  public CandidateAndFeature setAsciiName(String asciiName) {
     this.asciiName = asciiName;
     return this;
   }
@@ -307,7 +378,7 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
    * @param altnameCount
    *          the altnameCount to set
    */
-  public GazEntryAndFeature setAltnameCount(int altnameCount) {
+  public CandidateAndFeature setAltnameCount(int altnameCount) {
     this.altnameCount = altnameCount;
     return this;
   }
@@ -316,7 +387,7 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
    * @param latitude
    *          the latitude to set
    */
-  public GazEntryAndFeature setLatitude(double latitude) {
+  public CandidateAndFeature setLatitude(double latitude) {
     this.latitude = latitude;
     return this;
   }
@@ -325,7 +396,7 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
    * @param longitude
    *          the longitude to set
    */
-  public GazEntryAndFeature setLongitude(double longitude) {
+  public CandidateAndFeature setLongitude(double longitude) {
     this.longitude = longitude;
     return this;
   }
@@ -334,7 +405,7 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
    * @param population
    *          the population to set
    */
-  public GazEntryAndFeature setPopulation(long population) {
+  public CandidateAndFeature setPopulation(long population) {
     this.population = population;
     return this;
   }
@@ -343,7 +414,7 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
    * @param countryCode
    *          the countryCode to set
    */
-  public GazEntryAndFeature setCountryCode(String countryCode) {
+  public CandidateAndFeature setCountryCode(String countryCode) {
     this.countryCode = countryCode;
     return this;
   }
@@ -352,7 +423,7 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
    * @param adm1Code
    *          the adm1Code to set
    */
-  public GazEntryAndFeature setAdm1Code(String adm1Code) {
+  public CandidateAndFeature setAdm1Code(String adm1Code) {
     this.adm1Code = adm1Code;
     return this;
   }
@@ -361,7 +432,7 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
    * @param adm2Code
    *          the adm2Code to set
    */
-  public GazEntryAndFeature setAdm2Code(String adm2Code) {
+  public CandidateAndFeature setAdm2Code(String adm2Code) {
     this.adm2Code = adm2Code;
     return this;
   }
@@ -370,7 +441,7 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
    * @param adm3Code
    *          the adm3Code to set
    */
-  public GazEntryAndFeature setAdm3Code(String adm3Code) {
+  public CandidateAndFeature setAdm3Code(String adm3Code) {
     this.adm3Code = adm3Code;
     return this;
   }
@@ -379,7 +450,7 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
    * @param adm4Code
    *          the adm4Code to set
    */
-  public GazEntryAndFeature setAdm4Code(String adm4Code) {
+  public CandidateAndFeature setAdm4Code(String adm4Code) {
     this.adm4Code = adm4Code;
     return this;
   }
@@ -388,7 +459,7 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
    * @param feature
    *          the feature to set
    */
-  public GazEntryAndFeature setFeature(String feature) {
+  public CandidateAndFeature setFeature(String feature) {
     this.feature = feature;
     return this;
   }
@@ -397,7 +468,7 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
    * @param featureClass
    *          the featureClass to set
    */
-  public GazEntryAndFeature setFeatureClass(String featureClass) {
+  public CandidateAndFeature setFeatureClass(String featureClass) {
     this.featureClass = featureClass;
     return this;
   }
@@ -406,7 +477,7 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
    * @param timezone
    *          the timezone to set
    */
-  public GazEntryAndFeature setTimezone(String timezone) {
+  public CandidateAndFeature setTimezone(String timezone) {
     this.timezone = timezone;
     return this;
   }
@@ -436,12 +507,16 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
    * default comparator: POPULATION decreasing. There's other comparators to sort. Decreasing order.
    */
   @Override
-  public int compareTo(GazEntryAndFeature o) {
+  public int compareTo(CandidateAndFeature o) {
     if (this.population == o.population)
       return 0;
     if (this.population > o.population)
       return -1;
     return 1;
+  }
+
+  public String toString() {
+    return this.f_DistanceToUserLoc + "";
   }
 
   /**
@@ -476,8 +551,8 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
     if (countryStateComparator == null)
       return new Comparator() {
         public int compare(Object o1, Object o2) {
-          GazEntryAndFeature info1 = (GazEntryAndFeature) o1;
-          GazEntryAndFeature info2 = (GazEntryAndFeature) o2;
+          CandidateAndFeature info1 = (CandidateAndFeature) o1;
+          CandidateAndFeature info2 = (CandidateAndFeature) o2;
           // descending order.
           return info2.getHierarcheyLevel() - info1.getHierarcheyLevel();
         }
@@ -494,8 +569,8 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
     if (altNamesComparator == null)
       return new Comparator() {
         public int compare(Object o1, Object o2) {
-          GazEntryAndFeature info1 = (GazEntryAndFeature) o1;
-          GazEntryAndFeature info2 = (GazEntryAndFeature) o2;
+          CandidateAndFeature info1 = (CandidateAndFeature) o1;
+          CandidateAndFeature info2 = (CandidateAndFeature) o2;
           // descending order.
           return info2.getAltnameCount() - info1.getAltnameCount();
         }
@@ -506,7 +581,7 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
   /**
    * @return the f_PopRank
    */
-  public int getF_PopRank() {
+  public double getF_PopRank() {
     return f_PopRank;
   }
 
@@ -514,7 +589,7 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
    * @param f_PopRank
    *          the f_PopRank to set
    */
-  public void setF_PopRank(int f_PopRank) {
+  public void setF_PopRank(double f_PopRank) {
     this.f_PopRank = f_PopRank;
   }
 
@@ -533,9 +608,14 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
     this.f_containsTweetCoordinates = f_containsTweetCoordinates;
   }
 
-  public void setF_containsUserInfo(boolean b) {
+  public void setF_containsUserLoc(boolean b) {
     // TODO Auto-generated method stub
-    this.f_containsUserInfo = true;
+    this.f_containsUserLoc = true;
+  }
+
+  public boolean getF_containsTimezone() {
+    // TODO Auto-generated method stub
+    return this.f_containsTimezone;
   }
 
   public void setF_InTimezone(boolean b) {
@@ -546,8 +626,8 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
   /**
    * @return the f_containsUserInfo
    */
-  public boolean getF_containsUserInfo() {
-    return f_containsUserInfo;
+  public boolean getF_containsUserLoc() {
+    return f_containsUserLoc;
   }
 
   /**
@@ -573,4 +653,255 @@ public class GazEntryAndFeature implements Comparable<GazEntryAndFeature> {
     this.f_AltNamesRank = i;
   }
 
+  public void setF_userInfoOverlap(double sim) {
+    // TODO Auto-generated method stub
+    this.f_userInfoOverlap = sim;
+  }
+
+  public void setF_containsTimezone(boolean b) {
+    // TODO Auto-generated method stub
+    this.f_containsTimezone = b;
+  }
+
+  /**
+   * @return the f_userInfoOverlap
+   */
+  public double getF_userInfoOverlap() {
+    return f_userInfoOverlap;
+  }
+
+  /**
+   * @return the f_single
+   */
+  public boolean getF_single() {
+    return f_single;
+  }
+
+  /**
+   * @param f_single
+   *          the f_single to set
+   */
+  public void setF_single(boolean f_single) {
+    this.f_single = f_single;
+  }
+
+  /**
+   * @return the f_AltNamesRank
+   */
+  public int getF_AltNamesRank() {
+    return f_AltNamesRank;
+  }
+
+  /**
+   * @param f_inTimezone
+   *          the f_inTimezone to set
+   */
+  public void setF_inTimezone(boolean f_inTimezone) {
+    this.f_inTimezone = f_inTimezone;
+  }
+
+  public void setF_isCommonCountry(boolean b) {
+    // TODO Auto-generated method stub
+    this.f_isCommonCountry = b;
+  }
+
+  public boolean getF_isCommonCountry() {
+    return f_isCommonCountry;
+  }
+
+  public void setF_isCommonState(boolean b) {
+    // TODO Auto-generated method stub
+    this.f_isCommonState = b;
+  }
+
+  public boolean getF_isCommonState() {
+    return f_isCommonState;
+  }
+
+  /**
+   * @return the f_OtherLocOverlap
+   */
+  public int getF_OtherLocOverlap() {
+    return f_OtherLocOverlap;
+  }
+
+  /**
+   * @return the y
+   */
+  public int getY() {
+    return Y;
+  }
+
+  /**
+   * @param y
+   *          the y to set
+   */
+  public void setY(int y) {
+    Y = y;
+  }
+
+  public String getF_featureValue() {
+    // TODO Auto-generated method stub
+    return this.feature;
+  }
+
+  public void setF_featureVector(String string) {
+    // TODO Auto-generated method stub\
+    this.featureVector = new int[ResourceFactory.getFeatureCode2Map().size()];
+    if (string.equals("0") == false)
+      featureVector[ResourceFactory.getFeatureCode2Map().getIndex(string)] = 1;
+  }
+
+  public int[] getF_featureVector() {
+    return featureVector;
+  }
+
+  public double getF_DistanceToUserLoc() {
+    return f_DistanceToUserLoc;
+  }
+
+  public void setF_DistanceToUserLoc(double f_DistanceToUserLoc) {
+    this.f_DistanceToUserLoc = f_DistanceToUserLoc;
+  }
+
+  public int getF_DistanceToUserLocRank() {
+    return f_DistanceToUserLocRank;
+  }
+
+  public void setF_DistanceToUserLocRank(int f_DistanceToUserLocRank) {
+    this.f_DistanceToUserLocRank = f_DistanceToUserLocRank;
+  }
+
+  Comparator userlocComparator;
+
+  public static Comparator<? super CandidateAndFeature> getDistToUserLocComparator() {
+    if (altNamesComparator == null)
+      return new Comparator() {
+        public int compare(Object o1, Object o2) {
+          CandidateAndFeature info1 = (CandidateAndFeature) o1;
+          CandidateAndFeature info2 = (CandidateAndFeature) o2;
+          // descending order.
+          if (info2.f_DistanceToUserLoc > info1.f_DistanceToUserLoc)
+            return -1;
+          if (info2.f_DistanceToUserLoc == info1.f_DistanceToUserLoc)
+            return 0;
+          return 1;
+        }
+      };
+    return altNamesComparator;
+  }
+
+  private int featureCodeInt;
+
+  public void setOneHotFeatureCode(int fc) {
+
+    this.featureCodeInt = fc;
+
+  }
+
+  public int getOneHotFeatureCode(int fc) {
+
+    return this.featureCodeInt;
+
+  }
+
+  public double[] getOneHotFeatureVector() {
+    double[] vec = new double[ResourceFactory.getFeatureCode2Map().size()];
+    if (this.featureCodeInt == -1)
+      return vec;
+    vec[this.featureCodeInt] = 1;
+    return vec;
+  }
+
+  public boolean isAbbr() throws Exception {
+    if (originName == null)
+      throw new Exception("empty string abbr");
+    if (originName.length() > 3)
+      return false;
+    if (Character.isLowerCase(originName.charAt(0)))
+      return false;
+    for (char c : originName.toCharArray())
+      if (Character.isLowerCase(c) || Character.isLetter(c) == false)
+        return false;
+    return true;
+  }
+
+  boolean abbr;
+
+  public CandidateAndFeature setF_isAbbr(boolean b) {
+    // TODO Auto-generated method stub
+    abbr = b;
+    return this;
+  }
+
+  public boolean getF_isAbbr() {
+    // TODO Auto-generated method stub
+    return abbr;
+  }
+
+  double stringSim;
+
+  public void setF_strSim() {
+    // TODO Auto-generated method stub
+    stringSim = StringUtils.editDistance(asciiName, originName);
+    stringSim = 1.0d - stringSim / (double) Math.max(asciiName.length(), originName.length());
+  }
+
+  public double getF_strSim() {
+    return stringSim;
+  }
+
+  public void setF_strSim4Abbr() {
+    // TODO Auto-generated method stub
+    String pattern = "";
+    for (char c : originName.toLowerCase().toCharArray())
+      pattern += ".*" + c;
+    pattern += ".*";
+    stringSim = asciiName.toLowerCase().matches(pattern) ? 1.0 : 0;
+  }
+
+  boolean f_singleCandidate;
+
+  private boolean f_userLocCountryAgree;
+
+  private boolean f_userLocStateAgree;
+
+  public void setF_singleCandidate(boolean b) {
+    // TODO Auto-generated method stub
+    this.f_singleCandidate = b;
+  }
+
+  public boolean getF_singleCandidate() {
+    // TODO Auto-generated method stub
+    return this.f_singleCandidate;
+  }
+
+  public boolean getF_isCountry() {
+    // TODO Auto-generated method stub
+    return this.isCountry();
+  }
+
+  public void setF_userLocOverlap(List<LocEntity> userLocs) {
+    // TODO Auto-generated method stub
+    for (LocEntity loc : userLocs){
+      ArrayList<Document> docs = ResourceFactory.getClbIndex().getDocumentsByPhrase(loc.getTokenString());
+      for (Document doc : docs){
+        String dc = doc.get(InfoFields.countryCode);
+        String ds = doc.get(InfoFields.adm1Code);
+        if (this.countryCode.equals(dc))
+                this.f_userLocCountryAgree = true;
+        if(this.adm1Code.equals(ds))
+            this.f_userLocStateAgree = true;
+      }
+    }
+  }
+
+  public boolean getF_userLocCountryAgree() {
+    return f_userLocCountryAgree;
+  }
+
+  public boolean getF_userLocStateAgree() {
+    // TODO Auto-generated method stub
+    return this.f_userLocStateAgree;
+  }
 }

@@ -1,7 +1,8 @@
 package edu.cmu.geoparser.resource;
 
 import edu.cmu.geoparser.resource.Map.AdmCode2GazCandidateMap;
-import edu.cmu.geoparser.resource.Map.CountryCode2COUNTRYMap;
+import edu.cmu.geoparser.resource.Map.CCodeAdj2CTRYtype;
+import edu.cmu.geoparser.resource.Map.FeatureCode2Map;
 import edu.cmu.geoparser.resource.gazindexing.CollaborativeIndex.CollaborativeIndex;
 
 public class ResourceFactory {
@@ -11,9 +12,10 @@ public class ResourceFactory {
   private static AdmCode2GazCandidateMap adminCode2GazCandidateMap = AdmCode2GazCandidateMap
           .getInstance();
 
-  private static CountryCode2COUNTRYMap countryCode2CountryMap = CountryCode2COUNTRYMap
+  private static CCodeAdj2CTRYtype countryCode2CountryMap = CCodeAdj2CTRYtype
           .getInstance();
 
+  private static FeatureCode2Map featurecode2map = FeatureCode2Map.getInstance();
   /**
    * @return the collaborativeIndex
    */
@@ -34,7 +36,12 @@ public class ResourceFactory {
    * @return the countryCode2CountryMap
    * 
    */
-  public static CountryCode2COUNTRYMap getCountryCode2CountryMap() {
+  public static CCodeAdj2CTRYtype getCountryCode2CountryMap() {
     return countryCode2CountryMap;
+  }
+
+  public static FeatureCode2Map getFeatureCode2Map() {
+    // TODO Auto-generated method stub
+    return featurecode2map;
   }
 }

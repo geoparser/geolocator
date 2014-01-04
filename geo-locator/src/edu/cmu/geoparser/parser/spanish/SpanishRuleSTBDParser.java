@@ -193,7 +193,7 @@ public class SpanishRuleSTBDParser implements STBDParser {
     }
     ArrayList<LocEntity> finalmatch = new ArrayList<LocEntity>();
     for (LocEntity match : les) {
-      String words = match.getStringTokens();
+      String words = match.getTokenString();
       if (words.split(" ").length == 1) {
         if (ParserUtils.isBuildingSuffix(words) || ParserUtils.isESBuildingPrefix(words)
                 || ParserUtils.isESStreetPrefix(words) || ParserUtils.isStreetSuffix(words))
@@ -212,7 +212,7 @@ public class SpanishRuleSTBDParser implements STBDParser {
   }
 
   public static void main(String argv[]) throws IOException {
-    String s = "He estudiado en la Universidad de Carnegie Mellon durante dos a–os.";
+    String s = "He estudiado en la Universidad de Carnegie Mellon durante dos aï¿½os.";
     Tweet t = new Tweet().setSentence(new Sentence().setSentenceString(s));
     CollaborativeIndex ci = new CollaborativeIndex().config("GazIndex/StringIndex",
             "GazIndex/InfoIndex", "mmap", "mmap").open();

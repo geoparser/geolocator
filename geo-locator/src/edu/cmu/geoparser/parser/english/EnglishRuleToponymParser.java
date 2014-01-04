@@ -37,6 +37,7 @@ import edu.cmu.geoparser.model.Sentence;
 import edu.cmu.geoparser.model.Token;
 import edu.cmu.geoparser.model.Tweet;
 import edu.cmu.geoparser.nlp.NERFeatureFactory;
+import edu.cmu.geoparser.nlp.NLPFactory;
 import edu.cmu.geoparser.nlp.ner.FeatureExtractor.FeatureGenerator;
 import edu.cmu.geoparser.nlp.tokenizer.EuroLangTwokenizer;
 import edu.cmu.geoparser.parser.ParserFactory;
@@ -57,38 +58,34 @@ public class EnglishRuleToponymParser implements TPParser {
 
   static ArrayList<String> results;
 
-  static Pattern gazpattern = Pattern.compile("[AN\\^G]*[N\\^G]");
+  static Pattern gazpattern = Pattern.compile("[AN\\^G]*[N\\^G!]");
 
   /**
    * Gaz Matching. The parser only lookup the token array. This parser does not tokenize the input
    * string for efficiency reasons.
    */
 
-  FeatureGenerator fgen;
-
-  public EnglishRuleToponymParser(FeatureGenerator fgen) {
-    this.fgen = fgen;
+  public EnglishRuleToponymParser() {
   }
 
   List<LocEntity> les;
 
   public List<LocEntity> parse(Tweet tweet) {
     les = new ArrayList<LocEntity>();
-
+    if (tweet == null || tweet.getSentence() == null
+            || tweet.getSentence().getSentenceString() == null
+            || tweet.getSentence().getSentenceString().length() == 0)
+      return null;
     Sentence tweetSent = tweet.getSentence();
     EuroLangTwokenizer.tokenize(tweetSent);
-    fgen.getPostagger().tag(tweetSent);
+    NLPFactory.getEnPosTagger().tag(tweetSent);
     Token[] tokens = tweetSent.getTokens();
 
-    List<Token> temptokens = new ArrayList<Token>();
     for (Token t : tokens) {
       if (t.getToken().length() > 1 && t.getToken().startsWith("#")
               && t.getToken().charAt(1) != '#')
-        temptokens.add(t.clone().setToken(t.getToken().substring(1)));
-      else
-        temptokens.add(t);
+        t.setToken(t.getToken().substring(1));
     }
-    tokens = temptokens.toArray(new Token[] {});
 
     String posstr = "";
     for (int i = 0; i < tweetSent.tokenLength(); i++)
@@ -157,10 +154,17 @@ public class EnglishRuleToponymParser implements TPParser {
         // j-th igram. j is the starting point in the subtokens.
         // new starting point = offset + j
         for (int j = 0; j < igrams.length; j++) {
-          if (fgen.getIndex().inIndex(igrams[j])) {
-            if (ParserUtils.isFilterword(igrams[j]) || ParserUtils.isEsFilterword(igrams[j])) {
+          // System.out.println(igrams[j]);
+          /** if it's in index or a state abbreviation, then parse it. */
+          if (ResourceFactory.getClbIndex().inIndex(igrams[j])
+                  || (ParserUtils.isStateAbbreviation(igrams[j]) && !ParserUtils.isallCap(tweet))) {
+            System.out.println(igrams[j]);
+            if (ParserUtils.isFilterword(igrams[j]) && igrams[j].length() > 2 && i == 1
+            // || ParserUtils.isEsFilterword(igrams[j]) && igrams[j].length()>2
+                    || igrams[j].length() == 1) {
               continue;
             }
+
             String[] str = igrams[j].split(" ");
             int min = i;
             if (str.length != i) {
@@ -181,6 +185,7 @@ public class EnglishRuleToponymParser implements TPParser {
         }
       }
     }
+    les = ParserUtils.ResultReduce(les, true);
     return les;
   }
 
@@ -189,7 +194,7 @@ public class EnglishRuleToponymParser implements TPParser {
   public static EnglishRuleToponymParser getInstance() {
     if (etpparser == null)
       try {
-        return new EnglishRuleToponymParser(NERFeatureFactory.getInstance("en"));
+        etpparser = new EnglishRuleToponymParser();
       } catch (Exception e) {
         // TODO Auto-generated catch block
         e.printStackTrace();
@@ -199,7 +204,7 @@ public class EnglishRuleToponymParser implements TPParser {
   }
 
   public static void main(String argv[]) throws IOException {
-    
+
     Tweet t = new Tweet();
     BufferedReader s = new BufferedReader(new InputStreamReader(System.in, "utf-8"));
     System.out.println(">");

@@ -29,7 +29,7 @@ import java.util.List;
 import edu.cmu.geoparser.model.LocEntity;
 import edu.cmu.geoparser.model.Tweet;
 
- abstract interface NERTagger {
+public abstract interface NERTagger {
 	
   List<LocEntity> parse(Tweet tweet);
 	

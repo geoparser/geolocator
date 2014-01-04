@@ -12,22 +12,22 @@ import edu.cmu.geoparser.io.GetReader;
 import edu.cmu.geoparser.model.Country;
 import edu.cmu.geoparser.resource.ResourceFactory;
 
-public class CountryCode2COUNTRYMap extends Map {
+public class CCodeAdj2CTRYtype extends Map {
 
   public static final String name = "GeoNames/countrymapping.txt";
 
-  static CountryCode2COUNTRYMap c2cMap;
+  static CCodeAdj2CTRYtype c2cMap;
 
   HashMap<String, Country> theMap;
 
   @SuppressWarnings("unchecked")
-  public static CountryCode2COUNTRYMap getInstance() {
+  public static CCodeAdj2CTRYtype getInstance() {
     if (c2cMap == null)
-      return new CountryCode2COUNTRYMap().load();
+      return new CCodeAdj2CTRYtype().load();
     return c2cMap;
   }
 
-  public CountryCode2COUNTRYMap load() {
+  public CCodeAdj2CTRYtype load() {
     theMap = new HashMap<String, Country>(252);
     BufferedReader br = null;
     try {
@@ -47,6 +47,15 @@ public class CountryCode2COUNTRYMap extends Map {
                 .setLang(toks[6].toLowerCase()).setRace(toks[7].toLowerCase())
                 .setAsciiName(toks[4].toLowerCase()).setId(toks[18]);
         theMap.put(toks[0].toLowerCase(), c);
+        c = (Country) new Country().setAbbr(toks[0].toLowerCase())
+                .setLang(toks[6].toLowerCase()).setRace(toks[7].toLowerCase())
+                .setAsciiName(toks[4].toLowerCase()).setId(toks[18]);
+        theMap.put(toks[5].toLowerCase(), c);
+        c = (Country) new Country().setAbbr(toks[0].toLowerCase())
+                .setLang(toks[6].toLowerCase()).setRace(toks[7].toLowerCase())
+                .setAsciiName(toks[4].toLowerCase()).setId(toks[18]);
+        theMap.put(toks[6].toLowerCase(), c);
+
       }
     } catch (IOException e) {
       // TODO Auto-generated catch block
@@ -72,11 +81,11 @@ public class CountryCode2COUNTRYMap extends Map {
    * @param phrase
    * @return
    */
-  public boolean isCountryAbbreviation(String phrase) {
+  public boolean isInMap(String phrase) {
     String countryId = null;
     phrase = phrase.toLowerCase();
-    if (phrase.length() != 2)
-      return false;
+//    if (phrase.length() != 2)
+//      return false;
     if (ResourceFactory.getCountryCode2CountryMap().getValue(phrase.toLowerCase()) != null)
       countryId = ResourceFactory.getCountryCode2CountryMap().getValue(phrase.toLowerCase())
               .getId();
@@ -93,7 +102,7 @@ public class CountryCode2COUNTRYMap extends Map {
    * @return
    */
   public Document getCountryDoc(String phrase) {
-    if (isCountryAbbreviation(phrase)) {
+    if (isInMap(phrase)) {
       String id = ResourceFactory.getCountryCode2CountryMap().getValue(phrase).getId();
       Document d = ResourceFactory.getClbIndex().getDocumentsById(id);
       return d;
@@ -102,8 +111,9 @@ public class CountryCode2COUNTRYMap extends Map {
   }
 
   public static void main(String argv[]) {
-    CountryCode2COUNTRYMap inst = ResourceFactory.getCountryCode2CountryMap();
-    System.out.println(inst.getValue("us").getAsciiName());
+    CCodeAdj2CTRYtype inst = ResourceFactory.getCountryCode2CountryMap();
+    System.out.println(inst.isInMap("puerto rican"));
+    System.out.println(inst.getValue("puerto rican").getAsciiName());
     System.out.println(inst.getValue("us").getId());
     System.out.println(inst.getCountryDoc("CN"));
   }

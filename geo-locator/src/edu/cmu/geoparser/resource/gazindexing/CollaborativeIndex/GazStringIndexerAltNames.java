@@ -143,7 +143,7 @@ public class GazStringIndexerAltNames {
 
     GazStringIndexerAltNames stringIndex = new GazStringIndexerAltNames();
 
-    argv[0] = "-write";
+    argv[0] = "-read";
 
     String mode = argv[0];
     if (mode.equals("-write")) {

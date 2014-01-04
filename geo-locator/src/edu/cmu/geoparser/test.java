@@ -3,7 +3,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import edu.cmu.geoparser.model.Token;
 public class test implements Comparable<test>{
@@ -42,6 +45,18 @@ public class test implements Comparable<test>{
   
   public static void main(String argv[]){
     
+    String ssss = "234uiocxvaxoixcvbwerjkce";
+    System.out.println(ssss.matches(".*[a].*[b].*[c].*"));
+    
+    String pattern = ".*[a].*[b].*[c]";
+    Pattern p = Pattern.compile(pattern);
+    Matcher matcher = p.matcher("234uiocxvaxoixcvbwerjkc");
+    System.out.println(matcher.find());
+    
+    HashMap<String, Integer> tr = new HashMap<String, Integer>();
+    tr.put("sdfj", null);
+    tr.put("sdjfk",1);
+    System.out.println(tr);
     String test = "_a___";
     System.out.println(test.split("_").length);
     

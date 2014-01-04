@@ -48,7 +48,7 @@ public class ENTweetPOSTagger implements POSTagger{
 	
 	public static ENTweetPOSTagger getInstance(){
 	  if (entweetPosTagger==null)
-	    return new ENTweetPOSTagger("res/en/model.20120919");
+	    entweetPosTagger =  new ENTweetPOSTagger("res/en/model.20120919");
 	  return entweetPosTagger;
 	}
 	/**

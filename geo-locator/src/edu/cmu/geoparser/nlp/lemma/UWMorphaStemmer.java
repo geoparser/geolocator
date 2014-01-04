@@ -42,7 +42,7 @@ public class UWMorphaStemmer implements Lemmatizer{
 	private static UWMorphaStemmer uwStemmer;
 	public static UWMorphaStemmer getInstance(){
 	  if (uwStemmer==null)
-	    return new UWMorphaStemmer();
+	    uwStemmer =  new UWMorphaStemmer();
 	  return uwStemmer;
 	}
 	

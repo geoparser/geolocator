@@ -8,7 +8,7 @@ import java.util.HashMap;
 
 import edu.cmu.geoparser.io.GetReader;
 import edu.cmu.geoparser.model.Country;
-import edu.cmu.geoparser.model.GazEntryAndFeature;
+import edu.cmu.geoparser.model.CandidateAndFeature;
 
 public class AdmCode2GazCandidateMap extends Map {
 
@@ -16,13 +16,13 @@ public class AdmCode2GazCandidateMap extends Map {
 
   public static final String name2 = "GeoNames/admin2Codes.txt";
 
-  HashMap<String, GazEntryAndFeature> map1;
+  HashMap<String, CandidateAndFeature> map1;
 
-  HashMap<String, GazEntryAndFeature> map2;
+  HashMap<String, CandidateAndFeature> map2;
 
   static AdmCode2GazCandidateMap a2amap;
 
-  public GazEntryAndFeature getValue(String code) {
+  public CandidateAndFeature getValue(String code) {
     code = code.toLowerCase();
     if (map1.containsKey(code))
       return map1.get(code);
@@ -48,8 +48,8 @@ public class AdmCode2GazCandidateMap extends Map {
   }
 
   public AdmCode2GazCandidateMap load() {
-    map1 = new HashMap<String, GazEntryAndFeature>(3900);
-    map2 = new HashMap<String, GazEntryAndFeature>(35211);
+    map1 = new HashMap<String, CandidateAndFeature>(3900);
+    map2 = new HashMap<String, CandidateAndFeature>(35211);
     BufferedReader br = null;
     try {
       br = GetReader.getUTF8FileReader(name1);
@@ -61,13 +61,13 @@ public class AdmCode2GazCandidateMap extends Map {
       e.printStackTrace();
     }
     String line = null;
-    GazEntryAndFeature c;
+    CandidateAndFeature c;
     try {
       while ((line = br.readLine()) != null) {
         String[] toks = line.split("\t");
         String[] codes = toks[0].split("\\.");
-        c = new GazEntryAndFeature().setCountryCode(codes[0].toLowerCase())
-                .setAdm1Code(codes[1].toLowerCase()).setAdm1(toks[1].toLowerCase()).setId(toks[3]);
+        c = new CandidateAndFeature().setCountryCode(codes[0].toLowerCase())
+                .setAdm1Code(codes[1].toLowerCase()).setAdm1(toks[1].toLowerCase()).setId(toks[3]).setAsciiName(toks[1].toLowerCase());
         map1.put(toks[0].toLowerCase(), c);
       }
     } catch (IOException e) {
@@ -94,9 +94,9 @@ public class AdmCode2GazCandidateMap extends Map {
       while ((line = br.readLine()) != null) {
         String[] toks = line.split("\t");
         String[] codes = toks[0].split("\\.");
-        c = new GazEntryAndFeature().setCountryCode(codes[0].toLowerCase())
+        c = new CandidateAndFeature().setCountryCode(codes[0].toLowerCase())
                 .setAdm1Code(codes[1].toLowerCase()).setAdm2Code(codes[2].toLowerCase())
-                .setAdm2(toks[1].toLowerCase()).setId(toks[3]);
+                .setAdm2(toks[1].toLowerCase()).setId(toks[3]).setAsciiName(toks[1].toLowerCase());
         map2.put(toks[0].toLowerCase(), c);
       }
     } catch (IOException e) {
@@ -115,6 +115,6 @@ public class AdmCode2GazCandidateMap extends Map {
 
   public static void main(String argv[]) throws InterruptedException {
     AdmCode2GazCandidateMap amap = AdmCode2GazCandidateMap.getInstance();
-    System.out.println(amap.isAdm2("US.WA.011"));
+    System.out.println(amap.isAdm1("us.ma"));
   }
 }
